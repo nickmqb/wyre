@@ -25,7 +25,7 @@ Modules can be instantiated inline. Example:
 		// ...
 	}
 
-Assuming that `adder` has two outputs `val` and `c_out`, they can be accessed as `sum.val` and `sum.c_out`. There is no need to explicitly connect any output wires.
+If we imagine that `adder` has two outputs `val` and `c_out`, they can be accessed as `sum.val` and `sum.c_out`. There is no need to explicitly connect any output wires.
 
 ### Order independent declarations
 

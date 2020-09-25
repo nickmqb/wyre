@@ -15,7 +15,7 @@ You can choose between the following two options:
 	* MSVC: `cl /Zi wyre.c`
 1. You now have a Wyre compiler!
 
-### From .c
+### From .c source
 
 If you prefer to not install Muon, you can take a shortcut:
 
@@ -36,7 +36,7 @@ Supported flags:
 
 * `--output [path]`. The output of the compiler, a Verilog file.
 * `--top [module]`. Name of the topmost module in the design.
-* `--indent [n]`. Tab size, in spaces ([learn more about significant whitespace](language_tour.md)). Set to 0 to ignore.
+* `--indent [n]`. Tab size, in spaces ([learn more about significant whitespace](language_guide.md)). Set to 0 to ignore.
 * `--max-errors [n]`. Maximum number of compile errors to display.
 
 To compile the [led](../examples/led.w) example:

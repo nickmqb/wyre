@@ -19,7 +19,7 @@ Ergonomic hardware definition language that compiles to Verilog.
 * Structs
 * Column accurate compile error reporting
 
-[Learn more about these features](docs/feature_overview.md).
+[Learn more about these features](docs/feature_overview.md)
 
 ## Example
 
@@ -43,7 +43,7 @@ What does Wyre look like? Here is a basic example design with 2 modules, a clock
 
 ## Background
 
-A while back I got a Lattice iCE40 FPGA to learn more about how computers work at a low level. I've had a lot of fun making designs for it in Verilog. During the process I kept track of gripes with the toolchain, and ended up with a list of mostly minor things, but nonetheless a list that had a fair amount of items. I felt that there were enough to justify building some new tooling, and Wyre is the result.
+A while back I got a Lattice iCE40 FPGA to learn more about how computers work at a low level. I've had a lot of fun making designs for it in Verilog. During the process I kept track of gripes with the toolchain. I ended up with a list of mostly minor things, but nonetheless a list that had a fair amount of items. I felt that there were enough items to justify building some new tooling, and Wyre is the result.
 
 Compared to Verilog, Wyre aims to cut down on verbosity, improve design iteration speed and reduce errors (via strong typing). Wyre compiles to Verilog, so any design can be fed through an existing Verilog-based toolchain.
 
@@ -63,7 +63,7 @@ You can also view [more examples](examples).
 
 ## Roadmap
 
-Feedback is welcome! If you have ideas for new features or for improving existing features, let me know [by creating an issue](TODO).
+Feedback is welcome! If you have ideas for new features or for improving existing features, let me know [by creating an issue](https://github.com/nickmqb/wyre/issues).
 
 ## Twitter
 

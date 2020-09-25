@@ -60,7 +60,7 @@ some_module(clk $1, a $4, b $4) {
 	inverted := ~a
 	extended_wire $32 := zx a // a is zero extended to 32 bits total
 
-	// Binary operators: + - & | ^ ==  << >>
+	// Binary operators
 	op_add := a + b
 	op_subtract := a - b
 	op_and := a & b
@@ -120,6 +120,8 @@ another_module(
 	#part_b := chunk(#sw, 1, 2)
 }
 
+// Note: as you can see above, module inputs can be separated by newlines if you prefer. This also works for module instantiations.
+
 // Constants are global, and must be declared outside a module
 some_constant $10 := 100
 some_constant2 := 100 // Can omit type if you prefer
@@ -131,5 +133,3 @@ SB_GB blackbox(
 	// Outputs are declared inside module body
 	out GLOBAL_BUFFER_OUTPUT $1
 }
-
-// Note: as you can see above, module inputs can be separated by newlines if you prefer. This also works for module instantiations.
