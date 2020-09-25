@@ -42,6 +42,6 @@ Supported flags:
 To compile the [leds](../examples/leds.w) example:
 
 1. Navigate to the `examples` directory.
-2. Run: `wyre led.w --output led.v --top top --indent 4 --max-errors 20`
+2. Run: `wyre leds.w --output leds.v --top top --indent 4 --max-errors 20`
 
 Tip: to avoid having to specify all arguments every time you invoke the compiler, it is recommendeded to create a short shell script (.sh) or batch file (.bat) that contains the command.
