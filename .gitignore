@@ -1,0 +1,10 @@
+*
+!*/
+!.gitignore
+!.gitattributes
+!*.mu
+!*.args
+!*.h
+!*.md
+!*.w
+!LICENSE
