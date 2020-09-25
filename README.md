@@ -45,7 +45,7 @@ What does Wyre look like? Here is a basic example design with 2 modules, a clock
 
 A while back I got a Lattice iCE40 FPGA to learn more about how computers work at a low level. I've had a lot of fun making designs for it in Verilog. During the process I kept track of gripes with the toolchain. I ended up with a list of mostly minor things, but nonetheless a list that had a fair amount of items. I felt that there were enough items to justify building some new tooling, and Wyre is the result.
 
-Compared to Verilog, Wyre aims to cut down on verbosity, improve design iteration speed and reduce errors (via strong typing). Wyre compiles to Verilog, so any design can be fed through an existing Verilog-based toolchain.
+Compared to Verilog, Wyre aims to cut down on verbosity, reduce errors (via strong typing) and improve design iteration speed. Wyre compiles to Verilog, so any design can be fed through an existing Verilog-based toolchain.
 
 Some other hardware definition languages try to abstract away the hardware in some ways, with features like memory inference and various generative constructs. These higher level features are explicit non-goals for Wyre. Instead, Wyre aims to stay close to the hardware.
 
