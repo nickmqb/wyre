@@ -12,7 +12,7 @@ If you don't want to use significant whitespace, simply pass `--indent 0` (but b
 
 ## TODO
 
-This section is stil being written! For the time being:
+This section is still being written! For the time being:
 
 * Check out the [feature overview](feature_overview.md) if you haven't already.
 * See the [features example](../examples/features.w).

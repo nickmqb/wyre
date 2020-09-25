@@ -39,7 +39,7 @@ Supported flags:
 * `--indent [n]`. Tab size, in spaces ([learn more about significant whitespace](language_guide.md)). Set to 0 to ignore.
 * `--max-errors [n]`. Maximum number of compile errors to display.
 
-To compile the [led](../examples/led.w) example:
+To compile the [leds](../examples/leds.w) example:
 
 1. Navigate to the `examples` directory.
 2. Run: `wyre led.w --output led.v --top top --indent 4 --max-errors 20`
