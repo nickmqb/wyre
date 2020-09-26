@@ -7,7 +7,7 @@ You can choose between the following two options:
 ### From .mu source
 
 1. [Install the Muon compiler](https://github.com/nickmqb/muon/blob/master/docs/getting_started.md).
-1. Clone this repo
+1. Clone this repo. When choosing a local path, ensure that the muon and wyre repos are in the same directory. Alternatively, edit [compiler/wyre.args](../compiler/wyre.args) and update the Muon standard library path before building.
 1. Go to the compiler directory (in this repo)
 1. Compile .mu sources: `mu --args wyre.args`
 1. Use a C compiler to compile wyre.c. E.g.:
