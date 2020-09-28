@@ -1,5 +1,5 @@
 //tab_size=4
-:compilerVersion = "0.1.0"
+:compilerVersion = "0.1.1"
 
 ParseCommaListState enum {
 	start
