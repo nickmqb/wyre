@@ -477,13 +477,16 @@ VerilogGenerator {
 			write(s, ";")
 		}
 
-		prev := push(s, s.assignments)
+		cb := new CodeBuilder.create()
+		prev := push(s, cb)
 		beginLine(s)
 		write(s, "assign ")
 		write(s, genName)
 		write(s, " = ")
 		expression(s, st.expr)
 		write(s, ";")
+		s.out = s.assignments
+		write(s, cb.sb.compactToString())
 		restore(s, prev)
 	}
 
@@ -574,6 +577,10 @@ VerilogGenerator {
 	}
 
 	unaryOperator(s GeneratorState, e UnaryOperatorExpression) {
+		if e.op.value == "zx" {
+			expression(s, e.expr)
+			return
+		}
 		s.isNonIndexable = true
 		write(s, e.op.value)
 		write(s, "(")
