@@ -176,6 +176,7 @@ string__ mu_____string253 = { (pointer__)"always @(", 9 };
 string__ mu_____string267 = { (pointer__)"(((", 3 };
 string__ mu_____string63 = { (pointer__)"Expected: field declaration", 27 };
 string__ mu_____string227 = { (pointer__)"gte", 3 };
+string__ mu_____string10 = { (pointer__)"0.1.1", 5 };
 string__ mu_____string95 = { (pointer__)"Invalid flag: {}", 16 };
 string__ mu_____string224 = { (pointer__)"lt", 2 };
 string__ mu_____string35 = { (pointer__)".", 1 };
@@ -229,7 +230,6 @@ string__ mu_____string82 = { (pointer__)"    ", 4 };
 string__ mu_____string103 = { (pointer__)"{}{}\x0a""{}\x0a""{}{}", 12 };
 string__ mu_____string120 = { (pointer__)"Expected: expression of fixed width numeric type or struct", 58 };
 string__ mu_____string5 = { (pointer__)"false", 5 };
-string__ mu_____string10 = { (pointer__)"0.1.0", 5 };
 string__ mu_____string26 = { (pointer__)"rep", 3 };
 string__ mu_____string57 = { (pointer__)"~", 1 };
 string__ mu_____string54 = { (pointer__)"Invalid hexadecimal value", 25 };
@@ -328,11 +328,11 @@ string__ mu_____string260 = { (pointer__)" (", 2 };
 string__ mu_____string270 = { (pointer__)"{}'b{}", 6 };
 string__ mu_____string241 = { (pointer__)"\x0a""module ", 8 };
 // FORWARD TYPES
-typedef struct tag_____MapEntry__Node__Tag____ MapEntry__Node__Tag____;
-typedef struct tag_____MapEntry__string__Node____ MapEntry__string__Node____;
-typedef struct tag_____MapEntry__Node__int____ MapEntry__Node__int____;
-typedef struct tag_____MapEntry__Node__Value____ MapEntry__Node__Value____;
 typedef struct tag_____MapEntry__string__Ptr__FieldDef______ MapEntry__string__Ptr__FieldDef______;
+typedef struct tag_____MapEntry__Node__Tag____ MapEntry__Node__Tag____;
+typedef struct tag_____MapEntry__Node__int____ MapEntry__Node__int____;
+typedef struct tag_____MapEntry__string__Node____ MapEntry__string__Node____;
+typedef struct tag_____MapEntry__Node__Value____ MapEntry__Node__Value____;
 typedef struct tag_____MapEntry__NodeWithCtx__string____ MapEntry__NodeWithCtx__string____;
 typedef struct tag_____Instruction__ Instruction__;
 typedef struct tag_____Block__ Block__;
@@ -345,30 +345,30 @@ typedef struct tag_____StructDef__ StructDef__;
 typedef struct tag_____IAllocator__ IAllocator__;
 typedef struct tag_____IntRange__ IntRange__;
 typedef struct { int__ id__; pointer__ dataPtr__; } Node__;
-#define Node_____Ptr__CodeUnit____ 1
-#define Node_____Ptr__ConstDef____ 2
-#define Node_____Ptr__StructDef____ 3
-#define Node_____Ptr__FieldDef____ 4
-#define Node_____Ptr__ModuleDef____ 5
-#define Node_____Ptr__ModuleInputDef____ 6
-#define Node_____Ptr__Block____ 7
-#define Node_____Ptr__AssignStatement____ 8
-#define Node_____Ptr__ClockStatement____ 9
-#define Node_____Ptr__IfStatement____ 10
-#define Node_____Ptr__UnaryOperatorExpression____ 11
-#define Node_____Ptr__DotExpression____ 12
-#define Node_____Ptr__BinaryOperatorExpression____ 13
-#define Node_____Ptr__TernaryOperatorExpression____ 14
-#define Node_____Ptr__MatchExpression____ 15
-#define Node_____Ptr__MatchExpressionCase____ 16
-#define Node_____Ptr__CallExpression____ 17
-#define Node_____Ptr__StructInitializerExpression____ 18
-#define Node_____Ptr__IndexExpression____ 19
-#define Node_____Ptr__NumberExpression____ 20
-#define Node_____Ptr__ParenExpression____ 21
-#define Node_____Ptr__BraceExpression____ 22
-#define Node_____Ptr__ArrayExpression____ 23
-#define Node_____Ptr__Token____ 24
+#define Node_____Ptr__BinaryOperatorExpression____ 1
+#define Node_____Ptr__TernaryOperatorExpression____ 2
+#define Node_____Ptr__MatchExpression____ 3
+#define Node_____Ptr__MatchExpressionCase____ 4
+#define Node_____Ptr__CallExpression____ 5
+#define Node_____Ptr__StructInitializerExpression____ 6
+#define Node_____Ptr__IndexExpression____ 7
+#define Node_____Ptr__NumberExpression____ 8
+#define Node_____Ptr__ParenExpression____ 9
+#define Node_____Ptr__Block____ 10
+#define Node_____Ptr__AssignStatement____ 11
+#define Node_____Ptr__ClockStatement____ 12
+#define Node_____Ptr__IfStatement____ 13
+#define Node_____Ptr__UnaryOperatorExpression____ 14
+#define Node_____Ptr__CodeUnit____ 15
+#define Node_____Ptr__BraceExpression____ 16
+#define Node_____Ptr__ArrayExpression____ 17
+#define Node_____Ptr__Token____ 18
+#define Node_____Ptr__ConstDef____ 19
+#define Node_____Ptr__StructDef____ 20
+#define Node_____Ptr__FieldDef____ 21
+#define Node_____Ptr__ModuleDef____ 22
+#define Node_____Ptr__ModuleInputDef____ 23
+#define Node_____Ptr__DotExpression____ 24
 typedef struct tag_____Tag__ Tag__;
 typedef struct tag_____MatchExpression__ MatchExpression__;
 typedef struct tag_____CallArg__ CallArg__;
@@ -376,17 +376,17 @@ typedef struct tag_____BinaryOperatorExpression__ BinaryOperatorExpression__;
 typedef struct tag_____Result__string____ Result__string____;
 typedef uint32_t Opcode__;
 typedef struct tag_____QueuedCallArgs__ QueuedCallArgs__;
+typedef struct tag_____Maybe__uint____ Maybe__uint____;
+typedef struct tag_____Maybe__string____ Maybe__string____;
 typedef struct tag_____Maybe__long____ Maybe__long____;
 typedef struct tag_____Maybe__int____ Maybe__int____;
 typedef struct tag_____Maybe__ulong____ Maybe__ulong____;
-typedef struct tag_____Maybe__uint____ Maybe__uint____;
-typedef struct tag_____Maybe__string____ Maybe__string____;
-typedef struct tag_____Map__Node__Tag____ Map__Node__Tag____;
+typedef struct tag_____Map__NodeWithCtx__string____ Map__NodeWithCtx__string____;
+typedef struct tag_____Map__string__Ptr__FieldDef______ Map__string__Ptr__FieldDef______;
 typedef struct tag_____Map__string__Node____ Map__string__Node____;
 typedef struct tag_____Map__Node__int____ Map__Node__int____;
 typedef struct tag_____Map__Node__Value____ Map__Node__Value____;
-typedef struct tag_____Map__string__Ptr__FieldDef______ Map__string__Ptr__FieldDef______;
-typedef struct tag_____Map__NodeWithCtx__string____ Map__NodeWithCtx__string____;
+typedef struct tag_____Map__Node__Tag____ Map__Node__Tag____;
 typedef struct tag_____ParseState__ ParseState__;
 typedef struct tag_____ModuleDef__ ModuleDef__;
 typedef struct tag_____Args__ Args__;
@@ -416,15 +416,10 @@ typedef struct tag_____LocationInfo__ LocationInfo__;
 typedef uint32_t TagKind__;
 typedef struct tag_____IndexExpression__ IndexExpression__;
 typedef uint32_t BuiltinCall__;
-typedef struct tag_____List__Ptr__FieldDef______ List__Ptr__FieldDef______;
-typedef struct tag_____List__Ptr__ModuleInputDef______ List__Ptr__ModuleInputDef______;
 typedef struct tag_____List__Ptr__AssignStatement______ List__Ptr__AssignStatement______;
+typedef struct tag_____List__Error____ List__Error____;
 typedef struct tag_____List__Ptr__MatchExpressionCase______ List__Ptr__MatchExpressionCase______;
 typedef struct tag_____List__Ptr__CallArg______ List__Ptr__CallArg______;
-typedef struct tag_____List__Ptr__SourceFile______ List__Ptr__SourceFile______;
-typedef struct tag_____List__Ptr__CodeUnit______ List__Ptr__CodeUnit______;
-typedef struct tag_____List__Error____ List__Error____;
-typedef struct tag_____List__CommandLineArgsParserError____ List__CommandLineArgsParserError____;
 typedef struct tag_____List__QueuedCallArgs____ List__QueuedCallArgs____;
 typedef struct tag_____List__byte____ List__byte____;
 typedef struct tag_____List__Ptr__ModuleInstance______ List__Ptr__ModuleInstance______;
@@ -434,6 +429,11 @@ typedef struct tag_____List__int____ List__int____;
 typedef struct tag_____List__Instruction____ List__Instruction____;
 typedef struct tag_____List__Value____ List__Value____;
 typedef struct tag_____List__string____ List__string____;
+typedef struct tag_____List__Ptr__SourceFile______ List__Ptr__SourceFile______;
+typedef struct tag_____List__Ptr__CodeUnit______ List__Ptr__CodeUnit______;
+typedef struct tag_____List__CommandLineArgsParserError____ List__CommandLineArgsParserError____;
+typedef struct tag_____List__Ptr__FieldDef______ List__Ptr__FieldDef______;
+typedef struct tag_____List__Ptr__ModuleInputDef______ List__Ptr__ModuleInputDef______;
 typedef struct tag_____Set__string____ Set__string____;
 typedef uint32_t TokenType__;
 typedef struct tag_____ArrayExpression__ ArrayExpression__;
@@ -442,20 +442,20 @@ typedef struct tag_____NodeWithCtx__ NodeWithCtx__;
 typedef struct tag_____RangeFinderState__ RangeFinderState__;
 typedef struct tag_____ClockStatement__ ClockStatement__;
 typedef uint32_t ModuleFlags__;
-typedef struct tag_____Array__cstring____ Array__cstring____;
 typedef struct tag_____Array__IntRange____ Array__IntRange____;
 typedef struct tag_____Array__Error____ Array__Error____;
 typedef struct tag_____Array__int____ Array__int____;
 typedef struct tag_____Array__byte____ Array__byte____;
 typedef struct tag_____Array__SetEntry__string______ Array__SetEntry__string______;
-typedef struct tag_____Array__MapEntry__Node__int______ Array__MapEntry__Node__int______;
-typedef struct tag_____Array__MapEntry__string__Ptr__FieldDef________ Array__MapEntry__string__Ptr__FieldDef________;
-typedef struct tag_____Array__MapEntry__string__Node______ Array__MapEntry__string__Node______;
-typedef struct tag_____Array__MapEntry__Node__Value______ Array__MapEntry__Node__Value______;
-typedef struct tag_____Array__MapEntry__Node__Tag______ Array__MapEntry__Node__Tag______;
 typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ Array__MapEntry__NodeWithCtx__string______;
+typedef struct tag_____Array__MapEntry__Node__Value______ Array__MapEntry__Node__Value______;
+typedef struct tag_____Array__MapEntry__Node__int______ Array__MapEntry__Node__int______;
+typedef struct tag_____Array__MapEntry__string__Node______ Array__MapEntry__string__Node______;
+typedef struct tag_____Array__MapEntry__string__Ptr__FieldDef________ Array__MapEntry__string__Ptr__FieldDef________;
+typedef struct tag_____Array__MapEntry__Node__Tag______ Array__MapEntry__Node__Tag______;
 typedef struct tag_____Array__string____ Array__string____;
 typedef struct tag_____Array__bool____ Array__bool____;
+typedef struct tag_____Array__cstring____ Array__cstring____;
 typedef struct tag_____MatchExpressionCase__ MatchExpressionCase__;
 typedef uint32_t ParseCommaListState__;
 typedef struct tag_____GeneratorState__ GeneratorState__;
@@ -471,14 +471,19 @@ typedef struct tag_____CodeBuilder__ CodeBuilder__;
 typedef struct tag_____CodeUnit__ CodeUnit__;
 typedef uint32_t ModuleInputFlags__;
 typedef struct tag_____IfStatement__ IfStatement__;
-typedef int__ (*fun__Error__Error__int____)(Error__, Error__);
-typedef void__ (*fun__int__void____)(int__);
-typedef pointer__ (*fun__pointer__ssize__pointer____)(pointer__, ssize__);
-typedef pointer__ (*fun__pointer__pointer__ssize__ssize__ssize__pointer____)(pointer__, pointer__, ssize__, ssize__, ssize__);
-typedef void__ (*fun__pointer__pointer__void____)(pointer__, pointer__);
-typedef pointer__ (*fun__Ptr__ArenaAllocator____ssize__pointer____)(ArenaAllocator__*, ssize__);
 typedef pointer__ (*fun__Ptr__ArenaAllocator____pointer__ssize__ssize__ssize__pointer____)(ArenaAllocator__*, pointer__, ssize__, ssize__, ssize__);
+typedef void__ (*fun__int__void____)(int__);
+typedef pointer__ (*fun__Ptr__ArenaAllocator____ssize__pointer____)(ArenaAllocator__*, ssize__);
+typedef pointer__ (*fun__pointer__ssize__pointer____)(pointer__, ssize__);
+typedef void__ (*fun__pointer__pointer__void____)(pointer__, pointer__);
+typedef int__ (*fun__Error__Error__int____)(Error__, Error__);
+typedef pointer__ (*fun__pointer__pointer__ssize__ssize__ssize__pointer____)(pointer__, pointer__, ssize__, ssize__, ssize__);
 // STRUCTS
+typedef struct tag_____MapEntry__string__Ptr__FieldDef______ {
+	uint__ hash__;
+	string__ key__;
+	FieldDef__* value__;
+} MapEntry__string__Ptr__FieldDef______;
 typedef struct tag_____Tag__ {
 	TagKind__ kind__;
 	int__ q__;
@@ -488,16 +493,16 @@ typedef struct tag_____MapEntry__Node__Tag____ {
 	Node__ key__;
 	Tag__ value__;
 } MapEntry__Node__Tag____;
-typedef struct tag_____MapEntry__string__Node____ {
-	uint__ hash__;
-	string__ key__;
-	Node__ value__;
-} MapEntry__string__Node____;
 typedef struct tag_____MapEntry__Node__int____ {
 	uint__ hash__;
 	Node__ key__;
 	int__ value__;
 } MapEntry__Node__int____;
+typedef struct tag_____MapEntry__string__Node____ {
+	uint__ hash__;
+	string__ key__;
+	Node__ value__;
+} MapEntry__string__Node____;
 typedef struct tag_____Value__ {
 	ValueKind__ kind__;
 	ulong__ z__;
@@ -507,11 +512,6 @@ typedef struct tag_____MapEntry__Node__Value____ {
 	Node__ key__;
 	Value__ value__;
 } MapEntry__Node__Value____;
-typedef struct tag_____MapEntry__string__Ptr__FieldDef______ {
-	uint__ hash__;
-	string__ key__;
-	FieldDef__* value__;
-} MapEntry__string__Ptr__FieldDef______;
 typedef struct tag_____NodeWithCtx__ {
 	Node__ node__;
 	int__ ctxOutput__;
@@ -600,6 +600,14 @@ typedef struct tag_____QueuedCallArgs__ {
 	ModuleDef__* def__;
 	ModuleDef__* context__;
 } QueuedCallArgs__;
+typedef struct tag_____Maybe__uint____ {
+	uint__ value__;
+	bool__ hasValue__;
+} Maybe__uint____;
+typedef struct tag_____Maybe__string____ {
+	string__ value__;
+	bool__ hasValue__;
+} Maybe__string____;
 typedef struct tag_____Maybe__long____ {
 	long__ value__;
 	bool__ hasValue__;
@@ -612,24 +620,26 @@ typedef struct tag_____Maybe__ulong____ {
 	ulong__ value__;
 	bool__ hasValue__;
 } Maybe__ulong____;
-typedef struct tag_____Maybe__uint____ {
-	uint__ value__;
-	bool__ hasValue__;
-} Maybe__uint____;
-typedef struct tag_____Maybe__string____ {
-	string__ value__;
-	bool__ hasValue__;
-} Maybe__string____;
-typedef struct tag_____Array__MapEntry__Node__Tag______ {
+typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ {
 	pointer__ dataPtr__;
 	int__ count__;
-} Array__MapEntry__Node__Tag______;
-typedef struct tag_____Map__Node__Tag____ {
-	Array__MapEntry__Node__Tag______ entries__;
+} Array__MapEntry__NodeWithCtx__string______;
+typedef struct tag_____Map__NodeWithCtx__string____ {
+	Array__MapEntry__NodeWithCtx__string______ entries__;
 	int__ count__;
 	uint__ capacityMask__;
 	int__ growThreshold__;
-} Map__Node__Tag____;
+} Map__NodeWithCtx__string____;
+typedef struct tag_____Array__MapEntry__string__Ptr__FieldDef________ {
+	pointer__ dataPtr__;
+	int__ count__;
+} Array__MapEntry__string__Ptr__FieldDef________;
+typedef struct tag_____Map__string__Ptr__FieldDef______ {
+	Array__MapEntry__string__Ptr__FieldDef________ entries__;
+	int__ count__;
+	uint__ capacityMask__;
+	int__ growThreshold__;
+} Map__string__Ptr__FieldDef______;
 typedef struct tag_____Array__MapEntry__string__Node______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -660,26 +670,16 @@ typedef struct tag_____Map__Node__Value____ {
 	uint__ capacityMask__;
 	int__ growThreshold__;
 } Map__Node__Value____;
-typedef struct tag_____Array__MapEntry__string__Ptr__FieldDef________ {
+typedef struct tag_____Array__MapEntry__Node__Tag______ {
 	pointer__ dataPtr__;
 	int__ count__;
-} Array__MapEntry__string__Ptr__FieldDef________;
-typedef struct tag_____Map__string__Ptr__FieldDef______ {
-	Array__MapEntry__string__Ptr__FieldDef________ entries__;
+} Array__MapEntry__Node__Tag______;
+typedef struct tag_____Map__Node__Tag____ {
+	Array__MapEntry__Node__Tag______ entries__;
 	int__ count__;
 	uint__ capacityMask__;
 	int__ growThreshold__;
-} Map__string__Ptr__FieldDef______;
-typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ {
-	pointer__ dataPtr__;
-	int__ count__;
-} Array__MapEntry__NodeWithCtx__string______;
-typedef struct tag_____Map__NodeWithCtx__string____ {
-	Array__MapEntry__NodeWithCtx__string______ entries__;
-	int__ count__;
-	uint__ capacityMask__;
-	int__ growThreshold__;
-} Map__NodeWithCtx__string____;
+} Map__Node__Tag____;
 typedef struct tag_____ParseState__ {
 	string__ text__;
 	int__ index__;
@@ -864,21 +864,16 @@ typedef struct tag_____IndexExpression__ {
 	Node__ lowerExpr__;
 	Token__* closeBracket__;
 } IndexExpression__;
-typedef struct tag_____List__Ptr__FieldDef______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__FieldDef______;
-typedef struct tag_____List__Ptr__ModuleInputDef______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__ModuleInputDef______;
 typedef struct tag_____List__Ptr__AssignStatement______ {
 	pointer__ dataPtr__;
 	int__ count__;
 	int__ capacity__;
 } List__Ptr__AssignStatement______;
+typedef struct tag_____List__Error____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Error____;
 typedef struct tag_____List__Ptr__MatchExpressionCase______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -889,26 +884,6 @@ typedef struct tag_____List__Ptr__CallArg______ {
 	int__ count__;
 	int__ capacity__;
 } List__Ptr__CallArg______;
-typedef struct tag_____List__Ptr__SourceFile______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__SourceFile______;
-typedef struct tag_____List__Ptr__CodeUnit______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__CodeUnit______;
-typedef struct tag_____List__Error____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Error____;
-typedef struct tag_____List__CommandLineArgsParserError____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__CommandLineArgsParserError____;
 typedef struct tag_____List__QueuedCallArgs____ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -954,6 +929,31 @@ typedef struct tag_____List__string____ {
 	int__ count__;
 	int__ capacity__;
 } List__string____;
+typedef struct tag_____List__Ptr__SourceFile______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__SourceFile______;
+typedef struct tag_____List__Ptr__CodeUnit______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__CodeUnit______;
+typedef struct tag_____List__CommandLineArgsParserError____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__CommandLineArgsParserError____;
+typedef struct tag_____List__Ptr__FieldDef______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__FieldDef______;
+typedef struct tag_____List__Ptr__ModuleInputDef______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__ModuleInputDef______;
 typedef struct tag_____Array__SetEntry__string______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -991,10 +991,6 @@ typedef struct tag_____ClockStatement__ {
 	Token__* name__;
 	Block__* body__;
 } ClockStatement__;
-typedef struct tag_____Array__cstring____ {
-	pointer__ dataPtr__;
-	int__ count__;
-} Array__cstring____;
 typedef struct tag_____Array__IntRange____ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -1019,6 +1015,10 @@ typedef struct tag_____Array__bool____ {
 	pointer__ dataPtr__;
 	int__ count__;
 } Array__bool____;
+typedef struct tag_____Array__cstring____ {
+	pointer__ dataPtr__;
+	int__ count__;
+} Array__cstring____;
 typedef struct tag_____MatchExpressionCase__ {
 	Node__ valueExpr__;
 	Token__* colon__;
@@ -1326,49 +1326,49 @@ Result__string____ Stdin__tryReadLine__();
 Result__string____ Result__fromValue__string____(string__ value__);
 Result__string____ Result__fromError__string____(int__ error__);
 string__ Opcode__toString__(Opcode__ op__);
+Maybe__uint____ Maybe__from__uint____(uint__ value__);
+Maybe__string____ Maybe__from__string____(string__ value__);
 Maybe__long____ Maybe__from__long____(long__ value__);
 Maybe__int____ Maybe__from__int____(int__ value__);
 Maybe__ulong____ Maybe__from__ulong____(ulong__ value__);
-Maybe__uint____ Maybe__from__uint____(uint__ value__);
-Maybe__string____ Maybe__from__string____(string__ value__);
 Maybe__string____ Map__maybeGet__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__);
 bool__ Map__containsKey__string__Node____(Map__string__Node____* this__, string__ key__);
 void__ Map__addOrUpdate__Node__int____(Map__Node__int____* this__, Node__ key__, int__ value__);
-bool__ Map__tryAdd__Node__Value____(Map__Node__Value____* this__, Node__ key__, Value__ value__);
-bool__ Map__tryAdd__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__, FieldDef__* value__);
-bool__ Map__tryAdd__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__);
 bool__ Map__tryAdd__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__);
+bool__ Map__tryAdd__Node__Value____(Map__Node__Value____* this__, Node__ key__, Value__ value__);
+bool__ Map__tryAdd__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__);
 bool__ Map__tryAdd__string__Node____(Map__string__Node____* this__, string__ key__, Node__ value__);
+bool__ Map__tryAdd__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__, FieldDef__* value__);
+void__ Map__add__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__);
 void__ Map__add__Node__Value____(Map__Node__Value____* this__, Node__ key__, Value__ value__);
 void__ Map__add__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__);
-void__ Map__add__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__);
-Value__ Map__get__Node__Value____(Map__Node__Value____* this__, Node__ key__);
-Tag__ Map__get__Node__Tag____(Map__Node__Tag____* this__, Node__ key__);
 FieldDef__* Map__get__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__);
+Value__ Map__get__Node__Value____(Map__Node__Value____* this__, Node__ key__);
 Node__ Map__get__string__Node____(Map__string__Node____* this__, string__ key__);
+Tag__ Map__get__Node__Tag____(Map__Node__Tag____* this__, Node__ key__);
 Tag__ Map__getOrDefault__Node__Tag____(Map__Node__Tag____* this__, Node__ key__);
-int__ Map__getOrDefault__Node__int____(Map__Node__int____* this__, Node__ key__);
 Node__ Map__getOrDefault__string__Node____(Map__string__Node____* this__, string__ key__);
+int__ Map__getOrDefault__Node__int____(Map__Node__int____* this__, Node__ key__);
 Value__ Map__getOrDefault__Node__Value____(Map__Node__Value____* this__, Node__ key__);
 FieldDef__* Map__getOrDefault__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__);
-MapEntry__Node__Tag____* Map__getEmptyEntry___Node__Tag____(Map__Node__Tag____* this__, uint__ h__);
-MapEntry__string__Node____* Map__getEmptyEntry___string__Node____(Map__string__Node____* this__, uint__ h__);
-MapEntry__Node__int____* Map__getEmptyEntry___Node__int____(Map__Node__int____* this__, uint__ h__);
-MapEntry__Node__Value____* Map__getEmptyEntry___Node__Value____(Map__Node__Value____* this__, uint__ h__);
 MapEntry__string__Ptr__FieldDef______* Map__getEmptyEntry___string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, uint__ h__);
+MapEntry__Node__Tag____* Map__getEmptyEntry___Node__Tag____(Map__Node__Tag____* this__, uint__ h__);
+MapEntry__Node__int____* Map__getEmptyEntry___Node__int____(Map__Node__int____* this__, uint__ h__);
+MapEntry__string__Node____* Map__getEmptyEntry___string__Node____(Map__string__Node____* this__, uint__ h__);
+MapEntry__Node__Value____* Map__getEmptyEntry___Node__Value____(Map__Node__Value____* this__, uint__ h__);
 MapEntry__NodeWithCtx__string____* Map__getEmptyEntry___NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, uint__ h__);
-void__ Map__grow__Node__Tag____(Map__Node__Tag____* this__);
-void__ Map__grow__string__Node____(Map__string__Node____* this__);
-void__ Map__grow__Node__int____(Map__Node__int____* this__);
-void__ Map__grow__Node__Value____(Map__Node__Value____* this__);
 void__ Map__grow__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__);
+void__ Map__grow__Node__Tag____(Map__Node__Tag____* this__);
+void__ Map__grow__Node__int____(Map__Node__int____* this__);
+void__ Map__grow__string__Node____(Map__string__Node____* this__);
+void__ Map__grow__Node__Value____(Map__Node__Value____* this__);
 void__ Map__grow__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__);
 Map__Node__Tag____ Map__create__Node__Tag____();
-Map__Node__int____ Map__create__Node__int____();
+Map__NodeWithCtx__string____ Map__create__NodeWithCtx__string____();
 Map__string__Node____ Map__create__string__Node____();
+Map__Node__int____ Map__create__Node__int____();
 Map__Node__Value____ Map__create__Node__Value____();
 Map__string__Ptr__FieldDef______ Map__create__string__Ptr__FieldDef______();
-Map__NodeWithCtx__string____ Map__create__NodeWithCtx__string____();
 uint__ long__hash__(long__ val__);
 Maybe__long____ long__tryParse__(string__ s__);
 int__ long__compare__(long__ a__, long__ b__);
@@ -1513,37 +1513,32 @@ int__ uint__compare__(uint__ a__, uint__ b__);
 void__ uint__writeTo__(uint__ val__, StringBuilder__* sb__);
 uint__ ushort__hash__(ushort__ val__);
 void__ ushort__writeTo__(ushort__ val__, StringBuilder__* sb__);
+void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__);
+void__ List__reserve__Error____(List__Error____* this__, int__ capacity__);
+void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__);
+void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__);
+void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__);
+void__ List__reserve__byte____(List__byte____* this__, int__ capacity__);
+void__ List__reserve__int____(List__int____* this__, int__ capacity__);
+void__ List__reserve__Node____(List__Node____* this__, int__ capacity__);
+void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__);
 void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__);
 void__ List__reserve__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, int__ capacity__);
+void__ List__reserve__Value____(List__Value____* this__, int__ capacity__);
+void__ List__reserve__string____(List__string____* this__, int__ capacity__);
 void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int__ capacity__);
 void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, int__ capacity__);
 void__ List__reserve__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, int__ capacity__);
-void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__);
-void__ List__reserve__Error____(List__Error____* this__, int__ capacity__);
-void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__);
-void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__);
-void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__);
-void__ List__reserve__byte____(List__byte____* this__, int__ capacity__);
 void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__);
-void__ List__reserve__Node____(List__Node____* this__, int__ capacity__);
-void__ List__reserve__int____(List__int____* this__, int__ capacity__);
-void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__);
 void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int__ capacity__);
-void__ List__reserve__Value____(List__Value____* this__, int__ capacity__);
-void__ List__reserve__string____(List__string____* this__, int__ capacity__);
+Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__);
 Array__byte____ List__slice__byte____(List__byte____* this__, int__ from__, int__ to__);
 Array__string____ List__slice__string____(List__string____* this__, int__ from__, int__ to__);
-Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__);
 void__ List__setCountChecked__Value____(List__Value____* this__, int__ count__);
-void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__);
-void__ List__add__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, MatchExpressionCase__* item__);
 void__ List__add__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, FieldDef__* item__);
+void__ List__add__Error____(List__Error____* this__, Error__ item__);
 void__ List__add__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, ModuleInputDef__* item__);
 void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, CommandLineArgsParserError__ item__);
-void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__);
-void__ List__add__Error____(List__Error____* this__, Error__ item__);
-void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__);
-void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__);
 void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__);
 void__ List__add__byte____(List__byte____* this__, byte__ item__);
 void__ List__add__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, ModuleInstance__* item__);
@@ -1553,24 +1548,29 @@ void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ i
 void__ List__add__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, CodeUnit__* item__);
 void__ List__add__Value____(List__Value____* this__, Value__ item__);
 void__ List__add__string____(List__string____* this__, string__ item__);
+void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__);
+void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__);
+void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__);
+void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__);
+void__ List__add__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, MatchExpressionCase__* item__);
+void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__);
+void__ List__grow__Error____(List__Error____* this__);
+void__ List__grow__SlotInfo____(List__SlotInfo____* this__);
+void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__);
+void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__);
+void__ List__grow__byte____(List__byte____* this__);
+void__ List__grow__int____(List__int____* this__);
+void__ List__grow__Node____(List__Node____* this__);
+void__ List__grow__Instruction____(List__Instruction____* this__);
 void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__);
 void__ List__grow__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__);
+void__ List__grow__Value____(List__Value____* this__);
+void__ List__grow__string____(List__string____* this__);
 void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__);
 void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__);
 void__ List__grow__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__);
-void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__);
-void__ List__grow__Error____(List__Error____* this__);
-void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__);
-void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__);
-void__ List__grow__SlotInfo____(List__SlotInfo____* this__);
-void__ List__grow__byte____(List__byte____* this__);
 void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__);
-void__ List__grow__Node____(List__Node____* this__);
-void__ List__grow__int____(List__int____* this__);
-void__ List__grow__Instruction____(List__Instruction____* this__);
 void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__);
-void__ List__grow__Value____(List__Value____* this__);
-void__ List__grow__string____(List__string____* this__);
 bool__ Set__tryRemove__string____(Set__string____* this__, string__ value__);
 bool__ Set__tryAdd__string____(Set__string____* this__, string__ value__);
 void__ Set__add__string____(Set__string____* this__, string__ value__);
@@ -1625,18 +1625,18 @@ Array__Error____ Array__cons__Error____(int__ count__);
 Array__int____ Array__cons__int____(int__ count__);
 Array__byte____ Array__cons__byte____(int__ count__);
 Array__SetEntry__string______ Array__cons__SetEntry__string______(int__ count__);
-Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__);
-Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__);
-Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__);
+Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__);
 Array__MapEntry__Node__Value______ Array__cons__MapEntry__Node__Value______(int__ count__);
 Array__MapEntry__Node__Tag______ Array__cons__MapEntry__Node__Tag______(int__ count__);
-Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__);
-Array__string____ Array__cons__string____(int__ count__);
+Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__);
+Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__);
+Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__);
 Array__bool____ Array__cons__bool____(int__ count__);
+Array__string____ Array__cons__string____(int__ count__);
 void__ Array__clearValues__byte____(Array__byte____* this__);
 void__ Array__stableSortMerge___Error____(Array__Error____* src__, Array__Error____* dest__, int__ from__, int__ chunk__, fun__Error__Error__int____ compareFn__);
-void__ Array__copySlice__byte____(Array__byte____* src__, int__ from__, int__ to__, Array__byte____* dest__, int__ index__);
 void__ Array__copySlice__Error____(Array__Error____* src__, int__ from__, int__ to__, Array__Error____* dest__, int__ index__);
+void__ Array__copySlice__byte____(Array__byte____* src__, int__ from__, int__ to__, Array__byte____* dest__, int__ index__);
 void__ Indexer__block__(IndexerState__* s__, Block__* st__);
 void__ Indexer__unit__(IndexerState__* s__, CodeUnit__* unit__);
 void__ Indexer__comp__(Compilation__* comp__);
@@ -4160,6 +4160,20 @@ string__ Opcode__toString__(Opcode__ op__) {
 		}
 	}
 }
+Maybe__uint____ Maybe__from__uint____(uint__ value__) {
+	Maybe__uint____ local0;
+	memset(&local0, 0, sizeof(Maybe__uint____));
+	local0.value__ = value__;
+	local0.hasValue__ = true__;
+	return local0;
+}
+Maybe__string____ Maybe__from__string____(string__ value__) {
+	Maybe__string____ local0;
+	memset(&local0, 0, sizeof(Maybe__string____));
+	local0.value__ = value__;
+	local0.hasValue__ = true__;
+	return local0;
+}
 Maybe__long____ Maybe__from__long____(long__ value__) {
 	Maybe__long____ local0;
 	memset(&local0, 0, sizeof(Maybe__long____));
@@ -4177,20 +4191,6 @@ Maybe__int____ Maybe__from__int____(int__ value__) {
 Maybe__ulong____ Maybe__from__ulong____(ulong__ value__) {
 	Maybe__ulong____ local0;
 	memset(&local0, 0, sizeof(Maybe__ulong____));
-	local0.value__ = value__;
-	local0.hasValue__ = true__;
-	return local0;
-}
-Maybe__uint____ Maybe__from__uint____(uint__ value__) {
-	Maybe__uint____ local0;
-	memset(&local0, 0, sizeof(Maybe__uint____));
-	local0.value__ = value__;
-	local0.hasValue__ = true__;
-	return local0;
-}
-Maybe__string____ Maybe__from__string____(string__ value__) {
-	Maybe__string____ local0;
-	memset(&local0, 0, sizeof(Maybe__string____));
 	local0.value__ = value__;
 	local0.hasValue__ = true__;
 	return local0;
@@ -4288,6 +4288,47 @@ label0:
 	((MapEntry__Node__int____*)local3->dataPtr__)[local4] = local5;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
+bool__ Map__tryAdd__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__) {
+	if ((((this__)->count__)) > (((this__)->growThreshold__))) {
+		Map__grow__NodeWithCtx__string____(this__);
+	}
+	uint__ h__ = NodeWithCtx__hash__(key__);
+	if (((h__)) == ((uint__)(0))) {
+		h__ = (uint__)(1);
+	}
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__NodeWithCtx__string______* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__NodeWithCtx__string____* e__ = &(((MapEntry__NodeWithCtx__string____*)local0->dataPtr__)[local1]);
+		if ((((e__)->hash__)) == ((uint__)(0))) {
+			goto label0;
+		}
+		bool__ local2 = (((e__)->hash__)) == ((h__));
+		if (local2) {
+			local2 = NodeWithCtx__equals__((e__)->key__, key__);
+		}
+		if (local2) {
+			return false__;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
+label0:
+	{}
+	Array__MapEntry__NodeWithCtx__string______* local3 = &((this__)->entries__);
+	uint__ local4 = (uint__)(b__);
+	mu_____boundscheck(local4 < (uint__)local3->count__);
+	MapEntry__NodeWithCtx__string____ local5;
+	memset(&local5, 0, sizeof(MapEntry__NodeWithCtx__string____));
+	local5.hash__ = h__;
+	local5.key__ = key__;
+	local5.value__ = value__;
+	((MapEntry__NodeWithCtx__string____*)local3->dataPtr__)[local4] = local5;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+	return true__;
+}
 bool__ Map__tryAdd__Node__Value____(Map__Node__Value____* this__, Node__ key__, Value__ value__) {
 	if ((((this__)->count__)) > (((this__)->growThreshold__))) {
 		Map__grow__Node__Value____(this__);
@@ -4326,47 +4367,6 @@ label0:
 	local5.key__ = key__;
 	local5.value__ = value__;
 	((MapEntry__Node__Value____*)local3->dataPtr__)[local4] = local5;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-	return true__;
-}
-bool__ Map__tryAdd__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__, FieldDef__* value__) {
-	if ((((this__)->count__)) > (((this__)->growThreshold__))) {
-		Map__grow__string__Ptr__FieldDef______(this__);
-	}
-	uint__ h__ = string__hash__(key__);
-	if (((h__)) == ((uint__)(0))) {
-		h__ = (uint__)(1);
-	}
-	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
-	while (true__) {
-		if (!(true__)) { break; }
-		Array__MapEntry__string__Ptr__FieldDef________* local0 = &((this__)->entries__);
-		uint__ local1 = (uint__)(b__);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		MapEntry__string__Ptr__FieldDef______* e__ = &(((MapEntry__string__Ptr__FieldDef______*)local0->dataPtr__)[local1]);
-		if ((((e__)->hash__)) == ((uint__)(0))) {
-			goto label0;
-		}
-		bool__ local2 = (((e__)->hash__)) == ((h__));
-		if (local2) {
-			local2 = string__equals__((e__)->key__, key__);
-		}
-		if (local2) {
-			return false__;
-		}
-		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
-	}
-label0:
-	{}
-	Array__MapEntry__string__Ptr__FieldDef________* local3 = &((this__)->entries__);
-	uint__ local4 = (uint__)(b__);
-	mu_____boundscheck(local4 < (uint__)local3->count__);
-	MapEntry__string__Ptr__FieldDef______ local5;
-	memset(&local5, 0, sizeof(MapEntry__string__Ptr__FieldDef______));
-	local5.hash__ = h__;
-	local5.key__ = key__;
-	local5.value__ = value__;
-	((MapEntry__string__Ptr__FieldDef______*)local3->dataPtr__)[local4] = local5;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 	return true__;
 }
@@ -4411,47 +4411,6 @@ label0:
 	(this__)->count__ = (((this__)->count__)) + ((1));
 	return true__;
 }
-bool__ Map__tryAdd__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__) {
-	if ((((this__)->count__)) > (((this__)->growThreshold__))) {
-		Map__grow__NodeWithCtx__string____(this__);
-	}
-	uint__ h__ = NodeWithCtx__hash__(key__);
-	if (((h__)) == ((uint__)(0))) {
-		h__ = (uint__)(1);
-	}
-	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
-	while (true__) {
-		if (!(true__)) { break; }
-		Array__MapEntry__NodeWithCtx__string______* local0 = &((this__)->entries__);
-		uint__ local1 = (uint__)(b__);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		MapEntry__NodeWithCtx__string____* e__ = &(((MapEntry__NodeWithCtx__string____*)local0->dataPtr__)[local1]);
-		if ((((e__)->hash__)) == ((uint__)(0))) {
-			goto label0;
-		}
-		bool__ local2 = (((e__)->hash__)) == ((h__));
-		if (local2) {
-			local2 = NodeWithCtx__equals__((e__)->key__, key__);
-		}
-		if (local2) {
-			return false__;
-		}
-		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
-	}
-label0:
-	{}
-	Array__MapEntry__NodeWithCtx__string______* local3 = &((this__)->entries__);
-	uint__ local4 = (uint__)(b__);
-	mu_____boundscheck(local4 < (uint__)local3->count__);
-	MapEntry__NodeWithCtx__string____ local5;
-	memset(&local5, 0, sizeof(MapEntry__NodeWithCtx__string____));
-	local5.hash__ = h__;
-	local5.key__ = key__;
-	local5.value__ = value__;
-	((MapEntry__NodeWithCtx__string____*)local3->dataPtr__)[local4] = local5;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-	return true__;
-}
 bool__ Map__tryAdd__string__Node____(Map__string__Node____* this__, string__ key__, Node__ value__) {
 	if ((((this__)->count__)) > (((this__)->growThreshold__))) {
 		Map__grow__string__Node____(this__);
@@ -4493,60 +4452,55 @@ label0:
 	(this__)->count__ = (((this__)->count__)) + ((1));
 	return true__;
 }
+bool__ Map__tryAdd__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__, FieldDef__* value__) {
+	if ((((this__)->count__)) > (((this__)->growThreshold__))) {
+		Map__grow__string__Ptr__FieldDef______(this__);
+	}
+	uint__ h__ = string__hash__(key__);
+	if (((h__)) == ((uint__)(0))) {
+		h__ = (uint__)(1);
+	}
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__string__Ptr__FieldDef________* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__string__Ptr__FieldDef______* e__ = &(((MapEntry__string__Ptr__FieldDef______*)local0->dataPtr__)[local1]);
+		if ((((e__)->hash__)) == ((uint__)(0))) {
+			goto label0;
+		}
+		bool__ local2 = (((e__)->hash__)) == ((h__));
+		if (local2) {
+			local2 = string__equals__((e__)->key__, key__);
+		}
+		if (local2) {
+			return false__;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
+label0:
+	{}
+	Array__MapEntry__string__Ptr__FieldDef________* local3 = &((this__)->entries__);
+	uint__ local4 = (uint__)(b__);
+	mu_____boundscheck(local4 < (uint__)local3->count__);
+	MapEntry__string__Ptr__FieldDef______ local5;
+	memset(&local5, 0, sizeof(MapEntry__string__Ptr__FieldDef______));
+	local5.hash__ = h__;
+	local5.key__ = key__;
+	local5.value__ = value__;
+	((MapEntry__string__Ptr__FieldDef______*)local3->dataPtr__)[local4] = local5;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+	return true__;
+}
+void__ Map__add__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__) {
+	mu_____assert(Map__tryAdd__NodeWithCtx__string____(this__, key__, value__));
+}
 void__ Map__add__Node__Value____(Map__Node__Value____* this__, Node__ key__, Value__ value__) {
 	mu_____assert(Map__tryAdd__Node__Value____(this__, key__, value__));
 }
 void__ Map__add__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__) {
 	mu_____assert(Map__tryAdd__Node__Tag____(this__, key__, value__));
-}
-void__ Map__add__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__) {
-	mu_____assert(Map__tryAdd__NodeWithCtx__string____(this__, key__, value__));
-}
-Value__ Map__get__Node__Value____(Map__Node__Value____* this__, Node__ key__) {
-	uint__ h__ = Node__hash__(key__);
-	if (((h__)) == ((uint__)(0))) {
-		h__ = (uint__)(1);
-	}
-	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
-	while (true__) {
-		if (!(true__)) { break; }
-		Array__MapEntry__Node__Value______* local0 = &((this__)->entries__);
-		uint__ local1 = (uint__)(b__);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		MapEntry__Node__Value____* e__ = &(((MapEntry__Node__Value____*)local0->dataPtr__)[local1]);
-		mu_____assert((((e__)->hash__)) != ((uint__)(0)));
-		bool__ local2 = (((e__)->hash__)) == ((h__));
-		if (local2) {
-			local2 = (((e__)->key__).dataPtr__) == ((key__).dataPtr__);
-		}
-		if (local2) {
-			return (e__)->value__;
-		}
-		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
-	}
-}
-Tag__ Map__get__Node__Tag____(Map__Node__Tag____* this__, Node__ key__) {
-	uint__ h__ = Node__hash__(key__);
-	if (((h__)) == ((uint__)(0))) {
-		h__ = (uint__)(1);
-	}
-	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
-	while (true__) {
-		if (!(true__)) { break; }
-		Array__MapEntry__Node__Tag______* local0 = &((this__)->entries__);
-		uint__ local1 = (uint__)(b__);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		MapEntry__Node__Tag____* e__ = &(((MapEntry__Node__Tag____*)local0->dataPtr__)[local1]);
-		mu_____assert((((e__)->hash__)) != ((uint__)(0)));
-		bool__ local2 = (((e__)->hash__)) == ((h__));
-		if (local2) {
-			local2 = (((e__)->key__).dataPtr__) == ((key__).dataPtr__);
-		}
-		if (local2) {
-			return (e__)->value__;
-		}
-		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
-	}
 }
 FieldDef__* Map__get__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__) {
 	uint__ h__ = string__hash__(key__);
@@ -4571,6 +4525,29 @@ FieldDef__* Map__get__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef____
 		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
 	}
 }
+Value__ Map__get__Node__Value____(Map__Node__Value____* this__, Node__ key__) {
+	uint__ h__ = Node__hash__(key__);
+	if (((h__)) == ((uint__)(0))) {
+		h__ = (uint__)(1);
+	}
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__Node__Value______* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__Node__Value____* e__ = &(((MapEntry__Node__Value____*)local0->dataPtr__)[local1]);
+		mu_____assert((((e__)->hash__)) != ((uint__)(0)));
+		bool__ local2 = (((e__)->hash__)) == ((h__));
+		if (local2) {
+			local2 = (((e__)->key__).dataPtr__) == ((key__).dataPtr__);
+		}
+		if (local2) {
+			return (e__)->value__;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
+}
 Node__ Map__get__string__Node____(Map__string__Node____* this__, string__ key__) {
 	uint__ h__ = string__hash__(key__);
 	if (((h__)) == ((uint__)(0))) {
@@ -4587,6 +4564,29 @@ Node__ Map__get__string__Node____(Map__string__Node____* this__, string__ key__)
 		bool__ local2 = (((e__)->hash__)) == ((h__));
 		if (local2) {
 			local2 = string__equals__((e__)->key__, key__);
+		}
+		if (local2) {
+			return (e__)->value__;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
+}
+Tag__ Map__get__Node__Tag____(Map__Node__Tag____* this__, Node__ key__) {
+	uint__ h__ = Node__hash__(key__);
+	if (((h__)) == ((uint__)(0))) {
+		h__ = (uint__)(1);
+	}
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__Node__Tag______* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__Node__Tag____* e__ = &(((MapEntry__Node__Tag____*)local0->dataPtr__)[local1]);
+		mu_____assert((((e__)->hash__)) != ((uint__)(0)));
+		bool__ local2 = (((e__)->hash__)) == ((h__));
+		if (local2) {
+			local2 = (((e__)->key__).dataPtr__) == ((key__).dataPtr__);
 		}
 		if (local2) {
 			return (e__)->value__;
@@ -4621,31 +4621,6 @@ Tag__ Map__getOrDefault__Node__Tag____(Map__Node__Tag____* this__, Node__ key__)
 		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
 	}
 }
-int__ Map__getOrDefault__Node__int____(Map__Node__int____* this__, Node__ key__) {
-	uint__ h__ = Node__hash__(key__);
-	if (((h__)) == ((uint__)(0))) {
-		h__ = (uint__)(1);
-	}
-	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
-	while (true__) {
-		if (!(true__)) { break; }
-		Array__MapEntry__Node__int______* local0 = &((this__)->entries__);
-		uint__ local1 = (uint__)(b__);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		MapEntry__Node__int____* e__ = &(((MapEntry__Node__int____*)local0->dataPtr__)[local1]);
-		if ((((e__)->hash__)) == ((uint__)(0))) {
-			return 0;
-		}
-		bool__ local2 = (((e__)->hash__)) == ((h__));
-		if (local2) {
-			local2 = (((e__)->key__).dataPtr__) == ((key__).dataPtr__);
-		}
-		if (local2) {
-			return (e__)->value__;
-		}
-		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
-	}
-}
 Node__ Map__getOrDefault__string__Node____(Map__string__Node____* this__, string__ key__) {
 	uint__ h__ = string__hash__(key__);
 	if (((h__)) == ((uint__)(0))) {
@@ -4669,6 +4644,31 @@ Node__ Map__getOrDefault__string__Node____(Map__string__Node____* this__, string
 			local3 = string__equals__((e__)->key__, key__);
 		}
 		if (local3) {
+			return (e__)->value__;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
+}
+int__ Map__getOrDefault__Node__int____(Map__Node__int____* this__, Node__ key__) {
+	uint__ h__ = Node__hash__(key__);
+	if (((h__)) == ((uint__)(0))) {
+		h__ = (uint__)(1);
+	}
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__Node__int______* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__Node__int____* e__ = &(((MapEntry__Node__int____*)local0->dataPtr__)[local1]);
+		if ((((e__)->hash__)) == ((uint__)(0))) {
+			return 0;
+		}
+		bool__ local2 = (((e__)->hash__)) == ((h__));
+		if (local2) {
+			local2 = (((e__)->key__).dataPtr__) == ((key__).dataPtr__);
+		}
+		if (local2) {
 			return (e__)->value__;
 		}
 		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
@@ -4726,6 +4726,20 @@ FieldDef__* Map__getOrDefault__string__Ptr__FieldDef______(Map__string__Ptr__Fie
 		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
 	}
 }
+MapEntry__string__Ptr__FieldDef______* Map__getEmptyEntry___string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, uint__ h__) {
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__string__Ptr__FieldDef________* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__string__Ptr__FieldDef______* e__ = &(((MapEntry__string__Ptr__FieldDef______*)local0->dataPtr__)[local1]);
+		if ((((e__)->hash__)) == ((uint__)(0))) {
+			return e__;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
+}
 MapEntry__Node__Tag____* Map__getEmptyEntry___Node__Tag____(Map__Node__Tag____* this__, uint__ h__) {
 	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
 	while (true__) {
@@ -4734,20 +4748,6 @@ MapEntry__Node__Tag____* Map__getEmptyEntry___Node__Tag____(Map__Node__Tag____* 
 		uint__ local1 = (uint__)(b__);
 		mu_____boundscheck(local1 < (uint__)local0->count__);
 		MapEntry__Node__Tag____* e__ = &(((MapEntry__Node__Tag____*)local0->dataPtr__)[local1]);
-		if ((((e__)->hash__)) == ((uint__)(0))) {
-			return e__;
-		}
-		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
-	}
-}
-MapEntry__string__Node____* Map__getEmptyEntry___string__Node____(Map__string__Node____* this__, uint__ h__) {
-	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
-	while (true__) {
-		if (!(true__)) { break; }
-		Array__MapEntry__string__Node______* local0 = &((this__)->entries__);
-		uint__ local1 = (uint__)(b__);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		MapEntry__string__Node____* e__ = &(((MapEntry__string__Node____*)local0->dataPtr__)[local1]);
 		if ((((e__)->hash__)) == ((uint__)(0))) {
 			return e__;
 		}
@@ -4768,6 +4768,20 @@ MapEntry__Node__int____* Map__getEmptyEntry___Node__int____(Map__Node__int____* 
 		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
 	}
 }
+MapEntry__string__Node____* Map__getEmptyEntry___string__Node____(Map__string__Node____* this__, uint__ h__) {
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__string__Node______* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__string__Node____* e__ = &(((MapEntry__string__Node____*)local0->dataPtr__)[local1]);
+		if ((((e__)->hash__)) == ((uint__)(0))) {
+			return e__;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
+}
 MapEntry__Node__Value____* Map__getEmptyEntry___Node__Value____(Map__Node__Value____* this__, uint__ h__) {
 	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
 	while (true__) {
@@ -4776,20 +4790,6 @@ MapEntry__Node__Value____* Map__getEmptyEntry___Node__Value____(Map__Node__Value
 		uint__ local1 = (uint__)(b__);
 		mu_____boundscheck(local1 < (uint__)local0->count__);
 		MapEntry__Node__Value____* e__ = &(((MapEntry__Node__Value____*)local0->dataPtr__)[local1]);
-		if ((((e__)->hash__)) == ((uint__)(0))) {
-			return e__;
-		}
-		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
-	}
-}
-MapEntry__string__Ptr__FieldDef______* Map__getEmptyEntry___string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, uint__ h__) {
-	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
-	while (true__) {
-		if (!(true__)) { break; }
-		Array__MapEntry__string__Ptr__FieldDef________* local0 = &((this__)->entries__);
-		uint__ local1 = (uint__)(b__);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		MapEntry__string__Ptr__FieldDef______* e__ = &(((MapEntry__string__Ptr__FieldDef______*)local0->dataPtr__)[local1]);
 		if ((((e__)->hash__)) == ((uint__)(0))) {
 			return e__;
 		}
@@ -4810,6 +4810,26 @@ MapEntry__NodeWithCtx__string____* Map__getEmptyEntry___NodeWithCtx__string____(
 		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
 	}
 }
+void__ Map__grow__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__) {
+	int__ newCap__ = CheckedMath__mulPositiveInt__(((this__)->entries__).count__, 2);
+	Array__MapEntry__string__Ptr__FieldDef________ prev__ = (this__)->entries__;
+	(this__)->entries__ = Array__cons__MapEntry__string__Ptr__FieldDef________(newCap__);
+	(this__)->capacityMask__ = (uint__)(((newCap__)) - ((1)));
+	(this__)->growThreshold__ = ((((newCap__)) / ((3)))) * ((2));
+	{
+		int__ i__ = 0;
+		while (((i__)) < (((prev__).count__))) {
+			Array__MapEntry__string__Ptr__FieldDef________* local0 = &(prev__);
+			uint__ local1 = (uint__)(i__);
+			mu_____boundscheck(local1 < (uint__)local0->count__);
+			MapEntry__string__Ptr__FieldDef______* e__ = &(((MapEntry__string__Ptr__FieldDef______*)local0->dataPtr__)[local1]);
+			if ((((e__)->hash__)) != ((uint__)(0))) {
+				*(Map__getEmptyEntry___string__Ptr__FieldDef______(this__, (e__)->hash__)) = *(e__);
+			}
+			i__ += 1;
+		}
+	}
+}
 void__ Map__grow__Node__Tag____(Map__Node__Tag____* this__) {
 	int__ newCap__ = CheckedMath__mulPositiveInt__(((this__)->entries__).count__, 2);
 	Array__MapEntry__Node__Tag______ prev__ = (this__)->entries__;
@@ -4825,26 +4845,6 @@ void__ Map__grow__Node__Tag____(Map__Node__Tag____* this__) {
 			MapEntry__Node__Tag____* e__ = &(((MapEntry__Node__Tag____*)local0->dataPtr__)[local1]);
 			if ((((e__)->hash__)) != ((uint__)(0))) {
 				*(Map__getEmptyEntry___Node__Tag____(this__, (e__)->hash__)) = *(e__);
-			}
-			i__ += 1;
-		}
-	}
-}
-void__ Map__grow__string__Node____(Map__string__Node____* this__) {
-	int__ newCap__ = CheckedMath__mulPositiveInt__(((this__)->entries__).count__, 2);
-	Array__MapEntry__string__Node______ prev__ = (this__)->entries__;
-	(this__)->entries__ = Array__cons__MapEntry__string__Node______(newCap__);
-	(this__)->capacityMask__ = (uint__)(((newCap__)) - ((1)));
-	(this__)->growThreshold__ = ((((newCap__)) / ((3)))) * ((2));
-	{
-		int__ i__ = 0;
-		while (((i__)) < (((prev__).count__))) {
-			Array__MapEntry__string__Node______* local0 = &(prev__);
-			uint__ local1 = (uint__)(i__);
-			mu_____boundscheck(local1 < (uint__)local0->count__);
-			MapEntry__string__Node____* e__ = &(((MapEntry__string__Node____*)local0->dataPtr__)[local1]);
-			if ((((e__)->hash__)) != ((uint__)(0))) {
-				*(Map__getEmptyEntry___string__Node____(this__, (e__)->hash__)) = *(e__);
 			}
 			i__ += 1;
 		}
@@ -4870,6 +4870,26 @@ void__ Map__grow__Node__int____(Map__Node__int____* this__) {
 		}
 	}
 }
+void__ Map__grow__string__Node____(Map__string__Node____* this__) {
+	int__ newCap__ = CheckedMath__mulPositiveInt__(((this__)->entries__).count__, 2);
+	Array__MapEntry__string__Node______ prev__ = (this__)->entries__;
+	(this__)->entries__ = Array__cons__MapEntry__string__Node______(newCap__);
+	(this__)->capacityMask__ = (uint__)(((newCap__)) - ((1)));
+	(this__)->growThreshold__ = ((((newCap__)) / ((3)))) * ((2));
+	{
+		int__ i__ = 0;
+		while (((i__)) < (((prev__).count__))) {
+			Array__MapEntry__string__Node______* local0 = &(prev__);
+			uint__ local1 = (uint__)(i__);
+			mu_____boundscheck(local1 < (uint__)local0->count__);
+			MapEntry__string__Node____* e__ = &(((MapEntry__string__Node____*)local0->dataPtr__)[local1]);
+			if ((((e__)->hash__)) != ((uint__)(0))) {
+				*(Map__getEmptyEntry___string__Node____(this__, (e__)->hash__)) = *(e__);
+			}
+			i__ += 1;
+		}
+	}
+}
 void__ Map__grow__Node__Value____(Map__Node__Value____* this__) {
 	int__ newCap__ = CheckedMath__mulPositiveInt__(((this__)->entries__).count__, 2);
 	Array__MapEntry__Node__Value______ prev__ = (this__)->entries__;
@@ -4885,26 +4905,6 @@ void__ Map__grow__Node__Value____(Map__Node__Value____* this__) {
 			MapEntry__Node__Value____* e__ = &(((MapEntry__Node__Value____*)local0->dataPtr__)[local1]);
 			if ((((e__)->hash__)) != ((uint__)(0))) {
 				*(Map__getEmptyEntry___Node__Value____(this__, (e__)->hash__)) = *(e__);
-			}
-			i__ += 1;
-		}
-	}
-}
-void__ Map__grow__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__) {
-	int__ newCap__ = CheckedMath__mulPositiveInt__(((this__)->entries__).count__, 2);
-	Array__MapEntry__string__Ptr__FieldDef________ prev__ = (this__)->entries__;
-	(this__)->entries__ = Array__cons__MapEntry__string__Ptr__FieldDef________(newCap__);
-	(this__)->capacityMask__ = (uint__)(((newCap__)) - ((1)));
-	(this__)->growThreshold__ = ((((newCap__)) / ((3)))) * ((2));
-	{
-		int__ i__ = 0;
-		while (((i__)) < (((prev__).count__))) {
-			Array__MapEntry__string__Ptr__FieldDef________* local0 = &(prev__);
-			uint__ local1 = (uint__)(i__);
-			mu_____boundscheck(local1 < (uint__)local0->count__);
-			MapEntry__string__Ptr__FieldDef______* e__ = &(((MapEntry__string__Ptr__FieldDef______*)local0->dataPtr__)[local1]);
-			if ((((e__)->hash__)) != ((uint__)(0))) {
-				*(Map__getEmptyEntry___string__Ptr__FieldDef______(this__, (e__)->hash__)) = *(e__);
 			}
 			i__ += 1;
 		}
@@ -4940,11 +4940,11 @@ Map__Node__Tag____ Map__create__Node__Tag____() {
 	local0.growThreshold__ = ((((cap__)) / ((3)))) * ((2));
 	return local0;
 }
-Map__Node__int____ Map__create__Node__int____() {
+Map__NodeWithCtx__string____ Map__create__NodeWithCtx__string____() {
 	int__ cap__ = 8;
-	Map__Node__int____ local0;
-	memset(&local0, 0, sizeof(Map__Node__int____));
-	local0.entries__ = Array__cons__MapEntry__Node__int______(cap__);
+	Map__NodeWithCtx__string____ local0;
+	memset(&local0, 0, sizeof(Map__NodeWithCtx__string____));
+	local0.entries__ = Array__cons__MapEntry__NodeWithCtx__string______(cap__);
 	local0.count__ = 0;
 	local0.capacityMask__ = (uint__)(((cap__)) - ((1)));
 	local0.growThreshold__ = ((((cap__)) / ((3)))) * ((2));
@@ -4955,6 +4955,16 @@ Map__string__Node____ Map__create__string__Node____() {
 	Map__string__Node____ local0;
 	memset(&local0, 0, sizeof(Map__string__Node____));
 	local0.entries__ = Array__cons__MapEntry__string__Node______(cap__);
+	local0.count__ = 0;
+	local0.capacityMask__ = (uint__)(((cap__)) - ((1)));
+	local0.growThreshold__ = ((((cap__)) / ((3)))) * ((2));
+	return local0;
+}
+Map__Node__int____ Map__create__Node__int____() {
+	int__ cap__ = 8;
+	Map__Node__int____ local0;
+	memset(&local0, 0, sizeof(Map__Node__int____));
+	local0.entries__ = Array__cons__MapEntry__Node__int______(cap__);
 	local0.count__ = 0;
 	local0.capacityMask__ = (uint__)(((cap__)) - ((1)));
 	local0.growThreshold__ = ((((cap__)) / ((3)))) * ((2));
@@ -4975,16 +4985,6 @@ Map__string__Ptr__FieldDef______ Map__create__string__Ptr__FieldDef______() {
 	Map__string__Ptr__FieldDef______ local0;
 	memset(&local0, 0, sizeof(Map__string__Ptr__FieldDef______));
 	local0.entries__ = Array__cons__MapEntry__string__Ptr__FieldDef________(cap__);
-	local0.count__ = 0;
-	local0.capacityMask__ = (uint__)(((cap__)) - ((1)));
-	local0.growThreshold__ = ((((cap__)) / ((3)))) * ((2));
-	return local0;
-}
-Map__NodeWithCtx__string____ Map__create__NodeWithCtx__string____() {
-	int__ cap__ = 8;
-	Map__NodeWithCtx__string____ local0;
-	memset(&local0, 0, sizeof(Map__NodeWithCtx__string____));
-	local0.entries__ = Array__cons__MapEntry__NodeWithCtx__string______(cap__);
 	local0.count__ = 0;
 	local0.capacityMask__ = (uint__)(((cap__)) - ((1)));
 	local0.growThreshold__ = ((((cap__)) / ((3)))) * ((2));
@@ -9263,6 +9263,78 @@ uint__ ushort__hash__(ushort__ val__) {
 void__ ushort__writeTo__(ushort__ val__, StringBuilder__* sb__) {
 	ulong__writeTo__((ulong__)(val__), sb__);
 }
+void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SourceFile__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Error____(List__Error____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Error__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Error__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Error__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SlotInfo__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(AssignStatement__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(QueuedCallArgs__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__byte____(List__byte____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(byte__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(byte__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(byte__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__int____(List__int____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(int__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(int__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(int__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Node____(List__Node____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Node__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Node__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Node__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Instruction__))));
+	(this__)->capacity__ = capacity__;
+}
 void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
@@ -9277,6 +9349,22 @@ void__ List__reserve__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionC
 		return;
 	}
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(MatchExpressionCase__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(MatchExpressionCase__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(MatchExpressionCase__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Value____(List__Value____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Value__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Value__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Value__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__string____(List__string____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(string__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(string__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(string__))));
 	(this__)->capacity__ = capacity__;
 }
 void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int__ capacity__) {
@@ -9303,84 +9391,12 @@ void__ List__reserve__CommandLineArgsParserError____(List__CommandLineArgsParser
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CommandLineArgsParserError__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CommandLineArgsParserError__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CommandLineArgsParserError__))));
 	(this__)->capacity__ = capacity__;
 }
-void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SourceFile__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Error____(List__Error____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Error__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Error__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Error__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(AssignStatement__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(QueuedCallArgs__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SlotInfo__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__byte____(List__byte____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(byte__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(byte__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(byte__))));
-	(this__)->capacity__ = capacity__;
-}
 void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
 		return;
 	}
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(ModuleInstance__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(ModuleInstance__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(ModuleInstance__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Node____(List__Node____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Node__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Node__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Node__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__int____(List__int____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(int__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(int__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(int__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Instruction__))));
 	(this__)->capacity__ = capacity__;
 }
 void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int__ capacity__) {
@@ -9391,21 +9407,21 @@ void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CodeUnit__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CodeUnit__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CodeUnit__*))));
 	(this__)->capacity__ = capacity__;
 }
-void__ List__reserve__Value____(List__Value____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
+Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__) {
+	bool__ local1 = ((0)) <= ((from__));
+	if (local1) {
+		local1 = ((from__)) <= ((to__));
 	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Value__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Value__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Value__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__string____(List__string____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
+	bool__ local0 = local1;
+	if (local0) {
+		local0 = ((to__)) <= (((this__)->count__));
 	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(string__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(string__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(string__))));
-	(this__)->capacity__ = capacity__;
+	mu_____assert(local0);
+	Array__Error____ local2;
+	memset(&local2, 0, sizeof(Array__Error____));
+	local2.dataPtr__ = ((this__)->dataPtr__) + ((((ssize__)(from__))) * ((ssize__)(sizeof(Error__))));
+	local2.count__ = ((to__)) - ((from__));
+	return local2;
 }
 Array__byte____ List__slice__byte____(List__byte____* this__, int__ from__, int__ to__) {
 	bool__ local1 = ((0)) <= ((from__));
@@ -9439,22 +9455,6 @@ Array__string____ List__slice__string____(List__string____* this__, int__ from__
 	local2.count__ = ((to__)) - ((from__));
 	return local2;
 }
-Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__) {
-	bool__ local1 = ((0)) <= ((from__));
-	if (local1) {
-		local1 = ((from__)) <= ((to__));
-	}
-	bool__ local0 = local1;
-	if (local0) {
-		local0 = ((to__)) <= (((this__)->count__));
-	}
-	mu_____assert(local0);
-	Array__Error____ local2;
-	memset(&local2, 0, sizeof(Array__Error____));
-	local2.dataPtr__ = ((this__)->dataPtr__) + ((((ssize__)(from__))) * ((ssize__)(sizeof(Error__))));
-	local2.count__ = ((to__)) - ((from__));
-	return local2;
-}
 void__ List__setCountChecked__Value____(List__Value____* this__, int__ count__) {
 	bool__ local0 = ((0)) <= ((count__));
 	if (local0) {
@@ -9463,28 +9463,20 @@ void__ List__setCountChecked__Value____(List__Value____* this__, int__ count__) 
 	mu_____assert(local0);
 	(this__)->count__ = count__;
 }
-void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__CallArg______(this__);
-	}
-	List__Ptr__CallArg______* local0 = this__;
-	((CallArg__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, MatchExpressionCase__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__MatchExpressionCase______(this__);
-	}
-	List__Ptr__MatchExpressionCase______* local0 = this__;
-	((MatchExpressionCase__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
 void__ List__add__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, FieldDef__* item__) {
 	if ((((this__)->count__)) == (((this__)->capacity__))) {
 		List__grow__Ptr__FieldDef______(this__);
 	}
 	List__Ptr__FieldDef______* local0 = this__;
 	((FieldDef__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Error____(List__Error____* this__, Error__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Error____(this__);
+	}
+	List__Error____* local0 = this__;
+	((Error__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__add__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, ModuleInputDef__* item__) {
@@ -9501,38 +9493,6 @@ void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserErro
 	}
 	List__CommandLineArgsParserError____* local0 = this__;
 	((CommandLineArgsParserError__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__SourceFile______(this__);
-	}
-	List__Ptr__SourceFile______* local0 = this__;
-	((SourceFile__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Error____(List__Error____* this__, Error__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Error____(this__);
-	}
-	List__Error____* local0 = this__;
-	((Error__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__AssignStatement______(this__);
-	}
-	List__Ptr__AssignStatement______* local0 = this__;
-	((AssignStatement__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__QueuedCallArgs____(this__);
-	}
-	List__QueuedCallArgs____* local0 = this__;
-	((QueuedCallArgs__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__) {
@@ -9607,6 +9567,127 @@ void__ List__add__string____(List__string____* this__, string__ item__) {
 	((string__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
+void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__SourceFile______(this__);
+	}
+	List__Ptr__SourceFile______* local0 = this__;
+	((SourceFile__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__AssignStatement______(this__);
+	}
+	List__Ptr__AssignStatement______* local0 = this__;
+	((AssignStatement__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__QueuedCallArgs____(this__);
+	}
+	List__QueuedCallArgs____* local0 = this__;
+	((QueuedCallArgs__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__CallArg______(this__);
+	}
+	List__Ptr__CallArg______* local0 = this__;
+	((CallArg__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, MatchExpressionCase__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__MatchExpressionCase______(this__);
+	}
+	List__Ptr__MatchExpressionCase______* local0 = this__;
+	((MatchExpressionCase__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__SourceFile______(this__, local0);
+}
+void__ List__grow__Error____(List__Error____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Error____(this__, local0);
+}
+void__ List__grow__SlotInfo____(List__SlotInfo____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__SlotInfo____(this__, local0);
+}
+void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__AssignStatement______(this__, local0);
+}
+void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__QueuedCallArgs____(this__, local0);
+}
+void__ List__grow__byte____(List__byte____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__byte____(this__, local0);
+}
+void__ List__grow__int____(List__int____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__int____(this__, local0);
+}
+void__ List__grow__Node____(List__Node____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Node____(this__, local0);
+}
+void__ List__grow__Instruction____(List__Instruction____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Instruction____(this__, local0);
+}
 void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
@@ -9624,6 +9705,24 @@ void__ List__grow__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase
 		local0 = 4;
 	}
 	List__reserve__Ptr__MatchExpressionCase______(this__, local0);
+}
+void__ List__grow__Value____(List__Value____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Value____(this__, local0);
+}
+void__ List__grow__string____(List__string____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__string____(this__, local0);
 }
 void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__) {
 	int__ local0;
@@ -9652,60 +9751,6 @@ void__ List__grow__CommandLineArgsParserError____(List__CommandLineArgsParserErr
 	}
 	List__reserve__CommandLineArgsParserError____(this__, local0);
 }
-void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__SourceFile______(this__, local0);
-}
-void__ List__grow__Error____(List__Error____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Error____(this__, local0);
-}
-void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__AssignStatement______(this__, local0);
-}
-void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__QueuedCallArgs____(this__, local0);
-}
-void__ List__grow__SlotInfo____(List__SlotInfo____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__SlotInfo____(this__, local0);
-}
-void__ List__grow__byte____(List__byte____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__byte____(this__, local0);
-}
 void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
@@ -9715,33 +9760,6 @@ void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* th
 	}
 	List__reserve__Ptr__ModuleInstance______(this__, local0);
 }
-void__ List__grow__Node____(List__Node____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Node____(this__, local0);
-}
-void__ List__grow__int____(List__int____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__int____(this__, local0);
-}
-void__ List__grow__Instruction____(List__Instruction____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Instruction____(this__, local0);
-}
 void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
@@ -9750,24 +9768,6 @@ void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__) {
 		local0 = 4;
 	}
 	List__reserve__Ptr__CodeUnit______(this__, local0);
-}
-void__ List__grow__Value____(List__Value____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Value____(this__, local0);
-}
-void__ List__grow__string____(List__string____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__string____(this__, local0);
 }
 bool__ Set__tryRemove__string____(Set__string____* this__, string__ value__) {
 	uint__ h__ = string__hash__(value__);
@@ -11549,33 +11549,13 @@ Array__SetEntry__string______ Array__cons__SetEntry__string______(int__ count__)
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
-Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__Node__int____)));
-	Array__MapEntry__Node__int______ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__Node__int______));
+Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__NodeWithCtx__string____)));
+	Array__MapEntry__NodeWithCtx__string______ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__NodeWithCtx__string______));
 	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
 	local0.count__ = count__;
-	Array__MapEntry__Node__int______ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Ptr__FieldDef______)));
-	Array__MapEntry__string__Ptr__FieldDef________ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__string__Ptr__FieldDef________));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__MapEntry__string__Ptr__FieldDef________ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Node____)));
-	Array__MapEntry__string__Node______ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__string__Node______));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__MapEntry__string__Node______ result__ = local0;
+	Array__MapEntry__NodeWithCtx__string______ result__ = local0;
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
@@ -11599,23 +11579,33 @@ Array__MapEntry__Node__Tag______ Array__cons__MapEntry__Node__Tag______(int__ co
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
-Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__NodeWithCtx__string____)));
-	Array__MapEntry__NodeWithCtx__string______ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__NodeWithCtx__string______));
+Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__Node__int____)));
+	Array__MapEntry__Node__int______ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__Node__int______));
 	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
 	local0.count__ = count__;
-	Array__MapEntry__NodeWithCtx__string______ result__ = local0;
+	Array__MapEntry__Node__int______ result__ = local0;
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
-Array__string____ Array__cons__string____(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(string__)));
-	Array__string____ local0;
-	memset(&local0, 0, sizeof(Array__string____));
+Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Node____)));
+	Array__MapEntry__string__Node______ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__string__Node______));
 	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
 	local0.count__ = count__;
-	Array__string____ result__ = local0;
+	Array__MapEntry__string__Node______ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Ptr__FieldDef______)));
+	Array__MapEntry__string__Ptr__FieldDef________ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__string__Ptr__FieldDef________));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__MapEntry__string__Ptr__FieldDef________ result__ = local0;
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
@@ -11626,6 +11616,16 @@ Array__bool____ Array__cons__bool____(int__ count__) {
 	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
 	local0.count__ = count__;
 	Array__bool____ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__string____ Array__cons__string____(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(string__)));
+	Array__string____ local0;
+	memset(&local0, 0, sizeof(Array__string____));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__string____ result__ = local0;
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
@@ -11687,24 +11687,6 @@ void__ Array__stableSortMerge___Error____(Array__Error____* src__, Array__Error_
 		}
 	}
 }
-void__ Array__copySlice__byte____(Array__byte____* src__, int__ from__, int__ to__, Array__byte____* dest__, int__ index__) {
-	bool__ local1 = ((0)) <= ((from__));
-	if (local1) {
-		local1 = ((from__)) <= ((to__));
-	}
-	bool__ local0 = local1;
-	if (local0) {
-		local0 = ((to__)) <= (((src__)->count__));
-	}
-	mu_____assert(local0);
-	int__ count__ = ((to__)) - ((from__));
-	bool__ local2 = ((0)) <= ((index__));
-	if (local2) {
-		local2 = ((index__)) <= (((((dest__)->count__)) - ((count__))));
-	}
-	mu_____assert(local2);
-	memcpy(((dest__)->dataPtr__) + ((((ssize__)(index__))) * ((ssize__)(sizeof(byte__)))), ((src__)->dataPtr__) + ((((ssize__)(from__))) * ((ssize__)(sizeof(byte__)))), (usize__)((((ssize__)(count__))) * ((ssize__)(sizeof(byte__)))));
-}
 void__ Array__copySlice__Error____(Array__Error____* src__, int__ from__, int__ to__, Array__Error____* dest__, int__ index__) {
 	bool__ local1 = ((0)) <= ((from__));
 	if (local1) {
@@ -11722,6 +11704,24 @@ void__ Array__copySlice__Error____(Array__Error____* src__, int__ from__, int__ 
 	}
 	mu_____assert(local2);
 	memcpy(((dest__)->dataPtr__) + ((((ssize__)(index__))) * ((ssize__)(sizeof(Error__)))), ((src__)->dataPtr__) + ((((ssize__)(from__))) * ((ssize__)(sizeof(Error__)))), (usize__)((((ssize__)(count__))) * ((ssize__)(sizeof(Error__)))));
+}
+void__ Array__copySlice__byte____(Array__byte____* src__, int__ from__, int__ to__, Array__byte____* dest__, int__ index__) {
+	bool__ local1 = ((0)) <= ((from__));
+	if (local1) {
+		local1 = ((from__)) <= ((to__));
+	}
+	bool__ local0 = local1;
+	if (local0) {
+		local0 = ((to__)) <= (((src__)->count__));
+	}
+	mu_____assert(local0);
+	int__ count__ = ((to__)) - ((from__));
+	bool__ local2 = ((0)) <= ((index__));
+	if (local2) {
+		local2 = ((index__)) <= (((((dest__)->count__)) - ((count__))));
+	}
+	mu_____assert(local2);
+	memcpy(((dest__)->dataPtr__) + ((((ssize__)(index__))) * ((ssize__)(sizeof(byte__)))), ((src__)->dataPtr__) + ((((ssize__)(from__))) * ((ssize__)(sizeof(byte__)))), (usize__)((((ssize__)(count__))) * ((ssize__)(sizeof(byte__)))));
 }
 void__ Indexer__block__(IndexerState__* s__, Block__* st__) {
 	{
@@ -14251,6 +14251,10 @@ Node__ Parser__parseExpression__(ParseState__* s__, int__ minLevel__) {
 	return Parser__parseExpressionTail__(s__, leaf__, minLevel__);
 }
 void__ VerilogGenerator__unaryOperator__(GeneratorState__* s__, UnaryOperatorExpression__* e__) {
+	if (string__equals__(((e__)->op__)->value__, mu_____string20)) {
+		VerilogGenerator__expression__(s__, (e__)->expr__);
+		return;
+	}
 	(s__)->isNonIndexable__ = true__;
 	VerilogGenerator__write__(s__, ((e__)->op__)->value__);
 	VerilogGenerator__write__(s__, mu_____string73);
@@ -14713,13 +14717,18 @@ void__ VerilogGenerator__wire__(GeneratorState__* s__, AssignStatement__* st__, 
 		VerilogGenerator__write__(s__, genName__);
 		VerilogGenerator__write__(s__, mu_____string265);
 	}
-	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, (s__)->assignments__);
+	CodeBuilder__* local0 = (CodeBuilder__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(CodeBuilder__));
+	*local0 = CodeBuilder__create__();
+	CodeBuilder__* cb__ = local0;
+	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, cb__);
 	VerilogGenerator__beginLine__(s__);
 	VerilogGenerator__write__(s__, mu_____string266);
 	VerilogGenerator__write__(s__, genName__);
 	VerilogGenerator__write__(s__, mu_____string247);
 	VerilogGenerator__expression__(s__, (st__)->expr__);
 	VerilogGenerator__write__(s__, mu_____string265);
+	(s__)->out__ = (s__)->assignments__;
+	VerilogGenerator__write__(s__, StringBuilder__compactToString__((cb__)->sb__));
 	VerilogGenerator__restore__(s__, prev__);
 }
 string__ VerilogGenerator__trimHash__(string__ s__) {
