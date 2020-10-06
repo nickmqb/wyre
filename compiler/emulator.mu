@@ -44,7 +44,8 @@ EmulatorState struct #RefType {
 
 	tape List<Instruction>
 	resetProgram List<Instruction>
-	stepProgram List<Instruction>
+	propagateProgram List<Instruction>
+	updateProgram List<Instruction>
 
 	stack List<Value>
 	cycle long
@@ -68,7 +69,8 @@ Emulator {
 			evalCtxField: -1,
 			evalCtxOutput: -1,			
 			resetProgram: new List<Instruction>{},
-			stepProgram: new List<Instruction>{},
+			propagateProgram: new List<Instruction>{},
+			updateProgram: new List<Instruction>{},
 			stack: new List<Value>{},
 			cycle: -1,
 		}
@@ -91,12 +93,14 @@ Emulator {
 		}
 
 		if s.comp.flags & CompilationFlags.simulate != 0 {
-			s.tape = s.stepProgram
+			s.tape = s.propagateProgram
 			for si in s.evalOrder {
 				if !s.infos[si].isStatic && !s.infos[si].isReg {
 					EmulatorStep.slot(s, si)
 				}
 			}
+
+			s.tape = s.updateProgram
 			for mi in s.moduleInstances {
 				EmulatorStep.module(s, mi)
 				assert(s.evalCtxField == -1 && s.evalCtxOutput == -1)
@@ -113,7 +117,10 @@ Emulator {
 
 	step(s EmulatorState, clk string, val ulong) {
 		EmulatorRunner.setInput(s, s.moduleInstances[0], clk, val)
-		EmulatorRunner.run(s, s.stepProgram)
+		EmulatorRunner.run(s, s.propagateProgram)
+		EmulatorRunner.run(s, s.updateProgram)
+		Emulator.commitValues(s)
+		EmulatorRunner.run(s, s.propagateProgram)
 	}
 
 	commitValues(s EmulatorState) {
@@ -142,7 +149,7 @@ EmulatorStep {
 	clock(s EmulatorState, st ClockStatement) {
 		token(s, st.name) // TODO: does not actually check edges, just looks at current state
 		if st.keyword.value != "posedge" {
-			emit(s, Opcode.invert)
+			emit(s, Opcode.not)
 		}
 		pc := emit(s, Opcode.jumpIfZero)
 		block(s, st.body)
@@ -421,6 +428,9 @@ EmulatorStep {
 		if e.builtin == BuiltinCall.rep {
 			rep(s, e)
 			return
+		} else if e.builtin == BuiltinCall.cast_ {
+			cast_(s, e)
+			return
 		} else if e.builtin == BuiltinCall.slice {
 			slice(s, e)
 			return
@@ -452,13 +462,36 @@ EmulatorStep {
 		}
 	}
 
+	cast_(s EmulatorState, e CallExpression) {
+		assert(s.evalCtxField == -1 && s.evalCtxOutput == -1)
+		fromTag := s.typeMap.get(e.args[0].expr)
+		tag := s.typeMap.get(e.args[1].expr)
+		assert(fromTag.kind == TagKind.number)
+		assert(tag.kind == TagKind.number && tag.q > 0)
+		expression(s, e.args[0].expr)
+		if fromTag.q == 0 {
+			if tag.q <= 64 {
+				mask(s, tag)
+			}
+		} else if tag.q < fromTag.q {
+			if tag.q <= 64 {
+				if fromTag.q > 64 {
+					emit(s, Opcode.toULong)
+				}
+				mask(s, tag)
+			} else {
+				abandon()
+			}
+		}
+	}
+
 	slice(s EmulatorState, e CallExpression) {
 		assert(s.evalCtxField == -1 && s.evalCtxOutput == -1)
-		dest := s.typeMap.get(e.args[0].expr)
+		target := s.typeMap.get(e.args[0].expr)
 		expression(s, e.args[0].expr)
 		expression(s, e.args[1].expr)
 		expression(s, e.args[2].expr)
-		emiti(s, Opcode.slice, TypeChecker.unpackWidth(dest))
+		emiti(s, Opcode.slice, TypeChecker.unpackWidth(target))
 	}
 
 	assignSlice(s EmulatorState, st AssignStatement, e CallExpression, si int) {

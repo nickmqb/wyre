@@ -252,6 +252,7 @@ CallExpression struct #RefType {
 BuiltinCall enum {
 	none
 	rep
+	cast_
 	slice
 	chunk
 	swizzle

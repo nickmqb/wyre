@@ -122,7 +122,7 @@ TypeChecker {
 			s.isStaticExpr = false
 			if etr.tag.kind != TagKind.unknown {
 				if def.type != null {
-					if canAssign(s, etr.tag, etr.value, dt) {
+					if canAssign_andUpgrade(s, etr.tag, etr.value, def.expr, dt) {
 						if etr.value.kind != ValueKind.none {
 							// OK
 						} else {
@@ -200,7 +200,7 @@ TypeChecker {
 						s.errors.add(Error.at(s.unit, def.type.span, "Field type cannot be larger than $64"))
 					}
 				} else {
-					expectedFixedNumber(s, def.type)
+					expectedFixedNumberType(s, def.type)
 				}
 			}
 		}
@@ -313,6 +313,17 @@ TypeChecker {
 	}
 
 	assign(s TypeCheckerState, st AssignStatement) {
+		assignSym(s, st)
+		if st.flags & AssignFlags.regUpdate != 0 {
+			if s.inClock {
+				// OK
+			} else {
+				s.errors.add(Error.at(s.unit, st.outKeyword != null ? st.outKeyword.span : RangeFinder.find(st.nameExpr), "Statement must be placed inside clock statement"))
+			}
+		}
+	}
+
+	assignSym(s TypeCheckerState, st AssignStatement) {
 		if st.flags & AssignFlags.typeCheckDone != 0 {
 			return
 		}
@@ -335,11 +346,11 @@ TypeChecker {
 			// OK
 		} else if st.flags & AssignFlags.typeCheckStarted == 0 {
 			prev := pushContext(s, st.module.unit, st.module)
-			assign(s, st)
+			assignSym(s, st)
 			restoreContext(s, prev)
 		} else {
 			kind := (st.flags & AssignFlags.reg != 0) ? "register" : "wire"
-			s.errors.add(Error.at(s.unit, RangeFinder.find(reference), format("Recursive reference to {}", kind)))
+			s.errors.add(Error.at(s.unit, RangeFinder.find(reference), format("Type of {} cannot be inferred due to recursive reference, please specify the type explicity", kind)))
 		}
 	}
 
@@ -373,11 +384,7 @@ TypeChecker {
 			} else if st.op.value == "<=" {
 				st.flags |= AssignFlags.regUpdate
 				if st.expr != null {
-					if s.inClock {
-						// OK
-					} else {
-						s.errors.add(Error.at(s.unit, st.outKeyword != null ? st.outKeyword.span : RangeFinder.find(st.nameExpr), "Statement must be placed inside clock statement"))
-					}
+					// OK
 				} else {
 					s.errors.add(Error.atIndex(s.unit, st.op.span.to, "Expected: expression"))
 				}
@@ -393,17 +400,15 @@ TypeChecker {
 		if st.expr != null {
 			if st.type != null {
 				tag := typename(s, st, st.type)
-				if st.flags & AssignFlags.regUpdate != 0 {
-					// Mark as done so reg can be referenced by expression. This is fine as we have just determined the type of the register.
-					st.flags |= AssignFlags.typeCheckDone 
-				}
+				// Mark as done so reg can be referenced by expression. This is fine as we have just determined the type of the register.
+				st.flags |= AssignFlags.typeCheckDone 
 				s.isStaticExpr = st.flags & AssignFlags.regUpdate == 0
 				rhs := expressionWithGap(s, st.expr, st.type != null, tag)
 				s.isStaticExpr = false
 				if st.op != null && tag.isValid() {
 					if isFixedNumberOrStruct(tag) {
 						if rhs.tag.isValid() {
-							if canAssign(s, rhs.tag, rhs.value, tag) {
+							if canAssign_andUpgrade(s, rhs.tag, rhs.value, st.expr, tag) {
 								s.module.numRegSlots += numSlots(s.comp, tag)
 							} else {
 								badAssign(s, st.op, rhs.tag, tag)
@@ -488,12 +493,14 @@ TypeChecker {
 			if st.expr != null {
 				if st.type != null {
 					tag := typename(s, st, st.type)
+					// Mark as done so reg can be referenced by expression. This is fine as we have just determined the type of the wire.
+					st.flags |= AssignFlags.typeCheckDone 
 					s.isStaticExpr = st.flags & AssignFlags.static != 0
 					rhs := expressionWithGap(s, st.expr, st.type != null, tag)
 					s.isStaticExpr = false
 					if st.op != null && tag.isValid() {
 						if isFixedNumberOrStruct(tag) {
-							if canAssign(s, rhs.tag, rhs.value, tag) {
+							if canAssign_andUpgrade(s, rhs.tag, rhs.value, st.expr, tag) {
 								// OK
 							} else {
 								badAssign(s, st.op, rhs.tag, tag)
@@ -547,10 +554,6 @@ TypeChecker {
 	}
 
 	regUpdate(s TypeCheckerState, st AssignStatement) {
-		if !s.inClock {
-			s.errors.add(Error.at(s.unit, st.outKeyword != null ? st.outKeyword.span : RangeFinder.find(st.nameExpr), "Statement must be placed inside clock statement"))
-		}
-
 		if s.module.blackboxKeyword != null {
 			statementNotAllowedInsideBlackbox(s, st.outKeyword != null ? st.outKeyword : st.nameExpr)
 		}
@@ -587,7 +590,7 @@ TypeChecker {
 				}
 				if st.expr != null {
 					rhs := expressionWithGap(s, st.expr, true, tag)
-					if canAssign(s, rhs.tag, rhs.value, tag) {
+					if canAssign_andUpgrade(s, rhs.tag, rhs.value, st.expr, tag) {
 						// OK
 					} else {
 						badAssign(s, st.op, rhs.tag, tag)
@@ -629,7 +632,7 @@ TypeChecker {
 					}
 					if st.expr != null {
 						rhs := expressionWithGap(s, st.expr, true, tag)
-						if canAssign(s, rhs.tag, rhs.value, tag) {
+						if canAssign_andUpgrade(s, rhs.tag, rhs.value, st.expr, tag) {
 							// OK
 						} else {
 							badAssign(s, st.op, rhs.tag, tag)
@@ -826,13 +829,13 @@ TypeChecker {
 						unsupportedBinaryOp(s, e.op, lhs.tag, rhs.tag)
 					} else if lhs.tag.q > 0 || rhs.tag.q > 0 {
 						if lhs.tag.q == 0 {
-							if canConvertFreeConst(s, lhs.value, rhs.tag.q) {
+							if canConvertFreeConst_andUpgrade(s, lhs.value, e.lhs, rhs.tag) {
 								result.tag = Tag { kind: TagKind.number, q: rhs.tag.q }
 							} else {
 								badBinaryOperandConversion(s, RangeFinder.find(e.lhs), rhs.tag)
 							}
 						} else if rhs.tag.q == 0 {
-							if canConvertFreeConst(s, rhs.value, lhs.tag.q) {
+							if canConvertFreeConst_andUpgrade(s, rhs.value, e.rhs, lhs.tag) {
 								result.tag = Tag { kind: TagKind.number, q: lhs.tag.q }
 							} else {
 								badBinaryOperandConversion(s, RangeFinder.find(e.rhs), lhs.tag)
@@ -874,13 +877,13 @@ TypeChecker {
 						unsupportedBinaryOp(s, e.op, lhs.tag, rhs.tag)
 					} else if lhs.tag.q > 0 || rhs.tag.q > 0 {
 						if lhs.tag.q == 0 {
-							if canConvertFreeConst(s, lhs.value, rhs.tag.q) {
+							if canConvertFreeConst_andUpgrade(s, lhs.value, e.lhs, rhs.tag) {
 								result.tag = Tag { kind: TagKind.number, q: 1 }
 							} else {
 								badBinaryOperandConversion(s, RangeFinder.find(e.lhs), rhs.tag)
 							}
 						} else if rhs.tag.q == 0 {
-							if canConvertFreeConst(s, rhs.value, lhs.tag.q) {
+							if canConvertFreeConst_andUpgrade(s, rhs.value, e.rhs, lhs.tag) {
 								result.tag = Tag { kind: TagKind.number, q: 1 }
 							} else {
 								badBinaryOperandConversion(s, RangeFinder.find(e.rhs), lhs.tag)
@@ -971,14 +974,14 @@ TypeChecker {
 		fe := e.falseExpr != null ? expressionContinueGap(s, e.falseExpr) : TypeCheckResult{}
 		if s.gap && s.gapTag.kind == TagKind.number && s.gapTag.q > 0 {
 			if te.tag.isValid() {
-				if canAssign(s, te.tag, te.value, s.gapTag) {
+				if canAssign_andUpgrade(s, te.tag, te.value, e.trueExpr, s.gapTag) {
 					// OK
 				} else {
 					badConversion(s, e.trueExpr, te.tag, s.gapTag)
 				}
 			}
 			if fe.tag.isValid() {
-				if canAssign(s, fe.tag, fe.value, s.gapTag) {
+				if canAssign_andUpgrade(s, fe.tag, fe.value, e.falseExpr, s.gapTag) {
 					// OK
 				} else {
 					badConversion(s, e.falseExpr, fe.tag, s.gapTag)
@@ -990,13 +993,13 @@ TypeChecker {
 				if te.tag.kind == TagKind.number && fe.tag.kind == TagKind.number {										
 					if te.tag.q > 0 || fe.tag.q > 0 {
 						if te.tag.q == 0 {
-							if canConvertFreeConst(s, te.value, fe.tag.q) {
+							if canConvertFreeConst_andUpgrade(s, te.value, e.trueExpr, fe.tag) {
 								result.tag = Tag { kind: TagKind.number, q: fe.tag.q }
 							} else {
 								badBinaryOperandConversion(s, RangeFinder.find(e.trueExpr), fe.tag)
 							}
 						} else if fe.tag.q == 0 {
-							if canConvertFreeConst(s, fe.value, te.tag.q) {
+							if canConvertFreeConst_andUpgrade(s, fe.value, e.falseExpr, te.tag) {
 								result.tag = Tag { kind: TagKind.number, q: te.tag.q }
 							} else {
 								badBinaryOperandConversion(s, RangeFinder.find(e.falseExpr), te.tag)
@@ -1073,7 +1076,7 @@ TypeChecker {
 			if vex.tag.isValid() {
 				if vex.tag.kind == TagKind.number && vex.value.kind == ValueKind.ulong_ {
 					if condValid {
-						if canAssign(s, vex.tag, vex.value, target.tag) {
+						if canAssign_andUpgrade(s, vex.tag, vex.value, c.valueExpr, target.tag) {
 							// OK
 						} else {
 							badConstConversion(s, c.valueExpr, vex.tag, target.tag)
@@ -1203,6 +1206,8 @@ TypeChecker {
 	call(s TypeCheckerState, e CallExpression) {
 		if e.builtin == BuiltinCall.rep {
 			return rep(s, e)
+		} else if e.builtin == BuiltinCall.cast_ {
+			return cast_(s, e)
 		} else if e.builtin == BuiltinCall.slice {
 			return slice(s, e)
 		} else if e.builtin == BuiltinCall.chunk {
@@ -1273,7 +1278,7 @@ TypeChecker {
 					rhs := expressionWithGap(s, arg.expr, true, tag)
 					s.allowDontCare = false
 					s.isStaticExpr = false
-					if !canAssign(s, rhs.tag, rhs.value, tag) {
+					if !canAssign_andUpgrade(s, rhs.tag, rhs.value, arg.expr, tag) {
 						badAssign(s, arg.colon, rhs.tag, tag)
 					}
 					if arg.name == null {
@@ -1344,7 +1349,7 @@ TypeChecker {
 
 				if arg.expr != null {
 					rhs := expressionWithGap(s, arg.expr, true, tag)
-					if !canAssign(s, rhs.tag, rhs.value, tag) {
+					if !canAssign_andUpgrade(s, rhs.tag, rhs.value, arg.expr, tag) {
 						badAssign(s, arg.colon, rhs.tag, tag)
 					}
 					if arg.name == null {

@@ -29,6 +29,30 @@ TypeChecker {
 		return result
 	}
 
+	cast_(s TypeCheckerState, e CallExpression) {
+		if s.isStaticExpr {
+			// OK
+		} else if s.comp.flags & CompilationFlags.simulate == 0 {
+			s.errors.add(Error.at(s.unit, RangeFinder.find(e.target), "cast() can only be used in static initializer or in simulator"))
+		}
+		builtinArgs(s, e, 2)
+		target := numberArg(s, e, 0)
+		typeArg := fixedNumericTypeArg(s, e, 1)
+		result := TypeCheckResult{}
+		if target.tag.isValid() && typeArg.tag.isValid() {
+			result.tag = typeArg.tag
+			if typeArg.tag.q >= target.tag.q || typeArg.tag.q <= 64 {
+				// OK
+			} else {
+				s.errors.add(Error.at(s.unit, RangeFinder.find(e), "Unsupported cast; downcast not allowed for expressions larger than $64"))
+			}
+			if typeArg.tag.q >= target.tag.q && target.tag.q > 0 {
+				result.value = target.value
+			}
+		}
+		return result
+	}
+
 	slice(s TypeCheckerState, e CallExpression) {
 		if s.module == null {
 			s.errors.add(Error.at(s.unit, RangeFinder.find(e.target), "Cannot use slice() in constant initializer"))
@@ -108,7 +132,7 @@ TypeChecker {
 		}
 		if st.expr != null {
 			rhs := expressionWithGap(s, st.expr, true, tag)
-			if canAssign(s, rhs.tag, rhs.value, tag) {
+			if canAssign_andUpgrade(s, rhs.tag, rhs.value, st.expr, tag) {
 				// OK
 			} else {
 				badAssign(s, st.op, rhs.tag, tag)
@@ -258,5 +282,31 @@ TypeChecker {
 			}
 		}
 		return tr
+	}
+
+	fixedNumericTypeArg(s TypeCheckerState, e CallExpression, index int) {
+		if index >= e.args.count {
+			return TypeCheckResult{}
+		}
+		arg := e.args[index]
+		if arg.expr == null {
+			return TypeCheckResult{}
+		}
+		if arg.expr.is(Token) {
+			tag := typename(s, arg.expr, arg.expr.as(Token))
+			if tag.isValid() {
+				if tag.kind == TagKind.number && tag.q > 0 {
+					return TypeCheckResult { tag: tag }
+				} else {
+					expectedFixedNumberType(s, arg.expr)
+				}
+			}
+		} else {
+			tr := expression(s, arg.expr)
+			if tr.tag.isValid() {
+				expectedFixedNumberType(s, arg.expr)
+			}
+		}
+		return TypeCheckResult{}
 	}
 }

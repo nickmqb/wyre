@@ -13,6 +13,7 @@ Opcode enum {
 	discard
 	neg
 	invert
+	not
 	add
 	sub
 	and
@@ -30,6 +31,7 @@ Opcode enum {
 	slice
 	storeSlice
 	swizzle
+	toULong
 
 	toString(op Opcode) {
 		if op == Opcode.push {
@@ -60,6 +62,8 @@ Opcode enum {
 			return "neg"
 		} else if op == Opcode.invert {
 			return "invert"
+		} else if op == Opcode.not {
+			return "not"
 		} else if op == Opcode.add {
 			return "add"
 		} else if op == Opcode.sub {
@@ -94,6 +98,8 @@ Opcode enum {
 			return "storeSlice"
 		} else if op == Opcode.swizzle {
 			return "swizzle"
+		} else if op == Opcode.toULong {
+			return "toULong"
 		} else {
 			return "?"
 		}
@@ -147,6 +153,8 @@ EmulatorRunner {
 				stack[top].z = -unpack(stack[top])
 			} else if ins.op == Opcode.invert {
 				stack[top].z = ~unpack(stack[top])
+			} else if ins.op == Opcode.not {
+				stack[top].z = unpack(stack[top]) == 0 ? 1_uL : 0
 			} else if ins.op == Opcode.add {
 				binaryOperator(s, stack, unpack(stack[lhs]) + unpack(stack[top]))
 			} else if ins.op == Opcode.sub {
@@ -186,6 +194,8 @@ EmulatorRunner {
 				value := swizzle(s, stack[stack.count - 5], cast(unpack(stack[stack.count - 4]), int), cast(unpack(stack[stack.count - 3]), int), cast(unpack(stack[lhs]), int), cast(unpack(stack[top]), int))
 				stack.setCountChecked(stack.count - 5)
 				stack.add(value)
+			} else if ins.op == Opcode.toULong {
+				stack[top] = Value { z: unpackAsULong(stack[top]), kind: ValueKind.ulong_ }
 			} else {
 				abandon()
 			}

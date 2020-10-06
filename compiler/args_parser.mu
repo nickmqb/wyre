@@ -103,10 +103,10 @@ parseArgs(parser CommandLineArgsParser, isCompiler bool) {
 	if args.outputPath == "" && isCompiler {
 		parser.expected("--output [path]")
 	}
-	if !hasIndent && isCompiler {
+	if !hasIndent {
 		parser.expected("--indent [number]")
 	}
-	if !hasMaxErrors {
+	if !hasMaxErrors && isCompiler {
 		parser.expected("--max-errors [number]")
 	}
 

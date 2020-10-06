@@ -72,6 +72,7 @@ VerilogGenerator {
 		s.globals.add("output")
 		s.globals.add("inout")
 		s.globals.add("case")
+		s.globals.add("signed")
 
 		for u in s.comp.units {
 			for node in u.contents {
@@ -785,18 +786,21 @@ VerilogGenerator {
 	value(s GeneratorState, tag Tag, value Value) {
 		s.isNonIndexable = true
 		assert(tag.kind == TagKind.number)
+		if tag.q == 0 {
+			write(s, "(((compiler_bug:invalid_num")
+		}
 		if value.kind == ValueKind.ulong_ {
-			if tag.q > 0 {
-				write(s, format("{}'d{}", tag.q, value.z))
-			} else {
-				write(s, format("{}", value.z))
-			}
+			write(s, format("{}'d{}", tag.q, value.z))
 		} else if value.kind == ValueKind.byteArray {
 			data := EmulatorRunner.unpackArray(value)
 			write(s, format("{}'h", tag.q))
 			from := min((tag.q + 7) / 8, data.count)
-			for i := from - 1; i >= 0; i -= 1 {
-				Util.writeByteHexTo(data[i], s.out.sb)
+			if from > 0 {
+				for i := from - 1; i >= 0; i -= 1 {
+					Util.writeByteHexTo(data[i], s.out.sb)
+				}
+			} else {
+				write(s, "0")
 			}
 		} else {
 			abandon()

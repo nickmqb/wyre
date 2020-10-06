@@ -252,13 +252,18 @@ EmulatorOrderCalculator {
 	block(s EmulatorState, st Block) {
 		for n in st.contents {
 			match n {
-				ClockStatement: block(s, n.body)
+				ClockStatement: clock(s, n)
 				IfStatement: if_(s, n)
 				AssignStatement: assign(s, n)
 			}
 		}
 	}
 	
+	clock(s EmulatorState, st ClockStatement) {
+		token(s, st.name)
+		block(s, st.body)
+	}
+
 	if_(s EmulatorState, st IfStatement) {
 		expression(s, st.expr)
 		block(s, st.ifBody)
@@ -328,8 +333,9 @@ EmulatorOrderCalculator {
 					abandon()
 				}
 			} else if st.nameExpr.is(CallExpression) {
-				call := st.nameExpr.as(CallExpression)
-				if call.builtin == BuiltinCall.slice {
+				callExpr := st.nameExpr.as(CallExpression)
+				if callExpr.builtin == BuiltinCall.slice {
+					call(s, callExpr)
 					expression(s, st.expr)
 				} else {
 					abandon()

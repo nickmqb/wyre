@@ -29,10 +29,19 @@ TypeChecker {
 		return "[unknown]"
 	}
 
-	canAssign(s TypeCheckerState, from Tag, fromValue Value, to Tag) {
+	canAssign_andUpgrade(s TypeCheckerState, from Tag, fromValue Value, node Node, to Tag) {
 		if to.kind != TagKind.unknown {
 			if from.kind == TagKind.number {
-				return to.kind == TagKind.number && (to.q == from.q || (from.q == 0 && canConvertFreeConst(s, fromValue, to.q)))
+				if to.kind == TagKind.number {
+					assert(to.q > 0)
+					if to.q == from.q {
+						return true
+					}
+					if from.q == 0 {
+						return canConvertFreeConst_andUpgrade(s, fromValue, node, to)
+					}
+				}
+				return false
 			} else if from.kind == TagKind.moduleOut || from.kind == TagKind.struct_ {
 				return to.kind == from.kind && to.q == from.q
 			}
@@ -51,9 +60,10 @@ TypeChecker {
 		return result
 	}
 
-	canConvertFreeConst(s TypeCheckerState, val Value, width int) {
-		if val.kind == ValueKind.ulong_ {
-			return highestBit(val.z) <= width //|| highestBit(~val.z) < width
+	canConvertFreeConst_andUpgrade(s TypeCheckerState, fromValue Value, node Node, to Tag) {
+		if fromValue.kind == ValueKind.ulong_ && highestBit(fromValue.z) <= to.q {
+			s.typeMap.update(node, to)
+			return true
 		}
 		return false
 	}
@@ -163,7 +173,7 @@ TypeChecker {
 		s.errors.add(Error.at(s.unit, op.span, format("Cannot apply operator {} to argument of type {} and target of type {}", op.value, tagString(s.comp, arg), tagString(s.comp, target))))
 	}
 
-	expectedFixedNumber(s TypeCheckerState, e Node) {
+	expectedFixedNumberType(s TypeCheckerState, e Node) {
 		s.errors.add(Error.at(s.unit, RangeFinder.find(e), "Expected: fixed width numeric type"))
 	}
 

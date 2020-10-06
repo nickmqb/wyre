@@ -1,5 +1,5 @@
 //tab_size=4
-:compilerVersion = "0.1.1"
+:compilerVersion = "0.1.2"
 
 ParseCommaListState enum {
 	start
@@ -671,6 +671,8 @@ Parser {
 			name := lhs.as(Token).value
 			if name == "rep" {
 				node.builtin = BuiltinCall.rep
+			} else if name == "cast" {
+				node.builtin = BuiltinCall.cast_
 			} else if name == "slice" {
 				node.builtin = BuiltinCall.slice
 			} else if name == "chunk" {
