@@ -40,293 +40,299 @@ typedef char* cstring__;
 #define mu_____nomatch() { top_____abandonFn__(-5); }
 // STRING TABLE
 string__ mu_____string0 = { (pointer__)"", 0 };
-string__ mu_____string62 = { (pointer__)"Expected: statement", 19 };
-string__ mu_____string52 = { (pointer__)"Value does not fit into suffix type", 35 };
-string__ mu_____string41 = { (pointer__)"!=", 2 };
-string__ mu_____string151 = { (pointer__)"Don't care values are not allowed here", 38 };
-string__ mu_____string244 = { (pointer__)"[{}:0] ", 7 };
+string__ mu_____string63 = { (pointer__)"Expected: statement", 19 };
+string__ mu_____string53 = { (pointer__)"Value does not fit into suffix type", 35 };
+string__ mu_____string42 = { (pointer__)"!=", 2 };
+string__ mu_____string152 = { (pointer__)"Don't care values are not allowed here", 38 };
+string__ mu_____string250 = { (pointer__)"[{}:0] ", 7 };
 string__ mu_____string18 = { (pointer__)"if", 2 };
-string__ mu_____string186 = { (pointer__)"Top module input cannot be static", 33 };
+string__ mu_____string189 = { (pointer__)"Top module input cannot be static", 33 };
 string__ mu_____string129 = { (pointer__)"Expected: <=", 12 };
-string__ mu_____string139 = { (pointer__)"Expected: register, register.field or slice(...)", 48 };
-string__ mu_____string210 = { (pointer__)"jump", 4 };
-string__ mu_____string93 = { (pointer__)"--version", 9 };
-string__ mu_____string45 = { (pointer__)">=", 2 };
-string__ mu_____string73 = { (pointer__)"(", 1 };
-string__ mu_____string225 = { (pointer__)"lte", 3 };
+string__ mu_____string140 = { (pointer__)"Expected: register, register.field or slice(...)", 48 };
+string__ mu_____string213 = { (pointer__)"jump", 4 };
+string__ mu_____string94 = { (pointer__)"--version", 9 };
+string__ mu_____string46 = { (pointer__)">=", 2 };
+string__ mu_____string244 = { (pointer__)"signed", 6 };
+string__ mu_____string74 = { (pointer__)"(", 1 };
+string__ mu_____string229 = { (pointer__)"lte", 3 };
 string__ mu_____string13 = { (pointer__)"{", 1 };
-string__ mu_____string159 = { (pointer__)"Cannot apply operator {} to arguments of type {} and {}", 55 };
+string__ mu_____string160 = { (pointer__)"Cannot apply operator {} to arguments of type {} and {}", 55 };
 string__ mu_____string11 = { (pointer__)"struct", 6 };
-string__ mu_____string43 = { (pointer__)">", 1 };
-string__ mu_____string100 = { (pointer__)"--indent [number]", 17 };
-string__ mu_____string171 = { (pointer__)"Index out of range: must be lower than first value", 50 };
-string__ mu_____string81 = { (pointer__)"\x09""", 1 };
-string__ mu_____string249 = { (pointer__)"{}", 2 };
-string__ mu_____string212 = { (pointer__)"dup", 3 };
-string__ mu_____string273 = { (pointer__)" }", 2 };
-string__ mu_____string67 = { (pointer__)"Incorrect indentation: close brace must be indented more", 56 };
-string__ mu_____string256 = { (pointer__)"'b", 2 };
+string__ mu_____string44 = { (pointer__)">", 1 };
+string__ mu_____string101 = { (pointer__)"--indent [number]", 17 };
+string__ mu_____string172 = { (pointer__)"Index out of range: must be lower than first value", 50 };
+string__ mu_____string82 = { (pointer__)"\x09""", 1 };
+string__ mu_____string215 = { (pointer__)"dup", 3 };
+string__ mu_____string279 = { (pointer__)" }", 2 };
+string__ mu_____string175 = { (pointer__)"cast() can only be used in static initializer or in simulator", 61 };
+string__ mu_____string68 = { (pointer__)"Incorrect indentation: close brace must be indented more", 56 };
+string__ mu_____string262 = { (pointer__)"'b", 2 };
 string__ mu_____string25 = { (pointer__)"Expected: expression", 20 };
 string__ mu_____string122 = { (pointer__)"Expected: out", 13 };
-string__ mu_____string162 = { (pointer__)"Expected: expression of type $module_out", 40 };
-string__ mu_____string205 = { (pointer__)"store", 5 };
-string__ mu_____string259 = { (pointer__)") ", 2 };
-string__ mu_____string141 = { (pointer__)"Expected: {} args but got {} args", 33 };
+string__ mu_____string163 = { (pointer__)"Expected: expression of type $module_out", 40 };
+string__ mu_____string208 = { (pointer__)"store", 5 };
+string__ mu_____string265 = { (pointer__)") ", 2 };
+string__ mu_____string142 = { (pointer__)"Expected: {} args but got {} args", 33 };
 string__ mu_____string2 = { (pointer__)"-", 1 };
-string__ mu_____string48 = { (pointer__)"|", 1 };
-string__ mu_____string193 = { (pointer__)"Expected: field name", 20 };
+string__ mu_____string49 = { (pointer__)"|", 1 };
+string__ mu_____string196 = { (pointer__)"Expected: field name", 20 };
 string__ mu_____string135 = { (pointer__)"Clock statements may not be nested", 34 };
 string__ mu_____string16 = { (pointer__)"identifier", 10 };
 string__ mu_____string115 = { (pointer__)"${}", 3 };
-string__ mu_____string211 = { (pointer__)"nop", 3 };
-string__ mu_____string148 = { (pointer__)"Recursive reference to {}", 25 };
-string__ mu_____string85 = { (pointer__)"--output", 8 };
-string__ mu_____string138 = { (pointer__)"Expected: register of type struct", 33 };
-string__ mu_____string222 = { (pointer__)"eq", 2 };
-string__ mu_____string87 = { (pointer__)"--indent", 8 };
-string__ mu_____string229 = { (pointer__)"shr", 3 };
-string__ mu_____string243 = { (pointer__)"input ", 6 };
-string__ mu_____string34 = { (pointer__)"]", 1 };
-string__ mu_____string71 = { (pointer__)"module input declaration", 24 };
-string__ mu_____string97 = { (pointer__)"One or more source files", 24 };
-string__ mu_____string276 = { (pointer__)" <= ", 4 };
-string__ mu_____string287 = { (pointer__)"Generated output: {}", 20 };
-string__ mu_____string278 = { (pointer__)"#(", 2 };
+string__ mu_____string214 = { (pointer__)"nop", 3 };
+string__ mu_____string249 = { (pointer__)"input ", 6 };
+string__ mu_____string86 = { (pointer__)"--output", 8 };
+string__ mu_____string139 = { (pointer__)"Expected: register of type struct", 33 };
+string__ mu_____string226 = { (pointer__)"eq", 2 };
+string__ mu_____string88 = { (pointer__)"--indent", 8 };
+string__ mu_____string233 = { (pointer__)"shr", 3 };
+string__ mu_____string282 = { (pointer__)" <= ", 4 };
+string__ mu_____string35 = { (pointer__)"]", 1 };
+string__ mu_____string72 = { (pointer__)"module input declaration", 24 };
+string__ mu_____string98 = { (pointer__)"One or more source files", 24 };
+string__ mu_____string293 = { (pointer__)"Generated output: {}", 20 };
+string__ mu_____string27 = { (pointer__)"cast", 4 };
 string__ mu_____string20 = { (pointer__)"zx", 2 };
-string__ mu_____string181 = { (pointer__)"Expected: constant; must be a divisor of step size", 50 };
-string__ mu_____string27 = { (pointer__)"slice", 5 };
+string__ mu_____string184 = { (pointer__)"Expected: constant; must be a divisor of step size", 50 };
+string__ mu_____string28 = { (pointer__)"slice", 5 };
+string__ mu_____string284 = { (pointer__)"#(", 2 };
 string__ mu_____string8 = { (pointer__)"rb", 2 };
-string__ mu_____string46 = { (pointer__)"&", 1 };
+string__ mu_____string47 = { (pointer__)"&", 1 };
 string__ mu_____string116 = { (pointer__)"$*", 2 };
-string__ mu_____string94 = { (pointer__)"--help", 6 };
-string__ mu_____string112 = { (pointer__)"Statement must be placed inside clock statement", 47 };
-string__ mu_____string180 = { (pointer__)"swizzle() can only be used in static initializer", 48 };
-string__ mu_____string60 = { (pointer__)"out", 3 };
+string__ mu_____string95 = { (pointer__)"--help", 6 };
+string__ mu_____string136 = { (pointer__)"Statement must be placed inside clock statement", 47 };
+string__ mu_____string183 = { (pointer__)"swizzle() can only be used in static initializer", 48 };
+string__ mu_____string61 = { (pointer__)"out", 3 };
 string__ mu_____string14 = { (pointer__)"posedge", 7 };
-string__ mu_____string29 = { (pointer__)"swizzle", 7 };
+string__ mu_____string30 = { (pointer__)"swizzle", 7 };
 string__ mu_____string127 = { (pointer__)"Cannot assign expression to blackbox output", 43 };
-string__ mu_____string51 = { (pointer__)"Invalid binary value", 20 };
+string__ mu_____string235 = { (pointer__)"toULong", 7 };
+string__ mu_____string52 = { (pointer__)"Invalid binary value", 20 };
 string__ mu_____string6 = { (pointer__)"%.*s", 4 };
-string__ mu_____string30 = { (pointer__)":", 1 };
-string__ mu_____string140 = { (pointer__)"slice() can only be used in static initializer or in simulator", 62 };
-string__ mu_____string153 = { (pointer__)"Cannot apply operator {} to argument of type {} and target of type {}", 69 };
-string__ mu_____string216 = { (pointer__)"add", 3 };
-string__ mu_____string65 = { (pointer__)"Expected: {}, or: close brace must be indented less", 51 };
-string__ mu_____string261 = { (pointer__)") ? (", 5 };
+string__ mu_____string31 = { (pointer__)":", 1 };
+string__ mu_____string141 = { (pointer__)"slice() can only be used in static initializer or in simulator", 62 };
+string__ mu_____string154 = { (pointer__)"Cannot apply operator {} to argument of type {} and target of type {}", 69 };
+string__ mu_____string220 = { (pointer__)"add", 3 };
+string__ mu_____string66 = { (pointer__)"Expected: {}, or: close brace must be indented less", 51 };
+string__ mu_____string267 = { (pointer__)") ? (", 5 };
+string__ mu_____string10 = { (pointer__)"0.1.2", 5 };
 string__ mu_____string113 = { (pointer__)"Expected: = or <=", 17 };
-string__ mu_____string233 = { (pointer__)"begin", 5 };
-string__ mu_____string240 = { (pointer__)"// Generated by Wyre compiler {}\x0a""", 33 };
-string__ mu_____string91 = { (pointer__)"--max-errors", 12 };
-string__ mu_____string32 = { (pointer__)")", 1 };
-string__ mu_____string142 = { (pointer__)"Expected: expression of fixed width numeric type", 48 };
+string__ mu_____string238 = { (pointer__)"begin", 5 };
+string__ mu_____string92 = { (pointer__)"--max-errors", 12 };
+string__ mu_____string246 = { (pointer__)"// Generated by Wyre compiler {}\x0a""", 33 };
+string__ mu_____string33 = { (pointer__)")", 1 };
+string__ mu_____string143 = { (pointer__)"Expected: expression of fixed width numeric type", 48 };
 string__ mu_____string23 = { (pointer__)"Expected: case item, or: close brace must be indented less", 58 };
-string__ mu_____string56 = { (pointer__)"---", 3 };
-string__ mu_____string187 = { (pointer__)"Blackbox module input must be of fixed numeric type", 51 };
-string__ mu_____string257 = { (pointer__)"x", 1 };
-string__ mu_____string49 = { (pointer__)"?", 1 };
-string__ mu_____string144 = { (pointer__)"Expected: constant", 18 };
-string__ mu_____string255 = { (pointer__)"if (", 4 };
-string__ mu_____string268 = { (pointer__)") == ", 5 };
-string__ mu_____string184 = { (pointer__)"Target type size must be a multiple of 8", 40 };
-string__ mu_____string66 = { (pointer__)"Incorrect indentation: must match previous {}", 45 };
-string__ mu_____string92 = { (pointer__)"Expected: number, > 0", 21 };
+string__ mu_____string57 = { (pointer__)"---", 3 };
+string__ mu_____string190 = { (pointer__)"Blackbox module input must be of fixed numeric type", 51 };
+string__ mu_____string263 = { (pointer__)"x", 1 };
+string__ mu_____string219 = { (pointer__)"not", 3 };
+string__ mu_____string50 = { (pointer__)"?", 1 };
+string__ mu_____string145 = { (pointer__)"Expected: constant", 18 };
+string__ mu_____string261 = { (pointer__)"if (", 4 };
+string__ mu_____string274 = { (pointer__)") == ", 5 };
+string__ mu_____string187 = { (pointer__)"Target type size must be a multiple of 8", 40 };
+string__ mu_____string67 = { (pointer__)"Incorrect indentation: must match previous {}", 45 };
+string__ mu_____string93 = { (pointer__)"Expected: number, > 0", 21 };
 string__ mu_____string132 = { (pointer__)"Struct must define at least one field", 37 };
-string__ mu_____string231 = { (pointer__)"module", 6 };
-string__ mu_____string88 = { (pointer__)"number", 6 };
+string__ mu_____string236 = { (pointer__)"module", 6 };
+string__ mu_____string89 = { (pointer__)"number", 6 };
 string__ mu_____string22 = { (pointer__)"Expected: newline", 17 };
-string__ mu_____string183 = { (pointer__)"Expected: constant; must be a divisor of target type size", 57 };
-string__ mu_____string195 = { (pointer__)"Undefined input: {}.{}", 22 };
-string__ mu_____string269 = { (pointer__)") :", 3 };
-string__ mu_____string79 = { (pointer__)"\"", 1 };
+string__ mu_____string186 = { (pointer__)"Expected: constant; must be a divisor of target type size", 57 };
+string__ mu_____string198 = { (pointer__)"Undefined input: {}.{}", 22 };
+string__ mu_____string275 = { (pointer__)") :", 3 };
+string__ mu_____string80 = { (pointer__)"\"", 1 };
 string__ mu_____string125 = { (pointer__)"Expected: expression of fixed width numeric type or struct type or module", 73 };
-string__ mu_____string218 = { (pointer__)"and", 3 };
-string__ mu_____string33 = { (pointer__)"}", 1 };
-string__ mu_____string263 = { (pointer__)"wire ", 5 };
-string__ mu_____string279 = { (pointer__)");", 2 };
-string__ mu_____string248 = { (pointer__)"{}'d{}", 6 };
+string__ mu_____string222 = { (pointer__)"and", 3 };
+string__ mu_____string34 = { (pointer__)"}", 1 };
+string__ mu_____string269 = { (pointer__)"wire ", 5 };
+string__ mu_____string285 = { (pointer__)");", 2 };
+string__ mu_____string255 = { (pointer__)"{}'d{}", 6 };
 string__ mu_____string1 = { (pointer__)"0", 1 };
-string__ mu_____string58 = { (pointer__)"Expected: hexadecimal byte value", 32 };
+string__ mu_____string59 = { (pointer__)"Expected: hexadecimal byte value", 32 };
 string__ mu_____string24 = { (pointer__)"Incorrect indentation: must match previous case", 47 };
-string__ mu_____string238 = { (pointer__)"case", 4 };
-string__ mu_____string282 = { (pointer__)"For documentation, see: https://github.com/nickmqb/wyre", 55 };
-string__ mu_____string283 = { (pointer__)"Top module not found: {}", 24 };
-string__ mu_____string201 = { (pointer__)"Logic loop detected", 19 };
+string__ mu_____string243 = { (pointer__)"case", 4 };
+string__ mu_____string288 = { (pointer__)"For documentation, see: https://github.com/nickmqb/wyre", 55 };
+string__ mu_____string289 = { (pointer__)"Top module not found: {}", 24 };
+string__ mu_____string204 = { (pointer__)"Logic loop detected", 19 };
 string__ mu_____string134 = { (pointer__)"Expected: fixed width numeric type", 34 };
-string__ mu_____string158 = { (pointer__)"Cannot convert operand to type {}", 33 };
-string__ mu_____string182 = { (pointer__)"Expected: constant; must be a divisor of block size", 51 };
-string__ mu_____string179 = { (pointer__)"Unsupported expression: cannot use swizzle() in constant initializer", 68 };
-string__ mu_____string38 = { (pointer__)">>", 2 };
-string__ mu_____string164 = { (pointer__)"Cannot unify values of type {} and {}", 37 };
-string__ mu_____string40 = { (pointer__)"==", 2 };
-string__ mu_____string72 = { (pointer__)"Expected: module input declaration", 34 };
-string__ mu_____string155 = { (pointer__)"Cannot apply operator {} to argument of type {}", 47 };
-string__ mu_____string199 = { (pointer__)"{}.{}", 5 };
-string__ mu_____string265 = { (pointer__)";", 1 };
-string__ mu_____string274 = { (pointer__)"end else begin", 14 };
-string__ mu_____string277 = { (pointer__)"(* keep *) ", 11 };
-string__ mu_____string242 = { (pointer__)"\x0a""", 1 };
+string__ mu_____string159 = { (pointer__)"Cannot convert operand to type {}", 33 };
+string__ mu_____string185 = { (pointer__)"Expected: constant; must be a divisor of block size", 51 };
+string__ mu_____string182 = { (pointer__)"Unsupported expression: cannot use swizzle() in constant initializer", 68 };
+string__ mu_____string39 = { (pointer__)">>", 2 };
+string__ mu_____string165 = { (pointer__)"Cannot unify values of type {} and {}", 37 };
+string__ mu_____string41 = { (pointer__)"==", 2 };
+string__ mu_____string73 = { (pointer__)"Expected: module input declaration", 34 };
+string__ mu_____string156 = { (pointer__)"Cannot apply operator {} to argument of type {}", 47 };
+string__ mu_____string202 = { (pointer__)"{}.{}", 5 };
+string__ mu_____string271 = { (pointer__)";", 1 };
+string__ mu_____string280 = { (pointer__)"end else begin", 14 };
+string__ mu_____string283 = { (pointer__)"(* keep *) ", 11 };
+string__ mu_____string248 = { (pointer__)"\x0a""", 1 };
 string__ mu_____string3 = { (pointer__)"%.17g", 5 };
 string__ mu_____string118 = { (pointer__)"[unknown]", 9 };
 string__ mu_____string128 = { (pointer__)"out keyword can only be used with register or wire declaration", 62 };
-string__ mu_____string185 = { (pointer__)"Cannot simulate blackbox module", 31 };
-string__ mu_____string188 = { (pointer__)"Recursive reference to module: {}", 33 };
-string__ mu_____string50 = { (pointer__)"case item", 9 };
-string__ mu_____string252 = { (pointer__)");\x0a""", 3 };
-string__ mu_____string253 = { (pointer__)"always @(", 9 };
-string__ mu_____string267 = { (pointer__)"(((", 3 };
-string__ mu_____string63 = { (pointer__)"Expected: field declaration", 27 };
-string__ mu_____string227 = { (pointer__)"gte", 3 };
-string__ mu_____string10 = { (pointer__)"0.1.1", 5 };
-string__ mu_____string95 = { (pointer__)"Invalid flag: {}", 16 };
-string__ mu_____string224 = { (pointer__)"lt", 2 };
-string__ mu_____string35 = { (pointer__)".", 1 };
-string__ mu_____string166 = { (pointer__)"Expected: numeric constant", 26 };
-string__ mu_____string197 = { (pointer__)", ", 2 };
-string__ mu_____string254 = { (pointer__)") begin", 7 };
-string__ mu_____string99 = { (pointer__)"--output [path]", 15 };
-string__ mu_____string157 = { (pointer__)"Unsupported expression: cannot apply operator {} to arguments of type {} and {}", 79 };
-string__ mu_____string104 = { (pointer__)"A symbol with the same name has already been defined", 52 };
-string__ mu_____string42 = { (pointer__)"<", 1 };
-string__ mu_____string156 = { (pointer__)"Invalid unary operator: {}", 26 };
-string__ mu_____string230 = { (pointer__)"storeSlice", 10 };
-string__ mu_____string47 = { (pointer__)"^", 1 };
-string__ mu_____string77 = { (pointer__)"Unexpected token(s)", 19 };
-string__ mu_____string236 = { (pointer__)"output", 6 };
-string__ mu_____string198 = { (pointer__)"Missing required parameters: {}", 31 };
-string__ mu_____string175 = { (pointer__)"Unsupported expression: cannot use chunk() in constant initializer", 66 };
-string__ mu_____string264 = { (pointer__)"local", 5 };
-string__ mu_____string143 = { (pointer__)"Expected: expression of numeric type", 36 };
-string__ mu_____string168 = { (pointer__)"Unsupported expression: cannot index argument of type {}", 56 };
-string__ mu_____string110 = { (pointer__)"Expected: identifier", 20 };
+string__ mu_____string188 = { (pointer__)"Cannot simulate blackbox module", 31 };
+string__ mu_____string191 = { (pointer__)"Recursive reference to module: {}", 33 };
+string__ mu_____string51 = { (pointer__)"case item", 9 };
+string__ mu_____string258 = { (pointer__)");\x0a""", 3 };
+string__ mu_____string259 = { (pointer__)"always @(", 9 };
+string__ mu_____string273 = { (pointer__)"(((", 3 };
+string__ mu_____string64 = { (pointer__)"Expected: field declaration", 27 };
+string__ mu_____string231 = { (pointer__)"gte", 3 };
+string__ mu_____string96 = { (pointer__)"Invalid flag: {}", 16 };
+string__ mu_____string228 = { (pointer__)"lt", 2 };
+string__ mu_____string36 = { (pointer__)".", 1 };
+string__ mu_____string167 = { (pointer__)"Expected: numeric constant", 26 };
+string__ mu_____string200 = { (pointer__)", ", 2 };
+string__ mu_____string260 = { (pointer__)") begin", 7 };
+string__ mu_____string100 = { (pointer__)"--output [path]", 15 };
+string__ mu_____string158 = { (pointer__)"Unsupported expression: cannot apply operator {} to arguments of type {} and {}", 79 };
+string__ mu_____string105 = { (pointer__)"A symbol with the same name has already been defined", 52 };
+string__ mu_____string43 = { (pointer__)"<", 1 };
+string__ mu_____string157 = { (pointer__)"Invalid unary operator: {}", 26 };
+string__ mu_____string234 = { (pointer__)"storeSlice", 10 };
+string__ mu_____string48 = { (pointer__)"^", 1 };
+string__ mu_____string78 = { (pointer__)"Unexpected token(s)", 19 };
+string__ mu_____string241 = { (pointer__)"output", 6 };
+string__ mu_____string254 = { (pointer__)"(((compiler_bug:invalid_num", 27 };
+string__ mu_____string201 = { (pointer__)"Missing required parameters: {}", 31 };
+string__ mu_____string178 = { (pointer__)"Unsupported expression: cannot use chunk() in constant initializer", 66 };
+string__ mu_____string270 = { (pointer__)"local", 5 };
+string__ mu_____string144 = { (pointer__)"Expected: expression of numeric type", 36 };
+string__ mu_____string169 = { (pointer__)"Unsupported expression: cannot index argument of type {}", 56 };
+string__ mu_____string111 = { (pointer__)"Expected: identifier", 20 };
+string__ mu_____string149 = { (pointer__)"Type of {} cannot be inferred due to recursive reference, please specify the type explicity", 91 };
 string__ mu_____string117 = { (pointer__)"[{}]", 4 };
 string__ mu_____string17 = { (pointer__)"statement", 9 };
-string__ mu_____string200 = { (pointer__)"{}_{}", 5 };
-string__ mu_____string217 = { (pointer__)"sub", 3 };
-string__ mu_____string258 = { (pointer__)"1", 1 };
-string__ mu_____string203 = { (pointer__)"pushArray", 9 };
+string__ mu_____string203 = { (pointer__)"{}_{}", 5 };
+string__ mu_____string221 = { (pointer__)"sub", 3 };
+string__ mu_____string264 = { (pointer__)"1", 1 };
+string__ mu_____string206 = { (pointer__)"pushArray", 9 };
 string__ mu_____string126 = { (pointer__)"Blackbox module output must be of fixed numeric type", 52 };
-string__ mu_____string149 = { (pointer__)"Recursive reference to const: {}", 32 };
-string__ mu_____string190 = { (pointer__)"Expected: module or function name", 33 };
-string__ mu_____string106 = { (pointer__)"Undefined type: {}", 18 };
-string__ mu_____string192 = { (pointer__)"Field has already been specified", 32 };
-string__ mu_____string137 = { (pointer__)"Undefined field: {}.{}", 22 };
-string__ mu_____string86 = { (pointer__)"path", 4 };
-string__ mu_____string165 = { (pointer__)"Cannot convert constant of type {} to {}", 40 };
-string__ mu_____string223 = { (pointer__)"neq", 3 };
-string__ mu_____string55 = { (pointer__)"Invalid decimal value", 21 };
+string__ mu_____string150 = { (pointer__)"Recursive reference to const: {}", 32 };
+string__ mu_____string193 = { (pointer__)"Expected: module or function name", 33 };
+string__ mu_____string107 = { (pointer__)"Undefined type: {}", 18 };
+string__ mu_____string195 = { (pointer__)"Field has already been specified", 32 };
+string__ mu_____string138 = { (pointer__)"Undefined field: {}.{}", 22 };
+string__ mu_____string87 = { (pointer__)"path", 4 };
+string__ mu_____string166 = { (pointer__)"Cannot convert constant of type {} to {}", 40 };
+string__ mu_____string176 = { (pointer__)"Unsupported cast; downcast not allowed for expressions larger than $64", 70 };
+string__ mu_____string227 = { (pointer__)"neq", 3 };
+string__ mu_____string56 = { (pointer__)"Invalid decimal value", 21 };
 string__ mu_____string9 = { (pointer__)"wb", 2 };
-string__ mu_____string36 = { (pointer__)"*", 1 };
-string__ mu_____string214 = { (pointer__)"neg", 3 };
-string__ mu_____string286 = { (pointer__)"Could not write to output file: {}", 34 };
-string__ mu_____string37 = { (pointer__)"<<", 2 };
-string__ mu_____string177 = { (pointer__)"Expected: constant; must be lower than number of chunks", 55 };
+string__ mu_____string37 = { (pointer__)"*", 1 };
+string__ mu_____string217 = { (pointer__)"neg", 3 };
+string__ mu_____string292 = { (pointer__)"Could not write to output file: {}", 34 };
+string__ mu_____string38 = { (pointer__)"<<", 2 };
+string__ mu_____string180 = { (pointer__)"Expected: constant; must be lower than number of chunks", 55 };
 string__ mu_____string124 = { (pointer__)"out keyword can only be used with wire of fixed with numeric type or struct type", 80 };
-string__ mu_____string64 = { (pointer__)"field type", 10 };
-string__ mu_____string69 = { (pointer__)"blackbox", 8 };
-string__ mu_____string83 = { (pointer__)"--top", 5 };
-string__ mu_____string272 = { (pointer__)"{ ", 2 };
-string__ mu_____string136 = { (pointer__)"Expected: expression of type $1", 31 };
-string__ mu_____string82 = { (pointer__)"    ", 4 };
-string__ mu_____string103 = { (pointer__)"{}{}\x0a""{}\x0a""{}{}", 12 };
+string__ mu_____string65 = { (pointer__)"field type", 10 };
+string__ mu_____string70 = { (pointer__)"blackbox", 8 };
+string__ mu_____string84 = { (pointer__)"--top", 5 };
+string__ mu_____string278 = { (pointer__)"{ ", 2 };
+string__ mu_____string137 = { (pointer__)"Expected: expression of type $1", 31 };
+string__ mu_____string83 = { (pointer__)"    ", 4 };
+string__ mu_____string104 = { (pointer__)"{}{}\x0a""{}\x0a""{}{}", 12 };
 string__ mu_____string120 = { (pointer__)"Expected: expression of fixed width numeric type or struct", 58 };
 string__ mu_____string5 = { (pointer__)"false", 5 };
 string__ mu_____string26 = { (pointer__)"rep", 3 };
-string__ mu_____string57 = { (pointer__)"~", 1 };
-string__ mu_____string54 = { (pointer__)"Invalid hexadecimal value", 25 };
-string__ mu_____string107 = { (pointer__)"Expected: expression that evaluates to constant during initialization", 69 };
-string__ mu_____string111 = { (pointer__)"=", 1 };
-string__ mu_____string173 = { (pointer__)"Expected: constant, > 0", 23 };
-string__ mu_____string105 = { (pointer__)"Invalid name; must start with letter, _ or #", 44 };
-string__ mu_____string206 = { (pointer__)"mask", 4 };
-string__ mu_____string176 = { (pointer__)"chunk() can only be used in static initializer", 46 };
-string__ mu_____string96 = { (pointer__)"Could not read file: {}", 23 };
-string__ mu_____string239 = { (pointer__)"_", 1 };
-string__ mu_____string226 = { (pointer__)"gt", 2 };
+string__ mu_____string58 = { (pointer__)"~", 1 };
+string__ mu_____string55 = { (pointer__)"Invalid hexadecimal value", 25 };
+string__ mu_____string108 = { (pointer__)"Expected: expression that evaluates to constant during initialization", 69 };
+string__ mu_____string112 = { (pointer__)"=", 1 };
+string__ mu_____string174 = { (pointer__)"Expected: constant, > 0", 23 };
+string__ mu_____string106 = { (pointer__)"Invalid name; must start with letter, _ or #", 44 };
+string__ mu_____string209 = { (pointer__)"mask", 4 };
+string__ mu_____string179 = { (pointer__)"chunk() can only be used in static initializer", 46 };
+string__ mu_____string97 = { (pointer__)"Could not read file: {}", 23 };
+string__ mu_____string245 = { (pointer__)"_", 1 };
+string__ mu_____string230 = { (pointer__)"gt", 2 };
 string__ mu_____string119 = { (pointer__)"Expected: fixed width numeric type or struct type", 49 };
-string__ mu_____string235 = { (pointer__)"input", 5 };
-string__ mu_____string209 = { (pointer__)"jumpIfZero", 10 };
-string__ mu_____string169 = { (pointer__)"Cannot index argument of type {}", 32 };
-string__ mu_____string78 = { (pointer__)" ", 1 };
-string__ mu_____string150 = { (pointer__)"Expected: register, wire or constant", 36 };
-string__ mu_____string170 = { (pointer__)"Index out of range", 18 };
-string__ mu_____string213 = { (pointer__)"discard", 7 };
+string__ mu_____string240 = { (pointer__)"input", 5 };
+string__ mu_____string212 = { (pointer__)"jumpIfZero", 10 };
+string__ mu_____string170 = { (pointer__)"Cannot index argument of type {}", 32 };
+string__ mu_____string79 = { (pointer__)" ", 1 };
+string__ mu_____string151 = { (pointer__)"Expected: register, wire or constant", 36 };
+string__ mu_____string171 = { (pointer__)"Index out of range", 18 };
+string__ mu_____string216 = { (pointer__)"discard", 7 };
 string__ mu_____string121 = { (pointer__)"Expected: type", 14 };
-string__ mu_____string84 = { (pointer__)"module name", 11 };
-string__ mu_____string196 = { (pointer__)"Expected: parameter name", 24 };
-string__ mu_____string219 = { (pointer__)"or", 2 };
-string__ mu_____string220 = { (pointer__)"xor", 3 };
-string__ mu_____string221 = { (pointer__)"mul", 3 };
-string__ mu_____string70 = { (pointer__)"input type", 10 };
-string__ mu_____string75 = { (pointer__)"Expected: struct, const or module declaration", 45 };
-string__ mu_____string262 = { (pointer__)") : (", 5 };
-string__ mu_____string266 = { (pointer__)"assign ", 7 };
-string__ mu_____string275 = { (pointer__)"(* keep *) reg ", 15 };
-string__ mu_____string61 = { (pointer__)"reg", 3 };
+string__ mu_____string85 = { (pointer__)"module name", 11 };
+string__ mu_____string199 = { (pointer__)"Expected: parameter name", 24 };
+string__ mu_____string223 = { (pointer__)"or", 2 };
+string__ mu_____string224 = { (pointer__)"xor", 3 };
+string__ mu_____string225 = { (pointer__)"mul", 3 };
+string__ mu_____string71 = { (pointer__)"input type", 10 };
+string__ mu_____string76 = { (pointer__)"Expected: struct, const or module declaration", 45 };
+string__ mu_____string268 = { (pointer__)") : (", 5 };
+string__ mu_____string272 = { (pointer__)"assign ", 7 };
+string__ mu_____string281 = { (pointer__)"(* keep *) reg ", 15 };
+string__ mu_____string62 = { (pointer__)"reg", 3 };
 string__ mu_____string21 = { (pointer__)"match", 5 };
 string__ mu_____string114 = { (pointer__)"Cannot assign {} to {}", 22 };
-string__ mu_____string147 = { (pointer__)"wire", 4 };
-string__ mu_____string152 = { (pointer__)"Unsupported expression: cannot apply operator {} to argument of type {}", 71 };
-string__ mu_____string178 = { (pointer__)"Expected: constant; must be a divisor of target type {}", 55 };
-string__ mu_____string191 = { (pointer__)"Expected: struct type", 21 };
-string__ mu_____string101 = { (pointer__)"--max-errors [number]", 21 };
-string__ mu_____string232 = { (pointer__)"endmodule", 9 };
-string__ mu_____string280 = { (pointer__)"\x0a""endmodule\x0a""", 11 };
-string__ mu_____string215 = { (pointer__)"invert", 6 };
-string__ mu_____string251 = { (pointer__)" = 0", 4 };
-string__ mu_____string167 = { (pointer__)"Must match type of previous case", 32 };
-string__ mu_____string39 = { (pointer__)"+", 1 };
-string__ mu_____string207 = { (pointer__)"index", 5 };
-string__ mu_____string208 = { (pointer__)"shlOr", 5 };
-string__ mu_____string234 = { (pointer__)"end", 3 };
-string__ mu_____string245 = { (pointer__)"output ", 7 };
-string__ mu_____string281 = { (pointer__)"Wyre compiler, version {}", 25 };
-string__ mu_____string44 = { (pointer__)"<=", 2 };
-string__ mu_____string53 = { (pointer__)"Invalid suffix type", 19 };
-string__ mu_____string68 = { (pointer__)"field declaration", 17 };
+string__ mu_____string148 = { (pointer__)"wire", 4 };
+string__ mu_____string153 = { (pointer__)"Unsupported expression: cannot apply operator {} to argument of type {}", 71 };
+string__ mu_____string181 = { (pointer__)"Expected: constant; must be a divisor of target type {}", 55 };
+string__ mu_____string194 = { (pointer__)"Expected: struct type", 21 };
+string__ mu_____string102 = { (pointer__)"--max-errors [number]", 21 };
+string__ mu_____string237 = { (pointer__)"endmodule", 9 };
+string__ mu_____string286 = { (pointer__)"\x0a""endmodule\x0a""", 11 };
+string__ mu_____string218 = { (pointer__)"invert", 6 };
+string__ mu_____string257 = { (pointer__)" = 0", 4 };
+string__ mu_____string168 = { (pointer__)"Must match type of previous case", 32 };
+string__ mu_____string40 = { (pointer__)"+", 1 };
+string__ mu_____string210 = { (pointer__)"index", 5 };
+string__ mu_____string211 = { (pointer__)"shlOr", 5 };
+string__ mu_____string239 = { (pointer__)"end", 3 };
+string__ mu_____string251 = { (pointer__)"output ", 7 };
+string__ mu_____string287 = { (pointer__)"Wyre compiler, version {}", 25 };
+string__ mu_____string45 = { (pointer__)"<=", 2 };
+string__ mu_____string54 = { (pointer__)"Invalid suffix type", 19 };
+string__ mu_____string69 = { (pointer__)"field declaration", 17 };
 string__ mu_____string133 = { (pointer__)"Field type cannot be larger than $64", 36 };
-string__ mu_____string98 = { (pointer__)"--top [module]", 14 };
-string__ mu_____string228 = { (pointer__)"shl", 3 };
-string__ mu_____string247 = { (pointer__)" = ", 3 };
-string__ mu_____string89 = { (pointer__)"Expected: number", 16 };
-string__ mu_____string271 = { (pointer__)"[", 1 };
+string__ mu_____string99 = { (pointer__)"--top [module]", 14 };
+string__ mu_____string232 = { (pointer__)"shl", 3 };
+string__ mu_____string253 = { (pointer__)" = ", 3 };
+string__ mu_____string90 = { (pointer__)"Expected: number", 16 };
+string__ mu_____string277 = { (pointer__)"[", 1 };
 string__ mu_____string130 = { (pointer__)"Expected: register", 18 };
-string__ mu_____string146 = { (pointer__)"register", 8 };
-string__ mu_____string28 = { (pointer__)"chunk", 5 };
-string__ mu_____string172 = { (pointer__)"Unsupported expression; type of expression cannot be larger than $64", 68 };
+string__ mu_____string147 = { (pointer__)"register", 8 };
+string__ mu_____string29 = { (pointer__)"chunk", 5 };
+string__ mu_____string173 = { (pointer__)"Unsupported expression; type of expression cannot be larger than $64", 68 };
 string__ mu_____string123 = { (pointer__)"Expected: :=", 12 };
-string__ mu_____string31 = { (pointer__)",", 1 };
-string__ mu_____string250 = { (pointer__)"{}'h", 4 };
-string__ mu_____string108 = { (pointer__)"Statement is not allowed inside blackbox module", 47 };
-string__ mu_____string154 = { (pointer__)"Cannot apply operator {} because target type is inferred", 56 };
-string__ mu_____string194 = { (pointer__)"Input has already been specified", 32 };
-string__ mu_____string163 = { (pointer__)"Cannot convert {} to {}", 23 };
-string__ mu_____string90 = { (pointer__)"Expected: number, >= 0", 22 };
+string__ mu_____string32 = { (pointer__)",", 1 };
+string__ mu_____string256 = { (pointer__)"{}'h", 4 };
+string__ mu_____string109 = { (pointer__)"Statement is not allowed inside blackbox module", 47 };
+string__ mu_____string155 = { (pointer__)"Cannot apply operator {} because target type is inferred", 56 };
+string__ mu_____string197 = { (pointer__)"Input has already been specified", 32 };
+string__ mu_____string164 = { (pointer__)"Cannot convert {} to {}", 23 };
+string__ mu_____string91 = { (pointer__)"Expected: number, >= 0", 22 };
 string__ mu_____string15 = { (pointer__)"negedge", 7 };
 string__ mu_____string7 = { (pointer__)"%.*s\x0a""", 5 };
-string__ mu_____string161 = { (pointer__)"Undefined output: {}.{}", 23 };
-string__ mu_____string76 = { (pointer__)"Incorrect indentation: top-level declaration may not be indented", 64 };
-string__ mu_____string160 = { (pointer__)"Invalid binary operator: {}", 27 };
-string__ mu_____string202 = { (pointer__)"push", 4 };
-string__ mu_____string102 = { (pointer__)"\x0a""-> {}:{}", 9 };
-string__ mu_____string237 = { (pointer__)"inout", 5 };
-string__ mu_____string109 = { (pointer__)"Invalid name; must start with letter or _", 41 };
+string__ mu_____string162 = { (pointer__)"Undefined output: {}.{}", 23 };
+string__ mu_____string77 = { (pointer__)"Incorrect indentation: top-level declaration may not be indented", 64 };
+string__ mu_____string161 = { (pointer__)"Invalid binary operator: {}", 27 };
+string__ mu_____string205 = { (pointer__)"push", 4 };
+string__ mu_____string103 = { (pointer__)"\x0a""-> {}:{}", 9 };
+string__ mu_____string242 = { (pointer__)"inout", 5 };
+string__ mu_____string110 = { (pointer__)"Invalid name; must start with letter or _", 41 };
 string__ mu_____string4 = { (pointer__)"true", 4 };
-string__ mu_____string174 = { (pointer__)"Cannot use slice() in constant initializer", 42 };
+string__ mu_____string177 = { (pointer__)"Cannot use slice() in constant initializer", 42 };
 string__ mu_____string12 = { (pointer__)"Expected: {}", 12 };
-string__ mu_____string145 = { (pointer__)"Expected: constant between 1 and 64 inclusive", 45 };
-string__ mu_____string204 = { (pointer__)"load", 4 };
+string__ mu_____string146 = { (pointer__)"Expected: constant between 1 and 64 inclusive", 45 };
+string__ mu_____string207 = { (pointer__)"load", 4 };
 string__ mu_____string19 = { (pointer__)"expression", 10 };
-string__ mu_____string284 = { (pointer__)"{} errors ({} shown)", 20 };
-string__ mu_____string246 = { (pointer__)"reg ", 4 };
-string__ mu_____string59 = { (pointer__)"else", 4 };
-string__ mu_____string74 = { (pointer__)":=", 2 };
+string__ mu_____string290 = { (pointer__)"{} errors ({} shown)", 20 };
+string__ mu_____string252 = { (pointer__)"reg ", 4 };
+string__ mu_____string60 = { (pointer__)"else", 4 };
+string__ mu_____string75 = { (pointer__)":=", 2 };
 string__ mu_____string131 = { (pointer__)"Undefined symbol: {}", 20 };
-string__ mu_____string285 = { (pointer__)"{} errors", 9 };
-string__ mu_____string80 = { (pointer__)"{}\x0a""{}\x0a""{}{}", 10 };
-string__ mu_____string189 = { (pointer__)"Expected: module name", 21 };
-string__ mu_____string260 = { (pointer__)" (", 2 };
-string__ mu_____string270 = { (pointer__)"{}'b{}", 6 };
-string__ mu_____string241 = { (pointer__)"\x0a""module ", 8 };
+string__ mu_____string291 = { (pointer__)"{} errors", 9 };
+string__ mu_____string81 = { (pointer__)"{}\x0a""{}\x0a""{}{}", 10 };
+string__ mu_____string192 = { (pointer__)"Expected: module name", 21 };
+string__ mu_____string266 = { (pointer__)" (", 2 };
+string__ mu_____string276 = { (pointer__)"{}'b{}", 6 };
+string__ mu_____string247 = { (pointer__)"\x0a""module ", 8 };
 // FORWARD TYPES
 typedef struct tag_____MapEntry__string__Ptr__FieldDef______ MapEntry__string__Ptr__FieldDef______;
 typedef struct tag_____MapEntry__Node__Tag____ MapEntry__Node__Tag____;
@@ -345,30 +351,30 @@ typedef struct tag_____StructDef__ StructDef__;
 typedef struct tag_____IAllocator__ IAllocator__;
 typedef struct tag_____IntRange__ IntRange__;
 typedef struct { int__ id__; pointer__ dataPtr__; } Node__;
-#define Node_____Ptr__BinaryOperatorExpression____ 1
-#define Node_____Ptr__TernaryOperatorExpression____ 2
-#define Node_____Ptr__MatchExpression____ 3
-#define Node_____Ptr__MatchExpressionCase____ 4
-#define Node_____Ptr__CallExpression____ 5
-#define Node_____Ptr__StructInitializerExpression____ 6
-#define Node_____Ptr__IndexExpression____ 7
-#define Node_____Ptr__NumberExpression____ 8
-#define Node_____Ptr__ParenExpression____ 9
-#define Node_____Ptr__Block____ 10
-#define Node_____Ptr__AssignStatement____ 11
-#define Node_____Ptr__ClockStatement____ 12
-#define Node_____Ptr__IfStatement____ 13
-#define Node_____Ptr__UnaryOperatorExpression____ 14
-#define Node_____Ptr__CodeUnit____ 15
-#define Node_____Ptr__BraceExpression____ 16
-#define Node_____Ptr__ArrayExpression____ 17
-#define Node_____Ptr__Token____ 18
-#define Node_____Ptr__ConstDef____ 19
-#define Node_____Ptr__StructDef____ 20
-#define Node_____Ptr__FieldDef____ 21
-#define Node_____Ptr__ModuleDef____ 22
-#define Node_____Ptr__ModuleInputDef____ 23
-#define Node_____Ptr__DotExpression____ 24
+#define Node_____Ptr__BraceExpression____ 1
+#define Node_____Ptr__ArrayExpression____ 2
+#define Node_____Ptr__Token____ 3
+#define Node_____Ptr__ModuleInputDef____ 4
+#define Node_____Ptr__Block____ 5
+#define Node_____Ptr__AssignStatement____ 6
+#define Node_____Ptr__ClockStatement____ 7
+#define Node_____Ptr__IfStatement____ 8
+#define Node_____Ptr__UnaryOperatorExpression____ 9
+#define Node_____Ptr__CodeUnit____ 10
+#define Node_____Ptr__ConstDef____ 11
+#define Node_____Ptr__StructDef____ 12
+#define Node_____Ptr__FieldDef____ 13
+#define Node_____Ptr__ModuleDef____ 14
+#define Node_____Ptr__DotExpression____ 15
+#define Node_____Ptr__BinaryOperatorExpression____ 16
+#define Node_____Ptr__TernaryOperatorExpression____ 17
+#define Node_____Ptr__MatchExpression____ 18
+#define Node_____Ptr__MatchExpressionCase____ 19
+#define Node_____Ptr__CallExpression____ 20
+#define Node_____Ptr__StructInitializerExpression____ 21
+#define Node_____Ptr__IndexExpression____ 22
+#define Node_____Ptr__NumberExpression____ 23
+#define Node_____Ptr__ParenExpression____ 24
 typedef struct tag_____Tag__ Tag__;
 typedef struct tag_____MatchExpression__ MatchExpression__;
 typedef struct tag_____CallArg__ CallArg__;
@@ -376,11 +382,11 @@ typedef struct tag_____BinaryOperatorExpression__ BinaryOperatorExpression__;
 typedef struct tag_____Result__string____ Result__string____;
 typedef uint32_t Opcode__;
 typedef struct tag_____QueuedCallArgs__ QueuedCallArgs__;
-typedef struct tag_____Maybe__uint____ Maybe__uint____;
 typedef struct tag_____Maybe__string____ Maybe__string____;
 typedef struct tag_____Maybe__long____ Maybe__long____;
 typedef struct tag_____Maybe__int____ Maybe__int____;
 typedef struct tag_____Maybe__ulong____ Maybe__ulong____;
+typedef struct tag_____Maybe__uint____ Maybe__uint____;
 typedef struct tag_____Map__NodeWithCtx__string____ Map__NodeWithCtx__string____;
 typedef struct tag_____Map__string__Ptr__FieldDef______ Map__string__Ptr__FieldDef______;
 typedef struct tag_____Map__string__Node____ Map__string__Node____;
@@ -416,24 +422,24 @@ typedef struct tag_____LocationInfo__ LocationInfo__;
 typedef uint32_t TagKind__;
 typedef struct tag_____IndexExpression__ IndexExpression__;
 typedef uint32_t BuiltinCall__;
-typedef struct tag_____List__Ptr__AssignStatement______ List__Ptr__AssignStatement______;
-typedef struct tag_____List__Error____ List__Error____;
-typedef struct tag_____List__Ptr__MatchExpressionCase______ List__Ptr__MatchExpressionCase______;
-typedef struct tag_____List__Ptr__CallArg______ List__Ptr__CallArg______;
-typedef struct tag_____List__QueuedCallArgs____ List__QueuedCallArgs____;
-typedef struct tag_____List__byte____ List__byte____;
-typedef struct tag_____List__Ptr__ModuleInstance______ List__Ptr__ModuleInstance______;
-typedef struct tag_____List__Node____ List__Node____;
 typedef struct tag_____List__SlotInfo____ List__SlotInfo____;
-typedef struct tag_____List__int____ List__int____;
 typedef struct tag_____List__Instruction____ List__Instruction____;
-typedef struct tag_____List__Value____ List__Value____;
 typedef struct tag_____List__string____ List__string____;
-typedef struct tag_____List__Ptr__SourceFile______ List__Ptr__SourceFile______;
 typedef struct tag_____List__Ptr__CodeUnit______ List__Ptr__CodeUnit______;
-typedef struct tag_____List__CommandLineArgsParserError____ List__CommandLineArgsParserError____;
 typedef struct tag_____List__Ptr__FieldDef______ List__Ptr__FieldDef______;
 typedef struct tag_____List__Ptr__ModuleInputDef______ List__Ptr__ModuleInputDef______;
+typedef struct tag_____List__Ptr__AssignStatement______ List__Ptr__AssignStatement______;
+typedef struct tag_____List__Ptr__MatchExpressionCase______ List__Ptr__MatchExpressionCase______;
+typedef struct tag_____List__Ptr__CallArg______ List__Ptr__CallArg______;
+typedef struct tag_____List__Error____ List__Error____;
+typedef struct tag_____List__Ptr__SourceFile______ List__Ptr__SourceFile______;
+typedef struct tag_____List__Ptr__ModuleInstance______ List__Ptr__ModuleInstance______;
+typedef struct tag_____List__Value____ List__Value____;
+typedef struct tag_____List__byte____ List__byte____;
+typedef struct tag_____List__int____ List__int____;
+typedef struct tag_____List__Node____ List__Node____;
+typedef struct tag_____List__QueuedCallArgs____ List__QueuedCallArgs____;
+typedef struct tag_____List__CommandLineArgsParserError____ List__CommandLineArgsParserError____;
 typedef struct tag_____Set__string____ Set__string____;
 typedef uint32_t TokenType__;
 typedef struct tag_____ArrayExpression__ ArrayExpression__;
@@ -442,20 +448,20 @@ typedef struct tag_____NodeWithCtx__ NodeWithCtx__;
 typedef struct tag_____RangeFinderState__ RangeFinderState__;
 typedef struct tag_____ClockStatement__ ClockStatement__;
 typedef uint32_t ModuleFlags__;
+typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ Array__MapEntry__NodeWithCtx__string______;
+typedef struct tag_____Array__MapEntry__Node__Tag______ Array__MapEntry__Node__Tag______;
+typedef struct tag_____Array__string____ Array__string____;
+typedef struct tag_____Array__bool____ Array__bool____;
+typedef struct tag_____Array__cstring____ Array__cstring____;
 typedef struct tag_____Array__IntRange____ Array__IntRange____;
 typedef struct tag_____Array__Error____ Array__Error____;
 typedef struct tag_____Array__int____ Array__int____;
 typedef struct tag_____Array__byte____ Array__byte____;
 typedef struct tag_____Array__SetEntry__string______ Array__SetEntry__string______;
-typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ Array__MapEntry__NodeWithCtx__string______;
 typedef struct tag_____Array__MapEntry__Node__Value______ Array__MapEntry__Node__Value______;
 typedef struct tag_____Array__MapEntry__Node__int______ Array__MapEntry__Node__int______;
 typedef struct tag_____Array__MapEntry__string__Node______ Array__MapEntry__string__Node______;
 typedef struct tag_____Array__MapEntry__string__Ptr__FieldDef________ Array__MapEntry__string__Ptr__FieldDef________;
-typedef struct tag_____Array__MapEntry__Node__Tag______ Array__MapEntry__Node__Tag______;
-typedef struct tag_____Array__string____ Array__string____;
-typedef struct tag_____Array__bool____ Array__bool____;
-typedef struct tag_____Array__cstring____ Array__cstring____;
 typedef struct tag_____MatchExpressionCase__ MatchExpressionCase__;
 typedef uint32_t ParseCommaListState__;
 typedef struct tag_____GeneratorState__ GeneratorState__;
@@ -473,9 +479,9 @@ typedef uint32_t ModuleInputFlags__;
 typedef struct tag_____IfStatement__ IfStatement__;
 typedef pointer__ (*fun__Ptr__ArenaAllocator____pointer__ssize__ssize__ssize__pointer____)(ArenaAllocator__*, pointer__, ssize__, ssize__, ssize__);
 typedef void__ (*fun__int__void____)(int__);
-typedef pointer__ (*fun__Ptr__ArenaAllocator____ssize__pointer____)(ArenaAllocator__*, ssize__);
 typedef pointer__ (*fun__pointer__ssize__pointer____)(pointer__, ssize__);
 typedef void__ (*fun__pointer__pointer__void____)(pointer__, pointer__);
+typedef pointer__ (*fun__Ptr__ArenaAllocator____ssize__pointer____)(ArenaAllocator__*, ssize__);
 typedef int__ (*fun__Error__Error__int____)(Error__, Error__);
 typedef pointer__ (*fun__pointer__pointer__ssize__ssize__ssize__pointer____)(pointer__, pointer__, ssize__, ssize__, ssize__);
 // STRUCTS
@@ -600,10 +606,6 @@ typedef struct tag_____QueuedCallArgs__ {
 	ModuleDef__* def__;
 	ModuleDef__* context__;
 } QueuedCallArgs__;
-typedef struct tag_____Maybe__uint____ {
-	uint__ value__;
-	bool__ hasValue__;
-} Maybe__uint____;
 typedef struct tag_____Maybe__string____ {
 	string__ value__;
 	bool__ hasValue__;
@@ -620,6 +622,10 @@ typedef struct tag_____Maybe__ulong____ {
 	ulong__ value__;
 	bool__ hasValue__;
 } Maybe__ulong____;
+typedef struct tag_____Maybe__uint____ {
+	uint__ value__;
+	bool__ hasValue__;
+} Maybe__uint____;
 typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -829,7 +835,8 @@ typedef struct tag_____EmulatorState__ {
 	int__ evalCtxOutput__;
 	List__Instruction____* tape__;
 	List__Instruction____* resetProgram__;
-	List__Instruction____* stepProgram__;
+	List__Instruction____* propagateProgram__;
+	List__Instruction____* updateProgram__;
 	List__Value____* stack__;
 	long__ cycle__;
 } EmulatorState__;
@@ -864,86 +871,26 @@ typedef struct tag_____IndexExpression__ {
 	Node__ lowerExpr__;
 	Token__* closeBracket__;
 } IndexExpression__;
-typedef struct tag_____List__Ptr__AssignStatement______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__AssignStatement______;
-typedef struct tag_____List__Error____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Error____;
-typedef struct tag_____List__Ptr__MatchExpressionCase______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__MatchExpressionCase______;
-typedef struct tag_____List__Ptr__CallArg______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__CallArg______;
-typedef struct tag_____List__QueuedCallArgs____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__QueuedCallArgs____;
-typedef struct tag_____List__byte____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__byte____;
-typedef struct tag_____List__Ptr__ModuleInstance______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__ModuleInstance______;
-typedef struct tag_____List__Node____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Node____;
 typedef struct tag_____List__SlotInfo____ {
 	pointer__ dataPtr__;
 	int__ count__;
 	int__ capacity__;
 } List__SlotInfo____;
-typedef struct tag_____List__int____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__int____;
 typedef struct tag_____List__Instruction____ {
 	pointer__ dataPtr__;
 	int__ count__;
 	int__ capacity__;
 } List__Instruction____;
-typedef struct tag_____List__Value____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Value____;
 typedef struct tag_____List__string____ {
 	pointer__ dataPtr__;
 	int__ count__;
 	int__ capacity__;
 } List__string____;
-typedef struct tag_____List__Ptr__SourceFile______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__SourceFile______;
 typedef struct tag_____List__Ptr__CodeUnit______ {
 	pointer__ dataPtr__;
 	int__ count__;
 	int__ capacity__;
 } List__Ptr__CodeUnit______;
-typedef struct tag_____List__CommandLineArgsParserError____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__CommandLineArgsParserError____;
 typedef struct tag_____List__Ptr__FieldDef______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -954,6 +901,66 @@ typedef struct tag_____List__Ptr__ModuleInputDef______ {
 	int__ count__;
 	int__ capacity__;
 } List__Ptr__ModuleInputDef______;
+typedef struct tag_____List__Ptr__AssignStatement______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__AssignStatement______;
+typedef struct tag_____List__Ptr__MatchExpressionCase______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__MatchExpressionCase______;
+typedef struct tag_____List__Ptr__CallArg______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__CallArg______;
+typedef struct tag_____List__Error____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Error____;
+typedef struct tag_____List__Ptr__SourceFile______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__SourceFile______;
+typedef struct tag_____List__Ptr__ModuleInstance______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__ModuleInstance______;
+typedef struct tag_____List__Value____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Value____;
+typedef struct tag_____List__byte____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__byte____;
+typedef struct tag_____List__int____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__int____;
+typedef struct tag_____List__Node____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Node____;
+typedef struct tag_____List__QueuedCallArgs____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__QueuedCallArgs____;
+typedef struct tag_____List__CommandLineArgsParserError____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__CommandLineArgsParserError____;
 typedef struct tag_____Array__SetEntry__string______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -991,6 +998,18 @@ typedef struct tag_____ClockStatement__ {
 	Token__* name__;
 	Block__* body__;
 } ClockStatement__;
+typedef struct tag_____Array__string____ {
+	pointer__ dataPtr__;
+	int__ count__;
+} Array__string____;
+typedef struct tag_____Array__bool____ {
+	pointer__ dataPtr__;
+	int__ count__;
+} Array__bool____;
+typedef struct tag_____Array__cstring____ {
+	pointer__ dataPtr__;
+	int__ count__;
+} Array__cstring____;
 typedef struct tag_____Array__IntRange____ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -1007,18 +1026,6 @@ typedef struct tag_____Array__byte____ {
 	pointer__ dataPtr__;
 	int__ count__;
 } Array__byte____;
-typedef struct tag_____Array__string____ {
-	pointer__ dataPtr__;
-	int__ count__;
-} Array__string____;
-typedef struct tag_____Array__bool____ {
-	pointer__ dataPtr__;
-	int__ count__;
-} Array__bool____;
-typedef struct tag_____Array__cstring____ {
-	pointer__ dataPtr__;
-	int__ count__;
-} Array__cstring____;
 typedef struct tag_____MatchExpressionCase__ {
 	Node__ valueExpr__;
 	Token__* colon__;
@@ -1135,34 +1142,36 @@ const int__ Stdin__tryReadLine_ioError__ = 2;
 const int__ Stdin__tryReadLine_eof__ = 1;
 const uint__ Opcode__discard__ = 11u;
 const uint__ Opcode__neg__ = 12u;
-const uint__ Opcode__mul__ = 19u;
-const uint__ Opcode__or__ = 17u;
-const uint__ Opcode__eq__ = 20u;
-const uint__ Opcode__shr__ = 27u;
+const uint__ Opcode__mul__ = 20u;
+const uint__ Opcode__or__ = 18u;
+const uint__ Opcode__eq__ = 21u;
+const uint__ Opcode__shr__ = 28u;
+const uint__ Opcode__not__ = 14u;
 const uint__ Opcode__jump__ = 8u;
-const uint__ Opcode__slice__ = 28u;
-const uint__ Opcode__sub__ = 15u;
-const uint__ Opcode__lte__ = 23u;
+const uint__ Opcode__slice__ = 29u;
+const uint__ Opcode__sub__ = 16u;
+const uint__ Opcode__lte__ = 24u;
 const uint__ Opcode__push__ = 0u;
 const uint__ Opcode__pushArray__ = 1u;
+const uint__ Opcode__toULong__ = 32u;
 const uint__ Opcode__invert__ = 13u;
-const uint__ Opcode__swizzle__ = 30u;
+const uint__ Opcode__swizzle__ = 31u;
 const uint__ Opcode__dup__ = 10u;
-const uint__ Opcode__and__ = 16u;
+const uint__ Opcode__and__ = 17u;
 const uint__ Opcode__load__ = 2u;
 const uint__ Opcode__mask__ = 4u;
 const uint__ Opcode__index__ = 5u;
 const uint__ Opcode__shlOr__ = 6u;
-const uint__ Opcode__lt__ = 22u;
+const uint__ Opcode__lt__ = 23u;
 const uint__ Opcode__store__ = 3u;
-const uint__ Opcode__gte__ = 25u;
-const uint__ Opcode__add__ = 14u;
-const uint__ Opcode__gt__ = 24u;
-const uint__ Opcode__neq__ = 21u;
-const uint__ Opcode__shl__ = 26u;
+const uint__ Opcode__gte__ = 26u;
+const uint__ Opcode__add__ = 15u;
+const uint__ Opcode__gt__ = 25u;
+const uint__ Opcode__neq__ = 22u;
+const uint__ Opcode__shl__ = 27u;
 const uint__ Opcode__jumpIfZero__ = 7u;
-const uint__ Opcode__storeSlice__ = 29u;
-const uint__ Opcode__xor__ = 18u;
+const uint__ Opcode__storeSlice__ = 30u;
+const uint__ Opcode__xor__ = 19u;
 const uint__ Opcode__nop__ = 9u;
 const long__ long__maxValue__ = 9223372036854775807LL;
 const long__ long__minValue__ = -9223372036854775807LL - 1;
@@ -1190,10 +1199,11 @@ const uint__ TagKind__unknown__ = 0u;
 const uint__ TagKind__struct___ = 3u;
 const uint__ TagKind__moduleOut__ = 2u;
 const uint__ BuiltinCall__rep__ = 1u;
-const uint__ BuiltinCall__slice__ = 2u;
-const uint__ BuiltinCall__chunk__ = 3u;
+const uint__ BuiltinCall__slice__ = 3u;
+const uint__ BuiltinCall__chunk__ = 4u;
+const uint__ BuiltinCall__cast___ = 2u;
+const uint__ BuiltinCall__swizzle__ = 5u;
 const uint__ BuiltinCall__none__ = 0u;
-const uint__ BuiltinCall__swizzle__ = 4u;
 const uint__ uint__maxValue__ = 4294967295u;
 const uint__ uint__minValue__ = 0u;
 const ushort__ ushort__minValue__ = 0u;
@@ -1237,6 +1247,7 @@ int__ double__compare__(double__ a__, double__ b__);
 void__ double__writeTo__(double__ val__, StringBuilder__* sb__);
 void__ EmulatorStep__unaryOperator__(EmulatorState__* s__, UnaryOperatorExpression__* e__);
 void__ EmulatorStep__pushValue__(EmulatorState__* s__, Value__ val__);
+void__ EmulatorStep__cast___(EmulatorState__* s__, CallExpression__* e__);
 void__ EmulatorStep__chunk__(EmulatorState__* s__, CallExpression__* e__);
 int__ EmulatorStep__emit__(EmulatorState__* s__, Opcode__ op__);
 void__ EmulatorStep__assign__(EmulatorState__* s__, AssignStatement__* st__);
@@ -1326,11 +1337,11 @@ Result__string____ Stdin__tryReadLine__();
 Result__string____ Result__fromValue__string____(string__ value__);
 Result__string____ Result__fromError__string____(int__ error__);
 string__ Opcode__toString__(Opcode__ op__);
-Maybe__uint____ Maybe__from__uint____(uint__ value__);
 Maybe__string____ Maybe__from__string____(string__ value__);
 Maybe__long____ Maybe__from__long____(long__ value__);
 Maybe__int____ Maybe__from__int____(int__ value__);
 Maybe__ulong____ Maybe__from__ulong____(ulong__ value__);
+Maybe__uint____ Maybe__from__uint____(uint__ value__);
 Maybe__string____ Map__maybeGet__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__);
 bool__ Map__containsKey__string__Node____(Map__string__Node____* this__, string__ key__);
 void__ Map__addOrUpdate__Node__int____(Map__Node__int____* this__, Node__ key__, int__ value__);
@@ -1342,6 +1353,7 @@ bool__ Map__tryAdd__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______
 void__ Map__add__NodeWithCtx__string____(Map__NodeWithCtx__string____* this__, NodeWithCtx__ key__, string__ value__);
 void__ Map__add__Node__Value____(Map__Node__Value____* this__, Node__ key__, Value__ value__);
 void__ Map__add__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__);
+void__ Map__update__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__);
 FieldDef__* Map__get__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__);
 Value__ Map__get__Node__Value____(Map__Node__Value____* this__, Node__ key__);
 Node__ Map__get__string__Node____(Map__string__Node____* this__, string__ key__);
@@ -1407,72 +1419,34 @@ CommandLineInfo__ CommandLineArgsParser__getCommandLineInfo__(CommandLineArgsPar
 void__ CommandLineArgsParser__expected__(CommandLineArgsParser__* self__, string__ text__);
 int__ CommandLineArgsParser__getNumColumns___(string__ s__, int__ tabSize__);
 void__ CrashHandler__enable__();
-void__ TypeChecker__expectedConstant__(TypeCheckerState__* s__, Node__ e__);
-void__ TypeChecker__badBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__);
-void__ TypeChecker__moduleInput__(TypeCheckerState__* s__, ModuleInputDef__* input__);
-bool__ TypeChecker__isValidEntityName__(string__ s__);
-void__ TypeChecker__statementNotAllowedInsideBlackbox__(TypeCheckerState__* s__, Node__ e__);
+void__ TypeChecker__expectedFixedNumberType__(TypeCheckerState__* s__, Node__ e__);
 void__ TypeChecker__unit__(TypeCheckerState__* s__, CodeUnit__* unit__);
-void__ TypeChecker__expectedFixedNumber__(TypeCheckerState__* s__, Node__ e__);
 int__ TypeChecker__highestBit__(ulong__ n__);
-void__ TypeChecker__badUnify__(TypeCheckerState__* s__, Token__* token__, Tag__ te__, Tag__ fe__);
-bool__ TypeChecker__canConvertFreeConst__(TypeCheckerState__* s__, Value__ val__, int__ width__);
-Tag__ TypeChecker__tag__(TypeCheckerState__* s__, string__ name__);
-void__ TypeChecker__reg__(TypeCheckerState__* s__, AssignStatement__* st__);
 void__ TypeChecker__fieldDef__(TypeCheckerState__* s__, FieldDef__* def__);
-void__ TypeChecker__ensureAssignDone__(TypeCheckerState__* s__, AssignStatement__* st__, Node__ reference__);
-void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__);
+TypeCheckResult__ TypeChecker__fixedNumericTypeArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__);
 void__ TypeChecker__if___(TypeCheckerState__* s__, IfStatement__* st__);
 void__ TypeChecker__badConstConversion__(TypeCheckerState__* s__, Node__ e__, Tag__ from__, Tag__ to__);
-void__ TypeChecker__module__(TypeCheckerState__* s__, ModuleDef__* def__);
 void__ TypeChecker__ensureStructDone__(TypeCheckerState__* s__, StructDef__* def__);
-void__ TypeChecker__ensureModuleDone__(TypeCheckerState__* s__, ModuleDef__* def__, Node__ location__);
-TypeCheckResult__ TypeChecker__number__(TypeCheckerState__* s__, NumberExpression__* e__);
 TypeCheckResult__ TypeChecker__dot__(TypeCheckerState__* s__, DotExpression__* e__);
-TypeCheckResult__ TypeChecker__structInit__(TypeCheckerState__* s__, StructInitializerExpression__* e__);
-bool__ TypeChecker__isFixedNumberOrStructOrModuleOut__(Tag__ tag__);
 void__ TypeChecker__badConversion__(TypeCheckerState__* s__, Node__ e__, Tag__ from__, Tag__ to__);
+void__ TypeChecker__unsupportedUnaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ tag__);
 int__ TypeChecker__unpackWidth__(Tag__ tag__);
 TypeCheckResult__ TypeChecker__array__(TypeCheckerState__* s__, ArrayExpression__* e__);
-void__ TypeChecker__unsupportedUnaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ tag__);
 void__ TypeChecker__badUnaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ tag__);
-TypeCheckResult__ TypeChecker__call__(TypeCheckerState__* s__, CallExpression__* e__);
-void__ TypeChecker__badAssign__(TypeCheckerState__* s__, Token__* at__, Tag__ from__, Tag__ to__);
-TypeCheckResult__ TypeChecker__index__(TypeCheckerState__* s__, IndexExpression__* e__);
-void__ TypeChecker__badSymbol__(TypeCheckerState__* s__, Token__* token__);
-void__ TypeChecker__invalidNamePrefix__(TypeCheckerState__* s__, Node__ e__);
-void__ TypeChecker__builtinArgs__(TypeCheckerState__* s__, CallExpression__* e__, int__ count__);
 TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, TernaryOperatorExpression__* e__);
 void__ TypeChecker__expectedFixedNumberOrStruct__(TypeCheckerState__* s__, Node__ e__);
 TypeCheckResult__ TypeChecker__token__(TypeCheckerState__* s__, Token__* e__);
 TypeCheckerContext__ TypeChecker__pushContext__(TypeCheckerState__* s__, CodeUnit__* unit__, ModuleDef__* def__);
-TypeCheckResult__ TypeChecker__brace__(TypeCheckerState__* s__, BraceExpression__* e__);
 void__ TypeChecker__badGapArgument__(TypeCheckerState__* s__, Token__* op__, Tag__ arg__, Tag__ target__);
 int__ TypeChecker__unpackInt__(Value__ value__);
-void__ TypeChecker__badGap__(TypeCheckerState__* s__, Token__* op__);
-TypeCheckResult__ TypeChecker__expressionContinueGap__(TypeCheckerState__* s__, Node__ e__);
 TypeCheckResult__ TypeChecker__unaryOperator__(TypeCheckerState__* s__, UnaryOperatorExpression__* e__);
-void__ TypeChecker__invalidNamePrefix_nonStatic__(TypeCheckerState__* s__, Node__ e__);
-TypeCheckResult__ TypeChecker__chunk__(TypeCheckerState__* s__, CallExpression__* e__);
-void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__);
-void__ TypeChecker__expectedFixedNumberExpression__(TypeCheckerState__* s__, Node__ e__);
-void__ TypeChecker__assign__(TypeCheckerState__* s__, AssignStatement__* st__);
-TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryOperatorExpression__* e__);
+bool__ TypeChecker__canAssign_andUpgrade__(TypeCheckerState__* s__, Tag__ from__, Value__ fromValue__, Node__ node__, Tag__ to__);
 Tag__ TypeChecker__typename__(TypeCheckerState__* s__, Node__ node__, Token__* name__);
-bool__ TypeChecker__canAssign__(TypeCheckerState__* s__, Tag__ from__, Value__ fromValue__, Tag__ to__);
-TypeCheckResult__ TypeChecker__fixedNumberArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__);
 TypeCheckResult__ TypeChecker__slice__(TypeCheckerState__* s__, CallExpression__* e__);
 void__ TypeChecker__unsupportedRegUpdate__(TypeCheckerState__* s__, Node__ e__);
-void__ TypeChecker__const__(TypeCheckerState__* s__, ConstDef__* def__);
-TypeCheckResult__ TypeChecker__expressionInner__(TypeCheckerState__* s__, Node__ e__);
-string__ TypeChecker__tagString__(Compilation__* comp__, Tag__ tag__);
-void__ TypeChecker__badBinaryOperandConversion__(TypeCheckerState__* s__, IntRange__ span__, Tag__ tag__);
 TypeCheckResult__ TypeChecker__assignSlice__(TypeCheckerState__* s__, AssignStatement__* st__, CallExpression__* e__);
-void__ TypeChecker__unsupportedBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__);
 TypeCheckResult__ TypeChecker__paren__(TypeCheckerState__* s__, ParenExpression__* e__);
-void__ TypeChecker__expectedStaticConstant__(TypeCheckerState__* s__, Node__ e__);
 void__ TypeChecker__clock__(TypeCheckerState__* s__, ClockStatement__* st__);
-TypeCheckResult__ TypeChecker__numberArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__);
 bool__ TypeChecker__isValidEntityName_nonStatic__(string__ s__);
 TypeCheckResult__ TypeChecker__rep__(TypeCheckerState__* s__, CallExpression__* e__);
 TypeCheckResult__ TypeChecker__swizzle__(TypeCheckerState__* s__, CallExpression__* e__);
@@ -1480,18 +1454,59 @@ void__ TypeChecker__block__(TypeCheckerState__* s__, Block__* st__);
 int__ TypeChecker__numSlots__(Compilation__* comp__, Tag__ tag__);
 TypeCheckResult__ TypeChecker__constantArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__);
 Maybe__int____ TypeChecker__tryUnpackInt__(Value__ value__);
+TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression__* e__);
+void__ TypeChecker__duplicateSymbol__(TypeCheckerState__* s__, Token__* token__);
+void__ TypeChecker__restoreContext__(TypeCheckerState__* s__, TypeCheckerContext__ ctx__);
+void__ TypeChecker__expectedConstant__(TypeCheckerState__* s__, Node__ e__);
+void__ TypeChecker__badBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__);
+void__ TypeChecker__moduleInput__(TypeCheckerState__* s__, ModuleInputDef__* input__);
+bool__ TypeChecker__isValidEntityName__(string__ s__);
+void__ TypeChecker__statementNotAllowedInsideBlackbox__(TypeCheckerState__* s__, Node__ e__);
+void__ TypeChecker__badUnify__(TypeCheckerState__* s__, Token__* token__, Tag__ te__, Tag__ fe__);
+bool__ TypeChecker__canConvertFreeConst_andUpgrade__(TypeCheckerState__* s__, Value__ fromValue__, Node__ node__, Tag__ to__);
+Tag__ TypeChecker__tag__(TypeCheckerState__* s__, string__ name__);
+void__ TypeChecker__reg__(TypeCheckerState__* s__, AssignStatement__* st__);
+void__ TypeChecker__ensureAssignDone__(TypeCheckerState__* s__, AssignStatement__* st__, Node__ reference__);
+void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__);
+void__ TypeChecker__module__(TypeCheckerState__* s__, ModuleDef__* def__);
+void__ TypeChecker__builtinArgs__(TypeCheckerState__* s__, CallExpression__* e__, int__ count__);
+void__ TypeChecker__ensureModuleDone__(TypeCheckerState__* s__, ModuleDef__* def__, Node__ location__);
+TypeCheckResult__ TypeChecker__number__(TypeCheckerState__* s__, NumberExpression__* e__);
+TypeCheckResult__ TypeChecker__structInit__(TypeCheckerState__* s__, StructInitializerExpression__* e__);
+void__ TypeChecker__assignSym__(TypeCheckerState__* s__, AssignStatement__* st__);
+bool__ TypeChecker__isFixedNumberOrStructOrModuleOut__(Tag__ tag__);
+void__ TypeChecker__invalidNamePrefix__(TypeCheckerState__* s__, Node__ e__);
+TypeCheckResult__ TypeChecker__call__(TypeCheckerState__* s__, CallExpression__* e__);
+void__ TypeChecker__badAssign__(TypeCheckerState__* s__, Token__* at__, Tag__ from__, Tag__ to__);
+TypeCheckResult__ TypeChecker__index__(TypeCheckerState__* s__, IndexExpression__* e__);
+void__ TypeChecker__badSymbol__(TypeCheckerState__* s__, Token__* token__);
+TypeCheckResult__ TypeChecker__brace__(TypeCheckerState__* s__, BraceExpression__* e__);
+void__ TypeChecker__badGap__(TypeCheckerState__* s__, Token__* op__);
+TypeCheckResult__ TypeChecker__expressionContinueGap__(TypeCheckerState__* s__, Node__ e__);
+void__ TypeChecker__invalidNamePrefix_nonStatic__(TypeCheckerState__* s__, Node__ e__);
+TypeCheckResult__ TypeChecker__chunk__(TypeCheckerState__* s__, CallExpression__* e__);
+TypeCheckResult__ TypeChecker__cast___(TypeCheckerState__* s__, CallExpression__* e__);
+void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__);
+void__ TypeChecker__expectedFixedNumberExpression__(TypeCheckerState__* s__, Node__ e__);
+void__ TypeChecker__assign__(TypeCheckerState__* s__, AssignStatement__* st__);
+TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryOperatorExpression__* e__);
+TypeCheckResult__ TypeChecker__fixedNumberArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__);
+void__ TypeChecker__const__(TypeCheckerState__* s__, ConstDef__* def__);
+TypeCheckResult__ TypeChecker__expressionInner__(TypeCheckerState__* s__, Node__ e__);
+string__ TypeChecker__tagString__(Compilation__* comp__, Tag__ tag__);
+void__ TypeChecker__badBinaryOperandConversion__(TypeCheckerState__* s__, IntRange__ span__, Tag__ tag__);
+void__ TypeChecker__unsupportedBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__);
+void__ TypeChecker__expectedStaticConstant__(TypeCheckerState__* s__, Node__ e__);
+TypeCheckResult__ TypeChecker__numberArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__);
 void__ TypeChecker__comp__(Compilation__* comp__);
 void__ TypeChecker__ensureConstDone__(TypeCheckerState__* s__, ConstDef__* def__, Node__ reference__);
 TypeCheckResult__ TypeChecker__expression__(TypeCheckerState__* s__, Node__ e__);
 void__ TypeChecker__struct___(TypeCheckerState__* s__, StructDef__* def__);
-TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression__* e__);
 bool__ TypeChecker__isFixedNumberOrStruct__(Tag__ tag__);
-void__ TypeChecker__duplicateSymbol__(TypeCheckerState__* s__, Token__* token__);
 void__ TypeChecker__expectedFixedNumberOrStructExpression__(TypeCheckerState__* s__, Node__ e__);
 TypeCheckResult__ TypeChecker__expressionWithGap__(TypeCheckerState__* s__, Node__ e__, bool__ gap__, Tag__ gapTag__);
 void__ TypeChecker__expectedNumberExpression__(TypeCheckerState__* s__, Node__ e__);
 void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, ModuleDef__* def__);
-void__ TypeChecker__restoreContext__(TypeCheckerState__* s__, TypeCheckerContext__ ctx__);
 void__ StringBuilder__reverseSlice__(StringBuilder__* sb__, int__ from__, int__ to__);
 void__ StringBuilder__clear__(StringBuilder__* sb__);
 string__ StringBuilder__toString__(StringBuilder__* this__);
@@ -1513,64 +1528,64 @@ int__ uint__compare__(uint__ a__, uint__ b__);
 void__ uint__writeTo__(uint__ val__, StringBuilder__* sb__);
 uint__ ushort__hash__(ushort__ val__);
 void__ ushort__writeTo__(ushort__ val__, StringBuilder__* sb__);
-void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__);
-void__ List__reserve__Error____(List__Error____* this__, int__ capacity__);
 void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__);
+void__ List__reserve__string____(List__string____* this__, int__ capacity__);
+void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__);
 void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__);
-void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__);
+void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__);
+void__ List__reserve__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, int__ capacity__);
+void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int__ capacity__);
+void__ List__reserve__Value____(List__Value____* this__, int__ capacity__);
+void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, int__ capacity__);
+void__ List__reserve__Error____(List__Error____* this__, int__ capacity__);
+void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__);
+void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__);
+void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int__ capacity__);
 void__ List__reserve__byte____(List__byte____* this__, int__ capacity__);
 void__ List__reserve__int____(List__int____* this__, int__ capacity__);
 void__ List__reserve__Node____(List__Node____* this__, int__ capacity__);
-void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__);
-void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__);
-void__ List__reserve__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, int__ capacity__);
-void__ List__reserve__Value____(List__Value____* this__, int__ capacity__);
-void__ List__reserve__string____(List__string____* this__, int__ capacity__);
-void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int__ capacity__);
-void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, int__ capacity__);
+void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__);
 void__ List__reserve__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, int__ capacity__);
-void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__);
-void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int__ capacity__);
 Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__);
 Array__byte____ List__slice__byte____(List__byte____* this__, int__ from__, int__ to__);
 Array__string____ List__slice__string____(List__string____* this__, int__ from__, int__ to__);
 void__ List__setCountChecked__Value____(List__Value____* this__, int__ count__);
-void__ List__add__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, FieldDef__* item__);
-void__ List__add__Error____(List__Error____* this__, Error__ item__);
-void__ List__add__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, ModuleInputDef__* item__);
-void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, CommandLineArgsParserError__ item__);
 void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__);
-void__ List__add__byte____(List__byte____* this__, byte__ item__);
-void__ List__add__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, ModuleInstance__* item__);
-void__ List__add__Node____(List__Node____* this__, Node__ item__);
-void__ List__add__int____(List__int____* this__, int__ item__);
-void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__);
-void__ List__add__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, CodeUnit__* item__);
-void__ List__add__Value____(List__Value____* this__, Value__ item__);
 void__ List__add__string____(List__string____* this__, string__ item__);
-void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__);
+void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__);
 void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__);
-void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__);
 void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__);
 void__ List__add__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, MatchExpressionCase__* item__);
-void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__);
-void__ List__grow__Error____(List__Error____* this__);
+void__ List__add__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, FieldDef__* item__);
+void__ List__add__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, ModuleInputDef__* item__);
+void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__);
+void__ List__add__Error____(List__Error____* this__, Error__ item__);
+void__ List__add__Value____(List__Value____* this__, Value__ item__);
+void__ List__add__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, ModuleInstance__* item__);
+void__ List__add__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, CodeUnit__* item__);
+void__ List__add__byte____(List__byte____* this__, byte__ item__);
+void__ List__add__int____(List__int____* this__, int__ item__);
+void__ List__add__Node____(List__Node____* this__, Node__ item__);
+void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__);
+void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, CommandLineArgsParserError__ item__);
 void__ List__grow__SlotInfo____(List__SlotInfo____* this__);
+void__ List__grow__string____(List__string____* this__);
+void__ List__grow__Instruction____(List__Instruction____* this__);
 void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__);
-void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__);
+void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__);
+void__ List__grow__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__);
+void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__);
+void__ List__grow__Value____(List__Value____* this__);
+void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__);
+void__ List__grow__Error____(List__Error____* this__);
+void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__);
+void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__);
+void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__);
 void__ List__grow__byte____(List__byte____* this__);
 void__ List__grow__int____(List__int____* this__);
 void__ List__grow__Node____(List__Node____* this__);
-void__ List__grow__Instruction____(List__Instruction____* this__);
-void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__);
-void__ List__grow__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__);
-void__ List__grow__Value____(List__Value____* this__);
-void__ List__grow__string____(List__string____* this__);
-void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__);
-void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__);
+void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__);
 void__ List__grow__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__);
-void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__);
-void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__);
 bool__ Set__tryRemove__string____(Set__string____* this__, string__ value__);
 bool__ Set__tryAdd__string____(Set__string____* this__, string__ value__);
 void__ Set__add__string____(Set__string____* this__, string__ value__);
@@ -1592,9 +1607,10 @@ void__ EmulatorOrderCalculator__assign__(EmulatorState__* s__, AssignStatement__
 void__ EmulatorOrderCalculator__assignRef__(EmulatorState__* s__, AssignStatement__* st__);
 void__ EmulatorOrderCalculator__token__(EmulatorState__* s__, Token__* e__);
 void__ EmulatorOrderCalculator__wire__(EmulatorState__* s__, AssignStatement__* st__);
-void__ EmulatorOrderCalculator__if___(EmulatorState__* s__, IfStatement__* st__);
 void__ EmulatorOrderCalculator__input__(EmulatorState__* s__, ModuleInputDef__* inp__);
+void__ EmulatorOrderCalculator__if___(EmulatorState__* s__, IfStatement__* st__);
 void__ EmulatorOrderCalculator__module__(EmulatorState__* s__, ModuleInstance__* inst__);
+void__ EmulatorOrderCalculator__clock__(EmulatorState__* s__, ClockStatement__* st__);
 void__ EmulatorOrderCalculator__logicLoop__(EmulatorState__* s__, Node__ e__);
 int__ CheckedMath__addPositiveInt__(int__ x__, int__ y__);
 ssize__ CheckedMath__mulPositiveSsize__(ssize__ x__, ssize__ y__);
@@ -1620,19 +1636,19 @@ void__ Stdout__write__(string__ s__);
 void__ Stdout__writeLine__(string__ s__);
 Array__byte____ Array__slice__byte____(Array__byte____* this__, int__ from__, int__ to__);
 void__ Array__stableSort__Error____(Array__Error____* items__, fun__Error__Error__int____ compareFn__);
+Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__);
+Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__);
+Array__string____ Array__cons__string____(int__ count__);
+Array__bool____ Array__cons__bool____(int__ count__);
 Array__IntRange____ Array__cons__IntRange____(int__ count__);
 Array__Error____ Array__cons__Error____(int__ count__);
 Array__int____ Array__cons__int____(int__ count__);
 Array__byte____ Array__cons__byte____(int__ count__);
 Array__SetEntry__string______ Array__cons__SetEntry__string______(int__ count__);
-Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__);
 Array__MapEntry__Node__Value______ Array__cons__MapEntry__Node__Value______(int__ count__);
 Array__MapEntry__Node__Tag______ Array__cons__MapEntry__Node__Tag______(int__ count__);
 Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__);
 Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__);
-Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__);
-Array__bool____ Array__cons__bool____(int__ count__);
-Array__string____ Array__cons__string____(int__ count__);
 void__ Array__clearValues__byte____(Array__byte____* this__);
 void__ Array__stableSortMerge___Error____(Array__Error____* src__, Array__Error____* dest__, int__ from__, int__ chunk__, fun__Error__Error__int____ compareFn__);
 void__ Array__copySlice__Error____(Array__Error____* src__, int__ from__, int__ to__, Array__Error____* dest__, int__ index__);
@@ -1805,7 +1821,7 @@ void__ EmulatorStep__unaryOperator__(EmulatorState__* s__, UnaryOperatorExpressi
 		local1.id__ = local1.dataPtr__ != null__ ? Node_____Ptr__UnaryOperatorExpression____ : 0;
 		EmulatorStep__mask__(s__, Map__get__Node__Tag____((s__)->typeMap__, local1));
 	} else {
-		if (string__equals__(op__, mu_____string57)) {
+		if (string__equals__(op__, mu_____string58)) {
 			EmulatorStep__emit__(s__, Opcode__invert__);
 			Node__ local2;
 			local2.dataPtr__ = (pointer__)(e__);
@@ -1827,6 +1843,47 @@ void__ EmulatorStep__pushValue__(EmulatorState__* s__, Value__ val__) {
 			EmulatorStep__emitz__(s__, Opcode__pushArray__, (val__).z__);
 		} else {
 			mu_____abandon(-1);
+		}
+	}
+}
+void__ EmulatorStep__cast___(EmulatorState__* s__, CallExpression__* e__) {
+	bool__ local0 = (((s__)->evalCtxField__)) == ((-1));
+	if (local0) {
+		local0 = (((s__)->evalCtxOutput__)) == ((-1));
+	}
+	mu_____assert(local0);
+	List__Ptr__CallArg______* local1 = (e__)->args__;
+	uint__ local2 = (uint__)(0);
+	mu_____boundscheck(local2 < (uint__)local1->count__);
+	Tag__ fromTag__ = Map__get__Node__Tag____((s__)->typeMap__, (((CallArg__**)local1->dataPtr__)[local2])->expr__);
+	List__Ptr__CallArg______* local3 = (e__)->args__;
+	uint__ local4 = (uint__)(1);
+	mu_____boundscheck(local4 < (uint__)local3->count__);
+	Tag__ tag__ = Map__get__Node__Tag____((s__)->typeMap__, (((CallArg__**)local3->dataPtr__)[local4])->expr__);
+	mu_____assert(((fromTag__).kind__) == (TagKind__number__));
+	bool__ local5 = ((tag__).kind__) == (TagKind__number__);
+	if (local5) {
+		local5 = (((tag__).q__)) > ((0));
+	}
+	mu_____assert(local5);
+	List__Ptr__CallArg______* local6 = (e__)->args__;
+	uint__ local7 = (uint__)(0);
+	mu_____boundscheck(local7 < (uint__)local6->count__);
+	EmulatorStep__expression__(s__, (((CallArg__**)local6->dataPtr__)[local7])->expr__);
+	if ((((fromTag__).q__)) == ((0))) {
+		if ((((tag__).q__)) <= ((64))) {
+			EmulatorStep__mask__(s__, tag__);
+		}
+	} else {
+		if ((((tag__).q__)) < (((fromTag__).q__))) {
+			if ((((tag__).q__)) <= ((64))) {
+				if ((((fromTag__).q__)) > ((64))) {
+					EmulatorStep__emit__(s__, Opcode__toULong__);
+				}
+				EmulatorStep__mask__(s__, tag__);
+			} else {
+				mu_____abandon(-1);
+			}
 		}
 	}
 }
@@ -1938,46 +1995,46 @@ void__ EmulatorStep__binaryOperator__(EmulatorState__* s__, BinaryOperatorExpres
 	EmulatorStep__expression__(s__, (e__)->lhs__);
 	EmulatorStep__expression__(s__, (e__)->rhs__);
 	string__ op__ = ((e__)->op__)->value__;
-	if (string__equals__(op__, mu_____string39)) {
+	if (string__equals__(op__, mu_____string40)) {
 		EmulatorStep__emit__(s__, Opcode__add__);
 	} else {
 		if (string__equals__(op__, mu_____string2)) {
 			EmulatorStep__emit__(s__, Opcode__sub__);
 		} else {
-			if (string__equals__(op__, mu_____string46)) {
+			if (string__equals__(op__, mu_____string47)) {
 				EmulatorStep__emit__(s__, Opcode__and__);
 			} else {
-				if (string__equals__(op__, mu_____string48)) {
+				if (string__equals__(op__, mu_____string49)) {
 					EmulatorStep__emit__(s__, Opcode__or__);
 				} else {
-					if (string__equals__(op__, mu_____string47)) {
+					if (string__equals__(op__, mu_____string48)) {
 						EmulatorStep__emit__(s__, Opcode__xor__);
 					} else {
-						if (string__equals__(op__, mu_____string36)) {
+						if (string__equals__(op__, mu_____string37)) {
 							EmulatorStep__emit__(s__, Opcode__mul__);
 						} else {
-							if (string__equals__(op__, mu_____string40)) {
+							if (string__equals__(op__, mu_____string41)) {
 								EmulatorStep__emit__(s__, Opcode__eq__);
 							} else {
-								if (string__equals__(op__, mu_____string41)) {
+								if (string__equals__(op__, mu_____string42)) {
 									EmulatorStep__emit__(s__, Opcode__neq__);
 								} else {
-									if (string__equals__(op__, mu_____string44)) {
+									if (string__equals__(op__, mu_____string45)) {
 										EmulatorStep__emit__(s__, Opcode__lte__);
 									} else {
-										if (string__equals__(op__, mu_____string42)) {
+										if (string__equals__(op__, mu_____string43)) {
 											EmulatorStep__emit__(s__, Opcode__lt__);
 										} else {
-											if (string__equals__(op__, mu_____string45)) {
+											if (string__equals__(op__, mu_____string46)) {
 												EmulatorStep__emit__(s__, Opcode__gte__);
 											} else {
-												if (string__equals__(op__, mu_____string43)) {
+												if (string__equals__(op__, mu_____string44)) {
 													EmulatorStep__emit__(s__, Opcode__gt__);
 												} else {
-													if (string__equals__(op__, mu_____string37)) {
+													if (string__equals__(op__, mu_____string38)) {
 														EmulatorStep__emit__(s__, Opcode__shl__);
 													} else {
-														if (string__equals__(op__, mu_____string38)) {
+														if (string__equals__(op__, mu_____string39)) {
 															EmulatorStep__emit__(s__, Opcode__shr__);
 														} else {
 															mu_____abandon(-1);
@@ -2018,7 +2075,7 @@ void__ EmulatorStep__slice__(EmulatorState__* s__, CallExpression__* e__) {
 	List__Ptr__CallArg______* local1 = (e__)->args__;
 	uint__ local2 = (uint__)(0);
 	mu_____boundscheck(local2 < (uint__)local1->count__);
-	Tag__ dest__ = Map__get__Node__Tag____((s__)->typeMap__, (((CallArg__**)local1->dataPtr__)[local2])->expr__);
+	Tag__ target__ = Map__get__Node__Tag____((s__)->typeMap__, (((CallArg__**)local1->dataPtr__)[local2])->expr__);
 	List__Ptr__CallArg______* local3 = (e__)->args__;
 	uint__ local4 = (uint__)(0);
 	mu_____boundscheck(local4 < (uint__)local3->count__);
@@ -2031,7 +2088,7 @@ void__ EmulatorStep__slice__(EmulatorState__* s__, CallExpression__* e__) {
 	uint__ local8 = (uint__)(2);
 	mu_____boundscheck(local8 < (uint__)local7->count__);
 	EmulatorStep__expression__(s__, (((CallArg__**)local7->dataPtr__)[local8])->expr__);
-	EmulatorStep__emiti__(s__, Opcode__slice__, TypeChecker__unpackWidth__(dest__));
+	EmulatorStep__emiti__(s__, Opcode__slice__, TypeChecker__unpackWidth__(target__));
 }
 void__ EmulatorStep__expressionInner__(EmulatorState__* s__, Node__ e__) {
 	switch ((e__).id__) {
@@ -2158,7 +2215,7 @@ void__ EmulatorStep__module__(EmulatorState__* s__, ModuleInstance__* inst__) {
 void__ EmulatorStep__clock__(EmulatorState__* s__, ClockStatement__* st__) {
 	EmulatorStep__token__(s__, (st__)->name__);
 	if (!string__equals__(((st__)->keyword__)->value__, mu_____string14)) {
-		EmulatorStep__emit__(s__, Opcode__invert__);
+		EmulatorStep__emit__(s__, Opcode__not__);
 	}
 	int__ pc__ = EmulatorStep__emit__(s__, Opcode__jumpIfZero__);
 	EmulatorStep__block__(s__, (st__)->body__);
@@ -2329,17 +2386,22 @@ void__ EmulatorStep__call__(EmulatorState__* s__, CallExpression__* e__) {
 		EmulatorStep__rep__(s__, e__);
 		return;
 	} else {
-		if (((e__)->builtin__) == (BuiltinCall__slice__)) {
-			EmulatorStep__slice__(s__, e__);
+		if (((e__)->builtin__) == (BuiltinCall__cast___)) {
+			EmulatorStep__cast___(s__, e__);
 			return;
 		} else {
-			if (((e__)->builtin__) == (BuiltinCall__chunk__)) {
-				EmulatorStep__chunk__(s__, e__);
+			if (((e__)->builtin__) == (BuiltinCall__slice__)) {
+				EmulatorStep__slice__(s__, e__);
 				return;
 			} else {
-				if (((e__)->builtin__) == (BuiltinCall__swizzle__)) {
-					EmulatorStep__swizzle__(s__, e__);
+				if (((e__)->builtin__) == (BuiltinCall__chunk__)) {
+					EmulatorStep__chunk__(s__, e__);
 					return;
+				} else {
+					if (((e__)->builtin__) == (BuiltinCall__swizzle__)) {
+						EmulatorStep__swizzle__(s__, e__);
+						return;
+					}
 				}
 			}
 		}
@@ -2648,7 +2710,7 @@ void__ top_____main__() {
 		StringBuilder__write__(&local6, top_____compilerVersion__);
 		Stdout__writeLine__(StringBuilder__compactToString__(&local6));
 		if ((args__)->printHelp__) {
-			Stdout__writeLine__(mu_____string282);
+			Stdout__writeLine__(mu_____string288);
 		}
 		exit(1);
 	}
@@ -2824,48 +2886,48 @@ Args__* top_____parseArgs__(CommandLineArgsParser__* parser__, bool__ isCompiler
 	while (true__) {
 		if (!(!string__equals__(token__, mu_____string0))) { break; }
 		if (string__startsWith__(token__, mu_____string2)) {
-			if (string__equals__(token__, mu_____string83)) {
+			if (string__equals__(token__, mu_____string84)) {
 				token__ = CommandLineArgsParser__readToken__(parser__);
 				if (!string__equals__(token__, mu_____string0)) {
 					(args__)->top__ = token__;
 				} else {
-					CommandLineArgsParser__expected__(parser__, mu_____string84);
+					CommandLineArgsParser__expected__(parser__, mu_____string85);
 				}
 			} else {
-				if (string__equals__(token__, mu_____string85)) {
+				if (string__equals__(token__, mu_____string86)) {
 					token__ = CommandLineArgsParser__readToken__(parser__);
 					if (!string__equals__(token__, mu_____string0)) {
 						(args__)->outputPath__ = token__;
 					} else {
-						CommandLineArgsParser__expected__(parser__, mu_____string86);
+						CommandLineArgsParser__expected__(parser__, mu_____string87);
 					}
 				} else {
-					if (string__equals__(token__, mu_____string87)) {
+					if (string__equals__(token__, mu_____string88)) {
 						Maybe__int____ num__ = top_____parseInt__(parser__);
 						if ((num__).hasValue__) {
 							if ((((num__).value__)) >= ((0))) {
 								(args__)->indent__ = (num__).value__;
 								hasIndent__ = true__;
 							} else {
-								CommandLineArgsParser__error__(parser__, mu_____string90);
+								CommandLineArgsParser__error__(parser__, mu_____string91);
 							}
 						}
 					} else {
-						if (string__equals__(token__, mu_____string91)) {
+						if (string__equals__(token__, mu_____string92)) {
 							Maybe__int____ num__ = top_____parseInt__(parser__);
 							if ((num__).hasValue__) {
 								if ((((num__).value__)) > ((0))) {
 									(args__)->maxErrors__ = (num__).value__;
 									hasMaxErrors__ = true__;
 								} else {
-									CommandLineArgsParser__error__(parser__, mu_____string92);
+									CommandLineArgsParser__error__(parser__, mu_____string93);
 								}
 							}
 						} else {
-							if (string__equals__(token__, mu_____string93)) {
+							if (string__equals__(token__, mu_____string94)) {
 								(args__)->printVersion__ = true__;
 							} else {
-								if (string__equals__(token__, mu_____string94)) {
+								if (string__equals__(token__, mu_____string95)) {
 									(args__)->printHelp__ = true__;
 								} else {
 									StringBuilder__ local4;
@@ -2903,27 +2965,27 @@ Args__* top_____parseArgs__(CommandLineArgsParser__* parser__, bool__ isCompiler
 		return args__;
 	}
 	if (((((args__)->sources__)->count__)) == ((0))) {
-		CommandLineArgsParser__expected__(parser__, mu_____string97);
+		CommandLineArgsParser__expected__(parser__, mu_____string98);
 	}
 	if (string__equals__((args__)->top__, mu_____string0)) {
-		CommandLineArgsParser__expected__(parser__, mu_____string98);
+		CommandLineArgsParser__expected__(parser__, mu_____string99);
 	}
 	bool__ local9 = string__equals__((args__)->outputPath__, mu_____string0);
 	if (local9) {
 		local9 = isCompiler__;
 	}
 	if (local9) {
-		CommandLineArgsParser__expected__(parser__, mu_____string99);
+		CommandLineArgsParser__expected__(parser__, mu_____string100);
 	}
-	bool__ local10 = !(hasIndent__);
+	if (!(hasIndent__)) {
+		CommandLineArgsParser__expected__(parser__, mu_____string101);
+	}
+	bool__ local10 = !(hasMaxErrors__);
 	if (local10) {
 		local10 = isCompiler__;
 	}
 	if (local10) {
-		CommandLineArgsParser__expected__(parser__, mu_____string100);
-	}
-	if (!(hasMaxErrors__)) {
-		CommandLineArgsParser__expected__(parser__, mu_____string101);
+		CommandLineArgsParser__expected__(parser__, mu_____string102);
 	}
 	return args__;
 }
@@ -4035,99 +4097,107 @@ Result__string____ Result__fromError__string____(int__ error__) {
 }
 string__ Opcode__toString__(Opcode__ op__) {
 	if ((op__) == (Opcode__push__)) {
-		return mu_____string202;
+		return mu_____string205;
 	} else {
 		if ((op__) == (Opcode__pushArray__)) {
-			return mu_____string203;
+			return mu_____string206;
 		} else {
 			if ((op__) == (Opcode__load__)) {
-				return mu_____string204;
+				return mu_____string207;
 			} else {
 				if ((op__) == (Opcode__store__)) {
-					return mu_____string205;
+					return mu_____string208;
 				} else {
 					if ((op__) == (Opcode__mask__)) {
-						return mu_____string206;
+						return mu_____string209;
 					} else {
 						if ((op__) == (Opcode__index__)) {
-							return mu_____string207;
+							return mu_____string210;
 						} else {
 							if ((op__) == (Opcode__shlOr__)) {
-								return mu_____string208;
+								return mu_____string211;
 							} else {
 								if ((op__) == (Opcode__jumpIfZero__)) {
-									return mu_____string209;
+									return mu_____string212;
 								} else {
 									if ((op__) == (Opcode__jump__)) {
-										return mu_____string210;
+										return mu_____string213;
 									} else {
 										if ((op__) == (Opcode__nop__)) {
-											return mu_____string211;
+											return mu_____string214;
 										} else {
 											if ((op__) == (Opcode__dup__)) {
-												return mu_____string212;
+												return mu_____string215;
 											} else {
 												if ((op__) == (Opcode__discard__)) {
-													return mu_____string213;
+													return mu_____string216;
 												} else {
 													if ((op__) == (Opcode__neg__)) {
-														return mu_____string214;
+														return mu_____string217;
 													} else {
 														if ((op__) == (Opcode__invert__)) {
-															return mu_____string215;
+															return mu_____string218;
 														} else {
-															if ((op__) == (Opcode__add__)) {
-																return mu_____string216;
+															if ((op__) == (Opcode__not__)) {
+																return mu_____string219;
 															} else {
-																if ((op__) == (Opcode__sub__)) {
-																	return mu_____string217;
+																if ((op__) == (Opcode__add__)) {
+																	return mu_____string220;
 																} else {
-																	if ((op__) == (Opcode__and__)) {
-																		return mu_____string218;
+																	if ((op__) == (Opcode__sub__)) {
+																		return mu_____string221;
 																	} else {
-																		if ((op__) == (Opcode__or__)) {
-																			return mu_____string219;
+																		if ((op__) == (Opcode__and__)) {
+																			return mu_____string222;
 																		} else {
-																			if ((op__) == (Opcode__xor__)) {
-																				return mu_____string220;
+																			if ((op__) == (Opcode__or__)) {
+																				return mu_____string223;
 																			} else {
-																				if ((op__) == (Opcode__mul__)) {
-																					return mu_____string221;
+																				if ((op__) == (Opcode__xor__)) {
+																					return mu_____string224;
 																				} else {
-																					if ((op__) == (Opcode__eq__)) {
-																						return mu_____string222;
+																					if ((op__) == (Opcode__mul__)) {
+																						return mu_____string225;
 																					} else {
-																						if ((op__) == (Opcode__neq__)) {
-																							return mu_____string223;
+																						if ((op__) == (Opcode__eq__)) {
+																							return mu_____string226;
 																						} else {
-																							if ((op__) == (Opcode__lt__)) {
-																								return mu_____string224;
+																							if ((op__) == (Opcode__neq__)) {
+																								return mu_____string227;
 																							} else {
-																								if ((op__) == (Opcode__lte__)) {
-																									return mu_____string225;
+																								if ((op__) == (Opcode__lt__)) {
+																									return mu_____string228;
 																								} else {
-																									if ((op__) == (Opcode__gt__)) {
-																										return mu_____string226;
+																									if ((op__) == (Opcode__lte__)) {
+																										return mu_____string229;
 																									} else {
-																										if ((op__) == (Opcode__gte__)) {
-																											return mu_____string227;
+																										if ((op__) == (Opcode__gt__)) {
+																											return mu_____string230;
 																										} else {
-																											if ((op__) == (Opcode__shl__)) {
-																												return mu_____string228;
+																											if ((op__) == (Opcode__gte__)) {
+																												return mu_____string231;
 																											} else {
-																												if ((op__) == (Opcode__shr__)) {
-																													return mu_____string229;
+																												if ((op__) == (Opcode__shl__)) {
+																													return mu_____string232;
 																												} else {
-																													if ((op__) == (Opcode__slice__)) {
-																														return mu_____string27;
+																													if ((op__) == (Opcode__shr__)) {
+																														return mu_____string233;
 																													} else {
-																														if ((op__) == (Opcode__storeSlice__)) {
-																															return mu_____string230;
+																														if ((op__) == (Opcode__slice__)) {
+																															return mu_____string28;
 																														} else {
-																															if ((op__) == (Opcode__swizzle__)) {
-																																return mu_____string29;
+																															if ((op__) == (Opcode__storeSlice__)) {
+																																return mu_____string234;
 																															} else {
-																																return mu_____string49;
+																																if ((op__) == (Opcode__swizzle__)) {
+																																	return mu_____string30;
+																																} else {
+																																	if ((op__) == (Opcode__toULong__)) {
+																																		return mu_____string235;
+																																	} else {
+																																		return mu_____string50;
+																																	}
+																																}
 																															}
 																														}
 																													}
@@ -4160,13 +4230,6 @@ string__ Opcode__toString__(Opcode__ op__) {
 		}
 	}
 }
-Maybe__uint____ Maybe__from__uint____(uint__ value__) {
-	Maybe__uint____ local0;
-	memset(&local0, 0, sizeof(Maybe__uint____));
-	local0.value__ = value__;
-	local0.hasValue__ = true__;
-	return local0;
-}
 Maybe__string____ Maybe__from__string____(string__ value__) {
 	Maybe__string____ local0;
 	memset(&local0, 0, sizeof(Maybe__string____));
@@ -4191,6 +4254,13 @@ Maybe__int____ Maybe__from__int____(int__ value__) {
 Maybe__ulong____ Maybe__from__ulong____(ulong__ value__) {
 	Maybe__ulong____ local0;
 	memset(&local0, 0, sizeof(Maybe__ulong____));
+	local0.value__ = value__;
+	local0.hasValue__ = true__;
+	return local0;
+}
+Maybe__uint____ Maybe__from__uint____(uint__ value__) {
+	Maybe__uint____ local0;
+	memset(&local0, 0, sizeof(Maybe__uint____));
 	local0.value__ = value__;
 	local0.hasValue__ = true__;
 	return local0;
@@ -4501,6 +4571,30 @@ void__ Map__add__Node__Value____(Map__Node__Value____* this__, Node__ key__, Val
 }
 void__ Map__add__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__) {
 	mu_____assert(Map__tryAdd__Node__Tag____(this__, key__, value__));
+}
+void__ Map__update__Node__Tag____(Map__Node__Tag____* this__, Node__ key__, Tag__ value__) {
+	uint__ h__ = Node__hash__(key__);
+	if (((h__)) == ((uint__)(0))) {
+		h__ = (uint__)(1);
+	}
+	uint__ b__ = ((h__)) & (((this__)->capacityMask__));
+	while (true__) {
+		if (!(true__)) { break; }
+		Array__MapEntry__Node__Tag______* local0 = &((this__)->entries__);
+		uint__ local1 = (uint__)(b__);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		MapEntry__Node__Tag____* e__ = &(((MapEntry__Node__Tag____*)local0->dataPtr__)[local1]);
+		mu_____assert((((e__)->hash__)) != ((uint__)(0)));
+		bool__ local2 = (((e__)->hash__)) == ((h__));
+		if (local2) {
+			local2 = (((e__)->key__).dataPtr__) == ((key__).dataPtr__);
+		}
+		if (local2) {
+			(e__)->value__ = value__;
+			return;
+		}
+		b__ = ((((b__)) + ((uint__)(1)))) & (((this__)->capacityMask__));
+	}
 }
 FieldDef__* Map__get__string__Ptr__FieldDef______(Map__string__Ptr__FieldDef______* this__, string__ key__) {
 	uint__ h__ = string__hash__(key__);
@@ -5109,14 +5203,14 @@ Maybe__long____ long__tryParseHex__(string__ s__) {
 Maybe__int____ top_____parseInt__(CommandLineArgsParser__* parser__) {
 	string__ token__ = CommandLineArgsParser__readToken__(parser__);
 	if (string__equals__(token__, mu_____string0)) {
-		CommandLineArgsParser__expected__(parser__, mu_____string88);
+		CommandLineArgsParser__expected__(parser__, mu_____string89);
 		Maybe__int____ local0;
 		memset(&local0, 0, sizeof(Maybe__int____));
 		return local0;
 	}
 	Maybe__int____ val__ = int__tryParse__(token__);
 	if (!((val__).hasValue__)) {
-		CommandLineArgsParser__error__(parser__, mu_____string89);
+		CommandLineArgsParser__error__(parser__, mu_____string90);
 	}
 	return val__;
 }
@@ -5485,12 +5579,17 @@ EmulatorState__* Emulator__init__(Compilation__* comp__, ModuleDef__* top__) {
 	List__Instruction____ local16;
 	memset(&local16, 0, sizeof(List__Instruction____));
 	*local15 = local16;
-	local1.stepProgram__ = local15;
-	List__Value____* local17 = (List__Value____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(List__Value____));
-	List__Value____ local18;
-	memset(&local18, 0, sizeof(List__Value____));
+	local1.propagateProgram__ = local15;
+	List__Instruction____* local17 = (List__Instruction____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(List__Instruction____));
+	List__Instruction____ local18;
+	memset(&local18, 0, sizeof(List__Instruction____));
 	*local17 = local18;
-	local1.stack__ = local17;
+	local1.updateProgram__ = local17;
+	List__Value____* local19 = (List__Value____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(List__Value____));
+	List__Value____ local20;
+	memset(&local20, 0, sizeof(List__Value____));
+	*local19 = local20;
+	local1.stack__ = local19;
 	local1.cycle__ = (long__)(-1);
 	*local0 = local1;
 	EmulatorState__* s__ = local0;
@@ -5502,61 +5601,62 @@ EmulatorState__* Emulator__init__(Compilation__* comp__, ModuleDef__* top__) {
 	}
 	(s__)->tape__ = (s__)->resetProgram__;
 	{
-		List__int____* local19 = (s__)->evalOrder__;
-		int__ local20 = 0;
-		while (local20 < local19->count__) {
-			int__ si__ = ((int__*)(local19->dataPtr__))[local20];
-			List__SlotInfo____* local22 = (s__)->infos__;
-			uint__ local23 = (uint__)(si__);
-			mu_____boundscheck(local23 < (uint__)local22->count__);
-			bool__ local21 = (((SlotInfo__*)local22->dataPtr__)[local23]).isStatic__;
-			if (!local21) {
-				List__SlotInfo____* local24 = (s__)->infos__;
-				uint__ local25 = (uint__)(si__);
-				mu_____boundscheck(local25 < (uint__)local24->count__);
-				local21 = (((SlotInfo__*)local24->dataPtr__)[local25]).isReg__;
+		List__int____* local21 = (s__)->evalOrder__;
+		int__ local22 = 0;
+		while (local22 < local21->count__) {
+			int__ si__ = ((int__*)(local21->dataPtr__))[local22];
+			List__SlotInfo____* local24 = (s__)->infos__;
+			uint__ local25 = (uint__)(si__);
+			mu_____boundscheck(local25 < (uint__)local24->count__);
+			bool__ local23 = (((SlotInfo__*)local24->dataPtr__)[local25]).isStatic__;
+			if (!local23) {
+				List__SlotInfo____* local26 = (s__)->infos__;
+				uint__ local27 = (uint__)(si__);
+				mu_____boundscheck(local27 < (uint__)local26->count__);
+				local23 = (((SlotInfo__*)local26->dataPtr__)[local27]).isReg__;
 			}
-			if (local21) {
+			if (local23) {
 				EmulatorStep__slot__(s__, si__);
 			}
-			local20 += 1;
+			local22 += 1;
 		}
 	}
 	if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) != (0)) {
-		(s__)->tape__ = (s__)->stepProgram__;
+		(s__)->tape__ = (s__)->propagateProgram__;
 		{
-			List__int____* local26 = (s__)->evalOrder__;
-			int__ local27 = 0;
-			while (local27 < local26->count__) {
-				int__ si__ = ((int__*)(local26->dataPtr__))[local27];
-				List__SlotInfo____* local29 = (s__)->infos__;
-				uint__ local30 = (uint__)(si__);
-				mu_____boundscheck(local30 < (uint__)local29->count__);
-				bool__ local28 = !((((SlotInfo__*)local29->dataPtr__)[local30]).isStatic__);
-				if (local28) {
-					List__SlotInfo____* local31 = (s__)->infos__;
-					uint__ local32 = (uint__)(si__);
-					mu_____boundscheck(local32 < (uint__)local31->count__);
-					local28 = !((((SlotInfo__*)local31->dataPtr__)[local32]).isReg__);
+			List__int____* local28 = (s__)->evalOrder__;
+			int__ local29 = 0;
+			while (local29 < local28->count__) {
+				int__ si__ = ((int__*)(local28->dataPtr__))[local29];
+				List__SlotInfo____* local31 = (s__)->infos__;
+				uint__ local32 = (uint__)(si__);
+				mu_____boundscheck(local32 < (uint__)local31->count__);
+				bool__ local30 = !((((SlotInfo__*)local31->dataPtr__)[local32]).isStatic__);
+				if (local30) {
+					List__SlotInfo____* local33 = (s__)->infos__;
+					uint__ local34 = (uint__)(si__);
+					mu_____boundscheck(local34 < (uint__)local33->count__);
+					local30 = !((((SlotInfo__*)local33->dataPtr__)[local34]).isReg__);
 				}
-				if (local28) {
+				if (local30) {
 					EmulatorStep__slot__(s__, si__);
 				}
-				local27 += 1;
+				local29 += 1;
 			}
 		}
+		(s__)->tape__ = (s__)->updateProgram__;
 		{
-			List__Ptr__ModuleInstance______* local33 = (s__)->moduleInstances__;
-			int__ local34 = 0;
-			while (local34 < local33->count__) {
-				ModuleInstance__* mi__ = ((ModuleInstance__**)(local33->dataPtr__))[local34];
+			List__Ptr__ModuleInstance______* local35 = (s__)->moduleInstances__;
+			int__ local36 = 0;
+			while (local36 < local35->count__) {
+				ModuleInstance__* mi__ = ((ModuleInstance__**)(local35->dataPtr__))[local36];
 				EmulatorStep__module__(s__, mi__);
-				bool__ local35 = (((s__)->evalCtxField__)) == ((-1));
-				if (local35) {
-					local35 = (((s__)->evalCtxOutput__)) == ((-1));
+				bool__ local37 = (((s__)->evalCtxField__)) == ((-1));
+				if (local37) {
+					local37 = (((s__)->evalCtxOutput__)) == ((-1));
 				}
-				mu_____assert(local35);
-				local34 += 1;
+				mu_____assert(local37);
+				local36 += 1;
 			}
 		}
 	}
@@ -5567,7 +5667,10 @@ void__ Emulator__step__(EmulatorState__* s__, string__ clk__, ulong__ val__) {
 	uint__ local1 = (uint__)(0);
 	mu_____boundscheck(local1 < (uint__)local0->count__);
 	EmulatorRunner__setInput__(s__, ((ModuleInstance__**)local0->dataPtr__)[local1], clk__, val__);
-	EmulatorRunner__run__(s__, (s__)->stepProgram__);
+	EmulatorRunner__run__(s__, (s__)->propagateProgram__);
+	EmulatorRunner__run__(s__, (s__)->updateProgram__);
+	Emulator__commitValues__(s__);
+	EmulatorRunner__run__(s__, (s__)->propagateProgram__);
 }
 void__ CommandLineArgsParser__error__(CommandLineArgsParser__* self__, string__ text__) {
 	Array__string____* local0 = (self__)->args__;
@@ -5618,7 +5721,7 @@ string__ CommandLineArgsParser__getErrorDesc__(CommandLineArgsParserError__ e__,
 	StringBuilder__write__(&local5, (e__).text__);
 	string__ local6 = { (pointer__)"\x0a""", 1 };
 	StringBuilder__write__(&local5, local6);
-	StringBuilder__write__(&local5, string__replace__((info__).text__, mu_____string81, mu_____string82));
+	StringBuilder__write__(&local5, string__replace__((info__).text__, mu_____string82, mu_____string83));
 	string__ local7 = { (pointer__)"\x0a""", 1 };
 	StringBuilder__write__(&local5, local7);
 	StringBuilder__write__(&local5, string__repeatChar__(' ', indent__));
@@ -5653,7 +5756,7 @@ CommandLineInfo__ CommandLineArgsParser__getCommandLineInfo__(CommandLineArgsPar
 		int__ i__ = 0;
 		while (((i__)) < ((((self__)->args__)->count__))) {
 			if (insertSep__) {
-				StringBuilder__write__(sb__, mu_____string78);
+				StringBuilder__write__(sb__, mu_____string79);
 			} else {
 				insertSep__ = true__;
 			}
@@ -5664,9 +5767,9 @@ CommandLineInfo__ CommandLineArgsParser__getCommandLineInfo__(CommandLineArgsPar
 			int__ from__ = (sb__)->count__;
 			int__ delta__ = 0;
 			if (((string__indexOfChar__(a__, ' '))) >= ((0))) {
-				StringBuilder__write__(sb__, mu_____string79);
+				StringBuilder__write__(sb__, mu_____string80);
 				StringBuilder__write__(sb__, a__);
-				StringBuilder__write__(sb__, mu_____string79);
+				StringBuilder__write__(sb__, mu_____string80);
 				delta__ = 1;
 			} else {
 				StringBuilder__write__(sb__, a__);
@@ -5713,55 +5816,8 @@ int__ CommandLineArgsParser__getNumColumns___(string__ s__, int__ tabSize__) {
 }
 void__ CrashHandler__enable__() {
 }
-void__ TypeChecker__expectedConstant__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string144));
-}
-void__ TypeChecker__badBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__) {
-	StringBuilder__ local0;
-	memset(&local0, 0, sizeof(local0));
-	string__ local1 = { (pointer__)"Cannot apply operator ", 22 };
-	StringBuilder__write__(&local0, local1);
-	StringBuilder__write__(&local0, (op__)->value__);
-	string__ local2 = { (pointer__)" to arguments of type ", 22 };
-	StringBuilder__write__(&local0, local2);
-	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, lhs__));
-	string__ local3 = { (pointer__)" and ", 5 };
-	StringBuilder__write__(&local0, local3);
-	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, rhs__));
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
-}
-void__ TypeChecker__moduleInput__(TypeCheckerState__* s__, ModuleInputDef__* input__) {
-	if ((((((s__)->module__)->flags__)) & ((ModuleFlags__top__))) != (0)) {
-		if (((((input__)->flags__)) & ((ModuleInputFlags__static__))) != (0)) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->name__)->span__, mu_____string186));
-		}
-	}
-	if (((input__)->type__) != (null__)) {
-		Node__ local0;
-		local0.dataPtr__ = (pointer__)(input__);
-		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__ModuleInputDef____ : 0;
-		Tag__ tag__ = TypeChecker__typename__(s__, local0, (input__)->type__);
-		if (Tag__isValid__(tag__)) {
-			bool__ local1 = ((tag__).kind__) == (TagKind__number__);
-			if (!local1) {
-				local1 = (((s__)->module__)->blackboxKeyword__) == (null__);
-			}
-			if (local1) {
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->type__)->span__, mu_____string187));
-			}
-			((s__)->module__)->numInputSlots__ = ((((s__)->module__)->numInputSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, tag__)));
-		}
-	}
-}
-bool__ TypeChecker__isValidEntityName__(string__ s__) {
-	string__* local0 = &(s__);
-	uint__ local1 = (uint__)(0);
-	mu_____boundscheck(local1 < (uint__)local0->length__);
-	return (((char__*)local0->dataPtr__)[local1]) != ('$');
-}
-void__ TypeChecker__statementNotAllowedInsideBlackbox__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string108));
+void__ TypeChecker__expectedFixedNumberType__(TypeCheckerState__* s__, Node__ e__) {
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string134));
 }
 void__ TypeChecker__unit__(TypeCheckerState__* s__, CodeUnit__* unit__) {
 	(s__)->unit__ = unit__;
@@ -5799,9 +5855,6 @@ void__ TypeChecker__unit__(TypeCheckerState__* s__, CodeUnit__* unit__) {
 		}
 	}
 }
-void__ TypeChecker__expectedFixedNumber__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string134));
-}
 int__ TypeChecker__highestBit__(ulong__ n__) {
 	int__ result__ = 0;
 	while (true__) {
@@ -5810,184 +5863,6 @@ int__ TypeChecker__highestBit__(ulong__ n__) {
 		result__ = ((result__)) + ((1));
 	}
 	return result__;
-}
-void__ TypeChecker__badUnify__(TypeCheckerState__* s__, Token__* token__, Tag__ te__, Tag__ fe__) {
-	StringBuilder__ local0;
-	memset(&local0, 0, sizeof(local0));
-	string__ local1 = { (pointer__)"Cannot unify values of type ", 28 };
-	StringBuilder__write__(&local0, local1);
-	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, te__));
-	string__ local2 = { (pointer__)" and ", 5 };
-	StringBuilder__write__(&local0, local2);
-	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, fe__));
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (token__)->span__, StringBuilder__compactToString__(&local0)));
-}
-bool__ TypeChecker__canConvertFreeConst__(TypeCheckerState__* s__, Value__ val__, int__ width__) {
-	if (((val__).kind__) == (ValueKind__ulong___)) {
-		return ((TypeChecker__highestBit__((val__).z__))) <= ((width__));
-	}
-	return false__;
-}
-Tag__ TypeChecker__tag__(TypeCheckerState__* s__, string__ name__) {
-	string__* local0 = &(name__);
-	uint__ local1 = (uint__)(0);
-	mu_____boundscheck(local1 < (uint__)local0->length__);
-	if ((((char__*)local0->dataPtr__)[local1]) == ('$')) {
-		Maybe__int____ pr__ = int__tryParse__(string__slice__(name__, 1, (name__).length__));
-		bool__ local2 = (pr__).hasValue__;
-		if (local2) {
-			local2 = (((pr__).value__)) > ((0));
-		}
-		if (local2) {
-			Tag__ local3;
-			memset(&local3, 0, sizeof(Tag__));
-			local3.kind__ = TagKind__number__;
-			local3.q__ = (pr__).value__;
-			return local3;
-		}
-	} else {
-		Node__ sym__ = Map__getOrDefault__string__Node____((s__)->symbols__, name__);
-		bool__ local4 = ((sym__).dataPtr__) != ((pointer__)(null__));
-		if (local4) {
-			local4 = (sym__).id__ == Node_____Ptr__StructDef____;
-		}
-		if (local4) {
-			Tag__ local5;
-			memset(&local5, 0, sizeof(Tag__));
-			local5.kind__ = TagKind__struct___;
-			Node__ local6 = sym__;
-			mu_____checkedcast(local6.id__ == Node_____Ptr__StructDef____);
-			local5.q__ = ((StructDef__*)(local6.dataPtr__))->id__;
-			return local5;
-		}
-	}
-	Tag__ local7;
-	memset(&local7, 0, sizeof(Tag__));
-	return local7;
-}
-void__ TypeChecker__reg__(TypeCheckerState__* s__, AssignStatement__* st__) {
-	if (((st__)->outKeyword__) != (null__)) {
-		(st__)->outputIndex__ = (((s__)->module__)->outputs__)->count__;
-		List__add__Ptr__AssignStatement______(((s__)->module__)->outputs__, st__);
-	}
-	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
-		Node__ local0;
-		local0.dataPtr__ = (pointer__)((st__)->regKeyword__);
-		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-		TypeChecker__statementNotAllowedInsideBlackbox__(s__, local0);
-	}
-	if (((st__)->nameExpr__).id__ == Node_____Ptr__Token____) {
-		Node__ local1 = (st__)->nameExpr__;
-		mu_____checkedcast(local1.id__ == Node_____Ptr__Token____);
-		if (TypeChecker__isValidEntityName_nonStatic__(((Token__*)(local1.dataPtr__))->value__)) {
-		} else {
-			TypeChecker__invalidNamePrefix_nonStatic__(s__, (st__)->nameExpr__);
-		}
-	} else {
-		if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string110));
-		}
-	}
-	if (((st__)->op__) != (null__)) {
-		if (string__equals__(((st__)->op__)->value__, mu_____string111)) {
-			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-			} else {
-				List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
-			}
-		} else {
-			if (string__equals__(((st__)->op__)->value__, mu_____string44)) {
-				(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__regUpdate__));
-				if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-					if ((s__)->inClock__) {
-					} else {
-						IntRange__ local2;
-						if (((st__)->outKeyword__) != (null__)) {
-							local2 = ((st__)->outKeyword__)->span__;
-						} else {
-							local2 = RangeFinder__find__((st__)->nameExpr__);
-						}
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, local2, mu_____string112));
-					}
-				} else {
-					List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
-				}
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string113));
-			}
-		}
-	} else {
-		if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string22));
-		}
-	}
-	if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-		if (((st__)->type__) != (null__)) {
-			Node__ local3;
-			local3.dataPtr__ = (pointer__)(st__);
-			local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-			Tag__ tag__ = TypeChecker__typename__(s__, local3, (st__)->type__);
-			if (((((st__)->flags__)) & ((AssignFlags__regUpdate__))) != (0)) {
-				(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__typeCheckDone__));
-			}
-			(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
-			TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, ((st__)->type__) != (null__), tag__);
-			(s__)->isStaticExpr__ = false__;
-			bool__ local4 = ((st__)->op__) != (null__);
-			if (local4) {
-				local4 = Tag__isValid__(tag__);
-			}
-			if (local4) {
-				if (TypeChecker__isFixedNumberOrStruct__(tag__)) {
-					if (Tag__isValid__((rhs__).tag__)) {
-						if (TypeChecker__canAssign__(s__, (rhs__).tag__, (rhs__).value__, tag__)) {
-							((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, tag__)));
-						} else {
-							TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
-						}
-					}
-				} else {
-					Node__ local5;
-					local5.dataPtr__ = (pointer__)((st__)->type__);
-					local5.id__ = local5.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-					TypeChecker__expectedFixedNumberOrStruct__(s__, local5);
-				}
-			}
-		} else {
-			(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
-			TypeCheckResult__ rhs__ = TypeChecker__expression__(s__, (st__)->expr__);
-			(s__)->isStaticExpr__ = false__;
-			if (Tag__isValid__((rhs__).tag__)) {
-				if (TypeChecker__isFixedNumberOrStruct__((rhs__).tag__)) {
-					Node__ local6;
-					local6.dataPtr__ = (pointer__)(st__);
-					local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-					Map__add__Node__Tag____((s__)->typeMap__, local6, (rhs__).tag__);
-					((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, (rhs__).tag__)));
-				} else {
-					TypeChecker__expectedFixedNumberOrStructExpression__(s__, (st__)->expr__);
-				}
-			}
-		}
-	} else {
-		if (((st__)->type__) != (null__)) {
-			Node__ local7;
-			local7.dataPtr__ = (pointer__)(st__);
-			local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-			Tag__ tag__ = TypeChecker__typename__(s__, local7, (st__)->type__);
-			if (Tag__isValid__(tag__)) {
-				if (TypeChecker__isFixedNumberOrStruct__(tag__)) {
-					((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, tag__)));
-				} else {
-					Node__ local8;
-					local8.dataPtr__ = (pointer__)((st__)->type__);
-					local8.id__ = local8.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-					TypeChecker__expectedFixedNumberOrStruct__(s__, local8);
-				}
-			}
-		} else {
-			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).to__, mu_____string121));
-		}
-	}
 }
 void__ TypeChecker__fieldDef__(TypeCheckerState__* s__, FieldDef__* def__) {
 	if (Map__tryAdd__string__Ptr__FieldDef______(((s__)->struct___)->symbols__, ((def__)->name__)->value__, def__)) {
@@ -6020,191 +5895,57 @@ void__ TypeChecker__fieldDef__(TypeCheckerState__* s__, FieldDef__* def__) {
 				Node__ local3;
 				local3.dataPtr__ = (pointer__)((def__)->type__);
 				local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-				TypeChecker__expectedFixedNumber__(s__, local3);
+				TypeChecker__expectedFixedNumberType__(s__, local3);
 			}
 		}
 	}
 }
-void__ TypeChecker__ensureAssignDone__(TypeCheckerState__* s__, AssignStatement__* st__, Node__ reference__) {
-	mu_____assert(((((st__)->flags__)) & ((((AssignFlags__reg__)) | ((AssignFlags__wire__))))) != (0));
-	if (((((st__)->flags__)) & ((AssignFlags__typeCheckDone__))) != (0)) {
-	} else {
-		if (((((st__)->flags__)) & ((AssignFlags__typeCheckStarted__))) == (0)) {
-			TypeCheckerContext__ prev__ = TypeChecker__pushContext__(s__, ((st__)->module__)->unit__, (st__)->module__);
-			TypeChecker__assign__(s__, st__);
-			TypeChecker__restoreContext__(s__, prev__);
-		} else {
-			string__ local0;
-			if (((((st__)->flags__)) & ((AssignFlags__reg__))) != (0)) {
-				local0 = mu_____string146;
-			} else {
-				local0 = mu_____string147;
+TypeCheckResult__ TypeChecker__fixedNumericTypeArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__) {
+	if (((index__)) >= ((((e__)->args__)->count__))) {
+		TypeCheckResult__ local0;
+		memset(&local0, 0, sizeof(TypeCheckResult__));
+		return local0;
+	}
+	List__Ptr__CallArg______* local1 = (e__)->args__;
+	uint__ local2 = (uint__)(index__);
+	mu_____boundscheck(local2 < (uint__)local1->count__);
+	CallArg__* arg__ = ((CallArg__**)local1->dataPtr__)[local2];
+	if ((((arg__)->expr__).dataPtr__) == ((pointer__)(null__))) {
+		TypeCheckResult__ local3;
+		memset(&local3, 0, sizeof(TypeCheckResult__));
+		return local3;
+	}
+	if (((arg__)->expr__).id__ == Node_____Ptr__Token____) {
+		Node__ local4 = (arg__)->expr__;
+		mu_____checkedcast(local4.id__ == Node_____Ptr__Token____);
+		Tag__ tag__ = TypeChecker__typename__(s__, (arg__)->expr__, (Token__*)(local4.dataPtr__));
+		if (Tag__isValid__(tag__)) {
+			bool__ local5 = ((tag__).kind__) == (TagKind__number__);
+			if (local5) {
+				local5 = (((tag__).q__)) > ((0));
 			}
-			string__ kind__ = local0;
-			StringBuilder__ local1;
-			memset(&local1, 0, sizeof(local1));
-			string__ local2 = { (pointer__)"Recursive reference to ", 23 };
-			StringBuilder__write__(&local1, local2);
-			StringBuilder__write__(&local1, kind__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(reference__), StringBuilder__compactToString__(&local1)));
-		}
-	}
-}
-void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
-	if (((st__)->outKeyword__) != (null__)) {
-		(st__)->outputIndex__ = (((s__)->module__)->outputs__)->count__;
-		List__add__Ptr__AssignStatement______(((s__)->module__)->outputs__, st__);
-	}
-	bool__ local0 = (((s__)->module__)->blackboxKeyword__) != (null__);
-	if (local0) {
-		local0 = ((st__)->outKeyword__) == (null__);
-	}
-	if (local0) {
-		List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).from__, mu_____string122));
-	}
-	if (((st__)->nameExpr__).id__ == Node_____Ptr__Token____) {
-		if (((st__)->outKeyword__) == (null__)) {
-			Node__ local1 = (st__)->nameExpr__;
-			mu_____checkedcast(local1.id__ == Node_____Ptr__Token____);
-			if (TypeChecker__isValidEntityName__(((Token__*)(local1.dataPtr__))->value__)) {
+			if (local5) {
+				TypeCheckResult__ local6;
+				memset(&local6, 0, sizeof(TypeCheckResult__));
+				local6.tag__ = tag__;
+				return local6;
 			} else {
-				TypeChecker__invalidNamePrefix__(s__, (st__)->nameExpr__);
-			}
-		} else {
-			Node__ local2 = (st__)->nameExpr__;
-			mu_____checkedcast(local2.id__ == Node_____Ptr__Token____);
-			if (TypeChecker__isValidEntityName_nonStatic__(((Token__*)(local2.dataPtr__))->value__)) {
-			} else {
-				TypeChecker__invalidNamePrefix_nonStatic__(s__, (st__)->nameExpr__);
+				TypeChecker__expectedFixedNumberType__(s__, (arg__)->expr__);
 			}
 		}
 	} else {
-		if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string110));
+		TypeCheckResult__ tr__ = TypeChecker__expression__(s__, (arg__)->expr__);
+		if (Tag__isValid__((tr__).tag__)) {
+			TypeChecker__expectedFixedNumberType__(s__, (arg__)->expr__);
 		}
 	}
-	if ((((s__)->module__)->blackboxKeyword__) == (null__)) {
-		if (((st__)->op__) != (null__)) {
-			if (string__equals__(((st__)->op__)->value__, mu_____string74)) {
-				if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-				} else {
-					List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
-				}
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string123));
-			}
-		} else {
-			Node__ local3;
-			if (((st__)->type__) != (null__)) {
-				Node__ local4;
-				local4.dataPtr__ = (pointer__)((st__)->type__);
-				local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-				local3 = local4;
-			} else {
-				Node__ local5;
-				if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
-					local5 = (st__)->nameExpr__;
-				} else {
-					Node__ local6;
-					local6.dataPtr__ = (pointer__)((st__)->outKeyword__);
-					local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-					local5 = local6;
-				}
-				local3 = local5;
-			}
-			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local3)).to__, mu_____string123));
-		}
-		if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-			if (((st__)->type__) != (null__)) {
-				Node__ local7;
-				local7.dataPtr__ = (pointer__)(st__);
-				local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-				Tag__ tag__ = TypeChecker__typename__(s__, local7, (st__)->type__);
-				(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__static__))) != (0);
-				TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, ((st__)->type__) != (null__), tag__);
-				(s__)->isStaticExpr__ = false__;
-				bool__ local8 = ((st__)->op__) != (null__);
-				if (local8) {
-					local8 = Tag__isValid__(tag__);
-				}
-				if (local8) {
-					if (TypeChecker__isFixedNumberOrStruct__(tag__)) {
-						if (TypeChecker__canAssign__(s__, (rhs__).tag__, (rhs__).value__, tag__)) {
-						} else {
-							TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
-						}
-					} else {
-						Node__ local9;
-						local9.dataPtr__ = (pointer__)((st__)->type__);
-						local9.id__ = local9.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-						TypeChecker__expectedFixedNumberOrStruct__(s__, local9);
-					}
-				}
-			} else {
-				(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__static__))) != (0);
-				TypeCheckResult__ rhs__ = TypeChecker__expression__(s__, (st__)->expr__);
-				(s__)->isStaticExpr__ = false__;
-				if (Tag__isValid__((rhs__).tag__)) {
-					if (TypeChecker__isFixedNumberOrStructOrModuleOut__((rhs__).tag__)) {
-						Node__ local10;
-						local10.dataPtr__ = (pointer__)(st__);
-						local10.id__ = local10.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-						Map__add__Node__Tag____((s__)->typeMap__, local10, (rhs__).tag__);
-						bool__ local11 = (((rhs__).tag__).kind__) == (TagKind__moduleOut__);
-						if (local11) {
-							local11 = ((st__)->outKeyword__) != (null__);
-						}
-						if (local11) {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->outKeyword__)->span__, mu_____string124));
-						}
-					} else {
-						if (((((st__)->flags__)) & ((AssignFlags__static__))) != (0)) {
-							TypeChecker__expectedFixedNumberOrStructExpression__(s__, (st__)->expr__);
-						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string125));
-						}
-					}
-				}
-			}
-		}
-	} else {
-		if (((st__)->type__) != (null__)) {
-			Node__ local12;
-			local12.dataPtr__ = (pointer__)(st__);
-			local12.id__ = local12.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-			Tag__ tag__ = TypeChecker__typename__(s__, local12, (st__)->type__);
-			if (((tag__).kind__) == (TagKind__number__)) {
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->type__)->span__, mu_____string126));
-			}
-		} else {
-			Node__ local13;
-			if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
-				local13 = (st__)->nameExpr__;
-			} else {
-				Node__ local14;
-				local14.dataPtr__ = (pointer__)((st__)->outKeyword__);
-				local14.id__ = local14.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-				local13 = local14;
-			}
-			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local13)).to__, mu_____string121));
-		}
-		if (((st__)->op__) != (null__)) {
-			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((st__)->op__)->span__).from__, (RangeFinder__find__((st__)->expr__)).to__), mu_____string127));
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string127));
-			}
-		} else {
-			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string127));
-			}
-		}
-	}
+	TypeCheckResult__ local7;
+	memset(&local7, 0, sizeof(TypeCheckResult__));
+	return local7;
 }
 void__ TypeChecker__if___(TypeCheckerState__* s__, IfStatement__* st__) {
 	if (!((s__)->inClock__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->ifKeyword__)->span__, mu_____string112));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->ifKeyword__)->span__, mu_____string136));
 	}
 	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
 		Node__ local0;
@@ -6228,7 +5969,7 @@ void__ TypeChecker__if___(TypeCheckerState__* s__, IfStatement__* st__) {
 		}
 		if (local3) {
 		} else {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string136));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string137));
 		}
 	}
 	TypeChecker__block__(s__, (st__)->ifBody__);
@@ -6255,119 +5996,12 @@ void__ TypeChecker__badConstConversion__(TypeCheckerState__* s__, Node__ e__, Ta
 	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, to__));
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), StringBuilder__compactToString__(&local0)));
 }
-void__ TypeChecker__module__(TypeCheckerState__* s__, ModuleDef__* def__) {
-	if (((((def__)->flags__)) & ((ModuleFlags__typeCheckDone__))) != (0)) {
-		return;
-	}
-	(def__)->flags__ = (((def__)->flags__)) | ((ModuleFlags__typeCheckStarted__));
-	(s__)->module__ = def__;
-	if (!(TypeChecker__isValidEntityName_nonStatic__(((def__)->name__)->value__))) {
-		Node__ local0;
-		local0.dataPtr__ = (pointer__)((def__)->name__);
-		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-		TypeChecker__invalidNamePrefix_nonStatic__(s__, local0);
-	}
-	bool__ local1 = ((def__)->blackboxKeyword__) != (null__);
-	if (local1) {
-		local1 = (((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) != (0);
-	}
-	if (local1) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((def__)->blackboxKeyword__)->span__, mu_____string185));
-	}
-	{
-		List__Ptr__ModuleInputDef______* local2 = (def__)->inputs__;
-		int__ local3 = 0;
-		while (local3 < local2->count__) {
-			ModuleInputDef__* inp__ = ((ModuleInputDef__**)(local2->dataPtr__))[local3];
-			TypeChecker__moduleInput__(s__, inp__);
-			local3 += 1;
-		}
-	}
-	TypeChecker__block__(s__, (def__)->body__);
-	(def__)->flags__ = (((def__)->flags__)) | ((ModuleFlags__typeCheckDone__));
-}
 void__ TypeChecker__ensureStructDone__(TypeCheckerState__* s__, StructDef__* def__) {
 	if (((((def__)->flags__)) & ((StructFlags__typeCheckDone__))) != (0)) {
 		TypeCheckerContext__ prev__ = TypeChecker__pushContext__(s__, (def__)->unit__, null__);
 		TypeChecker__struct___(s__, def__);
 		TypeChecker__restoreContext__(s__, prev__);
 	}
-}
-void__ TypeChecker__ensureModuleDone__(TypeCheckerState__* s__, ModuleDef__* def__, Node__ location__) {
-	if (((((def__)->flags__)) & ((ModuleFlags__typeCheckDone__))) != (0)) {
-	} else {
-		if (((((def__)->flags__)) & ((ModuleFlags__typeCheckStarted__))) == (0)) {
-			TypeCheckerContext__ prev__ = TypeChecker__pushContext__(s__, (def__)->unit__, (s__)->module__);
-			TypeChecker__module__(s__, def__);
-			TypeChecker__restoreContext__(s__, prev__);
-		} else {
-			StringBuilder__ local0;
-			memset(&local0, 0, sizeof(local0));
-			string__ local1 = { (pointer__)"Recursive reference to module: ", 31 };
-			StringBuilder__write__(&local0, local1);
-			StringBuilder__write__(&local0, ((def__)->name__)->value__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(location__), StringBuilder__compactToString__(&local0)));
-		}
-	}
-}
-TypeCheckResult__ TypeChecker__number__(TypeCheckerState__* s__, NumberExpression__* e__) {
-	if (((((e__)->flags__)) & ((NumberFlags__valid__))) != (0)) {
-		if (((((e__)->flags__)) & ((NumberFlags__dontCare__))) == (0)) {
-			TypeCheckResult__ local0;
-			memset(&local0, 0, sizeof(TypeCheckResult__));
-			Tag__ local1;
-			memset(&local1, 0, sizeof(Tag__));
-			local1.kind__ = TagKind__number__;
-			local1.q__ = (e__)->width__;
-			local0.tag__ = local1;
-			Value__ local2;
-			memset(&local2, 0, sizeof(Value__));
-			local2.kind__ = ValueKind__ulong___;
-			local2.z__ = (e__)->value__;
-			local0.value__ = local2;
-			return local0;
-		} else {
-			if ((s__)->allowDontCare__) {
-				if ((((e__)->width__)) > ((0))) {
-					TypeCheckResult__ local3;
-					memset(&local3, 0, sizeof(TypeCheckResult__));
-					Tag__ local4;
-					memset(&local4, 0, sizeof(Tag__));
-					local4.kind__ = TagKind__number__;
-					local4.q__ = (e__)->width__;
-					local3.tag__ = local4;
-					return local3;
-				} else {
-					mu_____assert((((e__)->value__)) == ((ulong__)(0)));
-					bool__ local6 = (s__)->gap__;
-					if (local6) {
-						local6 = (((s__)->gapTag__).kind__) == (TagKind__number__);
-					}
-					bool__ local5 = local6;
-					if (local5) {
-						local5 = ((((s__)->gapTag__).q__)) > ((0));
-					}
-					if (local5) {
-						TypeCheckResult__ local7;
-						memset(&local7, 0, sizeof(TypeCheckResult__));
-						Tag__ local8;
-						memset(&local8, 0, sizeof(Tag__));
-						local8.kind__ = TagKind__number__;
-						local8.q__ = ((s__)->gapTag__).q__;
-						local7.tag__ = local8;
-						return local7;
-					} else {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string151));
-					}
-				}
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string151));
-			}
-		}
-	}
-	TypeCheckResult__ local9;
-	memset(&local9, 0, sizeof(TypeCheckResult__));
-	return local9;
 }
 TypeCheckResult__ TypeChecker__dot__(TypeCheckerState__* s__, DotExpression__* e__) {
 	TypeCheckResult__ local0;
@@ -6434,144 +6068,11 @@ TypeCheckResult__ TypeChecker__dot__(TypeCheckerState__* s__, DotExpression__* e
 					}
 				}
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lhs__), mu_____string162));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lhs__), mu_____string163));
 			}
 		}
 	}
 	return result__;
-}
-TypeCheckResult__ TypeChecker__structInit__(TypeCheckerState__* s__, StructInitializerExpression__* e__) {
-	Token__* target__ = (Token__*)(null__);
-	StructDef__* def__ = (StructDef__*)(null__);
-	bool__ local0 = ((e__)->target__).id__ == Node_____Ptr__Token____;
-	if (local0) {
-		Node__ local1 = (e__)->target__;
-		mu_____checkedcast(local1.id__ == Node_____Ptr__Token____);
-		local0 = (((Token__*)(local1.dataPtr__))->type__) == (TokenType__identifier__);
-	}
-	if (local0) {
-		Node__ local2 = (e__)->target__;
-		mu_____checkedcast(local2.id__ == Node_____Ptr__Token____);
-		target__ = (Token__*)(local2.dataPtr__);
-		Node__ node__ = Map__getOrDefault__string__Node____((s__)->symbols__, (target__)->value__);
-		if ((node__).id__ == Node_____Ptr__StructDef____) {
-			Node__ local3 = node__;
-			mu_____checkedcast(local3.id__ == Node_____Ptr__StructDef____);
-			def__ = (StructDef__*)(local3.dataPtr__);
-			TypeChecker__ensureStructDone__(s__, def__);
-		} else {
-			if (((node__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string191));
-			} else {
-				TypeChecker__badSymbol__(s__, target__);
-			}
-		}
-	} else {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string191));
-	}
-	if ((def__) != (null__)) {
-		Array__int____* local4 = (Array__int____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(Array__int____));
-		*local4 = Array__cons__int____(((def__)->fields__)->count__);
-		(e__)->fieldIndexToArgIndex__ = local4;
-		{
-			int__ i__ = 0;
-			while (((i__)) < ((((def__)->fields__)->count__))) {
-				Array__int____* local5 = (e__)->fieldIndexToArgIndex__;
-				uint__ local6 = (uint__)(i__);
-				mu_____boundscheck(local6 < (uint__)local5->count__);
-				((int__*)local5->dataPtr__)[local6] = -1;
-				i__ += 1;
-			}
-		}
-		{
-			List__Ptr__CallArg______* local7 = (e__)->args__;
-			int__ i__ = 0;
-			while (i__ < local7->count__) {
-				CallArg__* arg__ = ((CallArg__**)(local7->dataPtr__))[i__];
-				Tag__ local8;
-				memset(&local8, 0, sizeof(Tag__));
-				Tag__ tag__ = local8;
-				if (((arg__)->name__) != (null__)) {
-					FieldDef__* field__ = Map__getOrDefault__string__Ptr__FieldDef______((def__)->symbols__, ((arg__)->name__)->value__);
-					if ((field__) != (null__)) {
-						Array__int____* local9 = (e__)->fieldIndexToArgIndex__;
-						uint__ local10 = (uint__)((field__)->fieldIndex__);
-						mu_____boundscheck(local10 < (uint__)local9->count__);
-						if (((((int__*)local9->dataPtr__)[local10])) == ((-1))) {
-							Array__int____* local11 = (e__)->fieldIndexToArgIndex__;
-							uint__ local12 = (uint__)((field__)->fieldIndex__);
-							mu_____boundscheck(local12 < (uint__)local11->count__);
-							((int__*)local11->dataPtr__)[local12] = i__;
-						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string192));
-						}
-						Node__ local13;
-						local13.dataPtr__ = (pointer__)(field__);
-						local13.id__ = local13.dataPtr__ != null__ ? Node_____Ptr__FieldDef____ : 0;
-						tag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local13);
-					} else {
-						StringBuilder__ local14;
-						memset(&local14, 0, sizeof(local14));
-						string__ local15 = { (pointer__)"Undefined field: ", 17 };
-						StringBuilder__write__(&local14, local15);
-						StringBuilder__write__(&local14, ((def__)->name__)->value__);
-						string__ local16 = { (pointer__)".", 1 };
-						StringBuilder__write__(&local14, local16);
-						StringBuilder__write__(&local14, ((arg__)->name__)->value__);
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, StringBuilder__compactToString__(&local14)));
-					}
-				}
-				if ((((arg__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-					TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (arg__)->expr__, true__, tag__);
-					if (!(TypeChecker__canAssign__(s__, (rhs__).tag__, (rhs__).value__, tag__))) {
-						TypeChecker__badAssign__(s__, (arg__)->colon__, (rhs__).tag__, tag__);
-					}
-					if (((arg__)->name__) == (null__)) {
-						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string193));
-					}
-				}
-				i__ += 1;
-			}
-		}
-		TypeCheckResult__ local17;
-		memset(&local17, 0, sizeof(TypeCheckResult__));
-		Tag__ local18;
-		memset(&local18, 0, sizeof(Tag__));
-		local18.kind__ = TagKind__struct___;
-		local18.q__ = (def__)->id__;
-		local17.tag__ = local18;
-		return local17;
-	} else {
-		{
-			List__Ptr__CallArg______* local19 = (e__)->args__;
-			int__ local20 = 0;
-			while (local20 < local19->count__) {
-				CallArg__* arg__ = ((CallArg__**)(local19->dataPtr__))[local20];
-				if ((((arg__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-					TypeChecker__expression__(s__, (arg__)->expr__);
-				}
-				local20 += 1;
-			}
-		}
-		TypeCheckResult__ local21;
-		memset(&local21, 0, sizeof(TypeCheckResult__));
-		return local21;
-	}
-}
-bool__ TypeChecker__isFixedNumberOrStructOrModuleOut__(Tag__ tag__) {
-	bool__ local2 = ((tag__).kind__) == (TagKind__number__);
-	if (local2) {
-		local2 = (((tag__).q__)) > ((0));
-	}
-	bool__ local1 = local2;
-	if (!local1) {
-		local1 = ((tag__).kind__) == (TagKind__struct___);
-	}
-	bool__ local0 = local1;
-	if (!local0) {
-		local0 = ((tag__).kind__) == (TagKind__moduleOut__);
-	}
-	return local0;
 }
 void__ TypeChecker__badConversion__(TypeCheckerState__* s__, Node__ e__, Tag__ from__, Tag__ to__) {
 	StringBuilder__ local0;
@@ -6583,6 +6084,17 @@ void__ TypeChecker__badConversion__(TypeCheckerState__* s__, Node__ e__, Tag__ f
 	StringBuilder__write__(&local0, local2);
 	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, to__));
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), StringBuilder__compactToString__(&local0)));
+}
+void__ TypeChecker__unsupportedUnaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ tag__) {
+	StringBuilder__ local0;
+	memset(&local0, 0, sizeof(local0));
+	string__ local1 = { (pointer__)"Unsupported expression: cannot apply operator ", 46 };
+	StringBuilder__write__(&local0, local1);
+	StringBuilder__write__(&local0, (op__)->value__);
+	string__ local2 = { (pointer__)" to argument of type ", 21 };
+	StringBuilder__write__(&local0, local2);
+	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, tag__));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
 }
 int__ TypeChecker__unpackWidth__(Tag__ tag__) {
 	mu_____assert(((tag__).kind__) == (TagKind__number__));
@@ -6610,17 +6122,6 @@ TypeCheckResult__ TypeChecker__array__(TypeCheckerState__* s__, ArrayExpression_
 	local1.value__ = local3;
 	return local1;
 }
-void__ TypeChecker__unsupportedUnaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ tag__) {
-	StringBuilder__ local0;
-	memset(&local0, 0, sizeof(local0));
-	string__ local1 = { (pointer__)"Unsupported expression: cannot apply operator ", 46 };
-	StringBuilder__write__(&local0, local1);
-	StringBuilder__write__(&local0, (op__)->value__);
-	string__ local2 = { (pointer__)" to argument of type ", 21 };
-	StringBuilder__write__(&local0, local2);
-	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, tag__));
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
-}
 void__ TypeChecker__badUnaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ tag__) {
 	StringBuilder__ local0;
 	memset(&local0, 0, sizeof(local0));
@@ -6631,229 +6132,6 @@ void__ TypeChecker__badUnaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ t
 	StringBuilder__write__(&local0, local2);
 	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, tag__));
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
-}
-TypeCheckResult__ TypeChecker__call__(TypeCheckerState__* s__, CallExpression__* e__) {
-	if (((e__)->builtin__) == (BuiltinCall__rep__)) {
-		return TypeChecker__rep__(s__, e__);
-	} else {
-		if (((e__)->builtin__) == (BuiltinCall__slice__)) {
-			return TypeChecker__slice__(s__, e__);
-		} else {
-			if (((e__)->builtin__) == (BuiltinCall__chunk__)) {
-				return TypeChecker__chunk__(s__, e__);
-			} else {
-				if (((e__)->builtin__) == (BuiltinCall__swizzle__)) {
-					return TypeChecker__swizzle__(s__, e__);
-				}
-			}
-		}
-	}
-	if ((s__)->isStaticExpr__) {
-		Node__ local0;
-		local0.dataPtr__ = (pointer__)(e__);
-		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
-		TypeChecker__expectedStaticConstant__(s__, local0);
-		TypeCheckResult__ local1;
-		memset(&local1, 0, sizeof(TypeCheckResult__));
-		return local1;
-	}
-	Token__* target__ = (Token__*)(null__);
-	ModuleDef__* def__ = (ModuleDef__*)(null__);
-	bool__ local2 = ((e__)->target__).id__ == Node_____Ptr__Token____;
-	if (local2) {
-		Node__ local3 = (e__)->target__;
-		mu_____checkedcast(local3.id__ == Node_____Ptr__Token____);
-		local2 = (((Token__*)(local3.dataPtr__))->type__) == (TokenType__identifier__);
-	}
-	if (local2) {
-		Node__ local4 = (e__)->target__;
-		mu_____checkedcast(local4.id__ == Node_____Ptr__Token____);
-		target__ = (Token__*)(local4.dataPtr__);
-		Node__ node__ = Map__getOrDefault__string__Node____((s__)->symbols__, (target__)->value__);
-		if ((node__).id__ == Node_____Ptr__ModuleDef____) {
-			Node__ local5 = node__;
-			mu_____checkedcast(local5.id__ == Node_____Ptr__ModuleDef____);
-			def__ = (ModuleDef__*)(local5.dataPtr__);
-			((s__)->module__)->numCalls__ = ((((s__)->module__)->numCalls__)) + ((1));
-			(e__)->callId__ = ((s__)->module__)->numCalls__;
-			Node__ local6;
-			local6.dataPtr__ = (pointer__)(target__);
-			local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-			TypeChecker__ensureModuleDone__(s__, def__, local6);
-			((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + (((def__)->numRegSlots__));
-		} else {
-			if (((node__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string189));
-			} else {
-				TypeChecker__badSymbol__(s__, target__);
-			}
-		}
-	} else {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string190));
-	}
-	QueuedCallArgs__ local7;
-	memset(&local7, 0, sizeof(QueuedCallArgs__));
-	local7.e__ = e__;
-	local7.def__ = def__;
-	local7.context__ = (s__)->module__;
-	List__add__QueuedCallArgs____((s__)->queue__, local7);
-	TypeCheckResult__ local8;
-	if ((def__) != (null__)) {
-		TypeCheckResult__ local9;
-		memset(&local9, 0, sizeof(TypeCheckResult__));
-		Tag__ local10;
-		memset(&local10, 0, sizeof(Tag__));
-		local10.kind__ = TagKind__moduleOut__;
-		local10.q__ = (def__)->id__;
-		local9.tag__ = local10;
-		local8 = local9;
-	} else {
-		TypeCheckResult__ local11;
-		memset(&local11, 0, sizeof(TypeCheckResult__));
-		local8 = local11;
-	}
-	return local8;
-}
-void__ TypeChecker__badAssign__(TypeCheckerState__* s__, Token__* at__, Tag__ from__, Tag__ to__) {
-	StringBuilder__ local0;
-	memset(&local0, 0, sizeof(local0));
-	string__ local1 = { (pointer__)"Cannot assign ", 14 };
-	StringBuilder__write__(&local0, local1);
-	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, from__));
-	string__ local2 = { (pointer__)" to ", 4 };
-	StringBuilder__write__(&local0, local2);
-	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, to__));
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (at__)->span__, StringBuilder__compactToString__(&local0)));
-}
-TypeCheckResult__ TypeChecker__index__(TypeCheckerState__* s__, IndexExpression__* e__) {
-	TypeCheckResult__ local0;
-	memset(&local0, 0, sizeof(TypeCheckResult__));
-	TypeCheckResult__ result__ = local0;
-	TypeCheckResult__ target__ = TypeChecker__expression__(s__, (e__)->target__);
-	bool__ targetValid__ = false__;
-	if (Tag__isValid__((target__).tag__)) {
-		bool__ local1 = (((target__).tag__).kind__) == (TagKind__number__);
-		if (local1) {
-			local1 = ((((target__).tag__).q__)) > ((0));
-		}
-		if (local1) {
-			if (((((target__).tag__).q__)) <= ((64))) {
-				targetValid__ = true__;
-			} else {
-				StringBuilder__ local2;
-				memset(&local2, 0, sizeof(local2));
-				string__ local3 = { (pointer__)"Unsupported expression: cannot index argument of type ", 54 };
-				StringBuilder__write__(&local2, local3);
-				StringBuilder__write__(&local2, TypeChecker__tagString__((s__)->comp__, (target__).tag__));
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->openBracket__)->span__, StringBuilder__compactToString__(&local2)));
-			}
-		} else {
-			StringBuilder__ local4;
-			memset(&local4, 0, sizeof(local4));
-			string__ local5 = { (pointer__)"Cannot index argument of type ", 30 };
-			StringBuilder__write__(&local4, local5);
-			StringBuilder__write__(&local4, TypeChecker__tagString__((s__)->comp__, (target__).tag__));
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->openBracket__)->span__, StringBuilder__compactToString__(&local4)));
-		}
-	}
-	if ((((e__)->upperExpr__).dataPtr__) != ((pointer__)(null__))) {
-		TypeCheckResult__ upper__ = TypeChecker__expression__(s__, (e__)->upperExpr__);
-		bool__ upperValid__ = false__;
-		if (Tag__isValid__((upper__).tag__)) {
-			bool__ local6 = (((upper__).tag__).kind__) == (TagKind__number__);
-			if (local6) {
-				local6 = (((upper__).value__).kind__) == (ValueKind__ulong___);
-			}
-			if (local6) {
-				if (targetValid__) {
-					if (((((upper__).value__).z__)) < (((ulong__)(((target__).tag__).q__)))) {
-						upperValid__ = true__;
-					} else {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string170));
-					}
-				}
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string166));
-			}
-		}
-		if ((((e__)->lowerExpr__).dataPtr__) != ((pointer__)(null__))) {
-			TypeCheckResult__ lower__ = TypeChecker__expression__(s__, (e__)->lowerExpr__);
-			if (Tag__isValid__((lower__).tag__)) {
-				bool__ local7 = (((lower__).tag__).kind__) == (TagKind__number__);
-				if (local7) {
-					local7 = (((lower__).value__).kind__) == (ValueKind__ulong___);
-				}
-				if (local7) {
-					if (targetValid__) {
-						if (((((lower__).value__).z__)) < (((ulong__)(((target__).tag__).q__)))) {
-							if (upperValid__) {
-								if (((((lower__).value__).z__)) <= ((((upper__).value__).z__))) {
-									Tag__ local8;
-									memset(&local8, 0, sizeof(Tag__));
-									local8.kind__ = TagKind__number__;
-									local8.q__ = (((((int__)(((upper__).value__).z__))) - (((int__)(((lower__).value__).z__))))) + ((1));
-									(result__).tag__ = local8;
-								} else {
-									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string171));
-								}
-							}
-						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string170));
-						}
-					}
-				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string166));
-				}
-			}
-		} else {
-			Tag__ local9;
-			memset(&local9, 0, sizeof(Tag__));
-			local9.kind__ = TagKind__number__;
-			local9.q__ = 1;
-			(result__).tag__ = local9;
-		}
-	}
-	return result__;
-}
-void__ TypeChecker__badSymbol__(TypeCheckerState__* s__, Token__* token__) {
-	StringBuilder__ local0;
-	memset(&local0, 0, sizeof(local0));
-	string__ local1 = { (pointer__)"Undefined symbol: ", 18 };
-	StringBuilder__write__(&local0, local1);
-	StringBuilder__write__(&local0, (token__)->value__);
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (token__)->span__, StringBuilder__compactToString__(&local0)));
-}
-void__ TypeChecker__invalidNamePrefix__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string105));
-}
-void__ TypeChecker__builtinArgs__(TypeCheckerState__* s__, CallExpression__* e__, int__ count__) {
-	if (((((e__)->args__)->count__)) != ((count__))) {
-		StringBuilder__ local0;
-		memset(&local0, 0, sizeof(local0));
-		string__ local1 = { (pointer__)"Expected: ", 10 };
-		StringBuilder__write__(&local0, local1);
-		int__writeTo__(count__, &local0);
-		string__ local2 = { (pointer__)" args but got ", 14 };
-		StringBuilder__write__(&local0, local2);
-		int__writeTo__(((e__)->args__)->count__, &local0);
-		string__ local3 = { (pointer__)" args", 5 };
-		StringBuilder__write__(&local0, local3);
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->openParen__)->span__, StringBuilder__compactToString__(&local0)));
-	}
-	{
-		List__Ptr__CallArg______* local4 = (e__)->args__;
-		int__ i__ = 0;
-		while (i__ < local4->count__) {
-			CallArg__* arg__ = ((CallArg__**)(local4->dataPtr__))[i__];
-			if (((arg__)->name__) != (null__)) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string25));
-			}
-			if (((i__)) >= ((count__))) {
-				TypeChecker__expression__(s__, (arg__)->expr__);
-			}
-			i__ += 1;
-		}
-	}
 }
 TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, TernaryOperatorExpression__* e__) {
 	TypeCheckResult__ local0;
@@ -6867,7 +6145,7 @@ TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, Ternar
 		}
 		if (local1) {
 		} else {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->conditionExpr__), mu_____string136));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->conditionExpr__), mu_____string137));
 		}
 	}
 	TypeCheckResult__ local2;
@@ -6898,13 +6176,13 @@ TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, Ternar
 	}
 	if (local6) {
 		if (Tag__isValid__((te__).tag__)) {
-			if (TypeChecker__canAssign__(s__, (te__).tag__, (te__).value__, (s__)->gapTag__)) {
+			if (TypeChecker__canAssign_andUpgrade__(s__, (te__).tag__, (te__).value__, (e__)->trueExpr__, (s__)->gapTag__)) {
 			} else {
 				TypeChecker__badConversion__(s__, (e__)->trueExpr__, (te__).tag__, (s__)->gapTag__);
 			}
 		}
 		if (Tag__isValid__((fe__).tag__)) {
-			if (TypeChecker__canAssign__(s__, (fe__).tag__, (fe__).value__, (s__)->gapTag__)) {
+			if (TypeChecker__canAssign_andUpgrade__(s__, (fe__).tag__, (fe__).value__, (e__)->falseExpr__, (s__)->gapTag__)) {
 			} else {
 				TypeChecker__badConversion__(s__, (e__)->falseExpr__, (fe__).tag__, (s__)->gapTag__);
 			}
@@ -6927,7 +6205,7 @@ TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, Ternar
 				}
 				if (local10) {
 					if (((((te__).tag__).q__)) == ((0))) {
-						if (TypeChecker__canConvertFreeConst__(s__, (te__).value__, ((fe__).tag__).q__)) {
+						if (TypeChecker__canConvertFreeConst_andUpgrade__(s__, (te__).value__, (e__)->trueExpr__, (fe__).tag__)) {
 							Tag__ local11;
 							memset(&local11, 0, sizeof(Tag__));
 							local11.kind__ = TagKind__number__;
@@ -6938,7 +6216,7 @@ TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, Ternar
 						}
 					} else {
 						if (((((fe__).tag__).q__)) == ((0))) {
-							if (TypeChecker__canConvertFreeConst__(s__, (fe__).value__, ((te__).tag__).q__)) {
+							if (TypeChecker__canConvertFreeConst_andUpgrade__(s__, (fe__).value__, (e__)->falseExpr__, (te__).tag__)) {
 								Tag__ local12;
 								memset(&local12, 0, sizeof(Tag__));
 								local12.kind__ = TagKind__number__;
@@ -7069,7 +6347,7 @@ TypeCheckResult__ TypeChecker__token__(TypeCheckerState__* s__, Token__* e__) {
 						break;
 					}
 					default: {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (e__)->span__, mu_____string150));
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (e__)->span__, mu_____string151));
 						break;
 					}
 					case 0: {
@@ -7101,57 +6379,6 @@ TypeCheckerContext__ TypeChecker__pushContext__(TypeCheckerState__* s__, CodeUni
 	(s__)->allowDontCare__ = false__;
 	return result__;
 }
-TypeCheckResult__ TypeChecker__brace__(TypeCheckerState__* s__, BraceExpression__* e__) {
-	bool__ allValid__ = true__;
-	int__ bits__ = 0;
-	{
-		List__Node____* local0 = (e__)->args__;
-		int__ local1 = 0;
-		while (local1 < local0->count__) {
-			Node__ arg__ = ((Node__*)(local0->dataPtr__))[local1];
-			bool__ prevAllowDontCare__ = (s__)->allowDontCare__;
-			(s__)->allowDontCare__ = (arg__).id__ == Node_____Ptr__NumberExpression____;
-			TypeCheckResult__ atr__ = TypeChecker__expression__(s__, arg__);
-			(s__)->allowDontCare__ = prevAllowDontCare__;
-			if (Tag__isValid__((atr__).tag__)) {
-				bool__ local2 = (((atr__).tag__).kind__) == (TagKind__number__);
-				if (local2) {
-					local2 = ((((atr__).tag__).q__)) > ((0));
-				}
-				if (local2) {
-					bits__ = ((bits__)) + ((((atr__).tag__).q__));
-				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(arg__), mu_____string142));
-				}
-			} else {
-				allValid__ = false__;
-			}
-			local1 += 1;
-		}
-	}
-	if (((bits__)) > ((64))) {
-		Node__ local3;
-		local3.dataPtr__ = (pointer__)(e__);
-		local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__BraceExpression____ : 0;
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local3), mu_____string172));
-	}
-	TypeCheckResult__ local4;
-	if (allValid__) {
-		TypeCheckResult__ local5;
-		memset(&local5, 0, sizeof(TypeCheckResult__));
-		Tag__ local6;
-		memset(&local6, 0, sizeof(Tag__));
-		local6.kind__ = TagKind__number__;
-		local6.q__ = bits__;
-		local5.tag__ = local6;
-		local4 = local5;
-	} else {
-		TypeCheckResult__ local7;
-		memset(&local7, 0, sizeof(TypeCheckResult__));
-		local4 = local7;
-	}
-	return local4;
-}
 void__ TypeChecker__badGapArgument__(TypeCheckerState__* s__, Token__* op__, Tag__ arg__, Tag__ target__) {
 	StringBuilder__ local0;
 	memset(&local0, 0, sizeof(local0));
@@ -7171,26 +6398,6 @@ int__ TypeChecker__unpackInt__(Value__ value__) {
 	mu_____assert((((value__).z__)) <= (((ulong__)(int__maxValue__))));
 	return (int__)((value__).z__);
 }
-void__ TypeChecker__badGap__(TypeCheckerState__* s__, Token__* op__) {
-	StringBuilder__ local0;
-	memset(&local0, 0, sizeof(local0));
-	string__ local1 = { (pointer__)"Cannot apply operator ", 22 };
-	StringBuilder__write__(&local0, local1);
-	StringBuilder__write__(&local0, (op__)->value__);
-	string__ local2 = { (pointer__)" because target type is inferred", 32 };
-	StringBuilder__write__(&local0, local2);
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
-}
-TypeCheckResult__ TypeChecker__expressionContinueGap__(TypeCheckerState__* s__, Node__ e__) {
-	TypeCheckResult__ tr__ = TypeChecker__expressionInner__(s__, e__);
-	if ((((tr__).tag__).kind__) != (TagKind__unknown__)) {
-		Map__add__Node__Tag____((s__)->typeMap__, e__, (tr__).tag__);
-	}
-	if ((((tr__).value__).kind__) != (ValueKind__none__)) {
-		Map__add__Node__Value____((s__)->constMap__, e__, (tr__).value__);
-	}
-	return tr__;
-}
 TypeCheckResult__ TypeChecker__unaryOperator__(TypeCheckerState__* s__, UnaryOperatorExpression__* e__) {
 	TypeCheckResult__ local0;
 	memset(&local0, 0, sizeof(TypeCheckResult__));
@@ -7208,7 +6415,7 @@ TypeCheckResult__ TypeChecker__unaryOperator__(TypeCheckerState__* s__, UnaryOpe
 	string__ op__ = ((e__)->op__)->value__;
 	bool__ local4 = string__equals__(op__, mu_____string2);
 	if (!local4) {
-		local4 = string__equals__(op__, mu_____string57);
+		local4 = string__equals__(op__, mu_____string58);
 	}
 	bool__ local3 = local4;
 	if (!local3) {
@@ -7219,7 +6426,7 @@ TypeCheckResult__ TypeChecker__unaryOperator__(TypeCheckerState__* s__, UnaryOpe
 			if ((((arg__).tag__).kind__) == (TagKind__number__)) {
 				bool__ local5 = string__equals__(op__, mu_____string2);
 				if (!local5) {
-					local5 = string__equals__(op__, mu_____string57);
+					local5 = string__equals__(op__, mu_____string58);
 				}
 				if (local5) {
 					if (((((arg__).tag__).q__)) <= ((64))) {
@@ -7239,7 +6446,7 @@ TypeCheckResult__ TypeChecker__unaryOperator__(TypeCheckerState__* s__, UnaryOpe
 							local7.z__ = -(((arg__).value__).z__);
 							(result__).value__ = local7;
 						} else {
-							if (string__equals__(op__, mu_____string57)) {
+							if (string__equals__(op__, mu_____string58)) {
 								Value__ local8;
 								memset(&local8, 0, sizeof(Value__));
 								local8.kind__ = ValueKind__ulong___;
@@ -7299,15 +6506,1541 @@ TypeCheckResult__ TypeChecker__unaryOperator__(TypeCheckerState__* s__, UnaryOpe
 	}
 	return result__;
 }
-void__ TypeChecker__invalidNamePrefix_nonStatic__(TypeCheckerState__* s__, Node__ e__) {
+bool__ TypeChecker__canAssign_andUpgrade__(TypeCheckerState__* s__, Tag__ from__, Value__ fromValue__, Node__ node__, Tag__ to__) {
+	if (((to__).kind__) != (TagKind__unknown__)) {
+		if (((from__).kind__) == (TagKind__number__)) {
+			if (((to__).kind__) == (TagKind__number__)) {
+				mu_____assert((((to__).q__)) > ((0)));
+				if ((((to__).q__)) == (((from__).q__))) {
+					return true__;
+				}
+				if ((((from__).q__)) == ((0))) {
+					return TypeChecker__canConvertFreeConst_andUpgrade__(s__, fromValue__, node__, to__);
+				}
+			}
+			return false__;
+		} else {
+			bool__ local0 = ((from__).kind__) == (TagKind__moduleOut__);
+			if (!local0) {
+				local0 = ((from__).kind__) == (TagKind__struct___);
+			}
+			if (local0) {
+				bool__ local1 = ((to__).kind__) == ((from__).kind__);
+				if (local1) {
+					local1 = (((to__).q__)) == (((from__).q__));
+				}
+				return local1;
+			}
+		}
+	}
+	return true__;
+}
+Tag__ TypeChecker__typename__(TypeCheckerState__* s__, Node__ node__, Token__* name__) {
+	Tag__ tag__ = TypeChecker__tag__(s__, (name__)->value__);
+	if (Tag__isValid__(tag__)) {
+		Map__add__Node__Tag____((s__)->typeMap__, node__, tag__);
+	} else {
+		StringBuilder__ local0;
+		memset(&local0, 0, sizeof(local0));
+		string__ local1 = { (pointer__)"Undefined type: ", 16 };
+		StringBuilder__write__(&local0, local1);
+		StringBuilder__write__(&local0, (name__)->value__);
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (name__)->span__, StringBuilder__compactToString__(&local0)));
+	}
+	return tag__;
+}
+TypeCheckResult__ TypeChecker__slice__(TypeCheckerState__* s__, CallExpression__* e__) {
+	if (((s__)->module__) == (null__)) {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string177));
+	}
+	if ((s__)->isStaticExpr__) {
+	} else {
+		if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string141));
+		}
+	}
+	TypeChecker__builtinArgs__(s__, e__, 3);
+	TypeChecker__fixedNumberArg__(s__, e__, 0);
+	TypeChecker__numberArg__(s__, e__, 1);
+	TypeCheckResult__ widthArg__ = TypeChecker__constantArg__(s__, e__, 2);
+	TypeCheckResult__ local0;
+	memset(&local0, 0, sizeof(TypeCheckResult__));
+	TypeCheckResult__ result__ = local0;
+	if (Tag__isValid__((widthArg__).tag__)) {
+		Maybe__int____ width__ = TypeChecker__tryUnpackInt__((widthArg__).value__);
+		if ((s__)->isStaticExpr__) {
+			bool__ local1 = (width__).hasValue__;
+			if (local1) {
+				local1 = ((0)) < (((width__).value__));
+			}
+			if (local1) {
+				Tag__ local2;
+				memset(&local2, 0, sizeof(Tag__));
+				local2.kind__ = TagKind__number__;
+				local2.q__ = (width__).value__;
+				(result__).tag__ = local2;
+			} else {
+				List__Ptr__CallArg______* local3 = (e__)->args__;
+				uint__ local4 = (uint__)(2);
+				mu_____boundscheck(local4 < (uint__)local3->count__);
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local3->dataPtr__)[local4])->expr__), mu_____string174));
+			}
+		} else {
+			bool__ local6 = (width__).hasValue__;
+			if (local6) {
+				local6 = ((1)) <= (((width__).value__));
+			}
+			bool__ local5 = local6;
+			if (local5) {
+				local5 = (((width__).value__)) <= ((64));
+			}
+			if (local5) {
+				Tag__ local7;
+				memset(&local7, 0, sizeof(Tag__));
+				local7.kind__ = TagKind__number__;
+				local7.q__ = (width__).value__;
+				(result__).tag__ = local7;
+			} else {
+				List__Ptr__CallArg______* local8 = (e__)->args__;
+				uint__ local9 = (uint__)(2);
+				mu_____boundscheck(local9 < (uint__)local8->count__);
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local8->dataPtr__)[local9])->expr__), mu_____string146));
+			}
+		}
+	}
+	return result__;
+}
+void__ TypeChecker__unsupportedRegUpdate__(TypeCheckerState__* s__, Node__ e__) {
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string140));
+}
+TypeCheckResult__ TypeChecker__assignSlice__(TypeCheckerState__* s__, AssignStatement__* st__, CallExpression__* e__) {
+	if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string141));
+	}
+	TypeChecker__builtinArgs__(s__, e__, 3);
+	if (((((e__)->args__)->count__)) >= ((1))) {
+		List__Ptr__CallArg______* local0 = (e__)->args__;
+		uint__ local1 = (uint__)(0);
+		mu_____boundscheck(local1 < (uint__)local0->count__);
+		Node__ regArg__ = (((CallArg__**)local0->dataPtr__)[local1])->expr__;
+		if ((regArg__).id__ == Node_____Ptr__Token____) {
+			Node__ local2 = regArg__;
+			mu_____checkedcast(local2.id__ == Node_____Ptr__Token____);
+			Token__* nameToken__ = (Token__*)(local2.dataPtr__);
+			string__ name__ = (nameToken__)->value__;
+			Node__ sym__ = Map__getOrDefault__string__Node____(((s__)->module__)->symbols__, (nameToken__)->value__);
+			if (((sym__).dataPtr__) != ((pointer__)(null__))) {
+				bool__ local3 = (sym__).id__ == Node_____Ptr__AssignStatement____;
+				if (local3) {
+					Node__ local4 = sym__;
+					mu_____checkedcast(local4.id__ == Node_____Ptr__AssignStatement____);
+					local3 = (((((AssignStatement__*)(local4.dataPtr__))->flags__)) & ((AssignFlags__reg__))) != (0);
+				}
+				if (local3) {
+					Node__ local5 = sym__;
+					mu_____checkedcast(local5.id__ == Node_____Ptr__AssignStatement____);
+					AssignStatement__* reg__ = (AssignStatement__*)(local5.dataPtr__);
+					(st__)->localId__ = (reg__)->localId__;
+					Node__ local6;
+					local6.dataPtr__ = (pointer__)(nameToken__);
+					local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+					TypeChecker__ensureAssignDone__(s__, reg__, local6);
+					Node__ local7;
+					local7.dataPtr__ = (pointer__)(reg__);
+					local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+					Tag__ regTag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local7);
+					bool__ local8 = ((regTag__).kind__) == (TagKind__number__);
+					if (local8) {
+						local8 = (((regTag__).q__)) > ((0));
+					}
+					if (local8) {
+					} else {
+						TypeChecker__expectedFixedNumberExpression__(s__, regArg__);
+					}
+				} else {
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string130));
+				}
+			} else {
+				TypeChecker__badSymbol__(s__, nameToken__);
+			}
+		} else {
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(regArg__), mu_____string130));
+		}
+	}
+	TypeChecker__numberArg__(s__, e__, 1);
+	TypeCheckResult__ widthArg__ = TypeChecker__constantArg__(s__, e__, 2);
+	Tag__ local9;
+	memset(&local9, 0, sizeof(Tag__));
+	Tag__ tag__ = local9;
+	if (Tag__isValid__((widthArg__).tag__)) {
+		Maybe__int____ width__ = TypeChecker__tryUnpackInt__((widthArg__).value__);
+		bool__ local11 = (width__).hasValue__;
+		if (local11) {
+			local11 = ((1)) <= (((width__).value__));
+		}
+		bool__ local10 = local11;
+		if (local10) {
+			local10 = (((width__).value__)) <= ((64));
+		}
+		if (local10) {
+			Tag__ local12;
+			memset(&local12, 0, sizeof(Tag__));
+			local12.kind__ = TagKind__number__;
+			local12.q__ = (width__).value__;
+			tag__ = local12;
+		} else {
+			List__Ptr__CallArg______* local13 = (e__)->args__;
+			uint__ local14 = (uint__)(2);
+			mu_____boundscheck(local14 < (uint__)local13->count__);
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local13->dataPtr__)[local14])->expr__), mu_____string146));
+			TypeCheckResult__ local15;
+			memset(&local15, 0, sizeof(TypeCheckResult__));
+			return local15;
+		}
+	}
+	if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+		TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, true__, tag__);
+		if (TypeChecker__canAssign_andUpgrade__(s__, (rhs__).tag__, (rhs__).value__, (st__)->expr__, tag__)) {
+		} else {
+			TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
+		}
+	}
+}
+TypeCheckResult__ TypeChecker__paren__(TypeCheckerState__* s__, ParenExpression__* e__) {
+	TypeCheckResult__ local0;
+	if ((((e__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+		local0 = TypeChecker__expression__(s__, (e__)->expr__);
+	} else {
+		TypeCheckResult__ local1;
+		memset(&local1, 0, sizeof(TypeCheckResult__));
+		local0 = local1;
+	}
+	return local0;
+}
+void__ TypeChecker__clock__(TypeCheckerState__* s__, ClockStatement__* st__) {
+	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
+		Node__ local0;
+		local0.dataPtr__ = (pointer__)((st__)->keyword__);
+		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+		TypeChecker__statementNotAllowedInsideBlackbox__(s__, local0);
+	}
+	if (((st__)->name__) != (null__)) {
+		string__ name__ = ((st__)->name__)->value__;
+		if (!(Map__containsKey__string__Node____(((s__)->module__)->symbols__, name__))) {
+			TypeChecker__badSymbol__(s__, (st__)->name__);
+		}
+	}
+	if ((s__)->inClock__) {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->keyword__)->span__, mu_____string135));
+	}
+	(s__)->inClock__ = true__;
+	TypeChecker__block__(s__, (st__)->body__);
+	(s__)->inClock__ = false__;
+}
+bool__ TypeChecker__isValidEntityName_nonStatic__(string__ s__) {
+	string__* local1 = &(s__);
+	uint__ local2 = (uint__)(0);
+	mu_____boundscheck(local2 < (uint__)local1->length__);
+	bool__ local0 = (((char__*)local1->dataPtr__)[local2]) != ('$');
+	if (local0) {
+		string__* local3 = &(s__);
+		uint__ local4 = (uint__)(0);
+		mu_____boundscheck(local4 < (uint__)local3->length__);
+		local0 = (((char__*)local3->dataPtr__)[local4]) != ('#');
+	}
+	return local0;
+}
+TypeCheckResult__ TypeChecker__rep__(TypeCheckerState__* s__, CallExpression__* e__) {
+	TypeChecker__builtinArgs__(s__, e__, 2);
+	TypeCheckResult__ target__ = TypeChecker__fixedNumberArg__(s__, e__, 0);
+	TypeCheckResult__ nArg__ = TypeChecker__constantArg__(s__, e__, 1);
+	TypeCheckResult__ local0;
+	memset(&local0, 0, sizeof(TypeCheckResult__));
+	TypeCheckResult__ result__ = local0;
+	if (Tag__isValid__((nArg__).tag__)) {
+		Maybe__int____ n__ = TypeChecker__tryUnpackInt__((nArg__).value__);
+		bool__ local1 = (n__).hasValue__;
+		if (local1) {
+			local1 = ((0)) < (((n__).value__));
+		}
+		if (local1) {
+			if (Tag__isValid__((target__).tag__)) {
+				int__ w__ = ((((target__).tag__).q__)) * (((n__).value__));
+				if (((w__)) <= ((64))) {
+					Tag__ local2;
+					memset(&local2, 0, sizeof(Tag__));
+					local2.kind__ = TagKind__number__;
+					local2.q__ = w__;
+					(result__).tag__ = local2;
+					if ((((target__).value__).kind__) == (ValueKind__ulong___)) {
+						Value__ local3;
+						memset(&local3, 0, sizeof(Value__));
+						local3.kind__ = ValueKind__ulong___;
+						local3.z__ = (ulong__)(0);
+						(result__).value__ = local3;
+						{
+							int__ i__ = 0;
+							while (((i__)) < (((n__).value__))) {
+								((result__).value__).z__ = ((ulong__)((result__).value__).z__) << (((target__).tag__).q__);
+								((result__).value__).z__ = ((((result__).value__).z__)) | ((((target__).value__).z__));
+								i__ += 1;
+							}
+						}
+					}
+				} else {
+					Node__ local4;
+					local4.dataPtr__ = (pointer__)(e__);
+					local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local4), mu_____string173));
+				}
+			}
+		} else {
+			List__Ptr__CallArg______* local5 = (e__)->args__;
+			uint__ local6 = (uint__)(1);
+			mu_____boundscheck(local6 < (uint__)local5->count__);
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local5->dataPtr__)[local6])->expr__), mu_____string174));
+		}
+	}
+	return result__;
+}
+TypeCheckResult__ TypeChecker__swizzle__(TypeCheckerState__* s__, CallExpression__* e__) {
+	if (((s__)->module__) == (null__)) {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string182));
+	}
+	if (!((s__)->isStaticExpr__)) {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string183));
+	}
+	TypeChecker__builtinArgs__(s__, e__, 4);
+	TypeCheckResult__ arrayArg__ = TypeChecker__fixedNumberArg__(s__, e__, 0);
+	TypeCheckResult__ seqSizeArg__ = TypeChecker__constantArg__(s__, e__, 1);
+	TypeCheckResult__ stepArg__ = TypeChecker__constantArg__(s__, e__, 2);
+	TypeCheckResult__ blockSizeArg__ = TypeChecker__constantArg__(s__, e__, 3);
+	bool__ local2 = Tag__isValid__((arrayArg__).tag__);
+	if (local2) {
+		local2 = Tag__isValid__((seqSizeArg__).tag__);
+	}
+	bool__ local1 = local2;
+	if (local1) {
+		local1 = Tag__isValid__((stepArg__).tag__);
+	}
+	bool__ local0 = local1;
+	if (local0) {
+		local0 = Tag__isValid__((blockSizeArg__).tag__);
+	}
+	if (local0) {
+		int__ numBits__ = TypeChecker__unpackWidth__((arrayArg__).tag__);
+		Maybe__int____ seqSize__ = TypeChecker__tryUnpackInt__((seqSizeArg__).value__);
+		Maybe__int____ step__ = TypeChecker__tryUnpackInt__((stepArg__).value__);
+		Maybe__int____ blockSize__ = TypeChecker__tryUnpackInt__((blockSizeArg__).value__);
+		if (((((numBits__)) % ((8)))) == ((0))) {
+			bool__ local4 = (blockSize__).hasValue__;
+			if (local4) {
+				local4 = (((blockSize__).value__)) > ((0));
+			}
+			bool__ local3 = local4;
+			if (local3) {
+				local3 = ((((numBits__)) % (((blockSize__).value__)))) == ((0));
+			}
+			if (local3) {
+				bool__ local6 = (step__).hasValue__;
+				if (local6) {
+					local6 = (((step__).value__)) > ((0));
+				}
+				bool__ local5 = local6;
+				if (local5) {
+					local5 = (((((blockSize__).value__)) % (((step__).value__)))) == ((0));
+				}
+				if (local5) {
+					bool__ local8 = (seqSize__).hasValue__;
+					if (local8) {
+						local8 = (((seqSize__).value__)) > ((0));
+					}
+					bool__ local7 = local8;
+					if (local7) {
+						local7 = (((((step__).value__)) % (((seqSize__).value__)))) == ((0));
+					}
+					if (local7) {
+						TypeCheckResult__ local9;
+						memset(&local9, 0, sizeof(TypeCheckResult__));
+						local9.tag__ = (arrayArg__).tag__;
+						return local9;
+					} else {
+						List__Ptr__CallArg______* local10 = (e__)->args__;
+						uint__ local11 = (uint__)(1);
+						mu_____boundscheck(local11 < (uint__)local10->count__);
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local10->dataPtr__)[local11])->expr__), mu_____string184));
+					}
+				} else {
+					List__Ptr__CallArg______* local12 = (e__)->args__;
+					uint__ local13 = (uint__)(2);
+					mu_____boundscheck(local13 < (uint__)local12->count__);
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local12->dataPtr__)[local13])->expr__), mu_____string185));
+				}
+			} else {
+				List__Ptr__CallArg______* local14 = (e__)->args__;
+				uint__ local15 = (uint__)(3);
+				mu_____boundscheck(local15 < (uint__)local14->count__);
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local14->dataPtr__)[local15])->expr__), mu_____string186));
+			}
+		} else {
+			List__Ptr__CallArg______* local16 = (e__)->args__;
+			uint__ local17 = (uint__)(0);
+			mu_____boundscheck(local17 < (uint__)local16->count__);
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local16->dataPtr__)[local17])->expr__), mu_____string187));
+		}
+	}
+	TypeCheckResult__ local18;
+	memset(&local18, 0, sizeof(TypeCheckResult__));
+	return local18;
+}
+void__ TypeChecker__block__(TypeCheckerState__* s__, Block__* st__) {
+	{
+		List__Node____* local0 = (st__)->contents__;
+		int__ local1 = 0;
+		while (local1 < local0->count__) {
+			Node__ n__ = ((Node__*)(local0->dataPtr__))[local1];
+			switch ((n__).id__) {
+				case Node_____Ptr__FieldDef____: {
+					FieldDef__* local2 = (FieldDef__*)(n__.dataPtr__);
+					TypeChecker__fieldDef__(s__, local2);
+					break;
+				}
+				case Node_____Ptr__ClockStatement____: {
+					ClockStatement__* local3 = (ClockStatement__*)(n__.dataPtr__);
+					TypeChecker__clock__(s__, local3);
+					break;
+				}
+				case Node_____Ptr__IfStatement____: {
+					IfStatement__* local4 = (IfStatement__*)(n__.dataPtr__);
+					TypeChecker__if___(s__, local4);
+					break;
+				}
+				case Node_____Ptr__AssignStatement____: {
+					AssignStatement__* local5 = (AssignStatement__*)(n__.dataPtr__);
+					TypeChecker__assign__(s__, local5);
+					break;
+				}
+				default: {
+					{
+					}
+					break;
+				}
+				case 0: {
+					mu_____nomatch();
+				}
+			}
+			local1 += 1;
+		}
+	}
+}
+int__ TypeChecker__numSlots__(Compilation__* comp__, Tag__ tag__) {
+	if (((tag__).kind__) == (TagKind__number__)) {
+		return 1;
+	} else {
+		if (((tag__).kind__) == (TagKind__struct___)) {
+			List__Node____* local1 = (comp__)->entities__;
+			uint__ local2 = (uint__)((tag__).q__);
+			mu_____boundscheck(local2 < (uint__)local1->count__);
+			Node__ local0 = ((Node__*)local1->dataPtr__)[local2];
+			mu_____checkedcast(local0.id__ == Node_____Ptr__StructDef____);
+			return (((StructDef__*)(local0.dataPtr__))->fields__)->count__;
+		}
+	}
+	mu_____abandon(-1);
+	return 0;
+}
+TypeCheckResult__ TypeChecker__constantArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__) {
+	if (((index__)) >= ((((e__)->args__)->count__))) {
+		TypeCheckResult__ local0;
+		memset(&local0, 0, sizeof(TypeCheckResult__));
+		return local0;
+	}
+	List__Ptr__CallArg______* local1 = (e__)->args__;
+	uint__ local2 = (uint__)(index__);
+	mu_____boundscheck(local2 < (uint__)local1->count__);
+	CallArg__* arg__ = ((CallArg__**)local1->dataPtr__)[local2];
+	if ((((arg__)->expr__).dataPtr__) == ((pointer__)(null__))) {
+		TypeCheckResult__ local3;
+		memset(&local3, 0, sizeof(TypeCheckResult__));
+		return local3;
+	}
+	TypeCheckResult__ tr__ = TypeChecker__expression__(s__, (arg__)->expr__);
+	if (Tag__isValid__((tr__).tag__)) {
+		bool__ local4 = (((tr__).tag__).kind__) == (TagKind__number__);
+		if (local4) {
+			local4 = (((tr__).value__).kind__) == (ValueKind__ulong___);
+		}
+		if (local4) {
+		} else {
+			TypeChecker__expectedConstant__(s__, (arg__)->expr__);
+			TypeCheckResult__ local5;
+			memset(&local5, 0, sizeof(TypeCheckResult__));
+			return local5;
+		}
+	}
+	return tr__;
+}
+Maybe__int____ TypeChecker__tryUnpackInt__(Value__ value__) {
+	mu_____assert(((value__).kind__) == (ValueKind__ulong___));
+	if ((((value__).z__)) <= (((ulong__)(int__maxValue__)))) {
+		return Maybe__from__int____((int__)((value__).z__));
+	}
+	Maybe__int____ local0;
+	memset(&local0, 0, sizeof(Maybe__int____));
+	return local0;
+}
+TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression__* e__) {
+	TypeCheckResult__ local0;
+	memset(&local0, 0, sizeof(TypeCheckResult__));
+	TypeCheckResult__ target__ = local0;
+	bool__ condValid__ = false__;
+	if ((((e__)->target__).dataPtr__) != ((pointer__)(null__))) {
+		target__ = TypeChecker__expression__(s__, (e__)->target__);
+		if (Tag__isValid__((target__).tag__)) {
+			bool__ local1 = (((target__).tag__).kind__) == (TagKind__number__);
+			if (local1) {
+				local1 = ((((target__).tag__).q__)) > ((0));
+			}
+			if (local1) {
+				condValid__ = true__;
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string143));
+			}
+		}
+	}
+	TypeCheckResult__ local2;
+	memset(&local2, 0, sizeof(TypeCheckResult__));
+	TypeCheckResult__ result__ = local2;
+	{
+		List__Ptr__MatchExpressionCase______* local3 = (e__)->cases__;
+		int__ local4 = 0;
+		while (local4 < local3->count__) {
+			MatchExpressionCase__* c__ = ((MatchExpressionCase__**)(local3->dataPtr__))[local4];
+			TypeCheckResult__ vex__ = TypeChecker__expression__(s__, (c__)->valueExpr__);
+			if (Tag__isValid__((vex__).tag__)) {
+				bool__ local5 = (((vex__).tag__).kind__) == (TagKind__number__);
+				if (local5) {
+					local5 = (((vex__).value__).kind__) == (ValueKind__ulong___);
+				}
+				if (local5) {
+					if (condValid__) {
+						if (TypeChecker__canAssign_andUpgrade__(s__, (vex__).tag__, (vex__).value__, (c__)->valueExpr__, (target__).tag__)) {
+						} else {
+							TypeChecker__badConstConversion__(s__, (c__)->valueExpr__, (vex__).tag__, (target__).tag__);
+						}
+					}
+				} else {
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->valueExpr__), mu_____string167));
+				}
+			}
+			if ((((c__)->resultExpr__).dataPtr__) != ((pointer__)(null__))) {
+				TypeCheckResult__ rex__ = TypeChecker__expressionContinueGap__(s__, (c__)->resultExpr__);
+				if (Tag__isValid__((rex__).tag__)) {
+					if (Tag__isValid__((result__).tag__)) {
+						bool__ local6 = (((rex__).tag__).kind__) == (TagKind__number__);
+						if (local6) {
+							local6 = ((((rex__).tag__).q__)) == ((((result__).tag__).q__));
+						}
+						if (local6) {
+						} else {
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string168));
+						}
+					} else {
+						bool__ local7 = (((rex__).tag__).kind__) == (TagKind__number__);
+						if (local7) {
+							local7 = ((((rex__).tag__).q__)) > ((0));
+						}
+						if (local7) {
+							(result__).tag__ = (rex__).tag__;
+						} else {
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string143));
+						}
+					}
+				}
+			}
+			local4 += 1;
+		}
+	}
+	return result__;
+}
+void__ TypeChecker__duplicateSymbol__(TypeCheckerState__* s__, Token__* token__) {
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (token__)->span__, mu_____string105));
+}
+void__ TypeChecker__restoreContext__(TypeCheckerState__* s__, TypeCheckerContext__ ctx__) {
+	(s__)->unit__ = (ctx__).unit__;
+	(s__)->module__ = (ctx__).module__;
+	(s__)->inClock__ = (ctx__).inClock__;
+	(s__)->isStaticExpr__ = (ctx__).isStaticExpr__;
+	(s__)->allowDontCare__ = (ctx__).allowDontCare__;
+}
+void__ TypeChecker__expectedConstant__(TypeCheckerState__* s__, Node__ e__) {
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string145));
+}
+void__ TypeChecker__badBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__) {
+	StringBuilder__ local0;
+	memset(&local0, 0, sizeof(local0));
+	string__ local1 = { (pointer__)"Cannot apply operator ", 22 };
+	StringBuilder__write__(&local0, local1);
+	StringBuilder__write__(&local0, (op__)->value__);
+	string__ local2 = { (pointer__)" to arguments of type ", 22 };
+	StringBuilder__write__(&local0, local2);
+	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, lhs__));
+	string__ local3 = { (pointer__)" and ", 5 };
+	StringBuilder__write__(&local0, local3);
+	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, rhs__));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
+}
+void__ TypeChecker__moduleInput__(TypeCheckerState__* s__, ModuleInputDef__* input__) {
+	if ((((((s__)->module__)->flags__)) & ((ModuleFlags__top__))) != (0)) {
+		if (((((input__)->flags__)) & ((ModuleInputFlags__static__))) != (0)) {
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->name__)->span__, mu_____string189));
+		}
+	}
+	if (((input__)->type__) != (null__)) {
+		Node__ local0;
+		local0.dataPtr__ = (pointer__)(input__);
+		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__ModuleInputDef____ : 0;
+		Tag__ tag__ = TypeChecker__typename__(s__, local0, (input__)->type__);
+		if (Tag__isValid__(tag__)) {
+			bool__ local1 = ((tag__).kind__) == (TagKind__number__);
+			if (!local1) {
+				local1 = (((s__)->module__)->blackboxKeyword__) == (null__);
+			}
+			if (local1) {
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->type__)->span__, mu_____string190));
+			}
+			((s__)->module__)->numInputSlots__ = ((((s__)->module__)->numInputSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, tag__)));
+		}
+	}
+}
+bool__ TypeChecker__isValidEntityName__(string__ s__) {
+	string__* local0 = &(s__);
+	uint__ local1 = (uint__)(0);
+	mu_____boundscheck(local1 < (uint__)local0->length__);
+	return (((char__*)local0->dataPtr__)[local1]) != ('$');
+}
+void__ TypeChecker__statementNotAllowedInsideBlackbox__(TypeCheckerState__* s__, Node__ e__) {
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string109));
+}
+void__ TypeChecker__badUnify__(TypeCheckerState__* s__, Token__* token__, Tag__ te__, Tag__ fe__) {
+	StringBuilder__ local0;
+	memset(&local0, 0, sizeof(local0));
+	string__ local1 = { (pointer__)"Cannot unify values of type ", 28 };
+	StringBuilder__write__(&local0, local1);
+	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, te__));
+	string__ local2 = { (pointer__)" and ", 5 };
+	StringBuilder__write__(&local0, local2);
+	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, fe__));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (token__)->span__, StringBuilder__compactToString__(&local0)));
+}
+bool__ TypeChecker__canConvertFreeConst_andUpgrade__(TypeCheckerState__* s__, Value__ fromValue__, Node__ node__, Tag__ to__) {
+	bool__ local0 = ((fromValue__).kind__) == (ValueKind__ulong___);
+	if (local0) {
+		local0 = ((TypeChecker__highestBit__((fromValue__).z__))) <= (((to__).q__));
+	}
+	if (local0) {
+		Map__update__Node__Tag____((s__)->typeMap__, node__, to__);
+		return true__;
+	}
+	return false__;
+}
+Tag__ TypeChecker__tag__(TypeCheckerState__* s__, string__ name__) {
+	string__* local0 = &(name__);
+	uint__ local1 = (uint__)(0);
+	mu_____boundscheck(local1 < (uint__)local0->length__);
+	if ((((char__*)local0->dataPtr__)[local1]) == ('$')) {
+		Maybe__int____ pr__ = int__tryParse__(string__slice__(name__, 1, (name__).length__));
+		bool__ local2 = (pr__).hasValue__;
+		if (local2) {
+			local2 = (((pr__).value__)) > ((0));
+		}
+		if (local2) {
+			Tag__ local3;
+			memset(&local3, 0, sizeof(Tag__));
+			local3.kind__ = TagKind__number__;
+			local3.q__ = (pr__).value__;
+			return local3;
+		}
+	} else {
+		Node__ sym__ = Map__getOrDefault__string__Node____((s__)->symbols__, name__);
+		bool__ local4 = ((sym__).dataPtr__) != ((pointer__)(null__));
+		if (local4) {
+			local4 = (sym__).id__ == Node_____Ptr__StructDef____;
+		}
+		if (local4) {
+			Tag__ local5;
+			memset(&local5, 0, sizeof(Tag__));
+			local5.kind__ = TagKind__struct___;
+			Node__ local6 = sym__;
+			mu_____checkedcast(local6.id__ == Node_____Ptr__StructDef____);
+			local5.q__ = ((StructDef__*)(local6.dataPtr__))->id__;
+			return local5;
+		}
+	}
+	Tag__ local7;
+	memset(&local7, 0, sizeof(Tag__));
+	return local7;
+}
+void__ TypeChecker__reg__(TypeCheckerState__* s__, AssignStatement__* st__) {
+	if (((st__)->outKeyword__) != (null__)) {
+		(st__)->outputIndex__ = (((s__)->module__)->outputs__)->count__;
+		List__add__Ptr__AssignStatement______(((s__)->module__)->outputs__, st__);
+	}
+	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
+		Node__ local0;
+		local0.dataPtr__ = (pointer__)((st__)->regKeyword__);
+		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+		TypeChecker__statementNotAllowedInsideBlackbox__(s__, local0);
+	}
+	if (((st__)->nameExpr__).id__ == Node_____Ptr__Token____) {
+		Node__ local1 = (st__)->nameExpr__;
+		mu_____checkedcast(local1.id__ == Node_____Ptr__Token____);
+		if (TypeChecker__isValidEntityName_nonStatic__(((Token__*)(local1.dataPtr__))->value__)) {
+		} else {
+			TypeChecker__invalidNamePrefix_nonStatic__(s__, (st__)->nameExpr__);
+		}
+	} else {
+		if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string111));
+		}
+	}
+	if (((st__)->op__) != (null__)) {
+		if (string__equals__(((st__)->op__)->value__, mu_____string112)) {
+			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+			} else {
+				List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
+			}
+		} else {
+			if (string__equals__(((st__)->op__)->value__, mu_____string45)) {
+				(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__regUpdate__));
+				if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+				} else {
+					List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
+				}
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string113));
+			}
+		}
+	} else {
+		if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string22));
+		}
+	}
+	if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+		if (((st__)->type__) != (null__)) {
+			Node__ local2;
+			local2.dataPtr__ = (pointer__)(st__);
+			local2.id__ = local2.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+			Tag__ tag__ = TypeChecker__typename__(s__, local2, (st__)->type__);
+			(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__typeCheckDone__));
+			(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
+			TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, ((st__)->type__) != (null__), tag__);
+			(s__)->isStaticExpr__ = false__;
+			bool__ local3 = ((st__)->op__) != (null__);
+			if (local3) {
+				local3 = Tag__isValid__(tag__);
+			}
+			if (local3) {
+				if (TypeChecker__isFixedNumberOrStruct__(tag__)) {
+					if (Tag__isValid__((rhs__).tag__)) {
+						if (TypeChecker__canAssign_andUpgrade__(s__, (rhs__).tag__, (rhs__).value__, (st__)->expr__, tag__)) {
+							((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, tag__)));
+						} else {
+							TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
+						}
+					}
+				} else {
+					Node__ local4;
+					local4.dataPtr__ = (pointer__)((st__)->type__);
+					local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+					TypeChecker__expectedFixedNumberOrStruct__(s__, local4);
+				}
+			}
+		} else {
+			(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
+			TypeCheckResult__ rhs__ = TypeChecker__expression__(s__, (st__)->expr__);
+			(s__)->isStaticExpr__ = false__;
+			if (Tag__isValid__((rhs__).tag__)) {
+				if (TypeChecker__isFixedNumberOrStruct__((rhs__).tag__)) {
+					Node__ local5;
+					local5.dataPtr__ = (pointer__)(st__);
+					local5.id__ = local5.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+					Map__add__Node__Tag____((s__)->typeMap__, local5, (rhs__).tag__);
+					((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, (rhs__).tag__)));
+				} else {
+					TypeChecker__expectedFixedNumberOrStructExpression__(s__, (st__)->expr__);
+				}
+			}
+		}
+	} else {
+		if (((st__)->type__) != (null__)) {
+			Node__ local6;
+			local6.dataPtr__ = (pointer__)(st__);
+			local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+			Tag__ tag__ = TypeChecker__typename__(s__, local6, (st__)->type__);
+			if (Tag__isValid__(tag__)) {
+				if (TypeChecker__isFixedNumberOrStruct__(tag__)) {
+					((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, tag__)));
+				} else {
+					Node__ local7;
+					local7.dataPtr__ = (pointer__)((st__)->type__);
+					local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+					TypeChecker__expectedFixedNumberOrStruct__(s__, local7);
+				}
+			}
+		} else {
+			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).to__, mu_____string121));
+		}
+	}
+}
+void__ TypeChecker__ensureAssignDone__(TypeCheckerState__* s__, AssignStatement__* st__, Node__ reference__) {
+	mu_____assert(((((st__)->flags__)) & ((((AssignFlags__reg__)) | ((AssignFlags__wire__))))) != (0));
+	if (((((st__)->flags__)) & ((AssignFlags__typeCheckDone__))) != (0)) {
+	} else {
+		if (((((st__)->flags__)) & ((AssignFlags__typeCheckStarted__))) == (0)) {
+			TypeCheckerContext__ prev__ = TypeChecker__pushContext__(s__, ((st__)->module__)->unit__, (st__)->module__);
+			TypeChecker__assignSym__(s__, st__);
+			TypeChecker__restoreContext__(s__, prev__);
+		} else {
+			string__ local0;
+			if (((((st__)->flags__)) & ((AssignFlags__reg__))) != (0)) {
+				local0 = mu_____string147;
+			} else {
+				local0 = mu_____string148;
+			}
+			string__ kind__ = local0;
+			StringBuilder__ local1;
+			memset(&local1, 0, sizeof(local1));
+			string__ local2 = { (pointer__)"Type of ", 8 };
+			StringBuilder__write__(&local1, local2);
+			StringBuilder__write__(&local1, kind__);
+			string__ local3 = { (pointer__)" cannot be inferred due to recursive reference, please specify the type explicity", 81 };
+			StringBuilder__write__(&local1, local3);
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(reference__), StringBuilder__compactToString__(&local1)));
+		}
+	}
+}
+void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
+	if (((st__)->outKeyword__) != (null__)) {
+		(st__)->outputIndex__ = (((s__)->module__)->outputs__)->count__;
+		List__add__Ptr__AssignStatement______(((s__)->module__)->outputs__, st__);
+	}
+	bool__ local0 = (((s__)->module__)->blackboxKeyword__) != (null__);
+	if (local0) {
+		local0 = ((st__)->outKeyword__) == (null__);
+	}
+	if (local0) {
+		List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).from__, mu_____string122));
+	}
+	if (((st__)->nameExpr__).id__ == Node_____Ptr__Token____) {
+		if (((st__)->outKeyword__) == (null__)) {
+			Node__ local1 = (st__)->nameExpr__;
+			mu_____checkedcast(local1.id__ == Node_____Ptr__Token____);
+			if (TypeChecker__isValidEntityName__(((Token__*)(local1.dataPtr__))->value__)) {
+			} else {
+				TypeChecker__invalidNamePrefix__(s__, (st__)->nameExpr__);
+			}
+		} else {
+			Node__ local2 = (st__)->nameExpr__;
+			mu_____checkedcast(local2.id__ == Node_____Ptr__Token____);
+			if (TypeChecker__isValidEntityName_nonStatic__(((Token__*)(local2.dataPtr__))->value__)) {
+			} else {
+				TypeChecker__invalidNamePrefix_nonStatic__(s__, (st__)->nameExpr__);
+			}
+		}
+	} else {
+		if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string111));
+		}
+	}
+	if ((((s__)->module__)->blackboxKeyword__) == (null__)) {
+		if (((st__)->op__) != (null__)) {
+			if (string__equals__(((st__)->op__)->value__, mu_____string75)) {
+				if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+				} else {
+					List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
+				}
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string123));
+			}
+		} else {
+			Node__ local3;
+			if (((st__)->type__) != (null__)) {
+				Node__ local4;
+				local4.dataPtr__ = (pointer__)((st__)->type__);
+				local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+				local3 = local4;
+			} else {
+				Node__ local5;
+				if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
+					local5 = (st__)->nameExpr__;
+				} else {
+					Node__ local6;
+					local6.dataPtr__ = (pointer__)((st__)->outKeyword__);
+					local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+					local5 = local6;
+				}
+				local3 = local5;
+			}
+			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local3)).to__, mu_____string123));
+		}
+		if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+			if (((st__)->type__) != (null__)) {
+				Node__ local7;
+				local7.dataPtr__ = (pointer__)(st__);
+				local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+				Tag__ tag__ = TypeChecker__typename__(s__, local7, (st__)->type__);
+				(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__typeCheckDone__));
+				(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__static__))) != (0);
+				TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, ((st__)->type__) != (null__), tag__);
+				(s__)->isStaticExpr__ = false__;
+				bool__ local8 = ((st__)->op__) != (null__);
+				if (local8) {
+					local8 = Tag__isValid__(tag__);
+				}
+				if (local8) {
+					if (TypeChecker__isFixedNumberOrStruct__(tag__)) {
+						if (TypeChecker__canAssign_andUpgrade__(s__, (rhs__).tag__, (rhs__).value__, (st__)->expr__, tag__)) {
+						} else {
+							TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
+						}
+					} else {
+						Node__ local9;
+						local9.dataPtr__ = (pointer__)((st__)->type__);
+						local9.id__ = local9.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+						TypeChecker__expectedFixedNumberOrStruct__(s__, local9);
+					}
+				}
+			} else {
+				(s__)->isStaticExpr__ = ((((st__)->flags__)) & ((AssignFlags__static__))) != (0);
+				TypeCheckResult__ rhs__ = TypeChecker__expression__(s__, (st__)->expr__);
+				(s__)->isStaticExpr__ = false__;
+				if (Tag__isValid__((rhs__).tag__)) {
+					if (TypeChecker__isFixedNumberOrStructOrModuleOut__((rhs__).tag__)) {
+						Node__ local10;
+						local10.dataPtr__ = (pointer__)(st__);
+						local10.id__ = local10.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+						Map__add__Node__Tag____((s__)->typeMap__, local10, (rhs__).tag__);
+						bool__ local11 = (((rhs__).tag__).kind__) == (TagKind__moduleOut__);
+						if (local11) {
+							local11 = ((st__)->outKeyword__) != (null__);
+						}
+						if (local11) {
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->outKeyword__)->span__, mu_____string124));
+						}
+					} else {
+						if (((((st__)->flags__)) & ((AssignFlags__static__))) != (0)) {
+							TypeChecker__expectedFixedNumberOrStructExpression__(s__, (st__)->expr__);
+						} else {
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string125));
+						}
+					}
+				}
+			}
+		}
+	} else {
+		if (((st__)->type__) != (null__)) {
+			Node__ local12;
+			local12.dataPtr__ = (pointer__)(st__);
+			local12.id__ = local12.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+			Tag__ tag__ = TypeChecker__typename__(s__, local12, (st__)->type__);
+			if (((tag__).kind__) == (TagKind__number__)) {
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->type__)->span__, mu_____string126));
+			}
+		} else {
+			Node__ local13;
+			if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
+				local13 = (st__)->nameExpr__;
+			} else {
+				Node__ local14;
+				local14.dataPtr__ = (pointer__)((st__)->outKeyword__);
+				local14.id__ = local14.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+				local13 = local14;
+			}
+			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local13)).to__, mu_____string121));
+		}
+		if (((st__)->op__) != (null__)) {
+			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((st__)->op__)->span__).from__, (RangeFinder__find__((st__)->expr__)).to__), mu_____string127));
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string127));
+			}
+		} else {
+			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string127));
+			}
+		}
+	}
+}
+void__ TypeChecker__module__(TypeCheckerState__* s__, ModuleDef__* def__) {
+	if (((((def__)->flags__)) & ((ModuleFlags__typeCheckDone__))) != (0)) {
+		return;
+	}
+	(def__)->flags__ = (((def__)->flags__)) | ((ModuleFlags__typeCheckStarted__));
+	(s__)->module__ = def__;
+	if (!(TypeChecker__isValidEntityName_nonStatic__(((def__)->name__)->value__))) {
+		Node__ local0;
+		local0.dataPtr__ = (pointer__)((def__)->name__);
+		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+		TypeChecker__invalidNamePrefix_nonStatic__(s__, local0);
+	}
+	bool__ local1 = ((def__)->blackboxKeyword__) != (null__);
+	if (local1) {
+		local1 = (((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) != (0);
+	}
+	if (local1) {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((def__)->blackboxKeyword__)->span__, mu_____string188));
+	}
+	{
+		List__Ptr__ModuleInputDef______* local2 = (def__)->inputs__;
+		int__ local3 = 0;
+		while (local3 < local2->count__) {
+			ModuleInputDef__* inp__ = ((ModuleInputDef__**)(local2->dataPtr__))[local3];
+			TypeChecker__moduleInput__(s__, inp__);
+			local3 += 1;
+		}
+	}
+	TypeChecker__block__(s__, (def__)->body__);
+	(def__)->flags__ = (((def__)->flags__)) | ((ModuleFlags__typeCheckDone__));
+}
+void__ TypeChecker__builtinArgs__(TypeCheckerState__* s__, CallExpression__* e__, int__ count__) {
+	if (((((e__)->args__)->count__)) != ((count__))) {
+		StringBuilder__ local0;
+		memset(&local0, 0, sizeof(local0));
+		string__ local1 = { (pointer__)"Expected: ", 10 };
+		StringBuilder__write__(&local0, local1);
+		int__writeTo__(count__, &local0);
+		string__ local2 = { (pointer__)" args but got ", 14 };
+		StringBuilder__write__(&local0, local2);
+		int__writeTo__(((e__)->args__)->count__, &local0);
+		string__ local3 = { (pointer__)" args", 5 };
+		StringBuilder__write__(&local0, local3);
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->openParen__)->span__, StringBuilder__compactToString__(&local0)));
+	}
+	{
+		List__Ptr__CallArg______* local4 = (e__)->args__;
+		int__ i__ = 0;
+		while (i__ < local4->count__) {
+			CallArg__* arg__ = ((CallArg__**)(local4->dataPtr__))[i__];
+			if (((arg__)->name__) != (null__)) {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string25));
+			}
+			if (((i__)) >= ((count__))) {
+				TypeChecker__expression__(s__, (arg__)->expr__);
+			}
+			i__ += 1;
+		}
+	}
+}
+void__ TypeChecker__ensureModuleDone__(TypeCheckerState__* s__, ModuleDef__* def__, Node__ location__) {
+	if (((((def__)->flags__)) & ((ModuleFlags__typeCheckDone__))) != (0)) {
+	} else {
+		if (((((def__)->flags__)) & ((ModuleFlags__typeCheckStarted__))) == (0)) {
+			TypeCheckerContext__ prev__ = TypeChecker__pushContext__(s__, (def__)->unit__, (s__)->module__);
+			TypeChecker__module__(s__, def__);
+			TypeChecker__restoreContext__(s__, prev__);
+		} else {
+			StringBuilder__ local0;
+			memset(&local0, 0, sizeof(local0));
+			string__ local1 = { (pointer__)"Recursive reference to module: ", 31 };
+			StringBuilder__write__(&local0, local1);
+			StringBuilder__write__(&local0, ((def__)->name__)->value__);
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(location__), StringBuilder__compactToString__(&local0)));
+		}
+	}
+}
+TypeCheckResult__ TypeChecker__number__(TypeCheckerState__* s__, NumberExpression__* e__) {
+	if (((((e__)->flags__)) & ((NumberFlags__valid__))) != (0)) {
+		if (((((e__)->flags__)) & ((NumberFlags__dontCare__))) == (0)) {
+			TypeCheckResult__ local0;
+			memset(&local0, 0, sizeof(TypeCheckResult__));
+			Tag__ local1;
+			memset(&local1, 0, sizeof(Tag__));
+			local1.kind__ = TagKind__number__;
+			local1.q__ = (e__)->width__;
+			local0.tag__ = local1;
+			Value__ local2;
+			memset(&local2, 0, sizeof(Value__));
+			local2.kind__ = ValueKind__ulong___;
+			local2.z__ = (e__)->value__;
+			local0.value__ = local2;
+			return local0;
+		} else {
+			if ((s__)->allowDontCare__) {
+				if ((((e__)->width__)) > ((0))) {
+					TypeCheckResult__ local3;
+					memset(&local3, 0, sizeof(TypeCheckResult__));
+					Tag__ local4;
+					memset(&local4, 0, sizeof(Tag__));
+					local4.kind__ = TagKind__number__;
+					local4.q__ = (e__)->width__;
+					local3.tag__ = local4;
+					return local3;
+				} else {
+					mu_____assert((((e__)->value__)) == ((ulong__)(0)));
+					bool__ local6 = (s__)->gap__;
+					if (local6) {
+						local6 = (((s__)->gapTag__).kind__) == (TagKind__number__);
+					}
+					bool__ local5 = local6;
+					if (local5) {
+						local5 = ((((s__)->gapTag__).q__)) > ((0));
+					}
+					if (local5) {
+						TypeCheckResult__ local7;
+						memset(&local7, 0, sizeof(TypeCheckResult__));
+						Tag__ local8;
+						memset(&local8, 0, sizeof(Tag__));
+						local8.kind__ = TagKind__number__;
+						local8.q__ = ((s__)->gapTag__).q__;
+						local7.tag__ = local8;
+						return local7;
+					} else {
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string152));
+					}
+				}
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string152));
+			}
+		}
+	}
+	TypeCheckResult__ local9;
+	memset(&local9, 0, sizeof(TypeCheckResult__));
+	return local9;
+}
+TypeCheckResult__ TypeChecker__structInit__(TypeCheckerState__* s__, StructInitializerExpression__* e__) {
+	Token__* target__ = (Token__*)(null__);
+	StructDef__* def__ = (StructDef__*)(null__);
+	bool__ local0 = ((e__)->target__).id__ == Node_____Ptr__Token____;
+	if (local0) {
+		Node__ local1 = (e__)->target__;
+		mu_____checkedcast(local1.id__ == Node_____Ptr__Token____);
+		local0 = (((Token__*)(local1.dataPtr__))->type__) == (TokenType__identifier__);
+	}
+	if (local0) {
+		Node__ local2 = (e__)->target__;
+		mu_____checkedcast(local2.id__ == Node_____Ptr__Token____);
+		target__ = (Token__*)(local2.dataPtr__);
+		Node__ node__ = Map__getOrDefault__string__Node____((s__)->symbols__, (target__)->value__);
+		if ((node__).id__ == Node_____Ptr__StructDef____) {
+			Node__ local3 = node__;
+			mu_____checkedcast(local3.id__ == Node_____Ptr__StructDef____);
+			def__ = (StructDef__*)(local3.dataPtr__);
+			TypeChecker__ensureStructDone__(s__, def__);
+		} else {
+			if (((node__).dataPtr__) != ((pointer__)(null__))) {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string194));
+			} else {
+				TypeChecker__badSymbol__(s__, target__);
+			}
+		}
+	} else {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string194));
+	}
+	if ((def__) != (null__)) {
+		Array__int____* local4 = (Array__int____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(Array__int____));
+		*local4 = Array__cons__int____(((def__)->fields__)->count__);
+		(e__)->fieldIndexToArgIndex__ = local4;
+		{
+			int__ i__ = 0;
+			while (((i__)) < ((((def__)->fields__)->count__))) {
+				Array__int____* local5 = (e__)->fieldIndexToArgIndex__;
+				uint__ local6 = (uint__)(i__);
+				mu_____boundscheck(local6 < (uint__)local5->count__);
+				((int__*)local5->dataPtr__)[local6] = -1;
+				i__ += 1;
+			}
+		}
+		{
+			List__Ptr__CallArg______* local7 = (e__)->args__;
+			int__ i__ = 0;
+			while (i__ < local7->count__) {
+				CallArg__* arg__ = ((CallArg__**)(local7->dataPtr__))[i__];
+				Tag__ local8;
+				memset(&local8, 0, sizeof(Tag__));
+				Tag__ tag__ = local8;
+				if (((arg__)->name__) != (null__)) {
+					FieldDef__* field__ = Map__getOrDefault__string__Ptr__FieldDef______((def__)->symbols__, ((arg__)->name__)->value__);
+					if ((field__) != (null__)) {
+						Array__int____* local9 = (e__)->fieldIndexToArgIndex__;
+						uint__ local10 = (uint__)((field__)->fieldIndex__);
+						mu_____boundscheck(local10 < (uint__)local9->count__);
+						if (((((int__*)local9->dataPtr__)[local10])) == ((-1))) {
+							Array__int____* local11 = (e__)->fieldIndexToArgIndex__;
+							uint__ local12 = (uint__)((field__)->fieldIndex__);
+							mu_____boundscheck(local12 < (uint__)local11->count__);
+							((int__*)local11->dataPtr__)[local12] = i__;
+						} else {
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string195));
+						}
+						Node__ local13;
+						local13.dataPtr__ = (pointer__)(field__);
+						local13.id__ = local13.dataPtr__ != null__ ? Node_____Ptr__FieldDef____ : 0;
+						tag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local13);
+					} else {
+						StringBuilder__ local14;
+						memset(&local14, 0, sizeof(local14));
+						string__ local15 = { (pointer__)"Undefined field: ", 17 };
+						StringBuilder__write__(&local14, local15);
+						StringBuilder__write__(&local14, ((def__)->name__)->value__);
+						string__ local16 = { (pointer__)".", 1 };
+						StringBuilder__write__(&local14, local16);
+						StringBuilder__write__(&local14, ((arg__)->name__)->value__);
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, StringBuilder__compactToString__(&local14)));
+					}
+				}
+				if ((((arg__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+					TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (arg__)->expr__, true__, tag__);
+					if (!(TypeChecker__canAssign_andUpgrade__(s__, (rhs__).tag__, (rhs__).value__, (arg__)->expr__, tag__))) {
+						TypeChecker__badAssign__(s__, (arg__)->colon__, (rhs__).tag__, tag__);
+					}
+					if (((arg__)->name__) == (null__)) {
+						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string196));
+					}
+				}
+				i__ += 1;
+			}
+		}
+		TypeCheckResult__ local17;
+		memset(&local17, 0, sizeof(TypeCheckResult__));
+		Tag__ local18;
+		memset(&local18, 0, sizeof(Tag__));
+		local18.kind__ = TagKind__struct___;
+		local18.q__ = (def__)->id__;
+		local17.tag__ = local18;
+		return local17;
+	} else {
+		{
+			List__Ptr__CallArg______* local19 = (e__)->args__;
+			int__ local20 = 0;
+			while (local20 < local19->count__) {
+				CallArg__* arg__ = ((CallArg__**)(local19->dataPtr__))[local20];
+				if ((((arg__)->expr__).dataPtr__) != ((pointer__)(null__))) {
+					TypeChecker__expression__(s__, (arg__)->expr__);
+				}
+				local20 += 1;
+			}
+		}
+		TypeCheckResult__ local21;
+		memset(&local21, 0, sizeof(TypeCheckResult__));
+		return local21;
+	}
+}
+void__ TypeChecker__assignSym__(TypeCheckerState__* s__, AssignStatement__* st__) {
+	if (((((st__)->flags__)) & ((AssignFlags__typeCheckDone__))) != (0)) {
+		return;
+	}
+	(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__typeCheckStarted__));
+	if (((((st__)->flags__)) & ((AssignFlags__reg__))) != (0)) {
+		TypeChecker__reg__(s__, st__);
+	} else {
+		if (((((st__)->flags__)) & ((AssignFlags__wire__))) != (0)) {
+			TypeChecker__wire__(s__, st__);
+		} else {
+			if (((((st__)->flags__)) & ((AssignFlags__regUpdate__))) != (0)) {
+				TypeChecker__regUpdate__(s__, st__);
+			} else {
+				mu_____abandon(-1);
+			}
+		}
+	}
+	(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__typeCheckDone__));
+}
+bool__ TypeChecker__isFixedNumberOrStructOrModuleOut__(Tag__ tag__) {
+	bool__ local2 = ((tag__).kind__) == (TagKind__number__);
+	if (local2) {
+		local2 = (((tag__).q__)) > ((0));
+	}
+	bool__ local1 = local2;
+	if (!local1) {
+		local1 = ((tag__).kind__) == (TagKind__struct___);
+	}
+	bool__ local0 = local1;
+	if (!local0) {
+		local0 = ((tag__).kind__) == (TagKind__moduleOut__);
+	}
+	return local0;
+}
+void__ TypeChecker__invalidNamePrefix__(TypeCheckerState__* s__, Node__ e__) {
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string106));
+}
+TypeCheckResult__ TypeChecker__call__(TypeCheckerState__* s__, CallExpression__* e__) {
+	if (((e__)->builtin__) == (BuiltinCall__rep__)) {
+		return TypeChecker__rep__(s__, e__);
+	} else {
+		if (((e__)->builtin__) == (BuiltinCall__cast___)) {
+			return TypeChecker__cast___(s__, e__);
+		} else {
+			if (((e__)->builtin__) == (BuiltinCall__slice__)) {
+				return TypeChecker__slice__(s__, e__);
+			} else {
+				if (((e__)->builtin__) == (BuiltinCall__chunk__)) {
+					return TypeChecker__chunk__(s__, e__);
+				} else {
+					if (((e__)->builtin__) == (BuiltinCall__swizzle__)) {
+						return TypeChecker__swizzle__(s__, e__);
+					}
+				}
+			}
+		}
+	}
+	if ((s__)->isStaticExpr__) {
+		Node__ local0;
+		local0.dataPtr__ = (pointer__)(e__);
+		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
+		TypeChecker__expectedStaticConstant__(s__, local0);
+		TypeCheckResult__ local1;
+		memset(&local1, 0, sizeof(TypeCheckResult__));
+		return local1;
+	}
+	Token__* target__ = (Token__*)(null__);
+	ModuleDef__* def__ = (ModuleDef__*)(null__);
+	bool__ local2 = ((e__)->target__).id__ == Node_____Ptr__Token____;
+	if (local2) {
+		Node__ local3 = (e__)->target__;
+		mu_____checkedcast(local3.id__ == Node_____Ptr__Token____);
+		local2 = (((Token__*)(local3.dataPtr__))->type__) == (TokenType__identifier__);
+	}
+	if (local2) {
+		Node__ local4 = (e__)->target__;
+		mu_____checkedcast(local4.id__ == Node_____Ptr__Token____);
+		target__ = (Token__*)(local4.dataPtr__);
+		Node__ node__ = Map__getOrDefault__string__Node____((s__)->symbols__, (target__)->value__);
+		if ((node__).id__ == Node_____Ptr__ModuleDef____) {
+			Node__ local5 = node__;
+			mu_____checkedcast(local5.id__ == Node_____Ptr__ModuleDef____);
+			def__ = (ModuleDef__*)(local5.dataPtr__);
+			((s__)->module__)->numCalls__ = ((((s__)->module__)->numCalls__)) + ((1));
+			(e__)->callId__ = ((s__)->module__)->numCalls__;
+			Node__ local6;
+			local6.dataPtr__ = (pointer__)(target__);
+			local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+			TypeChecker__ensureModuleDone__(s__, def__, local6);
+			((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + (((def__)->numRegSlots__));
+		} else {
+			if (((node__).dataPtr__) != ((pointer__)(null__))) {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string192));
+			} else {
+				TypeChecker__badSymbol__(s__, target__);
+			}
+		}
+	} else {
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string193));
+	}
+	QueuedCallArgs__ local7;
+	memset(&local7, 0, sizeof(QueuedCallArgs__));
+	local7.e__ = e__;
+	local7.def__ = def__;
+	local7.context__ = (s__)->module__;
+	List__add__QueuedCallArgs____((s__)->queue__, local7);
+	TypeCheckResult__ local8;
+	if ((def__) != (null__)) {
+		TypeCheckResult__ local9;
+		memset(&local9, 0, sizeof(TypeCheckResult__));
+		Tag__ local10;
+		memset(&local10, 0, sizeof(Tag__));
+		local10.kind__ = TagKind__moduleOut__;
+		local10.q__ = (def__)->id__;
+		local9.tag__ = local10;
+		local8 = local9;
+	} else {
+		TypeCheckResult__ local11;
+		memset(&local11, 0, sizeof(TypeCheckResult__));
+		local8 = local11;
+	}
+	return local8;
+}
+void__ TypeChecker__badAssign__(TypeCheckerState__* s__, Token__* at__, Tag__ from__, Tag__ to__) {
+	StringBuilder__ local0;
+	memset(&local0, 0, sizeof(local0));
+	string__ local1 = { (pointer__)"Cannot assign ", 14 };
+	StringBuilder__write__(&local0, local1);
+	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, from__));
+	string__ local2 = { (pointer__)" to ", 4 };
+	StringBuilder__write__(&local0, local2);
+	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, to__));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (at__)->span__, StringBuilder__compactToString__(&local0)));
+}
+TypeCheckResult__ TypeChecker__index__(TypeCheckerState__* s__, IndexExpression__* e__) {
+	TypeCheckResult__ local0;
+	memset(&local0, 0, sizeof(TypeCheckResult__));
+	TypeCheckResult__ result__ = local0;
+	TypeCheckResult__ target__ = TypeChecker__expression__(s__, (e__)->target__);
+	bool__ targetValid__ = false__;
+	if (Tag__isValid__((target__).tag__)) {
+		bool__ local1 = (((target__).tag__).kind__) == (TagKind__number__);
+		if (local1) {
+			local1 = ((((target__).tag__).q__)) > ((0));
+		}
+		if (local1) {
+			if (((((target__).tag__).q__)) <= ((64))) {
+				targetValid__ = true__;
+			} else {
+				StringBuilder__ local2;
+				memset(&local2, 0, sizeof(local2));
+				string__ local3 = { (pointer__)"Unsupported expression: cannot index argument of type ", 54 };
+				StringBuilder__write__(&local2, local3);
+				StringBuilder__write__(&local2, TypeChecker__tagString__((s__)->comp__, (target__).tag__));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->openBracket__)->span__, StringBuilder__compactToString__(&local2)));
+			}
+		} else {
+			StringBuilder__ local4;
+			memset(&local4, 0, sizeof(local4));
+			string__ local5 = { (pointer__)"Cannot index argument of type ", 30 };
+			StringBuilder__write__(&local4, local5);
+			StringBuilder__write__(&local4, TypeChecker__tagString__((s__)->comp__, (target__).tag__));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->openBracket__)->span__, StringBuilder__compactToString__(&local4)));
+		}
+	}
+	if ((((e__)->upperExpr__).dataPtr__) != ((pointer__)(null__))) {
+		TypeCheckResult__ upper__ = TypeChecker__expression__(s__, (e__)->upperExpr__);
+		bool__ upperValid__ = false__;
+		if (Tag__isValid__((upper__).tag__)) {
+			bool__ local6 = (((upper__).tag__).kind__) == (TagKind__number__);
+			if (local6) {
+				local6 = (((upper__).value__).kind__) == (ValueKind__ulong___);
+			}
+			if (local6) {
+				if (targetValid__) {
+					if (((((upper__).value__).z__)) < (((ulong__)(((target__).tag__).q__)))) {
+						upperValid__ = true__;
+					} else {
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string171));
+					}
+				}
+			} else {
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string167));
+			}
+		}
+		if ((((e__)->lowerExpr__).dataPtr__) != ((pointer__)(null__))) {
+			TypeCheckResult__ lower__ = TypeChecker__expression__(s__, (e__)->lowerExpr__);
+			if (Tag__isValid__((lower__).tag__)) {
+				bool__ local7 = (((lower__).tag__).kind__) == (TagKind__number__);
+				if (local7) {
+					local7 = (((lower__).value__).kind__) == (ValueKind__ulong___);
+				}
+				if (local7) {
+					if (targetValid__) {
+						if (((((lower__).value__).z__)) < (((ulong__)(((target__).tag__).q__)))) {
+							if (upperValid__) {
+								if (((((lower__).value__).z__)) <= ((((upper__).value__).z__))) {
+									Tag__ local8;
+									memset(&local8, 0, sizeof(Tag__));
+									local8.kind__ = TagKind__number__;
+									local8.q__ = (((((int__)(((upper__).value__).z__))) - (((int__)(((lower__).value__).z__))))) + ((1));
+									(result__).tag__ = local8;
+								} else {
+									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string172));
+								}
+							}
+						} else {
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string171));
+						}
+					}
+				} else {
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string167));
+				}
+			}
+		} else {
+			Tag__ local9;
+			memset(&local9, 0, sizeof(Tag__));
+			local9.kind__ = TagKind__number__;
+			local9.q__ = 1;
+			(result__).tag__ = local9;
+		}
+	}
+	return result__;
+}
+void__ TypeChecker__badSymbol__(TypeCheckerState__* s__, Token__* token__) {
+	StringBuilder__ local0;
+	memset(&local0, 0, sizeof(local0));
+	string__ local1 = { (pointer__)"Undefined symbol: ", 18 };
+	StringBuilder__write__(&local0, local1);
+	StringBuilder__write__(&local0, (token__)->value__);
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (token__)->span__, StringBuilder__compactToString__(&local0)));
+}
+TypeCheckResult__ TypeChecker__brace__(TypeCheckerState__* s__, BraceExpression__* e__) {
+	bool__ allValid__ = true__;
+	int__ bits__ = 0;
+	{
+		List__Node____* local0 = (e__)->args__;
+		int__ local1 = 0;
+		while (local1 < local0->count__) {
+			Node__ arg__ = ((Node__*)(local0->dataPtr__))[local1];
+			bool__ prevAllowDontCare__ = (s__)->allowDontCare__;
+			(s__)->allowDontCare__ = (arg__).id__ == Node_____Ptr__NumberExpression____;
+			TypeCheckResult__ atr__ = TypeChecker__expression__(s__, arg__);
+			(s__)->allowDontCare__ = prevAllowDontCare__;
+			if (Tag__isValid__((atr__).tag__)) {
+				bool__ local2 = (((atr__).tag__).kind__) == (TagKind__number__);
+				if (local2) {
+					local2 = ((((atr__).tag__).q__)) > ((0));
+				}
+				if (local2) {
+					bits__ = ((bits__)) + ((((atr__).tag__).q__));
+				} else {
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(arg__), mu_____string143));
+				}
+			} else {
+				allValid__ = false__;
+			}
+			local1 += 1;
+		}
+	}
+	if (((bits__)) > ((64))) {
+		Node__ local3;
+		local3.dataPtr__ = (pointer__)(e__);
+		local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__BraceExpression____ : 0;
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local3), mu_____string173));
+	}
+	TypeCheckResult__ local4;
+	if (allValid__) {
+		TypeCheckResult__ local5;
+		memset(&local5, 0, sizeof(TypeCheckResult__));
+		Tag__ local6;
+		memset(&local6, 0, sizeof(Tag__));
+		local6.kind__ = TagKind__number__;
+		local6.q__ = bits__;
+		local5.tag__ = local6;
+		local4 = local5;
+	} else {
+		TypeCheckResult__ local7;
+		memset(&local7, 0, sizeof(TypeCheckResult__));
+		local4 = local7;
+	}
+	return local4;
+}
+void__ TypeChecker__badGap__(TypeCheckerState__* s__, Token__* op__) {
+	StringBuilder__ local0;
+	memset(&local0, 0, sizeof(local0));
+	string__ local1 = { (pointer__)"Cannot apply operator ", 22 };
+	StringBuilder__write__(&local0, local1);
+	StringBuilder__write__(&local0, (op__)->value__);
+	string__ local2 = { (pointer__)" because target type is inferred", 32 };
+	StringBuilder__write__(&local0, local2);
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
+}
+TypeCheckResult__ TypeChecker__expressionContinueGap__(TypeCheckerState__* s__, Node__ e__) {
+	TypeCheckResult__ tr__ = TypeChecker__expressionInner__(s__, e__);
+	if ((((tr__).tag__).kind__) != (TagKind__unknown__)) {
+		Map__add__Node__Tag____((s__)->typeMap__, e__, (tr__).tag__);
+	}
+	if ((((tr__).value__).kind__) != (ValueKind__none__)) {
+		Map__add__Node__Value____((s__)->constMap__, e__, (tr__).value__);
+	}
+	return tr__;
+}
+void__ TypeChecker__invalidNamePrefix_nonStatic__(TypeCheckerState__* s__, Node__ e__) {
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string110));
 }
 TypeCheckResult__ TypeChecker__chunk__(TypeCheckerState__* s__, CallExpression__* e__) {
 	if (((s__)->module__) == (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string175));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string178));
 	}
 	if (!((s__)->isStaticExpr__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string176));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string179));
 	}
 	TypeChecker__builtinArgs__(s__, e__, 3);
 	TypeCheckResult__ arrayArg__ = TypeChecker__fixedNumberArg__(s__, e__, 0);
@@ -7348,7 +8081,7 @@ TypeCheckResult__ TypeChecker__chunk__(TypeCheckerState__* s__, CallExpression__
 					List__Ptr__CallArg______* local6 = (e__)->args__;
 					uint__ local7 = (uint__)(1);
 					mu_____boundscheck(local7 < (uint__)local6->count__);
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local6->dataPtr__)[local7])->expr__), mu_____string177));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local6->dataPtr__)[local7])->expr__), mu_____string180));
 				}
 			}
 		} else {
@@ -7365,27 +8098,58 @@ TypeCheckResult__ TypeChecker__chunk__(TypeCheckerState__* s__, CallExpression__
 	}
 	return result__;
 }
-void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__) {
-	if (!((s__)->inClock__)) {
-		IntRange__ local0;
-		if (((st__)->outKeyword__) != (null__)) {
-			local0 = ((st__)->outKeyword__)->span__;
-		} else {
-			local0 = RangeFinder__find__((st__)->nameExpr__);
+TypeCheckResult__ TypeChecker__cast___(TypeCheckerState__* s__, CallExpression__* e__) {
+	if ((s__)->isStaticExpr__) {
+	} else {
+		if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string175));
 		}
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, local0, mu_____string112));
 	}
-	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
-		Node__ local1;
-		if (((st__)->outKeyword__) != (null__)) {
-			Node__ local2;
-			local2.dataPtr__ = (pointer__)((st__)->outKeyword__);
-			local2.id__ = local2.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-			local1 = local2;
-		} else {
-			local1 = (st__)->nameExpr__;
+	TypeChecker__builtinArgs__(s__, e__, 2);
+	TypeCheckResult__ target__ = TypeChecker__numberArg__(s__, e__, 0);
+	TypeCheckResult__ typeArg__ = TypeChecker__fixedNumericTypeArg__(s__, e__, 1);
+	TypeCheckResult__ local0;
+	memset(&local0, 0, sizeof(TypeCheckResult__));
+	TypeCheckResult__ result__ = local0;
+	bool__ local1 = Tag__isValid__((target__).tag__);
+	if (local1) {
+		local1 = Tag__isValid__((typeArg__).tag__);
+	}
+	if (local1) {
+		(result__).tag__ = (typeArg__).tag__;
+		bool__ local2 = ((((typeArg__).tag__).q__)) >= ((((target__).tag__).q__));
+		if (!local2) {
+			local2 = ((((typeArg__).tag__).q__)) <= ((64));
 		}
-		TypeChecker__statementNotAllowedInsideBlackbox__(s__, local1);
+		if (local2) {
+		} else {
+			Node__ local3;
+			local3.dataPtr__ = (pointer__)(e__);
+			local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local3), mu_____string176));
+		}
+		bool__ local4 = ((((typeArg__).tag__).q__)) >= ((((target__).tag__).q__));
+		if (local4) {
+			local4 = ((((target__).tag__).q__)) > ((0));
+		}
+		if (local4) {
+			(result__).value__ = (target__).value__;
+		}
+	}
+	return result__;
+}
+void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__) {
+	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
+		Node__ local0;
+		if (((st__)->outKeyword__) != (null__)) {
+			Node__ local1;
+			local1.dataPtr__ = (pointer__)((st__)->outKeyword__);
+			local1.id__ = local1.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+			local0 = local1;
+		} else {
+			local0 = (st__)->nameExpr__;
+		}
+		TypeChecker__statementNotAllowedInsideBlackbox__(s__, local0);
 	}
 	if (((st__)->outKeyword__) != (null__)) {
 		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->outKeyword__)->span__, mu_____string128));
@@ -7399,33 +8163,33 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 	Node__ nameExpr__ = (st__)->nameExpr__;
 	switch ((nameExpr__).id__) {
 		case Node_____Ptr__Token____: {
-			Token__* local3 = (Token__*)(nameExpr__.dataPtr__);
+			Token__* local2 = (Token__*)(nameExpr__.dataPtr__);
 			{
-				Token__* nameToken__ = local3;
-				Tag__ local4;
-				memset(&local4, 0, sizeof(Tag__));
-				Tag__ tag__ = local4;
+				Token__* nameToken__ = local2;
+				Tag__ local3;
+				memset(&local3, 0, sizeof(Tag__));
+				Tag__ tag__ = local3;
 				Node__ sym__ = Map__getOrDefault__string__Node____(((s__)->module__)->symbols__, (nameToken__)->value__);
 				if (((sym__).dataPtr__) != ((pointer__)(null__))) {
-					bool__ local5 = (sym__).id__ == Node_____Ptr__AssignStatement____;
-					if (local5) {
+					bool__ local4 = (sym__).id__ == Node_____Ptr__AssignStatement____;
+					if (local4) {
+						Node__ local5 = sym__;
+						mu_____checkedcast(local5.id__ == Node_____Ptr__AssignStatement____);
+						local4 = (((((AssignStatement__*)(local5.dataPtr__))->flags__)) & ((AssignFlags__reg__))) != (0);
+					}
+					if (local4) {
 						Node__ local6 = sym__;
 						mu_____checkedcast(local6.id__ == Node_____Ptr__AssignStatement____);
-						local5 = (((((AssignStatement__*)(local6.dataPtr__))->flags__)) & ((AssignFlags__reg__))) != (0);
-					}
-					if (local5) {
-						Node__ local7 = sym__;
-						mu_____checkedcast(local7.id__ == Node_____Ptr__AssignStatement____);
-						AssignStatement__* reg__ = (AssignStatement__*)(local7.dataPtr__);
+						AssignStatement__* reg__ = (AssignStatement__*)(local6.dataPtr__);
 						(st__)->localId__ = (reg__)->localId__;
+						Node__ local7;
+						local7.dataPtr__ = (pointer__)(nameToken__);
+						local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+						TypeChecker__ensureAssignDone__(s__, reg__, local7);
 						Node__ local8;
-						local8.dataPtr__ = (pointer__)(nameToken__);
-						local8.id__ = local8.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-						TypeChecker__ensureAssignDone__(s__, reg__, local8);
-						Node__ local9;
-						local9.dataPtr__ = (pointer__)(reg__);
-						local9.id__ = local9.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-						tag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local9);
+						local8.dataPtr__ = (pointer__)(reg__);
+						local8.id__ = local8.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+						tag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local8);
 					} else {
 						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string130));
 					}
@@ -7434,7 +8198,7 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 				}
 				if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
 					TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, true__, tag__);
-					if (TypeChecker__canAssign__(s__, (rhs__).tag__, (rhs__).value__, tag__)) {
+					if (TypeChecker__canAssign_andUpgrade__(s__, (rhs__).tag__, (rhs__).value__, (st__)->expr__, tag__)) {
 					} else {
 						TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
 					}
@@ -7443,70 +8207,70 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 			break;
 		}
 		case Node_____Ptr__DotExpression____: {
-			DotExpression__* local10 = (DotExpression__*)(nameExpr__.dataPtr__);
+			DotExpression__* local9 = (DotExpression__*)(nameExpr__.dataPtr__);
 			{
-				DotExpression__* dot__ = local10;
+				DotExpression__* dot__ = local9;
 				if (((dot__)->lhs__).id__ == Node_____Ptr__Token____) {
-					Tag__ local11;
-					memset(&local11, 0, sizeof(Tag__));
-					Tag__ tag__ = local11;
-					Node__ local12 = (dot__)->lhs__;
-					mu_____checkedcast(local12.id__ == Node_____Ptr__Token____);
-					Token__* nameToken__ = (Token__*)(local12.dataPtr__);
+					Tag__ local10;
+					memset(&local10, 0, sizeof(Tag__));
+					Tag__ tag__ = local10;
+					Node__ local11 = (dot__)->lhs__;
+					mu_____checkedcast(local11.id__ == Node_____Ptr__Token____);
+					Token__* nameToken__ = (Token__*)(local11.dataPtr__);
 					Node__ sym__ = Map__getOrDefault__string__Node____(((s__)->module__)->symbols__, (nameToken__)->value__);
 					if (((sym__).dataPtr__) != ((pointer__)(null__))) {
-						bool__ local13 = (sym__).id__ == Node_____Ptr__AssignStatement____;
-						if (local13) {
+						bool__ local12 = (sym__).id__ == Node_____Ptr__AssignStatement____;
+						if (local12) {
+							Node__ local13 = sym__;
+							mu_____checkedcast(local13.id__ == Node_____Ptr__AssignStatement____);
+							local12 = (((((AssignStatement__*)(local13.dataPtr__))->flags__)) & ((AssignFlags__reg__))) != (0);
+						}
+						if (local12) {
 							Node__ local14 = sym__;
 							mu_____checkedcast(local14.id__ == Node_____Ptr__AssignStatement____);
-							local13 = (((((AssignStatement__*)(local14.dataPtr__))->flags__)) & ((AssignFlags__reg__))) != (0);
-						}
-						if (local13) {
-							Node__ local15 = sym__;
-							mu_____checkedcast(local15.id__ == Node_____Ptr__AssignStatement____);
-							AssignStatement__* reg__ = (AssignStatement__*)(local15.dataPtr__);
+							AssignStatement__* reg__ = (AssignStatement__*)(local14.dataPtr__);
 							(st__)->localId__ = (reg__)->localId__;
+							Node__ local15;
+							local15.dataPtr__ = (pointer__)(nameToken__);
+							local15.id__ = local15.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
+							TypeChecker__ensureAssignDone__(s__, reg__, local15);
 							Node__ local16;
-							local16.dataPtr__ = (pointer__)(nameToken__);
-							local16.id__ = local16.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-							TypeChecker__ensureAssignDone__(s__, reg__, local16);
-							Node__ local17;
-							local17.dataPtr__ = (pointer__)(reg__);
-							local17.id__ = local17.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-							Tag__ regTag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local17);
-							bool__ local18 = ((dot__)->rhs__) != (null__);
-							if (local18) {
-								local18 = Tag__isValid__(regTag__);
+							local16.dataPtr__ = (pointer__)(reg__);
+							local16.id__ = local16.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
+							Tag__ regTag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local16);
+							bool__ local17 = ((dot__)->rhs__) != (null__);
+							if (local17) {
+								local17 = Tag__isValid__(regTag__);
 							}
-							if (local18) {
+							if (local17) {
 								if (((regTag__).kind__) == (TagKind__struct___)) {
-									List__Node____* local20 = ((s__)->comp__)->entities__;
-									uint__ local21 = (uint__)((regTag__).q__);
-									mu_____boundscheck(local21 < (uint__)local20->count__);
-									Node__ local19 = ((Node__*)local20->dataPtr__)[local21];
-									mu_____checkedcast(local19.id__ == Node_____Ptr__StructDef____);
-									StructDef__* def__ = (StructDef__*)(local19.dataPtr__);
+									List__Node____* local19 = ((s__)->comp__)->entities__;
+									uint__ local20 = (uint__)((regTag__).q__);
+									mu_____boundscheck(local20 < (uint__)local19->count__);
+									Node__ local18 = ((Node__*)local19->dataPtr__)[local20];
+									mu_____checkedcast(local18.id__ == Node_____Ptr__StructDef____);
+									StructDef__* def__ = (StructDef__*)(local18.dataPtr__);
 									TypeChecker__ensureStructDone__(s__, def__);
 									FieldDef__* field__ = Map__getOrDefault__string__Ptr__FieldDef______((def__)->symbols__, ((dot__)->rhs__)->value__);
 									if ((field__) != (null__)) {
-										Node__ local22;
-										local22.dataPtr__ = (pointer__)(field__);
-										local22.id__ = local22.dataPtr__ != null__ ? Node_____Ptr__FieldDef____ : 0;
-										tag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local22);
+										Node__ local21;
+										local21.dataPtr__ = (pointer__)(field__);
+										local21.id__ = local21.dataPtr__ != null__ ? Node_____Ptr__FieldDef____ : 0;
+										tag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local21);
 										(st__)->lhsFieldIndex__ = (field__)->fieldIndex__;
 									} else {
-										StringBuilder__ local23;
-										memset(&local23, 0, sizeof(local23));
-										string__ local24 = { (pointer__)"Undefined field: ", 17 };
-										StringBuilder__write__(&local23, local24);
-										StringBuilder__write__(&local23, ((def__)->name__)->value__);
-										string__ local25 = { (pointer__)".", 1 };
-										StringBuilder__write__(&local23, local25);
-										StringBuilder__write__(&local23, ((dot__)->rhs__)->value__);
-										List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((dot__)->rhs__)->span__, StringBuilder__compactToString__(&local23)));
+										StringBuilder__ local22;
+										memset(&local22, 0, sizeof(local22));
+										string__ local23 = { (pointer__)"Undefined field: ", 17 };
+										StringBuilder__write__(&local22, local23);
+										StringBuilder__write__(&local22, ((def__)->name__)->value__);
+										string__ local24 = { (pointer__)".", 1 };
+										StringBuilder__write__(&local22, local24);
+										StringBuilder__write__(&local22, ((dot__)->rhs__)->value__);
+										List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((dot__)->rhs__)->span__, StringBuilder__compactToString__(&local22)));
 									}
 								} else {
-									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string138));
+									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string139));
 								}
 							}
 						} else {
@@ -7517,31 +8281,31 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 					}
 					if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
 						TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, true__, tag__);
-						if (TypeChecker__canAssign__(s__, (rhs__).tag__, (rhs__).value__, tag__)) {
+						if (TypeChecker__canAssign_andUpgrade__(s__, (rhs__).tag__, (rhs__).value__, (st__)->expr__, tag__)) {
 						} else {
 							TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
 						}
 					}
 				} else {
-					Node__ local26;
-					local26.dataPtr__ = (pointer__)(dot__);
-					local26.id__ = local26.dataPtr__ != null__ ? Node_____Ptr__DotExpression____ : 0;
-					TypeChecker__unsupportedRegUpdate__(s__, local26);
+					Node__ local25;
+					local25.dataPtr__ = (pointer__)(dot__);
+					local25.id__ = local25.dataPtr__ != null__ ? Node_____Ptr__DotExpression____ : 0;
+					TypeChecker__unsupportedRegUpdate__(s__, local25);
 				}
 			}
 			break;
 		}
 		case Node_____Ptr__CallExpression____: {
-			CallExpression__* local27 = (CallExpression__*)(nameExpr__.dataPtr__);
+			CallExpression__* local26 = (CallExpression__*)(nameExpr__.dataPtr__);
 			{
-				CallExpression__* call__ = local27;
+				CallExpression__* call__ = local26;
 				if (((call__)->builtin__) == (BuiltinCall__slice__)) {
 					TypeChecker__assignSlice__(s__, st__, call__);
 				} else {
-					Node__ local28;
-					local28.dataPtr__ = (pointer__)(call__);
-					local28.id__ = local28.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
-					TypeChecker__unsupportedRegUpdate__(s__, local28);
+					Node__ local27;
+					local27.dataPtr__ = (pointer__)(call__);
+					local27.id__ = local27.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
+					TypeChecker__unsupportedRegUpdate__(s__, local27);
 				}
 			}
 			break;
@@ -7560,27 +8324,22 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 	}
 }
 void__ TypeChecker__expectedFixedNumberExpression__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string142));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string143));
 }
 void__ TypeChecker__assign__(TypeCheckerState__* s__, AssignStatement__* st__) {
-	if (((((st__)->flags__)) & ((AssignFlags__typeCheckDone__))) != (0)) {
-		return;
-	}
-	(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__typeCheckStarted__));
-	if (((((st__)->flags__)) & ((AssignFlags__reg__))) != (0)) {
-		TypeChecker__reg__(s__, st__);
-	} else {
-		if (((((st__)->flags__)) & ((AssignFlags__wire__))) != (0)) {
-			TypeChecker__wire__(s__, st__);
+	TypeChecker__assignSym__(s__, st__);
+	if (((((st__)->flags__)) & ((AssignFlags__regUpdate__))) != (0)) {
+		if ((s__)->inClock__) {
 		} else {
-			if (((((st__)->flags__)) & ((AssignFlags__regUpdate__))) != (0)) {
-				TypeChecker__regUpdate__(s__, st__);
+			IntRange__ local0;
+			if (((st__)->outKeyword__) != (null__)) {
+				local0 = ((st__)->outKeyword__)->span__;
 			} else {
-				mu_____abandon(-1);
+				local0 = RangeFinder__find__((st__)->nameExpr__);
 			}
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, local0, mu_____string136));
 		}
 	}
-	(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__typeCheckDone__));
 }
 TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryOperatorExpression__* e__) {
 	TypeCheckResult__ local0;
@@ -7602,21 +8361,21 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 	}
 	bool__ valid__ = local3;
 	string__ op__ = ((e__)->op__)->value__;
-	bool__ local7 = string__equals__(op__, mu_____string39);
+	bool__ local7 = string__equals__(op__, mu_____string40);
 	if (!local7) {
 		local7 = string__equals__(op__, mu_____string2);
 	}
 	bool__ local6 = local7;
 	if (!local6) {
-		local6 = string__equals__(op__, mu_____string46);
+		local6 = string__equals__(op__, mu_____string47);
 	}
 	bool__ local5 = local6;
 	if (!local5) {
-		local5 = string__equals__(op__, mu_____string48);
+		local5 = string__equals__(op__, mu_____string49);
 	}
 	bool__ local4 = local5;
 	if (!local4) {
-		local4 = string__equals__(op__, mu_____string47);
+		local4 = string__equals__(op__, mu_____string48);
 	}
 	if (local4) {
 		if (valid__) {
@@ -7638,7 +8397,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 					}
 					if (local10) {
 						if (((((lhs__).tag__).q__)) == ((0))) {
-							if (TypeChecker__canConvertFreeConst__(s__, (lhs__).value__, ((rhs__).tag__).q__)) {
+							if (TypeChecker__canConvertFreeConst_andUpgrade__(s__, (lhs__).value__, (e__)->lhs__, (rhs__).tag__)) {
 								Tag__ local11;
 								memset(&local11, 0, sizeof(Tag__));
 								local11.kind__ = TagKind__number__;
@@ -7649,7 +8408,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 							}
 						} else {
 							if (((((rhs__).tag__).q__)) == ((0))) {
-								if (TypeChecker__canConvertFreeConst__(s__, (rhs__).value__, ((lhs__).tag__).q__)) {
+								if (TypeChecker__canConvertFreeConst_andUpgrade__(s__, (rhs__).value__, (e__)->rhs__, (lhs__).tag__)) {
 									Tag__ local12;
 									memset(&local12, 0, sizeof(Tag__));
 									local12.kind__ = TagKind__number__;
@@ -7686,7 +8445,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 					local15 = (((rhs__).value__).kind__) == (ValueKind__ulong___);
 				}
 				if (local15) {
-					if (string__equals__(op__, mu_____string39)) {
+					if (string__equals__(op__, mu_____string40)) {
 						Value__ local17;
 						memset(&local17, 0, sizeof(Value__));
 						local17.kind__ = ValueKind__ulong___;
@@ -7700,21 +8459,21 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 							local18.z__ = ((((lhs__).value__).z__)) - ((((rhs__).value__).z__));
 							(result__).value__ = local18;
 						} else {
-							if (string__equals__(op__, mu_____string46)) {
+							if (string__equals__(op__, mu_____string47)) {
 								Value__ local19;
 								memset(&local19, 0, sizeof(Value__));
 								local19.kind__ = ValueKind__ulong___;
 								local19.z__ = ((((lhs__).value__).z__)) & ((((rhs__).value__).z__));
 								(result__).value__ = local19;
 							} else {
-								if (string__equals__(op__, mu_____string48)) {
+								if (string__equals__(op__, mu_____string49)) {
 									Value__ local20;
 									memset(&local20, 0, sizeof(Value__));
 									local20.kind__ = ValueKind__ulong___;
 									local20.z__ = ((((lhs__).value__).z__)) | ((((rhs__).value__).z__));
 									(result__).value__ = local20;
 								} else {
-									if (string__equals__(op__, mu_____string48)) {
+									if (string__equals__(op__, mu_____string49)) {
 										Value__ local21;
 										memset(&local21, 0, sizeof(Value__));
 										local21.kind__ = ValueKind__ulong___;
@@ -7738,25 +8497,25 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 			}
 		}
 	} else {
-		bool__ local27 = string__equals__(op__, mu_____string40);
+		bool__ local27 = string__equals__(op__, mu_____string41);
 		if (!local27) {
-			local27 = string__equals__(op__, mu_____string41);
+			local27 = string__equals__(op__, mu_____string42);
 		}
 		bool__ local26 = local27;
 		if (!local26) {
-			local26 = string__equals__(op__, mu_____string42);
+			local26 = string__equals__(op__, mu_____string43);
 		}
 		bool__ local25 = local26;
 		if (!local25) {
-			local25 = string__equals__(op__, mu_____string44);
+			local25 = string__equals__(op__, mu_____string45);
 		}
 		bool__ local24 = local25;
 		if (!local24) {
-			local24 = string__equals__(op__, mu_____string43);
+			local24 = string__equals__(op__, mu_____string44);
 		}
 		bool__ local23 = local24;
 		if (!local23) {
-			local23 = string__equals__(op__, mu_____string45);
+			local23 = string__equals__(op__, mu_____string46);
 		}
 		if (local23) {
 			if (valid__) {
@@ -7778,7 +8537,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 						}
 						if (local30) {
 							if (((((lhs__).tag__).q__)) == ((0))) {
-								if (TypeChecker__canConvertFreeConst__(s__, (lhs__).value__, ((rhs__).tag__).q__)) {
+								if (TypeChecker__canConvertFreeConst_andUpgrade__(s__, (lhs__).value__, (e__)->lhs__, (rhs__).tag__)) {
 									Tag__ local31;
 									memset(&local31, 0, sizeof(Tag__));
 									local31.kind__ = TagKind__number__;
@@ -7789,7 +8548,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 								}
 							} else {
 								if (((((rhs__).tag__).q__)) == ((0))) {
-									if (TypeChecker__canConvertFreeConst__(s__, (rhs__).value__, ((lhs__).tag__).q__)) {
+									if (TypeChecker__canConvertFreeConst_andUpgrade__(s__, (rhs__).value__, (e__)->rhs__, (lhs__).tag__)) {
 										Tag__ local32;
 										memset(&local32, 0, sizeof(Tag__));
 										local32.kind__ = TagKind__number__;
@@ -7827,7 +8586,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 						local35 = (((rhs__).value__).kind__) == (ValueKind__ulong___);
 					}
 					if (local35) {
-						if (string__equals__(op__, mu_____string40)) {
+						if (string__equals__(op__, mu_____string41)) {
 							Value__ local37;
 							memset(&local37, 0, sizeof(Value__));
 							local37.kind__ = ValueKind__ulong___;
@@ -7840,7 +8599,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 							local37.z__ = local38;
 							(result__).value__ = local37;
 						} else {
-							if (string__equals__(op__, mu_____string41)) {
+							if (string__equals__(op__, mu_____string42)) {
 								Value__ local39;
 								memset(&local39, 0, sizeof(Value__));
 								local39.kind__ = ValueKind__ulong___;
@@ -7853,7 +8612,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 								local39.z__ = local40;
 								(result__).value__ = local39;
 							} else {
-								if (string__equals__(op__, mu_____string42)) {
+								if (string__equals__(op__, mu_____string43)) {
 									Value__ local41;
 									memset(&local41, 0, sizeof(Value__));
 									local41.kind__ = ValueKind__ulong___;
@@ -7866,7 +8625,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 									local41.z__ = local42;
 									(result__).value__ = local41;
 								} else {
-									if (string__equals__(op__, mu_____string44)) {
+									if (string__equals__(op__, mu_____string45)) {
 										Value__ local43;
 										memset(&local43, 0, sizeof(Value__));
 										local43.kind__ = ValueKind__ulong___;
@@ -7879,7 +8638,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 										local43.z__ = local44;
 										(result__).value__ = local43;
 									} else {
-										if (string__equals__(op__, mu_____string43)) {
+										if (string__equals__(op__, mu_____string44)) {
 											Value__ local45;
 											memset(&local45, 0, sizeof(Value__));
 											local45.kind__ = ValueKind__ulong___;
@@ -7892,7 +8651,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 											local45.z__ = local46;
 											(result__).value__ = local45;
 										} else {
-											if (string__equals__(op__, mu_____string45)) {
+											if (string__equals__(op__, mu_____string46)) {
 												Value__ local47;
 												memset(&local47, 0, sizeof(Value__));
 												local47.kind__ = ValueKind__ulong___;
@@ -7916,7 +8675,7 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 				}
 			}
 		} else {
-			if (string__equals__(op__, mu_____string36)) {
+			if (string__equals__(op__, mu_____string37)) {
 				if (valid__) {
 					bool__ local49 = (((lhs__).tag__).kind__) == (TagKind__number__);
 					if (local49) {
@@ -7955,9 +8714,9 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 					}
 				}
 			} else {
-				bool__ local55 = string__equals__(op__, mu_____string37);
+				bool__ local55 = string__equals__(op__, mu_____string38);
 				if (!local55) {
-					local55 = string__equals__(op__, mu_____string38);
+					local55 = string__equals__(op__, mu_____string39);
 				}
 				if (local55) {
 					if (valid__) {
@@ -7984,14 +8743,14 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 								local58 = (((rhs__).value__).kind__) == (ValueKind__ulong___);
 							}
 							if (local58) {
-								if (string__equals__(op__, mu_____string37)) {
+								if (string__equals__(op__, mu_____string38)) {
 									Value__ local60;
 									memset(&local60, 0, sizeof(Value__));
 									local60.kind__ = ValueKind__ulong___;
 									local60.z__ = ((ulong__)((lhs__).value__).z__) << (((rhs__).value__).z__);
 									(result__).value__ = local60;
 								} else {
-									if (string__equals__(op__, mu_____string38)) {
+									if (string__equals__(op__, mu_____string39)) {
 										Value__ local61;
 										memset(&local61, 0, sizeof(Value__));
 										local61.kind__ = ValueKind__ulong___;
@@ -8024,52 +8783,6 @@ TypeCheckResult__ TypeChecker__binaryOperator__(TypeCheckerState__* s__, BinaryO
 	}
 	return result__;
 }
-Tag__ TypeChecker__typename__(TypeCheckerState__* s__, Node__ node__, Token__* name__) {
-	Tag__ tag__ = TypeChecker__tag__(s__, (name__)->value__);
-	if (Tag__isValid__(tag__)) {
-		Map__add__Node__Tag____((s__)->typeMap__, node__, tag__);
-	} else {
-		StringBuilder__ local0;
-		memset(&local0, 0, sizeof(local0));
-		string__ local1 = { (pointer__)"Undefined type: ", 16 };
-		StringBuilder__write__(&local0, local1);
-		StringBuilder__write__(&local0, (name__)->value__);
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (name__)->span__, StringBuilder__compactToString__(&local0)));
-	}
-	return tag__;
-}
-bool__ TypeChecker__canAssign__(TypeCheckerState__* s__, Tag__ from__, Value__ fromValue__, Tag__ to__) {
-	if (((to__).kind__) != (TagKind__unknown__)) {
-		if (((from__).kind__) == (TagKind__number__)) {
-			bool__ local0 = ((to__).kind__) == (TagKind__number__);
-			if (local0) {
-				bool__ local1 = (((to__).q__)) == (((from__).q__));
-				if (!local1) {
-					bool__ local2 = (((from__).q__)) == ((0));
-					if (local2) {
-						local2 = TypeChecker__canConvertFreeConst__(s__, fromValue__, (to__).q__);
-					}
-					local1 = local2;
-				}
-				local0 = local1;
-			}
-			return local0;
-		} else {
-			bool__ local3 = ((from__).kind__) == (TagKind__moduleOut__);
-			if (!local3) {
-				local3 = ((from__).kind__) == (TagKind__struct___);
-			}
-			if (local3) {
-				bool__ local4 = ((to__).kind__) == ((from__).kind__);
-				if (local4) {
-					local4 = (((to__).q__)) == (((from__).q__));
-				}
-				return local4;
-			}
-		}
-	}
-	return true__;
-}
 TypeCheckResult__ TypeChecker__fixedNumberArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__) {
 	if (((index__)) >= ((((e__)->args__)->count__))) {
 		TypeCheckResult__ local0;
@@ -8101,70 +8814,6 @@ TypeCheckResult__ TypeChecker__fixedNumberArg__(TypeCheckerState__* s__, CallExp
 	}
 	return tr__;
 }
-TypeCheckResult__ TypeChecker__slice__(TypeCheckerState__* s__, CallExpression__* e__) {
-	if (((s__)->module__) == (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string174));
-	}
-	if ((s__)->isStaticExpr__) {
-	} else {
-		if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string140));
-		}
-	}
-	TypeChecker__builtinArgs__(s__, e__, 3);
-	TypeChecker__fixedNumberArg__(s__, e__, 0);
-	TypeChecker__numberArg__(s__, e__, 1);
-	TypeCheckResult__ widthArg__ = TypeChecker__constantArg__(s__, e__, 2);
-	TypeCheckResult__ local0;
-	memset(&local0, 0, sizeof(TypeCheckResult__));
-	TypeCheckResult__ result__ = local0;
-	if (Tag__isValid__((widthArg__).tag__)) {
-		Maybe__int____ width__ = TypeChecker__tryUnpackInt__((widthArg__).value__);
-		if ((s__)->isStaticExpr__) {
-			bool__ local1 = (width__).hasValue__;
-			if (local1) {
-				local1 = ((0)) < (((width__).value__));
-			}
-			if (local1) {
-				Tag__ local2;
-				memset(&local2, 0, sizeof(Tag__));
-				local2.kind__ = TagKind__number__;
-				local2.q__ = (width__).value__;
-				(result__).tag__ = local2;
-			} else {
-				List__Ptr__CallArg______* local3 = (e__)->args__;
-				uint__ local4 = (uint__)(2);
-				mu_____boundscheck(local4 < (uint__)local3->count__);
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local3->dataPtr__)[local4])->expr__), mu_____string173));
-			}
-		} else {
-			bool__ local6 = (width__).hasValue__;
-			if (local6) {
-				local6 = ((1)) <= (((width__).value__));
-			}
-			bool__ local5 = local6;
-			if (local5) {
-				local5 = (((width__).value__)) <= ((64));
-			}
-			if (local5) {
-				Tag__ local7;
-				memset(&local7, 0, sizeof(Tag__));
-				local7.kind__ = TagKind__number__;
-				local7.q__ = (width__).value__;
-				(result__).tag__ = local7;
-			} else {
-				List__Ptr__CallArg______* local8 = (e__)->args__;
-				uint__ local9 = (uint__)(2);
-				mu_____boundscheck(local9 < (uint__)local8->count__);
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local8->dataPtr__)[local9])->expr__), mu_____string145));
-			}
-		}
-	}
-	return result__;
-}
-void__ TypeChecker__unsupportedRegUpdate__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string139));
-}
 void__ TypeChecker__const__(TypeCheckerState__* s__, ConstDef__* def__) {
 	if (((((def__)->flags__)) & ((ConstFlags__typeCheckDone__))) != (0)) {
 		return;
@@ -8191,7 +8840,7 @@ void__ TypeChecker__const__(TypeCheckerState__* s__, ConstDef__* def__) {
 		(s__)->isStaticExpr__ = false__;
 		if ((((etr__).tag__).kind__) != (TagKind__unknown__)) {
 			if (((def__)->type__) != (null__)) {
-				if (TypeChecker__canAssign__(s__, (etr__).tag__, (etr__).value__, dt__)) {
+				if (TypeChecker__canAssign_andUpgrade__(s__, (etr__).tag__, (etr__).value__, (def__)->expr__, dt__)) {
 					if ((((etr__).value__).kind__) != (ValueKind__none__)) {
 					} else {
 						TypeChecker__expectedConstant__(s__, (def__)->expr__);
@@ -8335,99 +8984,6 @@ void__ TypeChecker__badBinaryOperandConversion__(TypeCheckerState__* s__, IntRan
 	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, tag__));
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, span__, StringBuilder__compactToString__(&local0)));
 }
-TypeCheckResult__ TypeChecker__assignSlice__(TypeCheckerState__* s__, AssignStatement__* st__, CallExpression__* e__) {
-	if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string140));
-	}
-	TypeChecker__builtinArgs__(s__, e__, 3);
-	if (((((e__)->args__)->count__)) >= ((1))) {
-		List__Ptr__CallArg______* local0 = (e__)->args__;
-		uint__ local1 = (uint__)(0);
-		mu_____boundscheck(local1 < (uint__)local0->count__);
-		Node__ regArg__ = (((CallArg__**)local0->dataPtr__)[local1])->expr__;
-		if ((regArg__).id__ == Node_____Ptr__Token____) {
-			Node__ local2 = regArg__;
-			mu_____checkedcast(local2.id__ == Node_____Ptr__Token____);
-			Token__* nameToken__ = (Token__*)(local2.dataPtr__);
-			string__ name__ = (nameToken__)->value__;
-			Node__ sym__ = Map__getOrDefault__string__Node____(((s__)->module__)->symbols__, (nameToken__)->value__);
-			if (((sym__).dataPtr__) != ((pointer__)(null__))) {
-				bool__ local3 = (sym__).id__ == Node_____Ptr__AssignStatement____;
-				if (local3) {
-					Node__ local4 = sym__;
-					mu_____checkedcast(local4.id__ == Node_____Ptr__AssignStatement____);
-					local3 = (((((AssignStatement__*)(local4.dataPtr__))->flags__)) & ((AssignFlags__reg__))) != (0);
-				}
-				if (local3) {
-					Node__ local5 = sym__;
-					mu_____checkedcast(local5.id__ == Node_____Ptr__AssignStatement____);
-					AssignStatement__* reg__ = (AssignStatement__*)(local5.dataPtr__);
-					(st__)->localId__ = (reg__)->localId__;
-					Node__ local6;
-					local6.dataPtr__ = (pointer__)(nameToken__);
-					local6.id__ = local6.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-					TypeChecker__ensureAssignDone__(s__, reg__, local6);
-					Node__ local7;
-					local7.dataPtr__ = (pointer__)(reg__);
-					local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
-					Tag__ regTag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local7);
-					bool__ local8 = ((regTag__).kind__) == (TagKind__number__);
-					if (local8) {
-						local8 = (((regTag__).q__)) > ((0));
-					}
-					if (local8) {
-					} else {
-						TypeChecker__expectedFixedNumberExpression__(s__, regArg__);
-					}
-				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string130));
-				}
-			} else {
-				TypeChecker__badSymbol__(s__, nameToken__);
-			}
-		} else {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(regArg__), mu_____string130));
-		}
-	}
-	TypeChecker__numberArg__(s__, e__, 1);
-	TypeCheckResult__ widthArg__ = TypeChecker__constantArg__(s__, e__, 2);
-	Tag__ local9;
-	memset(&local9, 0, sizeof(Tag__));
-	Tag__ tag__ = local9;
-	if (Tag__isValid__((widthArg__).tag__)) {
-		Maybe__int____ width__ = TypeChecker__tryUnpackInt__((widthArg__).value__);
-		bool__ local11 = (width__).hasValue__;
-		if (local11) {
-			local11 = ((1)) <= (((width__).value__));
-		}
-		bool__ local10 = local11;
-		if (local10) {
-			local10 = (((width__).value__)) <= ((64));
-		}
-		if (local10) {
-			Tag__ local12;
-			memset(&local12, 0, sizeof(Tag__));
-			local12.kind__ = TagKind__number__;
-			local12.q__ = (width__).value__;
-			tag__ = local12;
-		} else {
-			List__Ptr__CallArg______* local13 = (e__)->args__;
-			uint__ local14 = (uint__)(2);
-			mu_____boundscheck(local14 < (uint__)local13->count__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local13->dataPtr__)[local14])->expr__), mu_____string145));
-			TypeCheckResult__ local15;
-			memset(&local15, 0, sizeof(TypeCheckResult__));
-			return local15;
-		}
-	}
-	if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-		TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (st__)->expr__, true__, tag__);
-		if (TypeChecker__canAssign__(s__, (rhs__).tag__, (rhs__).value__, tag__)) {
-		} else {
-			TypeChecker__badAssign__(s__, (st__)->op__, (rhs__).tag__, tag__);
-		}
-	}
-}
 void__ TypeChecker__unsupportedBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__) {
 	StringBuilder__ local0;
 	memset(&local0, 0, sizeof(local0));
@@ -8442,39 +8998,8 @@ void__ TypeChecker__unsupportedBinaryOp__(TypeCheckerState__* s__, Token__* op__
 	StringBuilder__write__(&local0, TypeChecker__tagString__((s__)->comp__, rhs__));
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
 }
-TypeCheckResult__ TypeChecker__paren__(TypeCheckerState__* s__, ParenExpression__* e__) {
-	TypeCheckResult__ local0;
-	if ((((e__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-		local0 = TypeChecker__expression__(s__, (e__)->expr__);
-	} else {
-		TypeCheckResult__ local1;
-		memset(&local1, 0, sizeof(TypeCheckResult__));
-		local0 = local1;
-	}
-	return local0;
-}
 void__ TypeChecker__expectedStaticConstant__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string107));
-}
-void__ TypeChecker__clock__(TypeCheckerState__* s__, ClockStatement__* st__) {
-	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
-		Node__ local0;
-		local0.dataPtr__ = (pointer__)((st__)->keyword__);
-		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
-		TypeChecker__statementNotAllowedInsideBlackbox__(s__, local0);
-	}
-	if (((st__)->name__) != (null__)) {
-		string__ name__ = ((st__)->name__)->value__;
-		if (!(Map__containsKey__string__Node____(((s__)->module__)->symbols__, name__))) {
-			TypeChecker__badSymbol__(s__, (st__)->name__);
-		}
-	}
-	if ((s__)->inClock__) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->keyword__)->span__, mu_____string135));
-	}
-	(s__)->inClock__ = true__;
-	TypeChecker__block__(s__, (st__)->body__);
-	(s__)->inClock__ = false__;
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string108));
 }
 TypeCheckResult__ TypeChecker__numberArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__) {
 	if (((index__)) >= ((((e__)->args__)->count__))) {
@@ -8502,258 +9027,6 @@ TypeCheckResult__ TypeChecker__numberArg__(TypeCheckerState__* s__, CallExpressi
 		}
 	}
 	return tr__;
-}
-bool__ TypeChecker__isValidEntityName_nonStatic__(string__ s__) {
-	string__* local1 = &(s__);
-	uint__ local2 = (uint__)(0);
-	mu_____boundscheck(local2 < (uint__)local1->length__);
-	bool__ local0 = (((char__*)local1->dataPtr__)[local2]) != ('$');
-	if (local0) {
-		string__* local3 = &(s__);
-		uint__ local4 = (uint__)(0);
-		mu_____boundscheck(local4 < (uint__)local3->length__);
-		local0 = (((char__*)local3->dataPtr__)[local4]) != ('#');
-	}
-	return local0;
-}
-TypeCheckResult__ TypeChecker__rep__(TypeCheckerState__* s__, CallExpression__* e__) {
-	TypeChecker__builtinArgs__(s__, e__, 2);
-	TypeCheckResult__ target__ = TypeChecker__fixedNumberArg__(s__, e__, 0);
-	TypeCheckResult__ nArg__ = TypeChecker__constantArg__(s__, e__, 1);
-	TypeCheckResult__ local0;
-	memset(&local0, 0, sizeof(TypeCheckResult__));
-	TypeCheckResult__ result__ = local0;
-	if (Tag__isValid__((nArg__).tag__)) {
-		Maybe__int____ n__ = TypeChecker__tryUnpackInt__((nArg__).value__);
-		bool__ local1 = (n__).hasValue__;
-		if (local1) {
-			local1 = ((0)) < (((n__).value__));
-		}
-		if (local1) {
-			if (Tag__isValid__((target__).tag__)) {
-				int__ w__ = ((((target__).tag__).q__)) * (((n__).value__));
-				if (((w__)) <= ((64))) {
-					Tag__ local2;
-					memset(&local2, 0, sizeof(Tag__));
-					local2.kind__ = TagKind__number__;
-					local2.q__ = w__;
-					(result__).tag__ = local2;
-					if ((((target__).value__).kind__) == (ValueKind__ulong___)) {
-						Value__ local3;
-						memset(&local3, 0, sizeof(Value__));
-						local3.kind__ = ValueKind__ulong___;
-						local3.z__ = (ulong__)(0);
-						(result__).value__ = local3;
-						{
-							int__ i__ = 0;
-							while (((i__)) < (((n__).value__))) {
-								((result__).value__).z__ = ((ulong__)((result__).value__).z__) << (((target__).tag__).q__);
-								((result__).value__).z__ = ((((result__).value__).z__)) | ((((target__).value__).z__));
-								i__ += 1;
-							}
-						}
-					}
-				} else {
-					Node__ local4;
-					local4.dataPtr__ = (pointer__)(e__);
-					local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local4), mu_____string172));
-				}
-			}
-		} else {
-			List__Ptr__CallArg______* local5 = (e__)->args__;
-			uint__ local6 = (uint__)(1);
-			mu_____boundscheck(local6 < (uint__)local5->count__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local5->dataPtr__)[local6])->expr__), mu_____string173));
-		}
-	}
-	return result__;
-}
-TypeCheckResult__ TypeChecker__swizzle__(TypeCheckerState__* s__, CallExpression__* e__) {
-	if (((s__)->module__) == (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string179));
-	}
-	if (!((s__)->isStaticExpr__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string180));
-	}
-	TypeChecker__builtinArgs__(s__, e__, 4);
-	TypeCheckResult__ arrayArg__ = TypeChecker__fixedNumberArg__(s__, e__, 0);
-	TypeCheckResult__ seqSizeArg__ = TypeChecker__constantArg__(s__, e__, 1);
-	TypeCheckResult__ stepArg__ = TypeChecker__constantArg__(s__, e__, 2);
-	TypeCheckResult__ blockSizeArg__ = TypeChecker__constantArg__(s__, e__, 3);
-	bool__ local2 = Tag__isValid__((arrayArg__).tag__);
-	if (local2) {
-		local2 = Tag__isValid__((seqSizeArg__).tag__);
-	}
-	bool__ local1 = local2;
-	if (local1) {
-		local1 = Tag__isValid__((stepArg__).tag__);
-	}
-	bool__ local0 = local1;
-	if (local0) {
-		local0 = Tag__isValid__((blockSizeArg__).tag__);
-	}
-	if (local0) {
-		int__ numBits__ = TypeChecker__unpackWidth__((arrayArg__).tag__);
-		Maybe__int____ seqSize__ = TypeChecker__tryUnpackInt__((seqSizeArg__).value__);
-		Maybe__int____ step__ = TypeChecker__tryUnpackInt__((stepArg__).value__);
-		Maybe__int____ blockSize__ = TypeChecker__tryUnpackInt__((blockSizeArg__).value__);
-		if (((((numBits__)) % ((8)))) == ((0))) {
-			bool__ local4 = (blockSize__).hasValue__;
-			if (local4) {
-				local4 = (((blockSize__).value__)) > ((0));
-			}
-			bool__ local3 = local4;
-			if (local3) {
-				local3 = ((((numBits__)) % (((blockSize__).value__)))) == ((0));
-			}
-			if (local3) {
-				bool__ local6 = (step__).hasValue__;
-				if (local6) {
-					local6 = (((step__).value__)) > ((0));
-				}
-				bool__ local5 = local6;
-				if (local5) {
-					local5 = (((((blockSize__).value__)) % (((step__).value__)))) == ((0));
-				}
-				if (local5) {
-					bool__ local8 = (seqSize__).hasValue__;
-					if (local8) {
-						local8 = (((seqSize__).value__)) > ((0));
-					}
-					bool__ local7 = local8;
-					if (local7) {
-						local7 = (((((step__).value__)) % (((seqSize__).value__)))) == ((0));
-					}
-					if (local7) {
-						TypeCheckResult__ local9;
-						memset(&local9, 0, sizeof(TypeCheckResult__));
-						local9.tag__ = (arrayArg__).tag__;
-						return local9;
-					} else {
-						List__Ptr__CallArg______* local10 = (e__)->args__;
-						uint__ local11 = (uint__)(1);
-						mu_____boundscheck(local11 < (uint__)local10->count__);
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local10->dataPtr__)[local11])->expr__), mu_____string181));
-					}
-				} else {
-					List__Ptr__CallArg______* local12 = (e__)->args__;
-					uint__ local13 = (uint__)(2);
-					mu_____boundscheck(local13 < (uint__)local12->count__);
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local12->dataPtr__)[local13])->expr__), mu_____string182));
-				}
-			} else {
-				List__Ptr__CallArg______* local14 = (e__)->args__;
-				uint__ local15 = (uint__)(3);
-				mu_____boundscheck(local15 < (uint__)local14->count__);
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local14->dataPtr__)[local15])->expr__), mu_____string183));
-			}
-		} else {
-			List__Ptr__CallArg______* local16 = (e__)->args__;
-			uint__ local17 = (uint__)(0);
-			mu_____boundscheck(local17 < (uint__)local16->count__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local16->dataPtr__)[local17])->expr__), mu_____string184));
-		}
-	}
-	TypeCheckResult__ local18;
-	memset(&local18, 0, sizeof(TypeCheckResult__));
-	return local18;
-}
-void__ TypeChecker__block__(TypeCheckerState__* s__, Block__* st__) {
-	{
-		List__Node____* local0 = (st__)->contents__;
-		int__ local1 = 0;
-		while (local1 < local0->count__) {
-			Node__ n__ = ((Node__*)(local0->dataPtr__))[local1];
-			switch ((n__).id__) {
-				case Node_____Ptr__FieldDef____: {
-					FieldDef__* local2 = (FieldDef__*)(n__.dataPtr__);
-					TypeChecker__fieldDef__(s__, local2);
-					break;
-				}
-				case Node_____Ptr__ClockStatement____: {
-					ClockStatement__* local3 = (ClockStatement__*)(n__.dataPtr__);
-					TypeChecker__clock__(s__, local3);
-					break;
-				}
-				case Node_____Ptr__IfStatement____: {
-					IfStatement__* local4 = (IfStatement__*)(n__.dataPtr__);
-					TypeChecker__if___(s__, local4);
-					break;
-				}
-				case Node_____Ptr__AssignStatement____: {
-					AssignStatement__* local5 = (AssignStatement__*)(n__.dataPtr__);
-					TypeChecker__assign__(s__, local5);
-					break;
-				}
-				default: {
-					{
-					}
-					break;
-				}
-				case 0: {
-					mu_____nomatch();
-				}
-			}
-			local1 += 1;
-		}
-	}
-}
-int__ TypeChecker__numSlots__(Compilation__* comp__, Tag__ tag__) {
-	if (((tag__).kind__) == (TagKind__number__)) {
-		return 1;
-	} else {
-		if (((tag__).kind__) == (TagKind__struct___)) {
-			List__Node____* local1 = (comp__)->entities__;
-			uint__ local2 = (uint__)((tag__).q__);
-			mu_____boundscheck(local2 < (uint__)local1->count__);
-			Node__ local0 = ((Node__*)local1->dataPtr__)[local2];
-			mu_____checkedcast(local0.id__ == Node_____Ptr__StructDef____);
-			return (((StructDef__*)(local0.dataPtr__))->fields__)->count__;
-		}
-	}
-	mu_____abandon(-1);
-	return 0;
-}
-TypeCheckResult__ TypeChecker__constantArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__) {
-	if (((index__)) >= ((((e__)->args__)->count__))) {
-		TypeCheckResult__ local0;
-		memset(&local0, 0, sizeof(TypeCheckResult__));
-		return local0;
-	}
-	List__Ptr__CallArg______* local1 = (e__)->args__;
-	uint__ local2 = (uint__)(index__);
-	mu_____boundscheck(local2 < (uint__)local1->count__);
-	CallArg__* arg__ = ((CallArg__**)local1->dataPtr__)[local2];
-	if ((((arg__)->expr__).dataPtr__) == ((pointer__)(null__))) {
-		TypeCheckResult__ local3;
-		memset(&local3, 0, sizeof(TypeCheckResult__));
-		return local3;
-	}
-	TypeCheckResult__ tr__ = TypeChecker__expression__(s__, (arg__)->expr__);
-	if (Tag__isValid__((tr__).tag__)) {
-		bool__ local4 = (((tr__).tag__).kind__) == (TagKind__number__);
-		if (local4) {
-			local4 = (((tr__).value__).kind__) == (ValueKind__ulong___);
-		}
-		if (local4) {
-		} else {
-			TypeChecker__expectedConstant__(s__, (arg__)->expr__);
-			TypeCheckResult__ local5;
-			memset(&local5, 0, sizeof(TypeCheckResult__));
-			return local5;
-		}
-	}
-	return tr__;
-}
-Maybe__int____ TypeChecker__tryUnpackInt__(Value__ value__) {
-	mu_____assert(((value__).kind__) == (ValueKind__ulong___));
-	if ((((value__).z__)) <= (((ulong__)(int__maxValue__)))) {
-		return Maybe__from__int____((int__)((value__).z__));
-	}
-	Maybe__int____ local0;
-	memset(&local0, 0, sizeof(Maybe__int____));
-	return local0;
 }
 void__ TypeChecker__comp__(Compilation__* comp__) {
 	Map__Node__Tag____* local0 = (Map__Node__Tag____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(Map__Node__Tag____));
@@ -8850,80 +9123,6 @@ void__ TypeChecker__struct___(TypeCheckerState__* s__, StructDef__* def__) {
 	(s__)->struct___ = null__;
 	(def__)->flags__ = (((def__)->flags__)) | ((StructFlags__typeCheckDone__));
 }
-TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression__* e__) {
-	TypeCheckResult__ local0;
-	memset(&local0, 0, sizeof(TypeCheckResult__));
-	TypeCheckResult__ target__ = local0;
-	bool__ condValid__ = false__;
-	if ((((e__)->target__).dataPtr__) != ((pointer__)(null__))) {
-		target__ = TypeChecker__expression__(s__, (e__)->target__);
-		if (Tag__isValid__((target__).tag__)) {
-			bool__ local1 = (((target__).tag__).kind__) == (TagKind__number__);
-			if (local1) {
-				local1 = ((((target__).tag__).q__)) > ((0));
-			}
-			if (local1) {
-				condValid__ = true__;
-			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string142));
-			}
-		}
-	}
-	TypeCheckResult__ local2;
-	memset(&local2, 0, sizeof(TypeCheckResult__));
-	TypeCheckResult__ result__ = local2;
-	{
-		List__Ptr__MatchExpressionCase______* local3 = (e__)->cases__;
-		int__ local4 = 0;
-		while (local4 < local3->count__) {
-			MatchExpressionCase__* c__ = ((MatchExpressionCase__**)(local3->dataPtr__))[local4];
-			TypeCheckResult__ vex__ = TypeChecker__expression__(s__, (c__)->valueExpr__);
-			if (Tag__isValid__((vex__).tag__)) {
-				bool__ local5 = (((vex__).tag__).kind__) == (TagKind__number__);
-				if (local5) {
-					local5 = (((vex__).value__).kind__) == (ValueKind__ulong___);
-				}
-				if (local5) {
-					if (condValid__) {
-						if (TypeChecker__canAssign__(s__, (vex__).tag__, (vex__).value__, (target__).tag__)) {
-						} else {
-							TypeChecker__badConstConversion__(s__, (c__)->valueExpr__, (vex__).tag__, (target__).tag__);
-						}
-					}
-				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->valueExpr__), mu_____string166));
-				}
-			}
-			if ((((c__)->resultExpr__).dataPtr__) != ((pointer__)(null__))) {
-				TypeCheckResult__ rex__ = TypeChecker__expressionContinueGap__(s__, (c__)->resultExpr__);
-				if (Tag__isValid__((rex__).tag__)) {
-					if (Tag__isValid__((result__).tag__)) {
-						bool__ local6 = (((rex__).tag__).kind__) == (TagKind__number__);
-						if (local6) {
-							local6 = ((((rex__).tag__).q__)) == ((((result__).tag__).q__));
-						}
-						if (local6) {
-						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string167));
-						}
-					} else {
-						bool__ local7 = (((rex__).tag__).kind__) == (TagKind__number__);
-						if (local7) {
-							local7 = ((((rex__).tag__).q__)) > ((0));
-						}
-						if (local7) {
-							(result__).tag__ = (rex__).tag__;
-						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string142));
-						}
-					}
-				}
-			}
-			local4 += 1;
-		}
-	}
-	return result__;
-}
 bool__ TypeChecker__isFixedNumberOrStruct__(Tag__ tag__) {
 	bool__ local1 = ((tag__).kind__) == (TagKind__number__);
 	if (local1) {
@@ -8934,9 +9133,6 @@ bool__ TypeChecker__isFixedNumberOrStruct__(Tag__ tag__) {
 		local0 = ((tag__).kind__) == (TagKind__struct___);
 	}
 	return local0;
-}
-void__ TypeChecker__duplicateSymbol__(TypeCheckerState__* s__, Token__* token__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (token__)->span__, mu_____string104));
 }
 void__ TypeChecker__expectedFixedNumberOrStructExpression__(TypeCheckerState__* s__, Node__ e__) {
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string120));
@@ -8949,7 +9145,7 @@ TypeCheckResult__ TypeChecker__expressionWithGap__(TypeCheckerState__* s__, Node
 	return tr__;
 }
 void__ TypeChecker__expectedNumberExpression__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string143));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string144));
 }
 void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, ModuleDef__* def__) {
 	if ((def__) != (null__)) {
@@ -8995,7 +9191,7 @@ void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, M
 							mu_____boundscheck(local10 < (uint__)local9->count__);
 							((int__*)local9->dataPtr__)[local10] = i__;
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string194));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string197));
 						}
 						Node__ local11;
 						local11.dataPtr__ = (pointer__)(input__);
@@ -9033,11 +9229,11 @@ void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, M
 					TypeCheckResult__ rhs__ = TypeChecker__expressionWithGap__(s__, (arg__)->expr__, true__, tag__);
 					(s__)->allowDontCare__ = false__;
 					(s__)->isStaticExpr__ = false__;
-					if (!(TypeChecker__canAssign__(s__, (rhs__).tag__, (rhs__).value__, tag__))) {
+					if (!(TypeChecker__canAssign_andUpgrade__(s__, (rhs__).tag__, (rhs__).value__, (arg__)->expr__, tag__))) {
 						TypeChecker__badAssign__(s__, (arg__)->colon__, (rhs__).tag__, tag__);
 					}
 					if (((arg__)->name__) == (null__)) {
-						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string196));
+						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string199));
 					}
 				}
 				i__ += 1;
@@ -9063,7 +9259,7 @@ void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, M
 		}
 		if ((((missing__).count__)) > ((0))) {
 			Array__string____ local24 = List__slice__string____(&(missing__), 0, (missing__).count__);
-			string__ names__ = string__join__(mu_____string197, &local24);
+			string__ names__ = string__join__(mu_____string200, &local24);
 			StringBuilder__ local25;
 			memset(&local25, 0, sizeof(local25));
 			string__ local26 = { (pointer__)"Missing required parameters: ", 29 };
@@ -9084,13 +9280,6 @@ void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, M
 			}
 		}
 	}
-}
-void__ TypeChecker__restoreContext__(TypeCheckerState__* s__, TypeCheckerContext__ ctx__) {
-	(s__)->unit__ = (ctx__).unit__;
-	(s__)->module__ = (ctx__).module__;
-	(s__)->inClock__ = (ctx__).inClock__;
-	(s__)->isStaticExpr__ = (ctx__).isStaticExpr__;
-	(s__)->allowDontCare__ = (ctx__).allowDontCare__;
 }
 void__ StringBuilder__reverseSlice__(StringBuilder__* sb__, int__ from__, int__ to__) {
 	bool__ local1 = ((0)) <= ((from__));
@@ -9263,28 +9452,28 @@ uint__ ushort__hash__(ushort__ val__) {
 void__ ushort__writeTo__(ushort__ val__, StringBuilder__* sb__) {
 	ulong__writeTo__((ulong__)(val__), sb__);
 }
-void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SourceFile__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Error____(List__Error____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Error__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Error__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Error__))));
-	(this__)->capacity__ = capacity__;
-}
 void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
 		return;
 	}
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SlotInfo__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__string____(List__string____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(string__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(string__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(string__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Instruction__))));
 	(this__)->capacity__ = capacity__;
 }
 void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__) {
@@ -9295,12 +9484,76 @@ void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement_____
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(AssignStatement__*))));
 	(this__)->capacity__ = capacity__;
 }
-void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__) {
+void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
 		return;
 	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(QueuedCallArgs__))));
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CallArg__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CallArg__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CallArg__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(MatchExpressionCase__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(MatchExpressionCase__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(MatchExpressionCase__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(FieldDef__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(FieldDef__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(FieldDef__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Value____(List__Value____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Value__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Value__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Value__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(ModuleInputDef__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(ModuleInputDef__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(ModuleInputDef__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Error____(List__Error____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Error__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Error__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Error__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SourceFile__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(ModuleInstance__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(ModuleInstance__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(ModuleInstance__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CodeUnit__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CodeUnit__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CodeUnit__*))));
 	(this__)->capacity__ = capacity__;
 }
 void__ List__reserve__byte____(List__byte____* this__, int__ capacity__) {
@@ -9327,60 +9580,12 @@ void__ List__reserve__Node____(List__Node____* this__, int__ capacity__) {
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Node__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Node__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Node__))));
 	(this__)->capacity__ = capacity__;
 }
-void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__) {
+void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
 		return;
 	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Instruction__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CallArg__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CallArg__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CallArg__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(MatchExpressionCase__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(MatchExpressionCase__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(MatchExpressionCase__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Value____(List__Value____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Value__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Value__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Value__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__string____(List__string____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(string__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(string__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(string__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(FieldDef__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(FieldDef__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(FieldDef__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(ModuleInputDef__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(ModuleInputDef__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(ModuleInputDef__*))));
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(QueuedCallArgs__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(QueuedCallArgs__))));
 	(this__)->capacity__ = capacity__;
 }
 void__ List__reserve__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, int__ capacity__) {
@@ -9389,22 +9594,6 @@ void__ List__reserve__CommandLineArgsParserError____(List__CommandLineArgsParser
 		return;
 	}
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CommandLineArgsParserError__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CommandLineArgsParserError__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CommandLineArgsParserError__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(ModuleInstance__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(ModuleInstance__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(ModuleInstance__*))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CodeUnit__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CodeUnit__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CodeUnit__*))));
 	(this__)->capacity__ = capacity__;
 }
 Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__) {
@@ -9463,100 +9652,12 @@ void__ List__setCountChecked__Value____(List__Value____* this__, int__ count__) 
 	mu_____assert(local0);
 	(this__)->count__ = count__;
 }
-void__ List__add__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, FieldDef__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__FieldDef______(this__);
-	}
-	List__Ptr__FieldDef______* local0 = this__;
-	((FieldDef__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Error____(List__Error____* this__, Error__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Error____(this__);
-	}
-	List__Error____* local0 = this__;
-	((Error__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, ModuleInputDef__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__ModuleInputDef______(this__);
-	}
-	List__Ptr__ModuleInputDef______* local0 = this__;
-	((ModuleInputDef__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, CommandLineArgsParserError__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__CommandLineArgsParserError____(this__);
-	}
-	List__CommandLineArgsParserError____* local0 = this__;
-	((CommandLineArgsParserError__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
 void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__) {
 	if ((((this__)->count__)) == (((this__)->capacity__))) {
 		List__grow__SlotInfo____(this__);
 	}
 	List__SlotInfo____* local0 = this__;
 	((SlotInfo__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__byte____(List__byte____* this__, byte__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__byte____(this__);
-	}
-	List__byte____* local0 = this__;
-	((byte__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, ModuleInstance__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__ModuleInstance______(this__);
-	}
-	List__Ptr__ModuleInstance______* local0 = this__;
-	((ModuleInstance__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Node____(List__Node____* this__, Node__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Node____(this__);
-	}
-	List__Node____* local0 = this__;
-	((Node__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__int____(List__int____* this__, int__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__int____(this__);
-	}
-	List__int____* local0 = this__;
-	((int__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Instruction____(this__);
-	}
-	List__Instruction____* local0 = this__;
-	((Instruction__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, CodeUnit__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__CodeUnit______(this__);
-	}
-	List__Ptr__CodeUnit______* local0 = this__;
-	((CodeUnit__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Value____(List__Value____* this__, Value__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Value____(this__);
-	}
-	List__Value____* local0 = this__;
-	((Value__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__add__string____(List__string____* this__, string__ item__) {
@@ -9567,12 +9668,12 @@ void__ List__add__string____(List__string____* this__, string__ item__) {
 	((string__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
-void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__) {
+void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__) {
 	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__SourceFile______(this__);
+		List__grow__Instruction____(this__);
 	}
-	List__Ptr__SourceFile______* local0 = this__;
-	((SourceFile__**)local0->dataPtr__)[(this__)->count__] = item__;
+	List__Instruction____* local0 = this__;
+	((Instruction__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__) {
@@ -9581,14 +9682,6 @@ void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* t
 	}
 	List__Ptr__AssignStatement______* local0 = this__;
 	((AssignStatement__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__QueuedCallArgs____(this__);
-	}
-	List__QueuedCallArgs____* local0 = this__;
-	((QueuedCallArgs__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__) {
@@ -9607,23 +9700,101 @@ void__ List__add__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase_
 	((MatchExpressionCase__**)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
-void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
+void__ List__add__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, FieldDef__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__FieldDef______(this__);
 	}
-	List__reserve__Ptr__SourceFile______(this__, local0);
+	List__Ptr__FieldDef______* local0 = this__;
+	((FieldDef__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
 }
-void__ List__grow__Error____(List__Error____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
+void__ List__add__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, ModuleInputDef__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__ModuleInputDef______(this__);
 	}
-	List__reserve__Error____(this__, local0);
+	List__Ptr__ModuleInputDef______* local0 = this__;
+	((ModuleInputDef__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__SourceFile______(this__);
+	}
+	List__Ptr__SourceFile______* local0 = this__;
+	((SourceFile__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Error____(List__Error____* this__, Error__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Error____(this__);
+	}
+	List__Error____* local0 = this__;
+	((Error__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Value____(List__Value____* this__, Value__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Value____(this__);
+	}
+	List__Value____* local0 = this__;
+	((Value__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, ModuleInstance__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__ModuleInstance______(this__);
+	}
+	List__Ptr__ModuleInstance______* local0 = this__;
+	((ModuleInstance__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, CodeUnit__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__CodeUnit______(this__);
+	}
+	List__Ptr__CodeUnit______* local0 = this__;
+	((CodeUnit__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__byte____(List__byte____* this__, byte__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__byte____(this__);
+	}
+	List__byte____* local0 = this__;
+	((byte__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__int____(List__int____* this__, int__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__int____(this__);
+	}
+	List__int____* local0 = this__;
+	((int__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Node____(List__Node____* this__, Node__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Node____(this__);
+	}
+	List__Node____* local0 = this__;
+	((Node__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__QueuedCallArgs____(this__);
+	}
+	List__QueuedCallArgs____* local0 = this__;
+	((QueuedCallArgs__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, CommandLineArgsParserError__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__CommandLineArgsParserError____(this__);
+	}
+	List__CommandLineArgsParserError____* local0 = this__;
+	((CommandLineArgsParserError__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__grow__SlotInfo____(List__SlotInfo____* this__) {
 	int__ local0;
@@ -9634,6 +9805,24 @@ void__ List__grow__SlotInfo____(List__SlotInfo____* this__) {
 	}
 	List__reserve__SlotInfo____(this__, local0);
 }
+void__ List__grow__string____(List__string____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__string____(this__, local0);
+}
+void__ List__grow__Instruction____(List__Instruction____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Instruction____(this__, local0);
+}
 void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
@@ -9643,14 +9832,86 @@ void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* 
 	}
 	List__reserve__Ptr__AssignStatement______(this__, local0);
 }
-void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__) {
+void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
 		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
 	} else {
 		local0 = 4;
 	}
-	List__reserve__QueuedCallArgs____(this__, local0);
+	List__reserve__Ptr__CallArg______(this__, local0);
+}
+void__ List__grow__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__MatchExpressionCase______(this__, local0);
+}
+void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__FieldDef______(this__, local0);
+}
+void__ List__grow__Value____(List__Value____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Value____(this__, local0);
+}
+void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__ModuleInputDef______(this__, local0);
+}
+void__ List__grow__Error____(List__Error____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Error____(this__, local0);
+}
+void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__SourceFile______(this__, local0);
+}
+void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__ModuleInstance______(this__, local0);
+}
+void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__CodeUnit______(this__, local0);
 }
 void__ List__grow__byte____(List__byte____* this__) {
 	int__ local0;
@@ -9679,68 +9940,14 @@ void__ List__grow__Node____(List__Node____* this__) {
 	}
 	List__reserve__Node____(this__, local0);
 }
-void__ List__grow__Instruction____(List__Instruction____* this__) {
+void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
 		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
 	} else {
 		local0 = 4;
 	}
-	List__reserve__Instruction____(this__, local0);
-}
-void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__CallArg______(this__, local0);
-}
-void__ List__grow__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__MatchExpressionCase______(this__, local0);
-}
-void__ List__grow__Value____(List__Value____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Value____(this__, local0);
-}
-void__ List__grow__string____(List__string____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__string____(this__, local0);
-}
-void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__FieldDef______(this__, local0);
-}
-void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__ModuleInputDef______(this__, local0);
+	List__reserve__QueuedCallArgs____(this__, local0);
 }
 void__ List__grow__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__) {
 	int__ local0;
@@ -9750,24 +9957,6 @@ void__ List__grow__CommandLineArgsParserError____(List__CommandLineArgsParserErr
 		local0 = 4;
 	}
 	List__reserve__CommandLineArgsParserError____(this__, local0);
-}
-void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__ModuleInstance______(this__, local0);
-}
-void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__CodeUnit______(this__, local0);
 }
 bool__ Set__tryRemove__string____(Set__string____* this__, string__ value__) {
 	uint__ h__ = string__hash__(value__);
@@ -9962,7 +10151,7 @@ string__ ErrorHelper__getErrorDesc__(string__ path__, string__ source__, IntRang
 	StringBuilder__write__(&local4, pathInfo__);
 	string__ local5 = { (pointer__)"\x0a""", 1 };
 	StringBuilder__write__(&local4, local5);
-	StringBuilder__write__(&local4, string__replace__((li__).lineText__, mu_____string81, mu_____string82));
+	StringBuilder__write__(&local4, string__replace__((li__).lineText__, mu_____string82, mu_____string83));
 	string__ local6 = { (pointer__)"\x0a""", 1 };
 	StringBuilder__write__(&local4, local6);
 	StringBuilder__write__(&local4, string__repeatChar__(' ', indent__));
@@ -10095,7 +10284,7 @@ void__ EmulatorOrderCalculator__block__(EmulatorState__* s__, Block__* st__) {
 			switch ((n__).id__) {
 				case Node_____Ptr__ClockStatement____: {
 					ClockStatement__* local2 = (ClockStatement__*)(n__.dataPtr__);
-					EmulatorOrderCalculator__block__(s__, (local2)->body__);
+					EmulatorOrderCalculator__clock__(s__, local2);
 					break;
 				}
 				case Node_____Ptr__IfStatement____: {
@@ -10507,8 +10696,9 @@ void__ EmulatorOrderCalculator__assign__(EmulatorState__* s__, AssignStatement__
 				if (((st__)->nameExpr__).id__ == Node_____Ptr__CallExpression____) {
 					Node__ local26 = (st__)->nameExpr__;
 					mu_____checkedcast(local26.id__ == Node_____Ptr__CallExpression____);
-					CallExpression__* call__ = (CallExpression__*)(local26.dataPtr__);
-					if (((call__)->builtin__) == (BuiltinCall__slice__)) {
+					CallExpression__* callExpr__ = (CallExpression__*)(local26.dataPtr__);
+					if (((callExpr__)->builtin__) == (BuiltinCall__slice__)) {
+						EmulatorOrderCalculator__call__(s__, callExpr__);
 						EmulatorOrderCalculator__expression__(s__, (st__)->expr__);
 					} else {
 						mu_____abandon(-1);
@@ -10609,21 +10799,6 @@ void__ EmulatorOrderCalculator__wire__(EmulatorState__* s__, AssignStatement__* 
 		}
 	}
 }
-void__ EmulatorOrderCalculator__if___(EmulatorState__* s__, IfStatement__* st__) {
-	EmulatorOrderCalculator__expression__(s__, (st__)->expr__);
-	EmulatorOrderCalculator__block__(s__, (st__)->ifBody__);
-	if (((st__)->elseBranch__).id__ == Node_____Ptr__IfStatement____) {
-		Node__ local0 = (st__)->elseBranch__;
-		mu_____checkedcast(local0.id__ == Node_____Ptr__IfStatement____);
-		EmulatorOrderCalculator__if___(s__, (IfStatement__*)(local0.dataPtr__));
-	} else {
-		if (((st__)->elseBranch__).id__ == Node_____Ptr__Block____) {
-			Node__ local1 = (st__)->elseBranch__;
-			mu_____checkedcast(local1.id__ == Node_____Ptr__Block____);
-			EmulatorOrderCalculator__block__(s__, (Block__*)(local1.dataPtr__));
-		}
-	}
-}
 void__ EmulatorOrderCalculator__input__(EmulatorState__* s__, ModuleInputDef__* inp__) {
 	Array__int____* local0 = ((s__)->inst__)->localState__;
 	uint__ local1 = (uint__)((inp__)->localId__);
@@ -10669,6 +10844,21 @@ void__ EmulatorOrderCalculator__input__(EmulatorState__* s__, ModuleInputDef__* 
 		EmulatorOrderCalculator__logicLoop__(s__, local16);
 	}
 }
+void__ EmulatorOrderCalculator__if___(EmulatorState__* s__, IfStatement__* st__) {
+	EmulatorOrderCalculator__expression__(s__, (st__)->expr__);
+	EmulatorOrderCalculator__block__(s__, (st__)->ifBody__);
+	if (((st__)->elseBranch__).id__ == Node_____Ptr__IfStatement____) {
+		Node__ local0 = (st__)->elseBranch__;
+		mu_____checkedcast(local0.id__ == Node_____Ptr__IfStatement____);
+		EmulatorOrderCalculator__if___(s__, (IfStatement__*)(local0.dataPtr__));
+	} else {
+		if (((st__)->elseBranch__).id__ == Node_____Ptr__Block____) {
+			Node__ local1 = (st__)->elseBranch__;
+			mu_____checkedcast(local1.id__ == Node_____Ptr__Block____);
+			EmulatorOrderCalculator__block__(s__, (Block__*)(local1.dataPtr__));
+		}
+	}
+}
 void__ EmulatorOrderCalculator__module__(EmulatorState__* s__, ModuleInstance__* inst__) {
 	(s__)->inst__ = inst__;
 	if ((((inst__)->def__)->blackboxKeyword__) == (null__)) {
@@ -10685,8 +10875,12 @@ void__ EmulatorOrderCalculator__module__(EmulatorState__* s__, ModuleInstance__*
 		}
 	}
 }
+void__ EmulatorOrderCalculator__clock__(EmulatorState__* s__, ClockStatement__* st__) {
+	EmulatorOrderCalculator__token__(s__, (st__)->name__);
+	EmulatorOrderCalculator__block__(s__, (st__)->body__);
+}
 void__ EmulatorOrderCalculator__logicLoop__(EmulatorState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((((s__)->inst__)->def__)->unit__, RangeFinder__find__(e__), mu_____string201));
+	List__add__Error____((s__)->errors__, Error__at__((((s__)->inst__)->def__)->unit__, RangeFinder__find__(e__), mu_____string204));
 }
 int__ CheckedMath__addPositiveInt__(int__ x__, int__ y__) {
 	if (((((int__maxValue__)) - ((x__)))) >= ((y__))) {
@@ -10939,76 +11133,76 @@ void__ EmulatorRunner__run__(EmulatorState__* s__, List__Instruction____* progra
 															mu_____boundscheck(local33 < (uint__)local32->count__);
 															(((Value__*)local30->dataPtr__)[local31]).z__ = ~(EmulatorRunner__unpack__(((Value__*)local32->dataPtr__)[local33]));
 														} else {
-															if (((ins__).op__) == (Opcode__add__)) {
+															if (((ins__).op__) == (Opcode__not__)) {
 																List__Value____* local34 = stack__;
-																uint__ local35 = (uint__)(lhs__);
+																uint__ local35 = (uint__)(top__);
 																mu_____boundscheck(local35 < (uint__)local34->count__);
-																List__Value____* local36 = stack__;
-																uint__ local37 = (uint__)(top__);
-																mu_____boundscheck(local37 < (uint__)local36->count__);
-																EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local34->dataPtr__)[local35]))) + ((EmulatorRunner__unpack__(((Value__*)local36->dataPtr__)[local37]))));
-															} else {
-																if (((ins__).op__) == (Opcode__sub__)) {
-																	List__Value____* local38 = stack__;
-																	uint__ local39 = (uint__)(lhs__);
-																	mu_____boundscheck(local39 < (uint__)local38->count__);
-																	List__Value____* local40 = stack__;
-																	uint__ local41 = (uint__)(top__);
-																	mu_____boundscheck(local41 < (uint__)local40->count__);
-																	EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local38->dataPtr__)[local39]))) - ((EmulatorRunner__unpack__(((Value__*)local40->dataPtr__)[local41]))));
+																ulong__ local36;
+																List__Value____* local37 = stack__;
+																uint__ local38 = (uint__)(top__);
+																mu_____boundscheck(local38 < (uint__)local37->count__);
+																if (((EmulatorRunner__unpack__(((Value__*)local37->dataPtr__)[local38]))) == ((ulong__)(0))) {
+																	local36 = 1uLL;
 																} else {
-																	if (((ins__).op__) == (Opcode__and__)) {
-																		List__Value____* local42 = stack__;
-																		uint__ local43 = (uint__)(lhs__);
-																		mu_____boundscheck(local43 < (uint__)local42->count__);
-																		List__Value____* local44 = stack__;
-																		uint__ local45 = (uint__)(top__);
-																		mu_____boundscheck(local45 < (uint__)local44->count__);
-																		EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local42->dataPtr__)[local43]))) & ((EmulatorRunner__unpack__(((Value__*)local44->dataPtr__)[local45]))));
+																	local36 = (ulong__)(0);
+																}
+																(((Value__*)local34->dataPtr__)[local35]).z__ = local36;
+															} else {
+																if (((ins__).op__) == (Opcode__add__)) {
+																	List__Value____* local39 = stack__;
+																	uint__ local40 = (uint__)(lhs__);
+																	mu_____boundscheck(local40 < (uint__)local39->count__);
+																	List__Value____* local41 = stack__;
+																	uint__ local42 = (uint__)(top__);
+																	mu_____boundscheck(local42 < (uint__)local41->count__);
+																	EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local39->dataPtr__)[local40]))) + ((EmulatorRunner__unpack__(((Value__*)local41->dataPtr__)[local42]))));
+																} else {
+																	if (((ins__).op__) == (Opcode__sub__)) {
+																		List__Value____* local43 = stack__;
+																		uint__ local44 = (uint__)(lhs__);
+																		mu_____boundscheck(local44 < (uint__)local43->count__);
+																		List__Value____* local45 = stack__;
+																		uint__ local46 = (uint__)(top__);
+																		mu_____boundscheck(local46 < (uint__)local45->count__);
+																		EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local43->dataPtr__)[local44]))) - ((EmulatorRunner__unpack__(((Value__*)local45->dataPtr__)[local46]))));
 																	} else {
-																		if (((ins__).op__) == (Opcode__or__)) {
-																			List__Value____* local46 = stack__;
-																			uint__ local47 = (uint__)(lhs__);
-																			mu_____boundscheck(local47 < (uint__)local46->count__);
-																			List__Value____* local48 = stack__;
-																			uint__ local49 = (uint__)(top__);
-																			mu_____boundscheck(local49 < (uint__)local48->count__);
-																			EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local46->dataPtr__)[local47]))) | ((EmulatorRunner__unpack__(((Value__*)local48->dataPtr__)[local49]))));
+																		if (((ins__).op__) == (Opcode__and__)) {
+																			List__Value____* local47 = stack__;
+																			uint__ local48 = (uint__)(lhs__);
+																			mu_____boundscheck(local48 < (uint__)local47->count__);
+																			List__Value____* local49 = stack__;
+																			uint__ local50 = (uint__)(top__);
+																			mu_____boundscheck(local50 < (uint__)local49->count__);
+																			EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local47->dataPtr__)[local48]))) & ((EmulatorRunner__unpack__(((Value__*)local49->dataPtr__)[local50]))));
 																		} else {
-																			if (((ins__).op__) == (Opcode__xor__)) {
-																				List__Value____* local50 = stack__;
-																				uint__ local51 = (uint__)(lhs__);
-																				mu_____boundscheck(local51 < (uint__)local50->count__);
-																				List__Value____* local52 = stack__;
-																				uint__ local53 = (uint__)(top__);
-																				mu_____boundscheck(local53 < (uint__)local52->count__);
-																				EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local50->dataPtr__)[local51]))) ^ ((EmulatorRunner__unpack__(((Value__*)local52->dataPtr__)[local53]))));
+																			if (((ins__).op__) == (Opcode__or__)) {
+																				List__Value____* local51 = stack__;
+																				uint__ local52 = (uint__)(lhs__);
+																				mu_____boundscheck(local52 < (uint__)local51->count__);
+																				List__Value____* local53 = stack__;
+																				uint__ local54 = (uint__)(top__);
+																				mu_____boundscheck(local54 < (uint__)local53->count__);
+																				EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local51->dataPtr__)[local52]))) | ((EmulatorRunner__unpack__(((Value__*)local53->dataPtr__)[local54]))));
 																			} else {
-																				if (((ins__).op__) == (Opcode__mul__)) {
-																					List__Value____* local54 = stack__;
-																					uint__ local55 = (uint__)(lhs__);
-																					mu_____boundscheck(local55 < (uint__)local54->count__);
-																					List__Value____* local56 = stack__;
-																					uint__ local57 = (uint__)(top__);
-																					mu_____boundscheck(local57 < (uint__)local56->count__);
-																					EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local54->dataPtr__)[local55]))) * ((EmulatorRunner__unpack__(((Value__*)local56->dataPtr__)[local57]))));
+																				if (((ins__).op__) == (Opcode__xor__)) {
+																					List__Value____* local55 = stack__;
+																					uint__ local56 = (uint__)(lhs__);
+																					mu_____boundscheck(local56 < (uint__)local55->count__);
+																					List__Value____* local57 = stack__;
+																					uint__ local58 = (uint__)(top__);
+																					mu_____boundscheck(local58 < (uint__)local57->count__);
+																					EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local55->dataPtr__)[local56]))) ^ ((EmulatorRunner__unpack__(((Value__*)local57->dataPtr__)[local58]))));
 																				} else {
-																					if (((ins__).op__) == (Opcode__eq__)) {
-																						ulong__ local58;
+																					if (((ins__).op__) == (Opcode__mul__)) {
 																						List__Value____* local59 = stack__;
 																						uint__ local60 = (uint__)(lhs__);
 																						mu_____boundscheck(local60 < (uint__)local59->count__);
 																						List__Value____* local61 = stack__;
 																						uint__ local62 = (uint__)(top__);
 																						mu_____boundscheck(local62 < (uint__)local61->count__);
-																						if (((EmulatorRunner__unpack__(((Value__*)local59->dataPtr__)[local60]))) == ((EmulatorRunner__unpack__(((Value__*)local61->dataPtr__)[local62])))) {
-																							local58 = 1uLL;
-																						} else {
-																							local58 = (ulong__)(0);
-																						}
-																						EmulatorRunner__binaryOperator__(s__, stack__, local58);
+																						EmulatorRunner__binaryOperator__(s__, stack__, ((EmulatorRunner__unpack__(((Value__*)local59->dataPtr__)[local60]))) * ((EmulatorRunner__unpack__(((Value__*)local61->dataPtr__)[local62]))));
 																					} else {
-																						if (((ins__).op__) == (Opcode__neq__)) {
+																						if (((ins__).op__) == (Opcode__eq__)) {
 																							ulong__ local63;
 																							List__Value____* local64 = stack__;
 																							uint__ local65 = (uint__)(lhs__);
@@ -11016,14 +11210,14 @@ void__ EmulatorRunner__run__(EmulatorState__* s__, List__Instruction____* progra
 																							List__Value____* local66 = stack__;
 																							uint__ local67 = (uint__)(top__);
 																							mu_____boundscheck(local67 < (uint__)local66->count__);
-																							if (((EmulatorRunner__unpack__(((Value__*)local64->dataPtr__)[local65]))) != ((EmulatorRunner__unpack__(((Value__*)local66->dataPtr__)[local67])))) {
+																							if (((EmulatorRunner__unpack__(((Value__*)local64->dataPtr__)[local65]))) == ((EmulatorRunner__unpack__(((Value__*)local66->dataPtr__)[local67])))) {
 																								local63 = 1uLL;
 																							} else {
 																								local63 = (ulong__)(0);
 																							}
 																							EmulatorRunner__binaryOperator__(s__, stack__, local63);
 																						} else {
-																							if (((ins__).op__) == (Opcode__lte__)) {
+																							if (((ins__).op__) == (Opcode__neq__)) {
 																								ulong__ local68;
 																								List__Value____* local69 = stack__;
 																								uint__ local70 = (uint__)(lhs__);
@@ -11031,14 +11225,14 @@ void__ EmulatorRunner__run__(EmulatorState__* s__, List__Instruction____* progra
 																								List__Value____* local71 = stack__;
 																								uint__ local72 = (uint__)(top__);
 																								mu_____boundscheck(local72 < (uint__)local71->count__);
-																								if (((EmulatorRunner__unpack__(((Value__*)local69->dataPtr__)[local70]))) <= ((EmulatorRunner__unpack__(((Value__*)local71->dataPtr__)[local72])))) {
+																								if (((EmulatorRunner__unpack__(((Value__*)local69->dataPtr__)[local70]))) != ((EmulatorRunner__unpack__(((Value__*)local71->dataPtr__)[local72])))) {
 																									local68 = 1uLL;
 																								} else {
 																									local68 = (ulong__)(0);
 																								}
 																								EmulatorRunner__binaryOperator__(s__, stack__, local68);
 																							} else {
-																								if (((ins__).op__) == (Opcode__lt__)) {
+																								if (((ins__).op__) == (Opcode__lte__)) {
 																									ulong__ local73;
 																									List__Value____* local74 = stack__;
 																									uint__ local75 = (uint__)(lhs__);
@@ -11046,14 +11240,14 @@ void__ EmulatorRunner__run__(EmulatorState__* s__, List__Instruction____* progra
 																									List__Value____* local76 = stack__;
 																									uint__ local77 = (uint__)(top__);
 																									mu_____boundscheck(local77 < (uint__)local76->count__);
-																									if (((EmulatorRunner__unpack__(((Value__*)local74->dataPtr__)[local75]))) < ((EmulatorRunner__unpack__(((Value__*)local76->dataPtr__)[local77])))) {
+																									if (((EmulatorRunner__unpack__(((Value__*)local74->dataPtr__)[local75]))) <= ((EmulatorRunner__unpack__(((Value__*)local76->dataPtr__)[local77])))) {
 																										local73 = 1uLL;
 																									} else {
 																										local73 = (ulong__)(0);
 																									}
 																									EmulatorRunner__binaryOperator__(s__, stack__, local73);
 																								} else {
-																									if (((ins__).op__) == (Opcode__gte__)) {
+																									if (((ins__).op__) == (Opcode__lt__)) {
 																										ulong__ local78;
 																										List__Value____* local79 = stack__;
 																										uint__ local80 = (uint__)(lhs__);
@@ -11061,14 +11255,14 @@ void__ EmulatorRunner__run__(EmulatorState__* s__, List__Instruction____* progra
 																										List__Value____* local81 = stack__;
 																										uint__ local82 = (uint__)(top__);
 																										mu_____boundscheck(local82 < (uint__)local81->count__);
-																										if (((EmulatorRunner__unpack__(((Value__*)local79->dataPtr__)[local80]))) >= ((EmulatorRunner__unpack__(((Value__*)local81->dataPtr__)[local82])))) {
+																										if (((EmulatorRunner__unpack__(((Value__*)local79->dataPtr__)[local80]))) < ((EmulatorRunner__unpack__(((Value__*)local81->dataPtr__)[local82])))) {
 																											local78 = 1uLL;
 																										} else {
 																											local78 = (ulong__)(0);
 																										}
 																										EmulatorRunner__binaryOperator__(s__, stack__, local78);
 																									} else {
-																										if (((ins__).op__) == (Opcode__gt__)) {
+																										if (((ins__).op__) == (Opcode__gte__)) {
 																											ulong__ local83;
 																											List__Value____* local84 = stack__;
 																											uint__ local85 = (uint__)(lhs__);
@@ -11076,79 +11270,109 @@ void__ EmulatorRunner__run__(EmulatorState__* s__, List__Instruction____* progra
 																											List__Value____* local86 = stack__;
 																											uint__ local87 = (uint__)(top__);
 																											mu_____boundscheck(local87 < (uint__)local86->count__);
-																											if (((EmulatorRunner__unpack__(((Value__*)local84->dataPtr__)[local85]))) > ((EmulatorRunner__unpack__(((Value__*)local86->dataPtr__)[local87])))) {
+																											if (((EmulatorRunner__unpack__(((Value__*)local84->dataPtr__)[local85]))) >= ((EmulatorRunner__unpack__(((Value__*)local86->dataPtr__)[local87])))) {
 																												local83 = 1uLL;
 																											} else {
 																												local83 = (ulong__)(0);
 																											}
 																											EmulatorRunner__binaryOperator__(s__, stack__, local83);
 																										} else {
-																											if (((ins__).op__) == (Opcode__shl__)) {
-																												List__Value____* local88 = stack__;
-																												uint__ local89 = (uint__)(lhs__);
-																												mu_____boundscheck(local89 < (uint__)local88->count__);
-																												List__Value____* local90 = stack__;
-																												uint__ local91 = (uint__)(top__);
-																												mu_____boundscheck(local91 < (uint__)local90->count__);
-																												EmulatorRunner__binaryOperator__(s__, stack__, ((ulong__)EmulatorRunner__unpack__(((Value__*)local88->dataPtr__)[local89])) << (EmulatorRunner__unpack__(((Value__*)local90->dataPtr__)[local91])));
-																											} else {
-																												if (((ins__).op__) == (Opcode__shr__)) {
-																													List__Value____* local92 = stack__;
-																													uint__ local93 = (uint__)(lhs__);
-																													mu_____boundscheck(local93 < (uint__)local92->count__);
-																													List__Value____* local94 = stack__;
-																													uint__ local95 = (uint__)(top__);
-																													mu_____boundscheck(local95 < (uint__)local94->count__);
-																													EmulatorRunner__binaryOperator__(s__, stack__, ((ulong__)EmulatorRunner__unpack__(((Value__*)local92->dataPtr__)[local93])) >> (EmulatorRunner__unpack__(((Value__*)local94->dataPtr__)[local95])));
+																											if (((ins__).op__) == (Opcode__gt__)) {
+																												ulong__ local88;
+																												List__Value____* local89 = stack__;
+																												uint__ local90 = (uint__)(lhs__);
+																												mu_____boundscheck(local90 < (uint__)local89->count__);
+																												List__Value____* local91 = stack__;
+																												uint__ local92 = (uint__)(top__);
+																												mu_____boundscheck(local92 < (uint__)local91->count__);
+																												if (((EmulatorRunner__unpack__(((Value__*)local89->dataPtr__)[local90]))) > ((EmulatorRunner__unpack__(((Value__*)local91->dataPtr__)[local92])))) {
+																													local88 = 1uLL;
 																												} else {
-																													if (((ins__).op__) == (Opcode__slice__)) {
-																														List__Value____* local96 = stack__;
-																														uint__ local97 = (uint__)((((stack__)->count__)) - ((3)));
-																														mu_____boundscheck(local97 < (uint__)local96->count__);
-																														List__Value____* local98 = stack__;
-																														uint__ local99 = (uint__)(lhs__);
-																														mu_____boundscheck(local99 < (uint__)local98->count__);
-																														List__Value____* local100 = stack__;
-																														uint__ local101 = (uint__)(top__);
-																														mu_____boundscheck(local101 < (uint__)local100->count__);
-																														Value__ value__ = EmulatorRunner__slice__(s__, ((Value__*)local96->dataPtr__)[local97], (ins__).z__, EmulatorRunner__unpack__(((Value__*)local98->dataPtr__)[local99]), EmulatorRunner__unpack__(((Value__*)local100->dataPtr__)[local101]));
-																														List__setCountChecked__Value____(stack__, (((stack__)->count__)) - ((3)));
-																														List__add__Value____(stack__, value__);
+																													local88 = (ulong__)(0);
+																												}
+																												EmulatorRunner__binaryOperator__(s__, stack__, local88);
+																											} else {
+																												if (((ins__).op__) == (Opcode__shl__)) {
+																													List__Value____* local93 = stack__;
+																													uint__ local94 = (uint__)(lhs__);
+																													mu_____boundscheck(local94 < (uint__)local93->count__);
+																													List__Value____* local95 = stack__;
+																													uint__ local96 = (uint__)(top__);
+																													mu_____boundscheck(local96 < (uint__)local95->count__);
+																													EmulatorRunner__binaryOperator__(s__, stack__, ((ulong__)EmulatorRunner__unpack__(((Value__*)local93->dataPtr__)[local94])) << (EmulatorRunner__unpack__(((Value__*)local95->dataPtr__)[local96])));
+																												} else {
+																													if (((ins__).op__) == (Opcode__shr__)) {
+																														List__Value____* local97 = stack__;
+																														uint__ local98 = (uint__)(lhs__);
+																														mu_____boundscheck(local98 < (uint__)local97->count__);
+																														List__Value____* local99 = stack__;
+																														uint__ local100 = (uint__)(top__);
+																														mu_____boundscheck(local100 < (uint__)local99->count__);
+																														EmulatorRunner__binaryOperator__(s__, stack__, ((ulong__)EmulatorRunner__unpack__(((Value__*)local97->dataPtr__)[local98])) >> (EmulatorRunner__unpack__(((Value__*)local99->dataPtr__)[local100])));
 																													} else {
-																														if (((ins__).op__) == (Opcode__storeSlice__)) {
-																															List__Value____* local102 = stack__;
-																															uint__ local103 = (uint__)((((stack__)->count__)) - ((3)));
-																															mu_____boundscheck(local103 < (uint__)local102->count__);
-																															List__Value____* local104 = stack__;
-																															uint__ local105 = (uint__)(lhs__);
-																															mu_____boundscheck(local105 < (uint__)local104->count__);
-																															List__Value____* local106 = stack__;
-																															uint__ local107 = (uint__)(top__);
-																															mu_____boundscheck(local107 < (uint__)local106->count__);
-																															EmulatorRunner__storeSlice__(s__, (int__)((ins__).z__), EmulatorRunner__unpack__(((Value__*)local102->dataPtr__)[local103]), EmulatorRunner__unpack__(((Value__*)local104->dataPtr__)[local105]), ((Value__*)local106->dataPtr__)[local107]);
+																														if (((ins__).op__) == (Opcode__slice__)) {
+																															List__Value____* local101 = stack__;
+																															uint__ local102 = (uint__)((((stack__)->count__)) - ((3)));
+																															mu_____boundscheck(local102 < (uint__)local101->count__);
+																															List__Value____* local103 = stack__;
+																															uint__ local104 = (uint__)(lhs__);
+																															mu_____boundscheck(local104 < (uint__)local103->count__);
+																															List__Value____* local105 = stack__;
+																															uint__ local106 = (uint__)(top__);
+																															mu_____boundscheck(local106 < (uint__)local105->count__);
+																															Value__ value__ = EmulatorRunner__slice__(s__, ((Value__*)local101->dataPtr__)[local102], (ins__).z__, EmulatorRunner__unpack__(((Value__*)local103->dataPtr__)[local104]), EmulatorRunner__unpack__(((Value__*)local105->dataPtr__)[local106]));
 																															List__setCountChecked__Value____(stack__, (((stack__)->count__)) - ((3)));
+																															List__add__Value____(stack__, value__);
 																														} else {
-																															if (((ins__).op__) == (Opcode__swizzle__)) {
-																																List__Value____* local108 = stack__;
-																																uint__ local109 = (uint__)((((stack__)->count__)) - ((5)));
-																																mu_____boundscheck(local109 < (uint__)local108->count__);
-																																List__Value____* local110 = stack__;
-																																uint__ local111 = (uint__)((((stack__)->count__)) - ((4)));
-																																mu_____boundscheck(local111 < (uint__)local110->count__);
-																																List__Value____* local112 = stack__;
-																																uint__ local113 = (uint__)((((stack__)->count__)) - ((3)));
-																																mu_____boundscheck(local113 < (uint__)local112->count__);
-																																List__Value____* local114 = stack__;
-																																uint__ local115 = (uint__)(lhs__);
-																																mu_____boundscheck(local115 < (uint__)local114->count__);
-																																List__Value____* local116 = stack__;
-																																uint__ local117 = (uint__)(top__);
-																																mu_____boundscheck(local117 < (uint__)local116->count__);
-																																Value__ value__ = EmulatorRunner__swizzle__(s__, ((Value__*)local108->dataPtr__)[local109], (int__)(EmulatorRunner__unpack__(((Value__*)local110->dataPtr__)[local111])), (int__)(EmulatorRunner__unpack__(((Value__*)local112->dataPtr__)[local113])), (int__)(EmulatorRunner__unpack__(((Value__*)local114->dataPtr__)[local115])), (int__)(EmulatorRunner__unpack__(((Value__*)local116->dataPtr__)[local117])));
-																																List__setCountChecked__Value____(stack__, (((stack__)->count__)) - ((5)));
-																																List__add__Value____(stack__, value__);
+																															if (((ins__).op__) == (Opcode__storeSlice__)) {
+																																List__Value____* local107 = stack__;
+																																uint__ local108 = (uint__)((((stack__)->count__)) - ((3)));
+																																mu_____boundscheck(local108 < (uint__)local107->count__);
+																																List__Value____* local109 = stack__;
+																																uint__ local110 = (uint__)(lhs__);
+																																mu_____boundscheck(local110 < (uint__)local109->count__);
+																																List__Value____* local111 = stack__;
+																																uint__ local112 = (uint__)(top__);
+																																mu_____boundscheck(local112 < (uint__)local111->count__);
+																																EmulatorRunner__storeSlice__(s__, (int__)((ins__).z__), EmulatorRunner__unpack__(((Value__*)local107->dataPtr__)[local108]), EmulatorRunner__unpack__(((Value__*)local109->dataPtr__)[local110]), ((Value__*)local111->dataPtr__)[local112]);
+																																List__setCountChecked__Value____(stack__, (((stack__)->count__)) - ((3)));
 																															} else {
-																																mu_____abandon(-1);
+																																if (((ins__).op__) == (Opcode__swizzle__)) {
+																																	List__Value____* local113 = stack__;
+																																	uint__ local114 = (uint__)((((stack__)->count__)) - ((5)));
+																																	mu_____boundscheck(local114 < (uint__)local113->count__);
+																																	List__Value____* local115 = stack__;
+																																	uint__ local116 = (uint__)((((stack__)->count__)) - ((4)));
+																																	mu_____boundscheck(local116 < (uint__)local115->count__);
+																																	List__Value____* local117 = stack__;
+																																	uint__ local118 = (uint__)((((stack__)->count__)) - ((3)));
+																																	mu_____boundscheck(local118 < (uint__)local117->count__);
+																																	List__Value____* local119 = stack__;
+																																	uint__ local120 = (uint__)(lhs__);
+																																	mu_____boundscheck(local120 < (uint__)local119->count__);
+																																	List__Value____* local121 = stack__;
+																																	uint__ local122 = (uint__)(top__);
+																																	mu_____boundscheck(local122 < (uint__)local121->count__);
+																																	Value__ value__ = EmulatorRunner__swizzle__(s__, ((Value__*)local113->dataPtr__)[local114], (int__)(EmulatorRunner__unpack__(((Value__*)local115->dataPtr__)[local116])), (int__)(EmulatorRunner__unpack__(((Value__*)local117->dataPtr__)[local118])), (int__)(EmulatorRunner__unpack__(((Value__*)local119->dataPtr__)[local120])), (int__)(EmulatorRunner__unpack__(((Value__*)local121->dataPtr__)[local122])));
+																																	List__setCountChecked__Value____(stack__, (((stack__)->count__)) - ((5)));
+																																	List__add__Value____(stack__, value__);
+																																} else {
+																																	if (((ins__).op__) == (Opcode__toULong__)) {
+																																		List__Value____* local123 = stack__;
+																																		uint__ local124 = (uint__)(top__);
+																																		mu_____boundscheck(local124 < (uint__)local123->count__);
+																																		Value__ local125;
+																																		memset(&local125, 0, sizeof(Value__));
+																																		List__Value____* local126 = stack__;
+																																		uint__ local127 = (uint__)(top__);
+																																		mu_____boundscheck(local127 < (uint__)local126->count__);
+																																		local125.z__ = EmulatorRunner__unpackAsULong__(((Value__*)local126->dataPtr__)[local127]);
+																																		local125.kind__ = ValueKind__ulong___;
+																																		((Value__*)local123->dataPtr__)[local124] = local125;
+																																	} else {
+																																		mu_____abandon(-1);
+																																	}
+																																}
 																															}
 																														}
 																													}
@@ -11499,6 +11723,46 @@ void__ Array__stableSort__Error____(Array__Error____* items__, fun__Error__Error
 		Array__copySlice__Error____(src__, 0, count__, items__, 0);
 	}
 }
+Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Ptr__FieldDef______)));
+	Array__MapEntry__string__Ptr__FieldDef________ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__string__Ptr__FieldDef________));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__MapEntry__string__Ptr__FieldDef________ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__NodeWithCtx__string____)));
+	Array__MapEntry__NodeWithCtx__string______ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__NodeWithCtx__string______));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__MapEntry__NodeWithCtx__string______ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__string____ Array__cons__string____(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(string__)));
+	Array__string____ local0;
+	memset(&local0, 0, sizeof(Array__string____));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__string____ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__bool____ Array__cons__bool____(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(bool__)));
+	Array__bool____ local0;
+	memset(&local0, 0, sizeof(Array__bool____));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__bool____ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
 Array__IntRange____ Array__cons__IntRange____(int__ count__) {
 	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(IntRange__)));
 	Array__IntRange____ local0;
@@ -11549,16 +11813,6 @@ Array__SetEntry__string______ Array__cons__SetEntry__string______(int__ count__)
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
-Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__NodeWithCtx__string____)));
-	Array__MapEntry__NodeWithCtx__string______ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__NodeWithCtx__string______));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__MapEntry__NodeWithCtx__string______ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
 Array__MapEntry__Node__Value______ Array__cons__MapEntry__Node__Value______(int__ count__) {
 	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__Node__Value____)));
 	Array__MapEntry__Node__Value______ local0;
@@ -11596,36 +11850,6 @@ Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(in
 	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
 	local0.count__ = count__;
 	Array__MapEntry__string__Node______ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Ptr__FieldDef______)));
-	Array__MapEntry__string__Ptr__FieldDef________ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__string__Ptr__FieldDef________));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__MapEntry__string__Ptr__FieldDef________ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__bool____ Array__cons__bool____(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(bool__)));
-	Array__bool____ local0;
-	memset(&local0, 0, sizeof(Array__bool____));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__bool____ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__string____ Array__cons__string____(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(string__)));
-	Array__string____ local0;
-	memset(&local0, 0, sizeof(Array__string____));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__string____ result__ = local0;
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
@@ -11926,7 +12150,7 @@ void__ Indexer__assign__(IndexerState__* s__, AssignStatement__* st__) {
 	} else {
 		bool__ local2 = ((st__)->op__) != (null__);
 		if (local2) {
-			local2 = string__equals__(((st__)->op__)->value__, mu_____string44);
+			local2 = string__equals__(((st__)->op__)->value__, mu_____string45);
 		}
 		if (local2) {
 			(st__)->flags__ = (((st__)->flags__)) | ((AssignFlags__regUpdate__));
@@ -11950,7 +12174,7 @@ void__ Indexer__assign__(IndexerState__* s__, AssignStatement__* st__) {
 	}
 }
 void__ Indexer__duplicateSymbol__(IndexerState__* s__, Token__* token__) {
-	List__add__Error____(((s__)->comp__)->errors__, Error__at__((s__)->unit__, (token__)->span__, mu_____string104));
+	List__add__Error____(((s__)->comp__)->errors__, Error__at__((s__)->unit__, (token__)->span__, mu_____string105));
 }
 uint__ ssize__hash__(ssize__ val__) {
 	return (uint__)(val__);
@@ -12234,7 +12458,7 @@ ModuleInputDef__* Parser__moduleInput__(ParseState__* s__) {
 		(node__)->type__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string70);
+		Parser__expected__(s__, mu_____string71);
 	}
 	return node__;
 }
@@ -12294,7 +12518,7 @@ CodeUnit__* Parser__unit__(string__ text__, List__Error____* errors__, int__ tab
 					if (!local11) {
 						bool__ local12 = (((s__)->token__)->type__) == (TokenType__identifier__);
 						if (local12) {
-							local12 = string__equals__(((s__)->token__)->value__, mu_____string69);
+							local12 = string__equals__(((s__)->token__)->value__, mu_____string70);
 						}
 						local11 = local12;
 					}
@@ -12309,10 +12533,10 @@ CodeUnit__* Parser__unit__(string__ text__, List__Error____* errors__, int__ tab
 					}
 				}
 			} else {
-				Parser__parseErrorToken__(s__, mu_____string75, (unit__)->contents__);
+				Parser__parseErrorToken__(s__, mu_____string76, (unit__)->contents__);
 			}
 		} else {
-			Parser__parseErrorToken__(s__, mu_____string76, (unit__)->contents__);
+			Parser__parseErrorToken__(s__, mu_____string77, (unit__)->contents__);
 		}
 		while (true__) {
 			if (!(((((s__)->token__)->indent__)) == ((Parser__sameLine__)))) { break; }
@@ -12364,7 +12588,7 @@ void__ Parser__finishToken__(ParseState__* s__, int__ outerFrom__, int__ from__,
 	(s__)->token__ = local6;
 }
 void__ Parser__readBadToken_unexpected__(ParseState__* s__) {
-	Parser__readBadToken__(s__, mu_____string77);
+	Parser__readBadToken__(s__, mu_____string78);
 }
 void__ Parser__errorAt__(ParseState__* s__, int__ index__, string__ text__) {
 	List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, index__, text__));
@@ -12398,7 +12622,7 @@ void__ Parser__parseAssignStatement__(ParseState__* s__, List__Node____* out__) 
 	local2.dataPtr__ = (pointer__)(node__);
 	local2.id__ = local2.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
 	List__add__Node____(out__, local2);
-	bool__ local3 = string__equals__(((s__)->token__)->value__, mu_____string60);
+	bool__ local3 = string__equals__(((s__)->token__)->value__, mu_____string61);
 	if (local3) {
 		local3 = ((((s__)->token__)->indent__)) == ((Parser__sameLine__));
 	}
@@ -12406,7 +12630,7 @@ void__ Parser__parseAssignStatement__(ParseState__* s__, List__Node____* out__) 
 		(node__)->outKeyword__ = (s__)->token__;
 		Parser__readToken__(s__);
 	}
-	bool__ local4 = string__equals__(((s__)->token__)->value__, mu_____string61);
+	bool__ local4 = string__equals__(((s__)->token__)->value__, mu_____string62);
 	if (local4) {
 		local4 = ((((s__)->token__)->indent__)) == ((Parser__sameLine__));
 	}
@@ -12431,7 +12655,7 @@ void__ Parser__parseAssignStatement__(ParseState__* s__, List__Node____* out__) 
 		if (!local9) {
 			bool__ local10 = (((s__)->token__)->type__) == (TokenType__operator__);
 			if (local10) {
-				local10 = string__equals__(((s__)->token__)->value__, mu_____string35);
+				local10 = string__equals__(((s__)->token__)->value__, mu_____string36);
 			}
 			local9 = local10;
 		}
@@ -12779,7 +13003,7 @@ void__ Parser__const__(ParseState__* s__, Token__* name__, List__Node____* out__
 		(node__)->type__ = (s__)->token__;
 		Parser__readToken__(s__);
 	}
-	bool__ local4 = string__equals__(((s__)->token__)->value__, mu_____string74);
+	bool__ local4 = string__equals__(((s__)->token__)->value__, mu_____string75);
 	if (local4) {
 		local4 = ((((s__)->token__)->indent__)) == ((Parser__sameLine__));
 	}
@@ -12787,7 +13011,7 @@ void__ Parser__const__(ParseState__* s__, Token__* name__, List__Node____* out__
 		(node__)->assign__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string74);
+		Parser__expected__(s__, mu_____string75);
 	}
 	int__ prev__ = (s__)->base__;
 	(s__)->base__ = Parser__maxBase__;
@@ -12851,7 +13075,7 @@ bool__ Parser__isOperatorChar__(char__ ch__) {
 }
 void__ Parser__fieldDef__(ParseState__* s__, List__Node____* out__) {
 	if ((((s__)->token__)->type__) != (TokenType__identifier__)) {
-		Parser__error__(s__, mu_____string63);
+		Parser__error__(s__, mu_____string64);
 		Node__ local0;
 		local0.dataPtr__ = (pointer__)((s__)->token__);
 		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
@@ -12879,7 +13103,7 @@ void__ Parser__fieldDef__(ParseState__* s__, List__Node____* out__) {
 		(node__)->type__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string64);
+		Parser__expected__(s__, mu_____string65);
 	}
 }
 void__ Parser__expected__(ParseState__* s__, string__ text__) {
@@ -12921,7 +13145,7 @@ Node__ Parser__parseExpressionLeaf__(ParseState__* s__) {
 	}
 	bool__ local5 = (((s__)->token__)->type__) == (TokenType__operator__);
 	if (local5) {
-		local5 = string__equals__(((s__)->token__)->value__, mu_____string56);
+		local5 = string__equals__(((s__)->token__)->value__, mu_____string57);
 	}
 	if (local5) {
 		NumberExpression__* local6 = (NumberExpression__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(NumberExpression__));
@@ -12940,7 +13164,7 @@ Node__ Parser__parseExpressionLeaf__(ParseState__* s__) {
 	}
 	bool__ local9 = (((s__)->token__)->type__) == (TokenType__operator__);
 	if (local9) {
-		bool__ local10 = string__equals__(((s__)->token__)->value__, mu_____string57);
+		bool__ local10 = string__equals__(((s__)->token__)->value__, mu_____string58);
 		if (!local10) {
 			local10 = string__equals__(((s__)->token__)->value__, mu_____string2);
 		}
@@ -12981,7 +13205,7 @@ Node__ Parser__parseExpressionLeaf__(ParseState__* s__) {
 			(result__)->closeParen__ = (s__)->token__;
 			Parser__readToken__(s__);
 		} else {
-			Parser__expected__(s__, mu_____string32);
+			Parser__expected__(s__, mu_____string33);
 		}
 		(s__)->base__ = prev__;
 		(s__)->exprNoBrace__ = prevNB__;
@@ -13044,7 +13268,7 @@ Node__ Parser__parseExpressionLeaf__(ParseState__* s__) {
 			(node__)->closeBrace__ = (s__)->token__;
 			Parser__readToken__(s__);
 		} else {
-			Parser__expected__(s__, mu_____string33);
+			Parser__expected__(s__, mu_____string34);
 		}
 		(s__)->base__ = prev__;
 		Node__ local27;
@@ -13143,7 +13367,7 @@ Node__ Parser__parseMatchExpression__(ParseState__* s__) {
 	label2:
 		{}
 	} else {
-		Parser__expected__(s__, mu_____string50);
+		Parser__expected__(s__, mu_____string51);
 	}
 	(s__)->base__ = prevBase__;
 	bool__ local10 = (((s__)->token__)->type__) == (TokenType__closeBrace__);
@@ -13154,7 +13378,7 @@ Node__ Parser__parseMatchExpression__(ParseState__* s__) {
 		(node__)->closeBrace__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string33);
+		Parser__expected__(s__, mu_____string34);
 	}
 	Node__ local11;
 	local11.dataPtr__ = (pointer__)(node__);
@@ -13185,7 +13409,7 @@ void__ Parser__module__(ParseState__* s__, Token__* name__, List__Node____* out_
 	List__add__Node____(out__, local6);
 	bool__ local8 = (((s__)->token__)->type__) == (TokenType__identifier__);
 	if (local8) {
-		local8 = string__equals__(((s__)->token__)->value__, mu_____string69);
+		local8 = string__equals__(((s__)->token__)->value__, mu_____string70);
 	}
 	bool__ local7 = local8;
 	if (local7) {
@@ -13227,9 +13451,9 @@ void__ Parser__module__(ParseState__* s__, Token__* name__, List__Node____* out_
 						local13 = ((((s__)->token__)->indent__)) == ((Parser__sameLine__));
 					}
 					if (local13) {
-						Parser__expected__(s__, mu_____string71);
+						Parser__expected__(s__, mu_____string72);
 					} else {
-						Parser__parseErrorToken__(s__, mu_____string72, (node__)->inputsContents__);
+						Parser__parseErrorToken__(s__, mu_____string73, (node__)->inputsContents__);
 					}
 				}
 				state__ = ParseCommaListState__expectComma__;
@@ -13248,10 +13472,10 @@ void__ Parser__module__(ParseState__* s__, Token__* name__, List__Node____* out_
 			(node__)->closeParen__ = (s__)->token__;
 			Parser__readToken__(s__);
 		} else {
-			Parser__expected__(s__, mu_____string32);
+			Parser__expected__(s__, mu_____string33);
 		}
 	} else {
-		Parser__expected__(s__, mu_____string73);
+		Parser__expected__(s__, mu_____string74);
 	}
 	(s__)->module__ = node__;
 	(node__)->body__ = Parser__block__(s__, true__, mu_____string17);
@@ -13283,13 +13507,17 @@ CallExpression__* Parser__parseCallExpression__(ParseState__* s__, Node__ lhs__)
 			(node__)->builtin__ = BuiltinCall__rep__;
 		} else {
 			if (string__equals__(name__, mu_____string27)) {
-				(node__)->builtin__ = BuiltinCall__slice__;
+				(node__)->builtin__ = BuiltinCall__cast___;
 			} else {
 				if (string__equals__(name__, mu_____string28)) {
-					(node__)->builtin__ = BuiltinCall__chunk__;
+					(node__)->builtin__ = BuiltinCall__slice__;
 				} else {
 					if (string__equals__(name__, mu_____string29)) {
-						(node__)->builtin__ = BuiltinCall__swizzle__;
+						(node__)->builtin__ = BuiltinCall__chunk__;
+					} else {
+						if (string__equals__(name__, mu_____string30)) {
+							(node__)->builtin__ = BuiltinCall__swizzle__;
+						}
 					}
 				}
 			}
@@ -13323,7 +13551,7 @@ CallExpression__* Parser__parseCallExpression__(ParseState__* s__, Node__ lhs__)
 		(node__)->closeParen__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string32);
+		Parser__expected__(s__, mu_____string33);
 	}
 	(s__)->base__ = prev__;
 	return node__;
@@ -13389,7 +13617,7 @@ NumberExpression__* Parser__parseNumber__(ParseState__* s__) {
 			*local7 = local8;
 			result__ = local7;
 		} else {
-			Parser__error__(s__, mu_____string51);
+			Parser__error__(s__, mu_____string52);
 			NumberExpression__* local9 = (NumberExpression__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(NumberExpression__));
 			NumberExpression__ local10;
 			memset(&local10, 0, sizeof(NumberExpression__));
@@ -13483,7 +13711,7 @@ NumberExpression__* Parser__parseNumber__(ParseState__* s__) {
 					*local28 = local29;
 					result__ = local28;
 				} else {
-					Parser__error__(s__, mu_____string52);
+					Parser__error__(s__, mu_____string53);
 					NumberExpression__* local30 = (NumberExpression__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(NumberExpression__));
 					NumberExpression__ local31;
 					memset(&local31, 0, sizeof(NumberExpression__));
@@ -13494,7 +13722,7 @@ NumberExpression__* Parser__parseNumber__(ParseState__* s__) {
 					result__ = local30;
 				}
 			} else {
-				Parser__error__(s__, mu_____string53);
+				Parser__error__(s__, mu_____string54);
 				NumberExpression__* local32 = (NumberExpression__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(NumberExpression__));
 				NumberExpression__ local33;
 				memset(&local33, 0, sizeof(NumberExpression__));
@@ -13506,9 +13734,9 @@ NumberExpression__* Parser__parseNumber__(ParseState__* s__) {
 		} else {
 			string__ local34;
 			if (isHex__) {
-				local34 = mu_____string54;
-			} else {
 				local34 = mu_____string55;
+			} else {
+				local34 = mu_____string56;
 			}
 			Parser__error__(s__, local34);
 			NumberExpression__* local35 = (NumberExpression__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(NumberExpression__));
@@ -13541,7 +13769,7 @@ IfStatement__* Parser__parseIfStatement__(ParseState__* s__) {
 	(node__)->ifBody__ = Parser__block__(s__, true__, mu_____string17);
 	bool__ local3 = (((s__)->token__)->type__) == (TokenType__identifier__);
 	if (local3) {
-		local3 = string__equals__(((s__)->token__)->value__, mu_____string59);
+		local3 = string__equals__(((s__)->token__)->value__, mu_____string60);
 	}
 	bool__ local2 = local3;
 	if (local2) {
@@ -13610,7 +13838,7 @@ Node__ Parser__parseExpressionTail__(ParseState__* s__, Node__ lhs__, int__ minL
 		if (((level__)) < ((minLevel__))) {
 			return lhs__;
 		}
-		if (string__equals__(((s__)->token__)->value__, mu_____string49)) {
+		if (string__equals__(((s__)->token__)->value__, mu_____string50)) {
 			TernaryOperatorExpression__* local4 = (TernaryOperatorExpression__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(TernaryOperatorExpression__));
 			TernaryOperatorExpression__ local5;
 			memset(&local5, 0, sizeof(TernaryOperatorExpression__));
@@ -13620,7 +13848,7 @@ Node__ Parser__parseExpressionTail__(ParseState__* s__, Node__ lhs__, int__ minL
 			TernaryOperatorExpression__* result__ = local4;
 			Parser__readToken__(s__);
 			(result__)->trueExpr__ = Parser__parseExpression__(s__, 10);
-			bool__ local6 = string__equals__(((s__)->token__)->value__, mu_____string30);
+			bool__ local6 = string__equals__(((s__)->token__)->value__, mu_____string31);
 			if (local6) {
 				local6 = ((((s__)->token__)->indent__)) > (((s__)->base__));
 			}
@@ -13629,14 +13857,14 @@ Node__ Parser__parseExpressionTail__(ParseState__* s__, Node__ lhs__, int__ minL
 				Parser__readToken__(s__);
 				(result__)->falseExpr__ = Parser__parseExpression__(s__, 10);
 			} else {
-				Parser__expected__(s__, mu_____string30);
+				Parser__expected__(s__, mu_____string31);
 			}
 			Node__ local7;
 			local7.dataPtr__ = (pointer__)(result__);
 			local7.id__ = local7.dataPtr__ != null__ ? Node_____Ptr__TernaryOperatorExpression____ : 0;
 			lhs__ = local7;
 		} else {
-			if (string__equals__(((s__)->token__)->value__, mu_____string35)) {
+			if (string__equals__(((s__)->token__)->value__, mu_____string36)) {
 				DotExpression__* local8 = (DotExpression__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(DotExpression__));
 				DotExpression__ local9;
 				memset(&local9, 0, sizeof(DotExpression__));
@@ -13792,10 +14020,10 @@ label2:
 			(node__)->closeBrace__ = (s__)->token__;
 			Parser__readToken__(s__);
 		} else {
-			Parser__errorAt__(s__, (((s__)->token__)->span__).from__, mu_____string67);
+			Parser__errorAt__(s__, (((s__)->token__)->span__).from__, mu_____string68);
 		}
 	} else {
-		Parser__expectedAt__(s__, (((s__)->token__)->span__).from__, mu_____string33);
+		Parser__expectedAt__(s__, (((s__)->token__)->span__).from__, mu_____string34);
 	}
 	return node__;
 }
@@ -13869,7 +14097,7 @@ StructInitializerExpression__* Parser__parseStructInitializerExpression__(ParseS
 		(node__)->closeBrace__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string33);
+		Parser__expected__(s__, mu_____string34);
 	}
 	(s__)->base__ = prev__;
 	return node__;
@@ -13902,7 +14130,7 @@ void__ Parser__parseComma__(ParseState__* s__, List__Node____* out__) {
 		List__add__Node____(out__, local0);
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string31);
+		Parser__expected__(s__, mu_____string32);
 	}
 }
 void__ Parser__parseCallArg__(ParseState__* s__, List__Ptr__CallArg______* out_args__, List__Node____* out_all__) {
@@ -13917,7 +14145,7 @@ void__ Parser__parseCallArg__(ParseState__* s__, List__Ptr__CallArg______* out_a
 		List__add__Ptr__CallArg______(out_args__, node__);
 		Token__* name__ = (s__)->token__;
 		Parser__readToken__(s__);
-		bool__ local2 = string__equals__(((s__)->token__)->value__, mu_____string30);
+		bool__ local2 = string__equals__(((s__)->token__)->value__, mu_____string31);
 		if (local2) {
 			local2 = ((((s__)->token__)->indent__)) > (((s__)->base__));
 		}
@@ -13966,7 +14194,7 @@ IndexExpression__* Parser__parseIndexExpression__(ParseState__* s__, Node__ lhs_
 	int__ prev__ = (s__)->base__;
 	(s__)->base__ = (s__)->blockBase__;
 	(node__)->upperExpr__ = Parser__parseExpression__(s__, 0);
-	bool__ local2 = string__equals__(((s__)->token__)->value__, mu_____string30);
+	bool__ local2 = string__equals__(((s__)->token__)->value__, mu_____string31);
 	if (local2) {
 		local2 = ((((s__)->token__)->indent__)) > (((s__)->base__));
 	}
@@ -13983,7 +14211,7 @@ IndexExpression__* Parser__parseIndexExpression__(ParseState__* s__, Node__ lhs_
 		(node__)->closeBracket__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string34);
+		Parser__expected__(s__, mu_____string35);
 	}
 	(s__)->base__ = prev__;
 	return node__;
@@ -14008,64 +14236,64 @@ void__ Parser__struct___(ParseState__* s__, Token__* name__, List__Node____* out
 	List__add__Node____(out__, local4);
 	Parser__readToken__(s__);
 	(s__)->struct___ = node__;
-	(node__)->body__ = Parser__block__(s__, false__, mu_____string68);
+	(node__)->body__ = Parser__block__(s__, false__, mu_____string69);
 	(s__)->struct___ = null__;
 }
 int__ Parser__getBindingLevel__(string__ op__) {
-	if (string__equals__(op__, mu_____string35)) {
+	if (string__equals__(op__, mu_____string36)) {
 		return 20;
 	}
-	bool__ local1 = string__equals__(op__, mu_____string36);
+	bool__ local1 = string__equals__(op__, mu_____string37);
 	if (!local1) {
-		local1 = string__equals__(op__, mu_____string37);
+		local1 = string__equals__(op__, mu_____string38);
 	}
 	bool__ local0 = local1;
 	if (!local0) {
-		local0 = string__equals__(op__, mu_____string38);
+		local0 = string__equals__(op__, mu_____string39);
 	}
 	if (local0) {
 		return 19;
 	}
-	bool__ local2 = string__equals__(op__, mu_____string39);
+	bool__ local2 = string__equals__(op__, mu_____string40);
 	if (!local2) {
 		local2 = string__equals__(op__, mu_____string2);
 	}
 	if (local2) {
 		return 18;
 	}
-	bool__ local7 = string__equals__(op__, mu_____string40);
+	bool__ local7 = string__equals__(op__, mu_____string41);
 	if (!local7) {
-		local7 = string__equals__(op__, mu_____string41);
+		local7 = string__equals__(op__, mu_____string42);
 	}
 	bool__ local6 = local7;
 	if (!local6) {
-		local6 = string__equals__(op__, mu_____string42);
+		local6 = string__equals__(op__, mu_____string43);
 	}
 	bool__ local5 = local6;
 	if (!local5) {
-		local5 = string__equals__(op__, mu_____string43);
+		local5 = string__equals__(op__, mu_____string44);
 	}
 	bool__ local4 = local5;
 	if (!local4) {
-		local4 = string__equals__(op__, mu_____string44);
+		local4 = string__equals__(op__, mu_____string45);
 	}
 	bool__ local3 = local4;
 	if (!local3) {
-		local3 = string__equals__(op__, mu_____string45);
+		local3 = string__equals__(op__, mu_____string46);
 	}
 	if (local3) {
 		return 17;
 	}
-	if (string__equals__(op__, mu_____string46)) {
+	if (string__equals__(op__, mu_____string47)) {
 		return 15;
 	}
-	if (string__equals__(op__, mu_____string47)) {
+	if (string__equals__(op__, mu_____string48)) {
 		return 14;
 	}
-	if (string__equals__(op__, mu_____string48)) {
+	if (string__equals__(op__, mu_____string49)) {
 		return 13;
 	}
-	if (string__equals__(op__, mu_____string49)) {
+	if (string__equals__(op__, mu_____string50)) {
 		return 10;
 	}
 	return -1;
@@ -14124,7 +14352,7 @@ void__ Parser__parseMatchExpressionCase__(ParseState__* s__, List__Ptr__MatchExp
 	local3.dataPtr__ = (pointer__)(node__);
 	local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__MatchExpressionCase____ : 0;
 	List__add__Node____(out_all__, local3);
-	bool__ local4 = string__equals__(((s__)->token__)->value__, mu_____string30);
+	bool__ local4 = string__equals__(((s__)->token__)->value__, mu_____string31);
 	if (local4) {
 		local4 = ((((s__)->token__)->indent__)) > (((s__)->base__));
 	}
@@ -14132,7 +14360,7 @@ void__ Parser__parseMatchExpressionCase__(ParseState__* s__, List__Ptr__MatchExp
 		(node__)->colon__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string30);
+		Parser__expected__(s__, mu_____string31);
 	}
 	int__ prev__ = (s__)->base__;
 	(s__)->base__ = Parser__maxBase__;
@@ -14181,10 +14409,10 @@ ArrayExpression__* Parser__parseArrayExpression__(ParseState__* s__) {
 						mu_____checkedcast(local8 <= (ulong__)(0xff));
 						List__add__byte____((node__)->data__, (byte__)(local8));
 					} else {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((((s__)->token__)->span__).from__)) + ((i__)), (((((s__)->token__)->span__).from__)) + ((to__))), mu_____string58));
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((((s__)->token__)->span__).from__)) + ((i__)), (((((s__)->token__)->span__).from__)) + ((to__))), mu_____string59));
 					}
 				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((((s__)->token__)->span__).to__)) - ((1)), (((s__)->token__)->span__).to__), mu_____string58));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((((s__)->token__)->span__).to__)) - ((1)), (((s__)->token__)->span__).to__), mu_____string59));
 				}
 				i__ = ((i__)) + ((2));
 			}
@@ -14199,7 +14427,7 @@ ArrayExpression__* Parser__parseArrayExpression__(ParseState__* s__) {
 		(node__)->closeBracket__ = (s__)->token__;
 		Parser__readToken__(s__);
 	} else {
-		Parser__expected__(s__, mu_____string34);
+		Parser__expected__(s__, mu_____string35);
 	}
 	(s__)->base__ = prev__;
 	return node__;
@@ -14224,7 +14452,7 @@ void__ Parser__parseStatement__(ParseState__* s__, List__Node____* out__) {
 				Parser__parseAssignStatement__(s__, out__);
 				(firstToken__)->indent__ = (s__)->base__;
 			} else {
-				Parser__parseErrorToken__(s__, mu_____string62, out__);
+				Parser__parseErrorToken__(s__, mu_____string63, out__);
 			}
 		}
 	}
@@ -14257,16 +14485,16 @@ void__ VerilogGenerator__unaryOperator__(GeneratorState__* s__, UnaryOperatorExp
 	}
 	(s__)->isNonIndexable__ = true__;
 	VerilogGenerator__write__(s__, ((e__)->op__)->value__);
-	VerilogGenerator__write__(s__, mu_____string73);
+	VerilogGenerator__write__(s__, mu_____string74);
 	VerilogGenerator__expression__(s__, (e__)->expr__);
-	VerilogGenerator__write__(s__, mu_____string32);
+	VerilogGenerator__write__(s__, mu_____string33);
 }
 void__ VerilogGenerator__output__(GeneratorState__* s__, AssignStatement__* o__, string__ genName__, Tag__ tag__) {
 	bool__ isReg__ = ((o__)->regKeyword__) != (null__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string245);
+	VerilogGenerator__write__(s__, mu_____string251);
 	if (isReg__) {
-		VerilogGenerator__write__(s__, mu_____string246);
+		VerilogGenerator__write__(s__, mu_____string252);
 	}
 	VerilogGenerator__numberTag__(s__, tag__);
 	VerilogGenerator__write__(s__, genName__);
@@ -14276,78 +14504,78 @@ void__ VerilogGenerator__output__(GeneratorState__* s__, AssignStatement__* o__,
 			local0 = ((((o__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
 		}
 		if (local0) {
-			VerilogGenerator__write__(s__, mu_____string247);
+			VerilogGenerator__write__(s__, mu_____string253);
 			VerilogGenerator__staticValue__(s__, (s__)->inst__, (o__)->localId__, tag__);
 		} else {
-			VerilogGenerator__write__(s__, mu_____string251);
+			VerilogGenerator__write__(s__, mu_____string257);
 		}
 	}
 }
 void__ VerilogGenerator__regUpdate__(GeneratorState__* s__, string__ genName__, Node__ expr__) {
 	VerilogGenerator__beginLine__(s__);
 	VerilogGenerator__write__(s__, genName__);
-	VerilogGenerator__write__(s__, mu_____string276);
+	VerilogGenerator__write__(s__, mu_____string282);
 	VerilogGenerator__expression__(s__, expr__);
-	VerilogGenerator__write__(s__, mu_____string265);
+	VerilogGenerator__write__(s__, mu_____string271);
 }
 string__ VerilogGenerator__newLocal__(GeneratorState__* s__, Tag__ tag__, string__ valStr__) {
 	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, (s__)->first__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string263);
+	VerilogGenerator__write__(s__, mu_____string269);
 	VerilogGenerator__numberTag__(s__, tag__);
-	string__ name__ = VerilogGenerator__uniqueName__(s__, (s__)->inst__, ((s__)->inst__)->genLocalsSet__, mu_____string264);
+	string__ name__ = VerilogGenerator__uniqueName__(s__, (s__)->inst__, ((s__)->inst__)->genLocalsSet__, mu_____string270);
 	VerilogGenerator__write__(s__, name__);
-	VerilogGenerator__write__(s__, mu_____string265);
+	VerilogGenerator__write__(s__, mu_____string271);
 	VerilogGenerator__restore__(s__, prev__);
 	prev__ = VerilogGenerator__push__(s__, (s__)->assignments__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string266);
+	VerilogGenerator__write__(s__, mu_____string272);
 	VerilogGenerator__write__(s__, name__);
-	VerilogGenerator__write__(s__, mu_____string247);
+	VerilogGenerator__write__(s__, mu_____string253);
 	VerilogGenerator__write__(s__, valStr__);
-	VerilogGenerator__write__(s__, mu_____string265);
+	VerilogGenerator__write__(s__, mu_____string271);
 	VerilogGenerator__restore__(s__, prev__);
 	return name__;
 }
 void__ VerilogGenerator__value__(GeneratorState__* s__, Tag__ tag__, Value__ value__) {
 	(s__)->isNonIndexable__ = true__;
 	mu_____assert(((tag__).kind__) == (TagKind__number__));
+	if ((((tag__).q__)) == ((0))) {
+		VerilogGenerator__write__(s__, mu_____string254);
+	}
 	if (((value__).kind__) == (ValueKind__ulong___)) {
-		if ((((tag__).q__)) > ((0))) {
-			StringBuilder__ local0;
-			memset(&local0, 0, sizeof(local0));
-			int__writeTo__((tag__).q__, &local0);
-			string__ local1 = { (pointer__)"'d", 2 };
-			StringBuilder__write__(&local0, local1);
-			ulong__writeTo__((value__).z__, &local0);
-			VerilogGenerator__write__(s__, StringBuilder__compactToString__(&local0));
-		} else {
-			StringBuilder__ local2;
-			memset(&local2, 0, sizeof(local2));
-			ulong__writeTo__((value__).z__, &local2);
-			VerilogGenerator__write__(s__, StringBuilder__compactToString__(&local2));
-		}
+		StringBuilder__ local0;
+		memset(&local0, 0, sizeof(local0));
+		int__writeTo__((tag__).q__, &local0);
+		string__ local1 = { (pointer__)"'d", 2 };
+		StringBuilder__write__(&local0, local1);
+		ulong__writeTo__((value__).z__, &local0);
+		VerilogGenerator__write__(s__, StringBuilder__compactToString__(&local0));
 	} else {
 		if (((value__).kind__) == (ValueKind__byteArray__)) {
 			Array__byte____* data__ = EmulatorRunner__unpackArray__(value__);
-			StringBuilder__ local3;
-			memset(&local3, 0, sizeof(local3));
-			int__writeTo__((tag__).q__, &local3);
-			string__ local4 = { (pointer__)"'h", 2 };
-			StringBuilder__write__(&local3, local4);
-			VerilogGenerator__write__(s__, StringBuilder__compactToString__(&local3));
-			int__ local5 = (((((tag__).q__)) + ((7)))) / ((8));
-			int__ local6 = (data__)->count__;
-			int__ from__ = (local5 < local6) ? local5 : local6;
-			{
-				int__ i__ = ((from__)) - ((1));
-				while (((i__)) >= ((0))) {
-					Array__byte____* local7 = data__;
-					uint__ local8 = (uint__)(i__);
-					mu_____boundscheck(local8 < (uint__)local7->count__);
-					Util__writeByteHexTo__(((byte__*)local7->dataPtr__)[local8], ((s__)->out__)->sb__);
-					i__ = ((i__)) - ((1));
+			StringBuilder__ local2;
+			memset(&local2, 0, sizeof(local2));
+			int__writeTo__((tag__).q__, &local2);
+			string__ local3 = { (pointer__)"'h", 2 };
+			StringBuilder__write__(&local2, local3);
+			VerilogGenerator__write__(s__, StringBuilder__compactToString__(&local2));
+			int__ local4 = (((((tag__).q__)) + ((7)))) / ((8));
+			int__ local5 = (data__)->count__;
+			int__ from__ = (local4 < local5) ? local4 : local5;
+			if (((from__)) > ((0))) {
+				{
+					int__ i__ = ((from__)) - ((1));
+					while (((i__)) >= ((0))) {
+						Array__byte____* local6 = data__;
+						uint__ local7 = (uint__)(i__);
+						mu_____boundscheck(local7 < (uint__)local6->count__);
+						Util__writeByteHexTo__(((byte__*)local6->dataPtr__)[local7], ((s__)->out__)->sb__);
+						i__ = ((i__)) - ((1));
+					}
 				}
+			} else {
+				VerilogGenerator__write__(s__, mu_____string1);
 			}
 		} else {
 			mu_____abandon(-1);
@@ -14513,13 +14741,13 @@ void__ VerilogGenerator__assign__(GeneratorState__* s__, AssignStatement__* st__
 }
 void__ VerilogGenerator__binaryOperator__(GeneratorState__* s__, BinaryOperatorExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
-	VerilogGenerator__write__(s__, mu_____string73);
+	VerilogGenerator__write__(s__, mu_____string74);
 	VerilogGenerator__expression__(s__, (e__)->lhs__);
-	VerilogGenerator__write__(s__, mu_____string259);
+	VerilogGenerator__write__(s__, mu_____string265);
 	VerilogGenerator__write__(s__, ((e__)->op__)->value__);
-	VerilogGenerator__write__(s__, mu_____string260);
+	VerilogGenerator__write__(s__, mu_____string266);
 	VerilogGenerator__expression__(s__, (e__)->rhs__);
-	VerilogGenerator__write__(s__, mu_____string32);
+	VerilogGenerator__write__(s__, mu_____string33);
 }
 void__ VerilogGenerator__unindent__(GeneratorState__* s__) {
 	((s__)->out__)->lineSep__ = mu_____string0;
@@ -14530,7 +14758,7 @@ void__ VerilogGenerator__restore__(GeneratorState__* s__, CodeBuilder__* cb__) {
 }
 void__ VerilogGenerator__reg__(GeneratorState__* s__, AssignStatement__* st__, string__ genName__, Tag__ tag__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string275);
+	VerilogGenerator__write__(s__, mu_____string281);
 	VerilogGenerator__numberTag__(s__, tag__);
 	VerilogGenerator__write__(s__, genName__);
 	bool__ local0 = (((st__)->expr__).dataPtr__) != ((pointer__)(null__));
@@ -14538,12 +14766,12 @@ void__ VerilogGenerator__reg__(GeneratorState__* s__, AssignStatement__* st__, s
 		local0 = ((((st__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
 	}
 	if (local0) {
-		VerilogGenerator__write__(s__, mu_____string247);
+		VerilogGenerator__write__(s__, mu_____string253);
 		VerilogGenerator__staticValue__(s__, (s__)->inst__, (st__)->localId__, tag__);
 	} else {
-		VerilogGenerator__write__(s__, mu_____string251);
+		VerilogGenerator__write__(s__, mu_____string257);
 	}
-	VerilogGenerator__write__(s__, mu_____string265);
+	VerilogGenerator__write__(s__, mu_____string271);
 }
 void__ VerilogGenerator__expressionInner__(GeneratorState__* s__, Node__ e__) {
 	switch ((e__).id__) {
@@ -14633,7 +14861,7 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 			{
 				StringBuilder__write__(&(sb__), VerilogGenerator__trimHash__(((local2)->name__)->value__));
 				if (((ctxField__)) != ((-1))) {
-					StringBuilder__write__(&(sb__), mu_____string239);
+					StringBuilder__write__(&(sb__), mu_____string245);
 					Node__ local4;
 					local4.dataPtr__ = (pointer__)(local2);
 					local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__ModuleInputDef____ : 0;
@@ -14656,7 +14884,7 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 				mu_____checkedcast(local8.id__ == Node_____Ptr__Token____);
 				StringBuilder__write__(&(sb__), VerilogGenerator__trimHash__(((Token__*)(local8.dataPtr__))->value__));
 				if (((ctxField__)) != ((-1))) {
-					StringBuilder__write__(&(sb__), mu_____string239);
+					StringBuilder__write__(&(sb__), mu_____string245);
 					Node__ local10;
 					local10.dataPtr__ = (pointer__)(local6);
 					local10.id__ = local10.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
@@ -14683,7 +14911,7 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 				mu_____boundscheck(local18 < (uint__)local17->count__);
 				AssignStatement__* output__ = ((AssignStatement__**)local17->dataPtr__)[local18];
 				StringBuilder__write__(&(sb__), (target__)->genLocalName__);
-				StringBuilder__write__(&(sb__), mu_____string239);
+				StringBuilder__write__(&(sb__), mu_____string245);
 				string__ local19;
 				if ((((target__)->def__)->blackboxKeyword__) == (null__)) {
 					Node__ local20;
@@ -14712,21 +14940,21 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 void__ VerilogGenerator__wire__(GeneratorState__* s__, AssignStatement__* st__, string__ genName__, Tag__ tag__) {
 	if (((st__)->outKeyword__) == (null__)) {
 		VerilogGenerator__beginLine__(s__);
-		VerilogGenerator__write__(s__, mu_____string263);
+		VerilogGenerator__write__(s__, mu_____string269);
 		VerilogGenerator__numberTag__(s__, tag__);
 		VerilogGenerator__write__(s__, genName__);
-		VerilogGenerator__write__(s__, mu_____string265);
+		VerilogGenerator__write__(s__, mu_____string271);
 	}
 	CodeBuilder__* local0 = (CodeBuilder__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(CodeBuilder__));
 	*local0 = CodeBuilder__create__();
 	CodeBuilder__* cb__ = local0;
 	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, cb__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string266);
+	VerilogGenerator__write__(s__, mu_____string272);
 	VerilogGenerator__write__(s__, genName__);
-	VerilogGenerator__write__(s__, mu_____string247);
+	VerilogGenerator__write__(s__, mu_____string253);
 	VerilogGenerator__expression__(s__, (st__)->expr__);
-	VerilogGenerator__write__(s__, mu_____string265);
+	VerilogGenerator__write__(s__, mu_____string271);
 	(s__)->out__ = (s__)->assignments__;
 	VerilogGenerator__write__(s__, StringBuilder__compactToString__((cb__)->sb__));
 	VerilogGenerator__restore__(s__, prev__);
@@ -14751,15 +14979,15 @@ StructDef__* VerilogGenerator__unpackStruct__(GeneratorState__* s__, Tag__ tag__
 }
 void__ VerilogGenerator__if___(GeneratorState__* s__, IfStatement__* st__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string255);
+	VerilogGenerator__write__(s__, mu_____string261);
 	VerilogGenerator__expression__(s__, (st__)->expr__);
-	VerilogGenerator__write__(s__, mu_____string254);
+	VerilogGenerator__write__(s__, mu_____string260);
 	VerilogGenerator__indent__(s__, mu_____string0);
 	VerilogGenerator__block__(s__, (st__)->ifBody__);
 	VerilogGenerator__unindent__(s__);
 	if ((((st__)->elseBranch__).dataPtr__) != ((pointer__)(null__))) {
 		VerilogGenerator__beginLine__(s__);
-		VerilogGenerator__write__(s__, mu_____string274);
+		VerilogGenerator__write__(s__, mu_____string280);
 		VerilogGenerator__indent__(s__, mu_____string0);
 		if (((st__)->elseBranch__).id__ == Node_____Ptr__IfStatement____) {
 			Node__ local0 = (st__)->elseBranch__;
@@ -14775,13 +15003,13 @@ void__ VerilogGenerator__if___(GeneratorState__* s__, IfStatement__* st__) {
 		VerilogGenerator__unindent__(s__);
 	}
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string234);
+	VerilogGenerator__write__(s__, mu_____string239);
 }
 void__ VerilogGenerator__paren__(GeneratorState__* s__, ParenExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
-	VerilogGenerator__write__(s__, mu_____string73);
+	VerilogGenerator__write__(s__, mu_____string74);
 	VerilogGenerator__expression__(s__, (e__)->expr__);
-	VerilogGenerator__write__(s__, mu_____string32);
+	VerilogGenerator__write__(s__, mu_____string33);
 }
 void__ VerilogGenerator__module__(GeneratorState__* s__, ModuleInstance__* inst__) {
 	(s__)->inst__ = inst__;
@@ -14800,10 +15028,10 @@ void__ VerilogGenerator__module__(GeneratorState__* s__, ModuleInstance__* inst_
 			i__ += 1;
 		}
 	}
-	VerilogGenerator__write__(s__, mu_____string241);
+	VerilogGenerator__write__(s__, mu_____string247);
 	VerilogGenerator__write__(s__, (inst__)->genGlobalName__);
-	VerilogGenerator__write__(s__, mu_____string73);
-	VerilogGenerator__indent__(s__, mu_____string31);
+	VerilogGenerator__write__(s__, mu_____string74);
+	VerilogGenerator__indent__(s__, mu_____string32);
 	{
 		List__Ptr__ModuleInputDef______* local4 = (def__)->inputs__;
 		int__ local5 = 0;
@@ -14898,7 +15126,7 @@ void__ VerilogGenerator__module__(GeneratorState__* s__, ModuleInstance__* inst_
 	}
 	VerilogGenerator__unindent__(s__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string252);
+	VerilogGenerator__write__(s__, mu_____string258);
 	CodeBuilder__* local24 = (CodeBuilder__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(CodeBuilder__));
 	*local24 = CodeBuilder__create__();
 	(s__)->assignments__ = local24;
@@ -14940,19 +15168,19 @@ void__ VerilogGenerator__module__(GeneratorState__* s__, ModuleInstance__* inst_
 	if (((((inst__)->calls__)->count__)) == ((0))) {
 		VerilogGenerator__beginLine__(s__);
 	}
-	VerilogGenerator__write__(s__, mu_____string280);
+	VerilogGenerator__write__(s__, mu_____string286);
 }
 void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* target__) {
 	ModuleDef__* def__ = (target__)->def__;
 	CallExpression__* callExpr__ = (target__)->callExpr__;
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string277);
+	VerilogGenerator__write__(s__, mu_____string283);
 	VerilogGenerator__write__(s__, (target__)->genGlobalName__);
-	VerilogGenerator__write__(s__, mu_____string78);
+	VerilogGenerator__write__(s__, mu_____string79);
 	if (((def__)->blackboxKeyword__) != (null__)) {
 		if (VerilogGenerator__hasStaticInputs__(s__, def__)) {
-			VerilogGenerator__write__(s__, mu_____string278);
-			VerilogGenerator__indent__(s__, mu_____string31);
+			VerilogGenerator__write__(s__, mu_____string284);
+			VerilogGenerator__indent__(s__, mu_____string32);
 			{
 				List__Ptr__ModuleInputDef______* local0 = (def__)->inputs__;
 				int__ local1 = 0;
@@ -14964,23 +15192,23 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 						local2.id__ = local2.dataPtr__ != null__ ? Node_____Ptr__ModuleInputDef____ : 0;
 						Tag__ tag__ = Map__get__Node__Tag____((s__)->typeMap__, local2);
 						VerilogGenerator__beginLine__(s__);
-						VerilogGenerator__write__(s__, mu_____string35);
+						VerilogGenerator__write__(s__, mu_____string36);
 						VerilogGenerator__write__(s__, VerilogGenerator__trimHash__(((inp__)->name__)->value__));
-						VerilogGenerator__write__(s__, mu_____string73);
+						VerilogGenerator__write__(s__, mu_____string74);
 						VerilogGenerator__staticValue__(s__, target__, (inp__)->localId__, tag__);
-						VerilogGenerator__write__(s__, mu_____string32);
+						VerilogGenerator__write__(s__, mu_____string33);
 					}
 					local1 += 1;
 				}
 			}
 			VerilogGenerator__unindent__(s__);
 			VerilogGenerator__beginLine__(s__);
-			VerilogGenerator__write__(s__, mu_____string259);
+			VerilogGenerator__write__(s__, mu_____string265);
 		}
 	}
 	VerilogGenerator__write__(s__, (target__)->genLocalName__);
-	VerilogGenerator__write__(s__, mu_____string73);
-	VerilogGenerator__indent__(s__, mu_____string31);
+	VerilogGenerator__write__(s__, mu_____string74);
+	VerilogGenerator__indent__(s__, mu_____string32);
 	{
 		List__Ptr__ModuleInputDef______* local3 = (def__)->inputs__;
 		int__ local4 = 0;
@@ -14993,7 +15221,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 				Tag__ tag__ = Map__get__Node__Tag____((s__)->typeMap__, local5);
 				if (((tag__).kind__) == (TagKind__number__)) {
 					VerilogGenerator__beginLine__(s__);
-					VerilogGenerator__write__(s__, mu_____string35);
+					VerilogGenerator__write__(s__, mu_____string36);
 					string__ local6;
 					if (((def__)->blackboxKeyword__) == (null__)) {
 						Node__ local7;
@@ -15004,7 +15232,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 						local6 = ((inp__)->name__)->value__;
 					}
 					VerilogGenerator__write__(s__, local6);
-					VerilogGenerator__write__(s__, mu_____string73);
+					VerilogGenerator__write__(s__, mu_____string74);
 					List__Ptr__CallArg______* local8 = (callExpr__)->args__;
 					Array__int____* local10 = (callExpr__)->calleeLocalIdToArgIndex__;
 					uint__ local11 = (uint__)((inp__)->localId__);
@@ -15012,7 +15240,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 					uint__ local9 = (uint__)(((int__*)local10->dataPtr__)[local11]);
 					mu_____boundscheck(local9 < (uint__)local8->count__);
 					VerilogGenerator__expression__(s__, (((CallArg__**)local8->dataPtr__)[local9])->expr__);
-					VerilogGenerator__write__(s__, mu_____string32);
+					VerilogGenerator__write__(s__, mu_____string33);
 				} else {
 					if (((tag__).kind__) == (TagKind__struct___)) {
 						StructDef__* sdef__ = VerilogGenerator__unpackStruct__(s__, tag__);
@@ -15022,7 +15250,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 							while (i__ < local12->count__) {
 								FieldDef__* f__ = ((FieldDef__**)(local12->dataPtr__))[i__];
 								VerilogGenerator__beginLine__(s__);
-								VerilogGenerator__write__(s__, mu_____string35);
+								VerilogGenerator__write__(s__, mu_____string36);
 								string__ local13;
 								if (((def__)->blackboxKeyword__) == (null__)) {
 									Node__ local14;
@@ -15033,7 +15261,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 									local13 = ((inp__)->name__)->value__;
 								}
 								VerilogGenerator__write__(s__, local13);
-								VerilogGenerator__write__(s__, mu_____string73);
+								VerilogGenerator__write__(s__, mu_____string74);
 								(s__)->evalCtxField__ = i__;
 								List__Ptr__CallArg______* local15 = (callExpr__)->args__;
 								Array__int____* local17 = (callExpr__)->calleeLocalIdToArgIndex__;
@@ -15042,7 +15270,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 								uint__ local16 = (uint__)(((int__*)local17->dataPtr__)[local18]);
 								mu_____boundscheck(local16 < (uint__)local15->count__);
 								VerilogGenerator__expression__(s__, (((CallArg__**)local15->dataPtr__)[local16])->expr__);
-								VerilogGenerator__write__(s__, mu_____string32);
+								VerilogGenerator__write__(s__, mu_____string33);
 								i__ += 1;
 							}
 						}
@@ -15066,7 +15294,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 			Tag__ tag__ = Map__get__Node__Tag____((s__)->typeMap__, local20);
 			if (((tag__).kind__) == (TagKind__number__)) {
 				VerilogGenerator__beginLine__(s__);
-				VerilogGenerator__write__(s__, mu_____string35);
+				VerilogGenerator__write__(s__, mu_____string36);
 				string__ local21;
 				if (((def__)->blackboxKeyword__) == (null__)) {
 					Node__ local22;
@@ -15079,12 +15307,12 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 					local21 = ((Token__*)(local23.dataPtr__))->value__;
 				}
 				VerilogGenerator__write__(s__, local21);
-				VerilogGenerator__write__(s__, mu_____string73);
+				VerilogGenerator__write__(s__, mu_____string74);
 				Node__ local24;
 				local24.dataPtr__ = (pointer__)(callExpr__);
 				local24.id__ = local24.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
 				VerilogGenerator__write__(s__, VerilogGenerator__nameOf__(s__, (s__)->inst__, local24, oi__, -1));
-				VerilogGenerator__write__(s__, mu_____string32);
+				VerilogGenerator__write__(s__, mu_____string33);
 			} else {
 				if (((tag__).kind__) == (TagKind__struct___)) {
 					StructDef__* sdef__ = VerilogGenerator__unpackStruct__(s__, tag__);
@@ -15094,7 +15322,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 						while (fi__ < local25->count__) {
 							FieldDef__* f__ = ((FieldDef__**)(local25->dataPtr__))[fi__];
 							VerilogGenerator__beginLine__(s__);
-							VerilogGenerator__write__(s__, mu_____string35);
+							VerilogGenerator__write__(s__, mu_____string36);
 							string__ local26;
 							if (((def__)->blackboxKeyword__) == (null__)) {
 								Node__ local27;
@@ -15107,12 +15335,12 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 								local26 = ((Token__*)(local28.dataPtr__))->value__;
 							}
 							VerilogGenerator__write__(s__, local26);
-							VerilogGenerator__write__(s__, mu_____string73);
+							VerilogGenerator__write__(s__, mu_____string74);
 							Node__ local29;
 							local29.dataPtr__ = (pointer__)(callExpr__);
 							local29.id__ = local29.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
 							VerilogGenerator__write__(s__, VerilogGenerator__nameOf__(s__, (s__)->inst__, local29, oi__, fi__));
-							VerilogGenerator__write__(s__, mu_____string32);
+							VerilogGenerator__write__(s__, mu_____string33);
 							fi__ += 1;
 						}
 					}
@@ -15125,7 +15353,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 	}
 	VerilogGenerator__unindent__(s__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string279);
+	VerilogGenerator__write__(s__, mu_____string285);
 	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, (s__)->first__);
 	{
 		List__Ptr__AssignStatement______* local30 = (def__)->outputs__;
@@ -15138,13 +15366,13 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 			Tag__ tag__ = Map__get__Node__Tag____((s__)->typeMap__, local31);
 			if (((tag__).kind__) == (TagKind__number__)) {
 				VerilogGenerator__beginLine__(s__);
-				VerilogGenerator__write__(s__, mu_____string263);
+				VerilogGenerator__write__(s__, mu_____string269);
 				VerilogGenerator__numberTag__(s__, tag__);
 				Node__ local32;
 				local32.dataPtr__ = (pointer__)(callExpr__);
 				local32.id__ = local32.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
 				VerilogGenerator__write__(s__, VerilogGenerator__nameOf__(s__, (s__)->inst__, local32, oi__, -1));
-				VerilogGenerator__write__(s__, mu_____string265);
+				VerilogGenerator__write__(s__, mu_____string271);
 			} else {
 				if (((tag__).kind__) == (TagKind__struct___)) {
 					StructDef__* sdef__ = VerilogGenerator__unpackStruct__(s__, tag__);
@@ -15154,7 +15382,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 						while (fi__ < local33->count__) {
 							FieldDef__* f__ = ((FieldDef__**)(local33->dataPtr__))[fi__];
 							VerilogGenerator__beginLine__(s__);
-							VerilogGenerator__write__(s__, mu_____string263);
+							VerilogGenerator__write__(s__, mu_____string269);
 							Node__ local34;
 							local34.dataPtr__ = (pointer__)(f__);
 							local34.id__ = local34.dataPtr__ != null__ ? Node_____Ptr__FieldDef____ : 0;
@@ -15163,7 +15391,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 							local35.dataPtr__ = (pointer__)(callExpr__);
 							local35.id__ = local35.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
 							VerilogGenerator__write__(s__, VerilogGenerator__nameOf__(s__, (s__)->inst__, local35, oi__, fi__));
-							VerilogGenerator__write__(s__, mu_____string265);
+							VerilogGenerator__write__(s__, mu_____string271);
 							fi__ += 1;
 						}
 					}
@@ -15179,16 +15407,16 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 }
 void__ VerilogGenerator__clock__(GeneratorState__* s__, ClockStatement__* st__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string253);
+	VerilogGenerator__write__(s__, mu_____string259);
 	VerilogGenerator__write__(s__, ((st__)->keyword__)->value__);
-	VerilogGenerator__write__(s__, mu_____string78);
+	VerilogGenerator__write__(s__, mu_____string79);
 	VerilogGenerator__write__(s__, ((st__)->name__)->value__);
-	VerilogGenerator__write__(s__, mu_____string254);
+	VerilogGenerator__write__(s__, mu_____string260);
 	VerilogGenerator__indent__(s__, mu_____string0);
 	VerilogGenerator__block__(s__, (st__)->body__);
 	VerilogGenerator__unindent__(s__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string234);
+	VerilogGenerator__write__(s__, mu_____string239);
 }
 void__ VerilogGenerator__number__(GeneratorState__* s__, NumberExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
@@ -15207,14 +15435,14 @@ void__ VerilogGenerator__number__(GeneratorState__* s__, NumberExpression__* e__
 	mu_____assert((((tag__).q__)) > ((0)));
 	ulong__ mask__ = ((ulong__)1uLL) << ((((tag__).q__)) - ((1)));
 	int__writeTo__((tag__).q__, sb__);
-	StringBuilder__write__(sb__, mu_____string256);
+	StringBuilder__write__(sb__, mu_____string262);
 	while (true__) {
 		if (!(((mask__)) != ((ulong__)(0)))) { break; }
 		if (((((mask__)) & (((e__)->dontCare__)))) != ((ulong__)(0))) {
-			StringBuilder__write__(sb__, mu_____string257);
+			StringBuilder__write__(sb__, mu_____string263);
 		} else {
 			if (((((mask__)) & (((e__)->value__)))) != ((ulong__)(0))) {
-				StringBuilder__write__(sb__, mu_____string258);
+				StringBuilder__write__(sb__, mu_____string264);
 			} else {
 				StringBuilder__write__(sb__, mu_____string1);
 			}
@@ -15291,13 +15519,13 @@ void__ VerilogGenerator__rep__(GeneratorState__* s__, CallExpression__* e__) {
 	uint__ local1 = (uint__)(1);
 	mu_____boundscheck(local1 < (uint__)local0->count__);
 	int__ n__ = TypeChecker__unpackInt__(Map__get__Node__Value____((s__)->constMap__, (((CallArg__**)local0->dataPtr__)[local1])->expr__));
-	VerilogGenerator__write__(s__, mu_____string272);
+	VerilogGenerator__write__(s__, mu_____string278);
 	bool__ sep__ = false__;
 	{
 		int__ i__ = 0;
 		while (((i__)) < ((n__))) {
 			if (sep__) {
-				VerilogGenerator__write__(s__, mu_____string197);
+				VerilogGenerator__write__(s__, mu_____string200);
 			} else {
 				sep__ = true__;
 			}
@@ -15308,7 +15536,7 @@ void__ VerilogGenerator__rep__(GeneratorState__* s__, CallExpression__* e__) {
 			i__ += 1;
 		}
 	}
-	VerilogGenerator__write__(s__, mu_____string273);
+	VerilogGenerator__write__(s__, mu_____string279);
 }
 void__ VerilogGenerator__structInit__(GeneratorState__* s__, StructInitializerExpression__* e__) {
 	mu_____assert((((s__)->evalCtxField__)) >= ((0)));
@@ -15412,20 +15640,21 @@ CodeBuilder__* VerilogGenerator__comp__(Compilation__* comp__, EmulatorState__* 
 	local1.globals__ = local3;
 	*local0 = local1;
 	GeneratorState__* s__ = local0;
-	Set__add__string____((s__)->globals__, mu_____string231);
-	Set__add__string____((s__)->globals__, mu_____string232);
-	Set__add__string____((s__)->globals__, mu_____string233);
-	Set__add__string____((s__)->globals__, mu_____string234);
-	Set__add__string____((s__)->globals__, mu_____string18);
-	Set__add__string____((s__)->globals__, mu_____string59);
-	Set__add__string____((s__)->globals__, mu_____string14);
-	Set__add__string____((s__)->globals__, mu_____string15);
-	Set__add__string____((s__)->globals__, mu_____string147);
-	Set__add__string____((s__)->globals__, mu_____string61);
-	Set__add__string____((s__)->globals__, mu_____string235);
 	Set__add__string____((s__)->globals__, mu_____string236);
 	Set__add__string____((s__)->globals__, mu_____string237);
 	Set__add__string____((s__)->globals__, mu_____string238);
+	Set__add__string____((s__)->globals__, mu_____string239);
+	Set__add__string____((s__)->globals__, mu_____string18);
+	Set__add__string____((s__)->globals__, mu_____string60);
+	Set__add__string____((s__)->globals__, mu_____string14);
+	Set__add__string____((s__)->globals__, mu_____string15);
+	Set__add__string____((s__)->globals__, mu_____string148);
+	Set__add__string____((s__)->globals__, mu_____string62);
+	Set__add__string____((s__)->globals__, mu_____string240);
+	Set__add__string____((s__)->globals__, mu_____string241);
+	Set__add__string____((s__)->globals__, mu_____string242);
+	Set__add__string____((s__)->globals__, mu_____string243);
+	Set__add__string____((s__)->globals__, mu_____string244);
 	{
 		List__Ptr__CodeUnit______* local4 = ((s__)->comp__)->units__;
 		int__ local5 = 0;
@@ -15464,7 +15693,7 @@ CodeBuilder__* VerilogGenerator__comp__(Compilation__* comp__, EmulatorState__* 
 				(mi__)->genLocalsSet__ = local12;
 				string__ local13;
 				if (!string__equals__((mi__)->fullName__, mu_____string0)) {
-					local13 = string__replace__((mi__)->fullName__, mu_____string35, mu_____string239);
+					local13 = string__replace__((mi__)->fullName__, mu_____string36, mu_____string245);
 				} else {
 					local13 = (((mi__)->def__)->name__)->value__;
 				}
@@ -15541,17 +15770,17 @@ void__ VerilogGenerator__match___(GeneratorState__* s__, MatchExpression__* e__)
 		while (local2 < local1->count__) {
 			MatchExpressionCase__* cs__ = ((MatchExpressionCase__**)(local1->dataPtr__))[local2];
 			VerilogGenerator__beginLine__(s__);
-			VerilogGenerator__write__(s__, mu_____string267);
+			VerilogGenerator__write__(s__, mu_____string273);
 			VerilogGenerator__write__(s__, target__);
-			VerilogGenerator__write__(s__, mu_____string268);
+			VerilogGenerator__write__(s__, mu_____string274);
 			VerilogGenerator__expression__(s__, (cs__)->valueExpr__);
-			VerilogGenerator__write__(s__, mu_____string261);
+			VerilogGenerator__write__(s__, mu_____string267);
 			VerilogGenerator__expression__(s__, (cs__)->resultExpr__);
-			VerilogGenerator__write__(s__, mu_____string269);
+			VerilogGenerator__write__(s__, mu_____string275);
 			local2 += 1;
 		}
 	}
-	VerilogGenerator__write__(s__, mu_____string78);
+	VerilogGenerator__write__(s__, mu_____string79);
 	Node__ local3;
 	local3.dataPtr__ = (pointer__)(e__);
 	local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__MatchExpression____ : 0;
@@ -15581,26 +15810,26 @@ void__ VerilogGenerator__index__(GeneratorState__* s__, IndexExpression__* e__) 
 		VerilogGenerator__write__(s__, VerilogGenerator__newLocal__(s__, Map__get__Node__Tag____((s__)->typeMap__, (e__)->target__), StringBuilder__compactToString__((eb__)->sb__)));
 	}
 	StringBuilder__* sb__ = ((s__)->out__)->sb__;
-	StringBuilder__write__(sb__, mu_____string271);
+	StringBuilder__write__(sb__, mu_____string277);
 	ulong__ upper__ = (Map__get__Node__Value____((s__)->constMap__, (e__)->upperExpr__)).z__;
 	ulong__writeTo__(upper__, sb__);
 	if ((((e__)->lowerExpr__).dataPtr__) != ((pointer__)(null__))) {
-		StringBuilder__write__(sb__, mu_____string30);
+		StringBuilder__write__(sb__, mu_____string31);
 		ulong__ lower__ = (Map__get__Node__Value____((s__)->constMap__, (e__)->lowerExpr__)).z__;
 		ulong__writeTo__(lower__, sb__);
 	}
-	StringBuilder__write__(sb__, mu_____string34);
+	StringBuilder__write__(sb__, mu_____string35);
 	(s__)->isNonIndexable__ = true__;
 }
 void__ VerilogGenerator__ternaryOperator__(GeneratorState__* s__, TernaryOperatorExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
-	VerilogGenerator__write__(s__, mu_____string73);
+	VerilogGenerator__write__(s__, mu_____string74);
 	VerilogGenerator__expression__(s__, (e__)->conditionExpr__);
-	VerilogGenerator__write__(s__, mu_____string261);
+	VerilogGenerator__write__(s__, mu_____string267);
 	VerilogGenerator__expression__(s__, (e__)->trueExpr__);
-	VerilogGenerator__write__(s__, mu_____string262);
+	VerilogGenerator__write__(s__, mu_____string268);
 	VerilogGenerator__expression__(s__, (e__)->falseExpr__);
-	VerilogGenerator__write__(s__, mu_____string32);
+	VerilogGenerator__write__(s__, mu_____string33);
 }
 void__ VerilogGenerator__token__(GeneratorState__* s__, Token__* e__) {
 	string__ name__ = (e__)->value__;
@@ -15677,7 +15906,7 @@ void__ VerilogGenerator__beginLine__(GeneratorState__* s__) {
 	} else {
 		((s__)->out__)->skipSep__ = false__;
 	}
-	VerilogGenerator__write__(s__, mu_____string242);
+	VerilogGenerator__write__(s__, mu_____string248);
 	{
 		int__ i__ = 0;
 		while (((i__)) < ((((s__)->out__)->indent__))) {
@@ -15688,7 +15917,7 @@ void__ VerilogGenerator__beginLine__(GeneratorState__* s__) {
 }
 void__ VerilogGenerator__brace__(GeneratorState__* s__, BraceExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
-	VerilogGenerator__write__(s__, mu_____string272);
+	VerilogGenerator__write__(s__, mu_____string278);
 	bool__ sep__ = false__;
 	{
 		List__Node____* local0 = (e__)->args__;
@@ -15696,7 +15925,7 @@ void__ VerilogGenerator__brace__(GeneratorState__* s__, BraceExpression__* e__) 
 		while (local1 < local0->count__) {
 			Node__ arg__ = ((Node__*)(local0->dataPtr__))[local1];
 			if (sep__) {
-				VerilogGenerator__write__(s__, mu_____string197);
+				VerilogGenerator__write__(s__, mu_____string200);
 			} else {
 				sep__ = true__;
 			}
@@ -15704,7 +15933,7 @@ void__ VerilogGenerator__brace__(GeneratorState__* s__, BraceExpression__* e__) 
 			local1 += 1;
 		}
 	}
-	VerilogGenerator__write__(s__, mu_____string273);
+	VerilogGenerator__write__(s__, mu_____string279);
 }
 void__ VerilogGenerator__staticValue__(GeneratorState__* s__, ModuleInstance__* instance__, int__ localId__, Tag__ tag__) {
 	Array__int____* local0 = (instance__)->localState__;
@@ -15720,7 +15949,7 @@ void__ VerilogGenerator__staticValue__(GeneratorState__* s__, ModuleInstance__* 
 }
 void__ VerilogGenerator__input__(GeneratorState__* s__, ModuleInputDef__* inp__, string__ genName__, Tag__ tag__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string243);
+	VerilogGenerator__write__(s__, mu_____string249);
 	VerilogGenerator__numberTag__(s__, tag__);
 	VerilogGenerator__write__(s__, genName__);
 }
