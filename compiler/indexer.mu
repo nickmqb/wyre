@@ -52,6 +52,9 @@ Indexer {
 						duplicateSymbol(s, n.name)
 					}
 					s.module = n
+					if name.endsWith("_builtin") {
+						s.module.flags |= ModuleFlags.builtin
+					}
 					n.symbols = new Map.create<string, Node>()
 					n.outputs = new List<AssignStatement>{}
 					for input in n.inputs {

@@ -48,7 +48,6 @@ EmulatorState struct #RefType {
 	updateProgram List<Instruction>
 
 	stack List<Value>
-	cycle long
 }
 
 Emulator {
@@ -72,7 +71,6 @@ Emulator {
 			propagateProgram: new List<Instruction>{},
 			updateProgram: new List<Instruction>{},
 			stack: new List<Value>{},
-			cycle: -1,
 		}
 		
 		EmulatorAllocator.top(s, top)
@@ -111,16 +109,26 @@ Emulator {
 	}
 
 	reset(s EmulatorState) {
+		for si := 0; si < s.rs.count {
+			EmulatorRunner.setSlot(s, si, Value { kind: ValueKind.ulong_, z: 0 })
+		}
 		EmulatorRunner.run(s, s.resetProgram)
 		Emulator.commitValues(s)
 	}
 
-	step(s EmulatorState, clk string, val ulong) {
-		EmulatorRunner.setInput(s, s.moduleInstances[0], clk, val)
+	step(s EmulatorState) {
 		EmulatorRunner.run(s, s.propagateProgram)
 		EmulatorRunner.run(s, s.updateProgram)
 		Emulator.commitValues(s)
 		EmulatorRunner.run(s, s.propagateProgram)
+	}
+
+	getSlotIndex(inst ModuleInstance, name string) {
+		sym := inst.def.symbols.get(name)
+		match sym {
+			ModuleInputDef: return inst.localState[sym.localId]
+			AssignStatement: return inst.localState[sym.localId]
+		}
 	}
 
 	commitValues(s EmulatorState) {

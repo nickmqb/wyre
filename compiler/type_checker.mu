@@ -215,7 +215,7 @@ TypeChecker {
 		if !isValidEntityName_nonStatic(def.name.value) {
 			invalidNamePrefix_nonStatic(s, def.name)
 		}
-		if def.blackboxKeyword != null && s.comp.flags & CompilationFlags.simulate != 0 {
+		if def.blackboxKeyword != null && s.comp.flags & CompilationFlags.simulate != 0 && def.flags & ModuleFlags.builtin == 0 {
 			s.errors.add(Error.at(s.unit, def.blackboxKeyword.span, "Cannot simulate blackbox module"))
 		}
 		for inp in def.inputs {

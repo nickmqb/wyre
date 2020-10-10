@@ -137,8 +137,9 @@ ModuleDef struct #RefType {
 
 ModuleFlags enum #Flags {
 	top
+	builtin
 	typeCheckStarted
-	typeCheckDone
+	typeCheckDone	
 }
 
 ModuleInputDef struct #RefType {

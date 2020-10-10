@@ -209,13 +209,6 @@ EmulatorRunner {
 		stack.setCountChecked(stack.count - 1)
 	}
 
-	setInput(s EmulatorState, inst ModuleInstance, input string, val ulong) {
-		si := inst.localState[inst.def.symbols.get(input).as(ModuleInputDef).localId]
-		setSlot(s, si, Value { kind: ValueKind.ulong_, z: val })
-		s.started[si] = true
-		s.done[si] = true
-	}
-
 	setSlot(s EmulatorState, si int, val Value) {
 		if si < s.ws.count {
 			dest := ref s.ws[si]
