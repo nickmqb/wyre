@@ -1,0 +1,129 @@
+SB_RAM40_4K blackbox(
+    #READ_MODE $2
+    #WRITE_MODE $2
+    #INIT_0 $256
+    #INIT_1 $256
+    #INIT_2 $256
+    #INIT_3 $256
+    #INIT_4 $256
+    #INIT_5 $256
+    #INIT_6 $256
+    #INIT_7 $256
+    #INIT_8 $256
+    #INIT_9 $256
+    #INIT_A $256
+    #INIT_B $256
+    #INIT_C $256
+    #INIT_D $256
+    #INIT_E $256
+    #INIT_F $256
+    RCLK $1
+    RCLKE $1
+    RE $1
+    RADDR $11
+    WCLK $1
+    WCLKE $1
+    WE $1
+    WADDR $11
+    WDATA $16
+) {
+    out RDATA $16
+}
+
+SB_RAM40_4KNRNW blackbox(
+    #READ_MODE $2
+    #WRITE_MODE $2
+    #INIT_0 $256
+    #INIT_1 $256
+    #INIT_2 $256
+    #INIT_3 $256
+    #INIT_4 $256
+    #INIT_5 $256
+    #INIT_6 $256
+    #INIT_7 $256
+    #INIT_8 $256
+    #INIT_9 $256
+    #INIT_A $256
+    #INIT_B $256
+    #INIT_C $256
+    #INIT_D $256
+    #INIT_E $256
+    #INIT_F $256
+    RCLKN $1
+    RCLKE $1
+    RE $1
+    RADDR $11
+    WCLKN $1
+    WCLKE $1
+    WE $1
+    WADDR $11
+    WDATA $16
+) {
+    out RDATA $16
+}
+
+SB_SPRAM256KA blackbox(
+    CLOCK $1
+    ADDRESS $14
+    DATAIN $16
+    MASKWREN $4
+    WREN $1
+	CHIPSELECT $1
+    STANDBY $1
+    SLEEP $1
+    POWEROFF $1
+) {
+	out DATAOUT $16
+}
+
+SB_MAC16 blackbox(
+    CLK $1
+    CE $1
+    C $16
+    A $16
+    B $16
+    D $16
+    AHOLD $1
+    BHOLD $1
+    CHOLD $1
+    DHOLD $1
+    IRSTTOP $1
+    IRSTBOT $1
+    ORSTTOP $1
+    ORSTBOT $1
+    OLOADTOP $1
+    OLOADBOT $1
+    ADDSUBTOP $1
+    ADDSUBBOT $1
+    OHOLDTOP $1
+    OHOLDBOT $1
+    CI $1
+    ACCUMCI $1
+    SIGNEXTIN $1
+	#B_SIGNED $1
+	#A_SIGNED $1
+	#MODE_8x8 $1
+	#BOTADDSUB_CARRYSELECT $2
+	#BOTADDSUB_UPPERINPUT $1
+	#BOTADDSUB_LOWERINPUT $2
+	#BOTOUTPUT_SELECT $2
+	#TOPADDSUB_CARRYSELECT $2
+	#TOPADDSUB_UPPERINPUT $1
+	#TOPADDSUB_LOWERINPUT $2
+	#TOPOUTPUT_SELECT $2
+	#PIPELINE_16x16_MULT_REG2 $1
+	#PIPELINE_16x16_MULT_REG1 $1
+	#BOT_8x8_MULT_REG $1
+	#TOP_8x8_MULT_REG $1
+	#D_REG $1
+	#B_REG $1
+	#A_REG $1
+	#C_REG $1
+	#NEG_TRIGGER $1
+) {
+	out O $32
+    out CO $1
+    out ACCUMCO $1
+    out SIGNEXTOUT $1
+}
+
