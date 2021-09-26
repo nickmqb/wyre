@@ -43,296 +43,298 @@ string__ mu_____string0 = { (pointer__)"", 0 };
 string__ mu_____string63 = { (pointer__)"Expected: statement", 19 };
 string__ mu_____string53 = { (pointer__)"Value does not fit into suffix type", 35 };
 string__ mu_____string42 = { (pointer__)"!=", 2 };
-string__ mu_____string152 = { (pointer__)"Don't care values are not allowed here", 38 };
-string__ mu_____string250 = { (pointer__)"[{}:0] ", 7 };
+string__ mu_____string153 = { (pointer__)"Don't care values are not allowed here", 38 };
+string__ mu_____string252 = { (pointer__)"[{}:0] ", 7 };
 string__ mu_____string18 = { (pointer__)"if", 2 };
-string__ mu_____string189 = { (pointer__)"Top module input cannot be static", 33 };
-string__ mu_____string129 = { (pointer__)"Expected: <=", 12 };
-string__ mu_____string140 = { (pointer__)"Expected: register, register.field or slice(...)", 48 };
-string__ mu_____string213 = { (pointer__)"jump", 4 };
+string__ mu_____string190 = { (pointer__)"Top module input cannot be static", 33 };
+string__ mu_____string130 = { (pointer__)"Expected: <=", 12 };
+string__ mu_____string141 = { (pointer__)"Expected: register, register.field or slice(...)", 48 };
+string__ mu_____string214 = { (pointer__)"jump", 4 };
+string__ mu_____string10 = { (pointer__)"0.1.3", 5 };
 string__ mu_____string94 = { (pointer__)"--version", 9 };
 string__ mu_____string46 = { (pointer__)">=", 2 };
-string__ mu_____string244 = { (pointer__)"signed", 6 };
+string__ mu_____string245 = { (pointer__)"signed", 6 };
 string__ mu_____string74 = { (pointer__)"(", 1 };
-string__ mu_____string229 = { (pointer__)"lte", 3 };
+string__ mu_____string230 = { (pointer__)"lte", 3 };
 string__ mu_____string13 = { (pointer__)"{", 1 };
-string__ mu_____string160 = { (pointer__)"Cannot apply operator {} to arguments of type {} and {}", 55 };
+string__ mu_____string161 = { (pointer__)"Cannot apply operator {} to arguments of type {} and {}", 55 };
 string__ mu_____string11 = { (pointer__)"struct", 6 };
 string__ mu_____string44 = { (pointer__)">", 1 };
 string__ mu_____string101 = { (pointer__)"--indent [number]", 17 };
-string__ mu_____string172 = { (pointer__)"Index out of range: must be lower than first value", 50 };
+string__ mu_____string173 = { (pointer__)"Index out of range: must be lower than first value", 50 };
 string__ mu_____string82 = { (pointer__)"\x09""", 1 };
-string__ mu_____string215 = { (pointer__)"dup", 3 };
-string__ mu_____string279 = { (pointer__)" }", 2 };
-string__ mu_____string175 = { (pointer__)"cast() can only be used in static initializer or in simulator", 61 };
+string__ mu_____string216 = { (pointer__)"dup", 3 };
+string__ mu_____string281 = { (pointer__)" }", 2 };
+string__ mu_____string176 = { (pointer__)"cast() can only be used in static initializer or in simulator", 61 };
 string__ mu_____string68 = { (pointer__)"Incorrect indentation: close brace must be indented more", 56 };
-string__ mu_____string262 = { (pointer__)"'b", 2 };
+string__ mu_____string264 = { (pointer__)"'b", 2 };
 string__ mu_____string25 = { (pointer__)"Expected: expression", 20 };
-string__ mu_____string122 = { (pointer__)"Expected: out", 13 };
-string__ mu_____string163 = { (pointer__)"Expected: expression of type $module_out", 40 };
-string__ mu_____string208 = { (pointer__)"store", 5 };
-string__ mu_____string265 = { (pointer__)") ", 2 };
-string__ mu_____string142 = { (pointer__)"Expected: {} args but got {} args", 33 };
+string__ mu_____string123 = { (pointer__)"Expected: out", 13 };
+string__ mu_____string164 = { (pointer__)"Expected: expression of type $module_out", 40 };
+string__ mu_____string209 = { (pointer__)"store", 5 };
+string__ mu_____string267 = { (pointer__)") ", 2 };
+string__ mu_____string143 = { (pointer__)"Expected: {} args but got {} args", 33 };
 string__ mu_____string2 = { (pointer__)"-", 1 };
 string__ mu_____string49 = { (pointer__)"|", 1 };
-string__ mu_____string196 = { (pointer__)"Expected: field name", 20 };
-string__ mu_____string135 = { (pointer__)"Clock statements may not be nested", 34 };
+string__ mu_____string197 = { (pointer__)"Expected: field name", 20 };
+string__ mu_____string136 = { (pointer__)"Clock statements may not be nested", 34 };
 string__ mu_____string16 = { (pointer__)"identifier", 10 };
-string__ mu_____string115 = { (pointer__)"${}", 3 };
-string__ mu_____string214 = { (pointer__)"nop", 3 };
-string__ mu_____string249 = { (pointer__)"input ", 6 };
+string__ mu_____string116 = { (pointer__)"${}", 3 };
+string__ mu_____string215 = { (pointer__)"nop", 3 };
+string__ mu_____string251 = { (pointer__)"input ", 6 };
 string__ mu_____string86 = { (pointer__)"--output", 8 };
-string__ mu_____string139 = { (pointer__)"Expected: register of type struct", 33 };
-string__ mu_____string226 = { (pointer__)"eq", 2 };
+string__ mu_____string140 = { (pointer__)"Expected: register of type struct", 33 };
+string__ mu_____string227 = { (pointer__)"eq", 2 };
 string__ mu_____string88 = { (pointer__)"--indent", 8 };
-string__ mu_____string233 = { (pointer__)"shr", 3 };
-string__ mu_____string282 = { (pointer__)" <= ", 4 };
+string__ mu_____string234 = { (pointer__)"shr", 3 };
+string__ mu_____string284 = { (pointer__)" <= ", 4 };
 string__ mu_____string35 = { (pointer__)"]", 1 };
 string__ mu_____string72 = { (pointer__)"module input declaration", 24 };
 string__ mu_____string98 = { (pointer__)"One or more source files", 24 };
-string__ mu_____string293 = { (pointer__)"Generated output: {}", 20 };
+string__ mu_____string295 = { (pointer__)"Generated output: {}", 20 };
 string__ mu_____string27 = { (pointer__)"cast", 4 };
 string__ mu_____string20 = { (pointer__)"zx", 2 };
-string__ mu_____string184 = { (pointer__)"Expected: constant; must be a divisor of step size", 50 };
+string__ mu_____string185 = { (pointer__)"Expected: constant; must be a divisor of step size", 50 };
 string__ mu_____string28 = { (pointer__)"slice", 5 };
-string__ mu_____string284 = { (pointer__)"#(", 2 };
+string__ mu_____string286 = { (pointer__)"#(", 2 };
 string__ mu_____string8 = { (pointer__)"rb", 2 };
 string__ mu_____string47 = { (pointer__)"&", 1 };
-string__ mu_____string116 = { (pointer__)"$*", 2 };
+string__ mu_____string117 = { (pointer__)"$*", 2 };
 string__ mu_____string95 = { (pointer__)"--help", 6 };
-string__ mu_____string136 = { (pointer__)"Statement must be placed inside clock statement", 47 };
-string__ mu_____string183 = { (pointer__)"swizzle() can only be used in static initializer", 48 };
+string__ mu_____string137 = { (pointer__)"Statement must be placed inside clock statement", 47 };
+string__ mu_____string184 = { (pointer__)"swizzle() can only be used in static initializer", 48 };
 string__ mu_____string61 = { (pointer__)"out", 3 };
 string__ mu_____string14 = { (pointer__)"posedge", 7 };
 string__ mu_____string30 = { (pointer__)"swizzle", 7 };
-string__ mu_____string127 = { (pointer__)"Cannot assign expression to blackbox output", 43 };
-string__ mu_____string235 = { (pointer__)"toULong", 7 };
+string__ mu_____string128 = { (pointer__)"Cannot assign expression to blackbox output", 43 };
+string__ mu_____string236 = { (pointer__)"toULong", 7 };
 string__ mu_____string52 = { (pointer__)"Invalid binary value", 20 };
 string__ mu_____string6 = { (pointer__)"%.*s", 4 };
 string__ mu_____string31 = { (pointer__)":", 1 };
-string__ mu_____string141 = { (pointer__)"slice() can only be used in static initializer or in simulator", 62 };
-string__ mu_____string154 = { (pointer__)"Cannot apply operator {} to argument of type {} and target of type {}", 69 };
-string__ mu_____string220 = { (pointer__)"add", 3 };
+string__ mu_____string142 = { (pointer__)"slice() can only be used in static initializer or in simulator", 62 };
+string__ mu_____string155 = { (pointer__)"Cannot apply operator {} to argument of type {} and target of type {}", 69 };
+string__ mu_____string221 = { (pointer__)"add", 3 };
 string__ mu_____string66 = { (pointer__)"Expected: {}, or: close brace must be indented less", 51 };
-string__ mu_____string267 = { (pointer__)") ? (", 5 };
-string__ mu_____string10 = { (pointer__)"0.1.2", 5 };
-string__ mu_____string113 = { (pointer__)"Expected: = or <=", 17 };
-string__ mu_____string238 = { (pointer__)"begin", 5 };
+string__ mu_____string269 = { (pointer__)") ? (", 5 };
+string__ mu_____string114 = { (pointer__)"Expected: = or <=", 17 };
+string__ mu_____string239 = { (pointer__)"begin", 5 };
+string__ mu_____string248 = { (pointer__)"// Generated by Wyre compiler {}\x0a""", 33 };
 string__ mu_____string92 = { (pointer__)"--max-errors", 12 };
-string__ mu_____string246 = { (pointer__)"// Generated by Wyre compiler {}\x0a""", 33 };
 string__ mu_____string33 = { (pointer__)")", 1 };
-string__ mu_____string143 = { (pointer__)"Expected: expression of fixed width numeric type", 48 };
+string__ mu_____string144 = { (pointer__)"Expected: expression of fixed width numeric type", 48 };
 string__ mu_____string23 = { (pointer__)"Expected: case item, or: close brace must be indented less", 58 };
 string__ mu_____string57 = { (pointer__)"---", 3 };
-string__ mu_____string190 = { (pointer__)"Blackbox module input must be of fixed numeric type", 51 };
-string__ mu_____string263 = { (pointer__)"x", 1 };
-string__ mu_____string219 = { (pointer__)"not", 3 };
+string__ mu_____string191 = { (pointer__)"Blackbox module input must be of fixed numeric type", 51 };
+string__ mu_____string265 = { (pointer__)"x", 1 };
+string__ mu_____string220 = { (pointer__)"not", 3 };
 string__ mu_____string50 = { (pointer__)"?", 1 };
-string__ mu_____string145 = { (pointer__)"Expected: constant", 18 };
-string__ mu_____string261 = { (pointer__)"if (", 4 };
-string__ mu_____string274 = { (pointer__)") == ", 5 };
-string__ mu_____string187 = { (pointer__)"Target type size must be a multiple of 8", 40 };
+string__ mu_____string146 = { (pointer__)"Expected: constant", 18 };
+string__ mu_____string263 = { (pointer__)"if (", 4 };
+string__ mu_____string276 = { (pointer__)") == ", 5 };
+string__ mu_____string188 = { (pointer__)"Target type size must be a multiple of 8", 40 };
 string__ mu_____string67 = { (pointer__)"Incorrect indentation: must match previous {}", 45 };
 string__ mu_____string93 = { (pointer__)"Expected: number, > 0", 21 };
-string__ mu_____string132 = { (pointer__)"Struct must define at least one field", 37 };
-string__ mu_____string236 = { (pointer__)"module", 6 };
+string__ mu_____string133 = { (pointer__)"Struct must define at least one field", 37 };
+string__ mu_____string237 = { (pointer__)"module", 6 };
 string__ mu_____string89 = { (pointer__)"number", 6 };
 string__ mu_____string22 = { (pointer__)"Expected: newline", 17 };
-string__ mu_____string186 = { (pointer__)"Expected: constant; must be a divisor of target type size", 57 };
-string__ mu_____string198 = { (pointer__)"Undefined input: {}.{}", 22 };
-string__ mu_____string275 = { (pointer__)") :", 3 };
+string__ mu_____string187 = { (pointer__)"Expected: constant; must be a divisor of target type size", 57 };
+string__ mu_____string199 = { (pointer__)"Undefined input: {}.{}", 22 };
+string__ mu_____string277 = { (pointer__)") :", 3 };
 string__ mu_____string80 = { (pointer__)"\"", 1 };
-string__ mu_____string125 = { (pointer__)"Expected: expression of fixed width numeric type or struct type or module", 73 };
-string__ mu_____string222 = { (pointer__)"and", 3 };
+string__ mu_____string126 = { (pointer__)"Expected: expression of fixed width numeric type or struct type or module", 73 };
+string__ mu_____string223 = { (pointer__)"and", 3 };
 string__ mu_____string34 = { (pointer__)"}", 1 };
-string__ mu_____string269 = { (pointer__)"wire ", 5 };
-string__ mu_____string285 = { (pointer__)");", 2 };
-string__ mu_____string255 = { (pointer__)"{}'d{}", 6 };
+string__ mu_____string271 = { (pointer__)"wire ", 5 };
+string__ mu_____string287 = { (pointer__)");", 2 };
+string__ mu_____string257 = { (pointer__)"{}'d{}", 6 };
 string__ mu_____string1 = { (pointer__)"0", 1 };
 string__ mu_____string59 = { (pointer__)"Expected: hexadecimal byte value", 32 };
 string__ mu_____string24 = { (pointer__)"Incorrect indentation: must match previous case", 47 };
-string__ mu_____string243 = { (pointer__)"case", 4 };
-string__ mu_____string288 = { (pointer__)"For documentation, see: https://github.com/nickmqb/wyre", 55 };
-string__ mu_____string289 = { (pointer__)"Top module not found: {}", 24 };
-string__ mu_____string204 = { (pointer__)"Logic loop detected", 19 };
-string__ mu_____string134 = { (pointer__)"Expected: fixed width numeric type", 34 };
-string__ mu_____string159 = { (pointer__)"Cannot convert operand to type {}", 33 };
-string__ mu_____string185 = { (pointer__)"Expected: constant; must be a divisor of block size", 51 };
-string__ mu_____string182 = { (pointer__)"Unsupported expression: cannot use swizzle() in constant initializer", 68 };
+string__ mu_____string244 = { (pointer__)"case", 4 };
+string__ mu_____string290 = { (pointer__)"For documentation, see: https://github.com/nickmqb/wyre", 55 };
+string__ mu_____string246 = { (pointer__)"cell", 4 };
+string__ mu_____string291 = { (pointer__)"Top module not found: {}", 24 };
+string__ mu_____string205 = { (pointer__)"Logic loop detected", 19 };
+string__ mu_____string135 = { (pointer__)"Expected: fixed width numeric type", 34 };
+string__ mu_____string160 = { (pointer__)"Cannot convert operand to type {}", 33 };
+string__ mu_____string186 = { (pointer__)"Expected: constant; must be a divisor of block size", 51 };
+string__ mu_____string183 = { (pointer__)"Unsupported expression: cannot use swizzle() in constant initializer", 68 };
 string__ mu_____string39 = { (pointer__)">>", 2 };
-string__ mu_____string165 = { (pointer__)"Cannot unify values of type {} and {}", 37 };
+string__ mu_____string166 = { (pointer__)"Cannot unify values of type {} and {}", 37 };
 string__ mu_____string41 = { (pointer__)"==", 2 };
 string__ mu_____string73 = { (pointer__)"Expected: module input declaration", 34 };
-string__ mu_____string156 = { (pointer__)"Cannot apply operator {} to argument of type {}", 47 };
-string__ mu_____string202 = { (pointer__)"{}.{}", 5 };
-string__ mu_____string271 = { (pointer__)";", 1 };
-string__ mu_____string280 = { (pointer__)"end else begin", 14 };
-string__ mu_____string283 = { (pointer__)"(* keep *) ", 11 };
-string__ mu_____string248 = { (pointer__)"\x0a""", 1 };
+string__ mu_____string157 = { (pointer__)"Cannot apply operator {} to argument of type {}", 47 };
+string__ mu_____string203 = { (pointer__)"{}.{}", 5 };
+string__ mu_____string273 = { (pointer__)";", 1 };
+string__ mu_____string282 = { (pointer__)"end else begin", 14 };
+string__ mu_____string285 = { (pointer__)"(* keep *) ", 11 };
+string__ mu_____string250 = { (pointer__)"\x0a""", 1 };
 string__ mu_____string3 = { (pointer__)"%.17g", 5 };
-string__ mu_____string118 = { (pointer__)"[unknown]", 9 };
-string__ mu_____string128 = { (pointer__)"out keyword can only be used with register or wire declaration", 62 };
-string__ mu_____string188 = { (pointer__)"Cannot simulate blackbox module", 31 };
-string__ mu_____string191 = { (pointer__)"Recursive reference to module: {}", 33 };
+string__ mu_____string119 = { (pointer__)"[unknown]", 9 };
+string__ mu_____string129 = { (pointer__)"out keyword can only be used with register or wire declaration", 62 };
+string__ mu_____string189 = { (pointer__)"Cannot simulate blackbox module", 31 };
+string__ mu_____string192 = { (pointer__)"Recursive reference to module: {}", 33 };
 string__ mu_____string51 = { (pointer__)"case item", 9 };
-string__ mu_____string258 = { (pointer__)");\x0a""", 3 };
-string__ mu_____string259 = { (pointer__)"always @(", 9 };
-string__ mu_____string273 = { (pointer__)"(((", 3 };
+string__ mu_____string260 = { (pointer__)");\x0a""", 3 };
+string__ mu_____string261 = { (pointer__)"always @(", 9 };
+string__ mu_____string275 = { (pointer__)"(((", 3 };
 string__ mu_____string64 = { (pointer__)"Expected: field declaration", 27 };
-string__ mu_____string231 = { (pointer__)"gte", 3 };
+string__ mu_____string232 = { (pointer__)"gte", 3 };
 string__ mu_____string96 = { (pointer__)"Invalid flag: {}", 16 };
-string__ mu_____string228 = { (pointer__)"lt", 2 };
+string__ mu_____string229 = { (pointer__)"lt", 2 };
 string__ mu_____string36 = { (pointer__)".", 1 };
-string__ mu_____string167 = { (pointer__)"Expected: numeric constant", 26 };
-string__ mu_____string200 = { (pointer__)", ", 2 };
-string__ mu_____string260 = { (pointer__)") begin", 7 };
+string__ mu_____string168 = { (pointer__)"Expected: numeric constant", 26 };
+string__ mu_____string201 = { (pointer__)", ", 2 };
+string__ mu_____string262 = { (pointer__)") begin", 7 };
 string__ mu_____string100 = { (pointer__)"--output [path]", 15 };
-string__ mu_____string158 = { (pointer__)"Unsupported expression: cannot apply operator {} to arguments of type {} and {}", 79 };
+string__ mu_____string159 = { (pointer__)"Unsupported expression: cannot apply operator {} to arguments of type {} and {}", 79 };
 string__ mu_____string105 = { (pointer__)"A symbol with the same name has already been defined", 52 };
 string__ mu_____string43 = { (pointer__)"<", 1 };
-string__ mu_____string157 = { (pointer__)"Invalid unary operator: {}", 26 };
-string__ mu_____string234 = { (pointer__)"storeSlice", 10 };
+string__ mu_____string158 = { (pointer__)"Invalid unary operator: {}", 26 };
+string__ mu_____string235 = { (pointer__)"storeSlice", 10 };
 string__ mu_____string48 = { (pointer__)"^", 1 };
 string__ mu_____string78 = { (pointer__)"Unexpected token(s)", 19 };
-string__ mu_____string241 = { (pointer__)"output", 6 };
-string__ mu_____string254 = { (pointer__)"(((compiler_bug:invalid_num", 27 };
-string__ mu_____string201 = { (pointer__)"Missing required parameters: {}", 31 };
-string__ mu_____string178 = { (pointer__)"Unsupported expression: cannot use chunk() in constant initializer", 66 };
-string__ mu_____string270 = { (pointer__)"local", 5 };
-string__ mu_____string144 = { (pointer__)"Expected: expression of numeric type", 36 };
-string__ mu_____string169 = { (pointer__)"Unsupported expression: cannot index argument of type {}", 56 };
-string__ mu_____string111 = { (pointer__)"Expected: identifier", 20 };
-string__ mu_____string149 = { (pointer__)"Type of {} cannot be inferred due to recursive reference, please specify the type explicity", 91 };
-string__ mu_____string117 = { (pointer__)"[{}]", 4 };
+string__ mu_____string242 = { (pointer__)"output", 6 };
+string__ mu_____string256 = { (pointer__)"(((compiler_bug:invalid_num", 27 };
+string__ mu_____string202 = { (pointer__)"Missing required parameters: {}", 31 };
+string__ mu_____string179 = { (pointer__)"Unsupported expression: cannot use chunk() in constant initializer", 66 };
+string__ mu_____string272 = { (pointer__)"local", 5 };
+string__ mu_____string145 = { (pointer__)"Expected: expression of numeric type", 36 };
+string__ mu_____string170 = { (pointer__)"Unsupported expression: cannot index argument of type {}", 56 };
+string__ mu_____string112 = { (pointer__)"Expected: identifier", 20 };
+string__ mu_____string150 = { (pointer__)"Type of {} cannot be inferred due to recursive reference, please specify the type explicity", 91 };
+string__ mu_____string118 = { (pointer__)"[{}]", 4 };
 string__ mu_____string17 = { (pointer__)"statement", 9 };
-string__ mu_____string203 = { (pointer__)"{}_{}", 5 };
-string__ mu_____string221 = { (pointer__)"sub", 3 };
-string__ mu_____string264 = { (pointer__)"1", 1 };
-string__ mu_____string206 = { (pointer__)"pushArray", 9 };
-string__ mu_____string126 = { (pointer__)"Blackbox module output must be of fixed numeric type", 52 };
-string__ mu_____string150 = { (pointer__)"Recursive reference to const: {}", 32 };
-string__ mu_____string193 = { (pointer__)"Expected: module or function name", 33 };
-string__ mu_____string107 = { (pointer__)"Undefined type: {}", 18 };
-string__ mu_____string195 = { (pointer__)"Field has already been specified", 32 };
-string__ mu_____string138 = { (pointer__)"Undefined field: {}.{}", 22 };
+string__ mu_____string204 = { (pointer__)"{}_{}", 5 };
+string__ mu_____string222 = { (pointer__)"sub", 3 };
+string__ mu_____string266 = { (pointer__)"1", 1 };
+string__ mu_____string207 = { (pointer__)"pushArray", 9 };
+string__ mu_____string127 = { (pointer__)"Blackbox module output must be of fixed numeric type", 52 };
+string__ mu_____string151 = { (pointer__)"Recursive reference to const: {}", 32 };
+string__ mu_____string194 = { (pointer__)"Expected: module or function name", 33 };
+string__ mu_____string108 = { (pointer__)"Undefined type: {}", 18 };
+string__ mu_____string196 = { (pointer__)"Field has already been specified", 32 };
+string__ mu_____string139 = { (pointer__)"Undefined field: {}.{}", 22 };
 string__ mu_____string87 = { (pointer__)"path", 4 };
-string__ mu_____string166 = { (pointer__)"Cannot convert constant of type {} to {}", 40 };
-string__ mu_____string176 = { (pointer__)"Unsupported cast; downcast not allowed for expressions larger than $64", 70 };
-string__ mu_____string227 = { (pointer__)"neq", 3 };
+string__ mu_____string167 = { (pointer__)"Cannot convert constant of type {} to {}", 40 };
+string__ mu_____string177 = { (pointer__)"Unsupported cast; downcast not allowed for expressions larger than $64", 70 };
+string__ mu_____string228 = { (pointer__)"neq", 3 };
 string__ mu_____string56 = { (pointer__)"Invalid decimal value", 21 };
 string__ mu_____string9 = { (pointer__)"wb", 2 };
 string__ mu_____string37 = { (pointer__)"*", 1 };
-string__ mu_____string217 = { (pointer__)"neg", 3 };
-string__ mu_____string292 = { (pointer__)"Could not write to output file: {}", 34 };
+string__ mu_____string218 = { (pointer__)"neg", 3 };
+string__ mu_____string294 = { (pointer__)"Could not write to output file: {}", 34 };
 string__ mu_____string38 = { (pointer__)"<<", 2 };
-string__ mu_____string180 = { (pointer__)"Expected: constant; must be lower than number of chunks", 55 };
-string__ mu_____string124 = { (pointer__)"out keyword can only be used with wire of fixed with numeric type or struct type", 80 };
+string__ mu_____string181 = { (pointer__)"Expected: constant; must be lower than number of chunks", 55 };
+string__ mu_____string106 = { (pointer__)"_builtin", 8 };
+string__ mu_____string125 = { (pointer__)"out keyword can only be used with wire of fixed with numeric type or struct type", 80 };
 string__ mu_____string65 = { (pointer__)"field type", 10 };
 string__ mu_____string70 = { (pointer__)"blackbox", 8 };
 string__ mu_____string84 = { (pointer__)"--top", 5 };
-string__ mu_____string278 = { (pointer__)"{ ", 2 };
-string__ mu_____string137 = { (pointer__)"Expected: expression of type $1", 31 };
+string__ mu_____string280 = { (pointer__)"{ ", 2 };
+string__ mu_____string138 = { (pointer__)"Expected: expression of type $1", 31 };
 string__ mu_____string83 = { (pointer__)"    ", 4 };
 string__ mu_____string104 = { (pointer__)"{}{}\x0a""{}\x0a""{}{}", 12 };
-string__ mu_____string120 = { (pointer__)"Expected: expression of fixed width numeric type or struct", 58 };
+string__ mu_____string121 = { (pointer__)"Expected: expression of fixed width numeric type or struct", 58 };
 string__ mu_____string5 = { (pointer__)"false", 5 };
 string__ mu_____string26 = { (pointer__)"rep", 3 };
 string__ mu_____string58 = { (pointer__)"~", 1 };
 string__ mu_____string55 = { (pointer__)"Invalid hexadecimal value", 25 };
-string__ mu_____string108 = { (pointer__)"Expected: expression that evaluates to constant during initialization", 69 };
-string__ mu_____string112 = { (pointer__)"=", 1 };
-string__ mu_____string174 = { (pointer__)"Expected: constant, > 0", 23 };
-string__ mu_____string106 = { (pointer__)"Invalid name; must start with letter, _ or #", 44 };
-string__ mu_____string209 = { (pointer__)"mask", 4 };
-string__ mu_____string179 = { (pointer__)"chunk() can only be used in static initializer", 46 };
+string__ mu_____string109 = { (pointer__)"Expected: expression that evaluates to constant during initialization", 69 };
+string__ mu_____string113 = { (pointer__)"=", 1 };
+string__ mu_____string175 = { (pointer__)"Expected: constant, > 0", 23 };
+string__ mu_____string107 = { (pointer__)"Invalid name; must start with letter, _ or #", 44 };
+string__ mu_____string210 = { (pointer__)"mask", 4 };
+string__ mu_____string180 = { (pointer__)"chunk() can only be used in static initializer", 46 };
 string__ mu_____string97 = { (pointer__)"Could not read file: {}", 23 };
-string__ mu_____string245 = { (pointer__)"_", 1 };
-string__ mu_____string230 = { (pointer__)"gt", 2 };
-string__ mu_____string119 = { (pointer__)"Expected: fixed width numeric type or struct type", 49 };
-string__ mu_____string240 = { (pointer__)"input", 5 };
-string__ mu_____string212 = { (pointer__)"jumpIfZero", 10 };
-string__ mu_____string170 = { (pointer__)"Cannot index argument of type {}", 32 };
+string__ mu_____string247 = { (pointer__)"_", 1 };
+string__ mu_____string231 = { (pointer__)"gt", 2 };
+string__ mu_____string120 = { (pointer__)"Expected: fixed width numeric type or struct type", 49 };
+string__ mu_____string241 = { (pointer__)"input", 5 };
+string__ mu_____string213 = { (pointer__)"jumpIfZero", 10 };
+string__ mu_____string171 = { (pointer__)"Cannot index argument of type {}", 32 };
 string__ mu_____string79 = { (pointer__)" ", 1 };
-string__ mu_____string151 = { (pointer__)"Expected: register, wire or constant", 36 };
-string__ mu_____string171 = { (pointer__)"Index out of range", 18 };
-string__ mu_____string216 = { (pointer__)"discard", 7 };
-string__ mu_____string121 = { (pointer__)"Expected: type", 14 };
+string__ mu_____string152 = { (pointer__)"Expected: register, wire or constant", 36 };
+string__ mu_____string172 = { (pointer__)"Index out of range", 18 };
+string__ mu_____string217 = { (pointer__)"discard", 7 };
+string__ mu_____string122 = { (pointer__)"Expected: type", 14 };
 string__ mu_____string85 = { (pointer__)"module name", 11 };
-string__ mu_____string199 = { (pointer__)"Expected: parameter name", 24 };
-string__ mu_____string223 = { (pointer__)"or", 2 };
-string__ mu_____string224 = { (pointer__)"xor", 3 };
-string__ mu_____string225 = { (pointer__)"mul", 3 };
+string__ mu_____string200 = { (pointer__)"Expected: parameter name", 24 };
+string__ mu_____string224 = { (pointer__)"or", 2 };
+string__ mu_____string225 = { (pointer__)"xor", 3 };
+string__ mu_____string226 = { (pointer__)"mul", 3 };
 string__ mu_____string71 = { (pointer__)"input type", 10 };
 string__ mu_____string76 = { (pointer__)"Expected: struct, const or module declaration", 45 };
-string__ mu_____string268 = { (pointer__)") : (", 5 };
-string__ mu_____string272 = { (pointer__)"assign ", 7 };
-string__ mu_____string281 = { (pointer__)"(* keep *) reg ", 15 };
+string__ mu_____string270 = { (pointer__)") : (", 5 };
+string__ mu_____string274 = { (pointer__)"assign ", 7 };
+string__ mu_____string283 = { (pointer__)"(* keep *) reg ", 15 };
 string__ mu_____string62 = { (pointer__)"reg", 3 };
 string__ mu_____string21 = { (pointer__)"match", 5 };
-string__ mu_____string114 = { (pointer__)"Cannot assign {} to {}", 22 };
-string__ mu_____string148 = { (pointer__)"wire", 4 };
-string__ mu_____string153 = { (pointer__)"Unsupported expression: cannot apply operator {} to argument of type {}", 71 };
-string__ mu_____string181 = { (pointer__)"Expected: constant; must be a divisor of target type {}", 55 };
-string__ mu_____string194 = { (pointer__)"Expected: struct type", 21 };
+string__ mu_____string115 = { (pointer__)"Cannot assign {} to {}", 22 };
+string__ mu_____string149 = { (pointer__)"wire", 4 };
+string__ mu_____string154 = { (pointer__)"Unsupported expression: cannot apply operator {} to argument of type {}", 71 };
+string__ mu_____string182 = { (pointer__)"Expected: constant; must be a divisor of target type {}", 55 };
+string__ mu_____string195 = { (pointer__)"Expected: struct type", 21 };
 string__ mu_____string102 = { (pointer__)"--max-errors [number]", 21 };
-string__ mu_____string237 = { (pointer__)"endmodule", 9 };
-string__ mu_____string286 = { (pointer__)"\x0a""endmodule\x0a""", 11 };
-string__ mu_____string218 = { (pointer__)"invert", 6 };
-string__ mu_____string257 = { (pointer__)" = 0", 4 };
-string__ mu_____string168 = { (pointer__)"Must match type of previous case", 32 };
+string__ mu_____string238 = { (pointer__)"endmodule", 9 };
+string__ mu_____string288 = { (pointer__)"\x0a""endmodule\x0a""", 11 };
+string__ mu_____string219 = { (pointer__)"invert", 6 };
+string__ mu_____string259 = { (pointer__)" = 0", 4 };
+string__ mu_____string169 = { (pointer__)"Must match type of previous case", 32 };
 string__ mu_____string40 = { (pointer__)"+", 1 };
-string__ mu_____string210 = { (pointer__)"index", 5 };
-string__ mu_____string211 = { (pointer__)"shlOr", 5 };
-string__ mu_____string239 = { (pointer__)"end", 3 };
-string__ mu_____string251 = { (pointer__)"output ", 7 };
-string__ mu_____string287 = { (pointer__)"Wyre compiler, version {}", 25 };
+string__ mu_____string211 = { (pointer__)"index", 5 };
+string__ mu_____string212 = { (pointer__)"shlOr", 5 };
+string__ mu_____string240 = { (pointer__)"end", 3 };
+string__ mu_____string253 = { (pointer__)"output ", 7 };
+string__ mu_____string289 = { (pointer__)"Wyre compiler, version {}", 25 };
 string__ mu_____string45 = { (pointer__)"<=", 2 };
 string__ mu_____string54 = { (pointer__)"Invalid suffix type", 19 };
 string__ mu_____string69 = { (pointer__)"field declaration", 17 };
-string__ mu_____string133 = { (pointer__)"Field type cannot be larger than $64", 36 };
+string__ mu_____string134 = { (pointer__)"Field type cannot be larger than $64", 36 };
 string__ mu_____string99 = { (pointer__)"--top [module]", 14 };
-string__ mu_____string232 = { (pointer__)"shl", 3 };
-string__ mu_____string253 = { (pointer__)" = ", 3 };
+string__ mu_____string233 = { (pointer__)"shl", 3 };
+string__ mu_____string255 = { (pointer__)" = ", 3 };
 string__ mu_____string90 = { (pointer__)"Expected: number", 16 };
-string__ mu_____string277 = { (pointer__)"[", 1 };
-string__ mu_____string130 = { (pointer__)"Expected: register", 18 };
-string__ mu_____string147 = { (pointer__)"register", 8 };
+string__ mu_____string279 = { (pointer__)"[", 1 };
+string__ mu_____string131 = { (pointer__)"Expected: register", 18 };
+string__ mu_____string148 = { (pointer__)"register", 8 };
 string__ mu_____string29 = { (pointer__)"chunk", 5 };
-string__ mu_____string173 = { (pointer__)"Unsupported expression; type of expression cannot be larger than $64", 68 };
-string__ mu_____string123 = { (pointer__)"Expected: :=", 12 };
+string__ mu_____string174 = { (pointer__)"Unsupported expression; type of expression cannot be larger than $64", 68 };
+string__ mu_____string124 = { (pointer__)"Expected: :=", 12 };
 string__ mu_____string32 = { (pointer__)",", 1 };
-string__ mu_____string256 = { (pointer__)"{}'h", 4 };
-string__ mu_____string109 = { (pointer__)"Statement is not allowed inside blackbox module", 47 };
-string__ mu_____string155 = { (pointer__)"Cannot apply operator {} because target type is inferred", 56 };
-string__ mu_____string197 = { (pointer__)"Input has already been specified", 32 };
-string__ mu_____string164 = { (pointer__)"Cannot convert {} to {}", 23 };
+string__ mu_____string258 = { (pointer__)"{}'h", 4 };
+string__ mu_____string110 = { (pointer__)"Statement is not allowed inside blackbox module", 47 };
+string__ mu_____string156 = { (pointer__)"Cannot apply operator {} because target type is inferred", 56 };
+string__ mu_____string198 = { (pointer__)"Input has already been specified", 32 };
+string__ mu_____string165 = { (pointer__)"Cannot convert {} to {}", 23 };
 string__ mu_____string91 = { (pointer__)"Expected: number, >= 0", 22 };
 string__ mu_____string15 = { (pointer__)"negedge", 7 };
 string__ mu_____string7 = { (pointer__)"%.*s\x0a""", 5 };
-string__ mu_____string162 = { (pointer__)"Undefined output: {}.{}", 23 };
+string__ mu_____string163 = { (pointer__)"Undefined output: {}.{}", 23 };
 string__ mu_____string77 = { (pointer__)"Incorrect indentation: top-level declaration may not be indented", 64 };
-string__ mu_____string161 = { (pointer__)"Invalid binary operator: {}", 27 };
-string__ mu_____string205 = { (pointer__)"push", 4 };
+string__ mu_____string162 = { (pointer__)"Invalid binary operator: {}", 27 };
+string__ mu_____string206 = { (pointer__)"push", 4 };
 string__ mu_____string103 = { (pointer__)"\x0a""-> {}:{}", 9 };
-string__ mu_____string242 = { (pointer__)"inout", 5 };
-string__ mu_____string110 = { (pointer__)"Invalid name; must start with letter or _", 41 };
+string__ mu_____string243 = { (pointer__)"inout", 5 };
+string__ mu_____string111 = { (pointer__)"Invalid name; must start with letter or _", 41 };
 string__ mu_____string4 = { (pointer__)"true", 4 };
-string__ mu_____string177 = { (pointer__)"Cannot use slice() in constant initializer", 42 };
+string__ mu_____string178 = { (pointer__)"Cannot use slice() in constant initializer", 42 };
 string__ mu_____string12 = { (pointer__)"Expected: {}", 12 };
-string__ mu_____string146 = { (pointer__)"Expected: constant between 1 and 64 inclusive", 45 };
-string__ mu_____string207 = { (pointer__)"load", 4 };
+string__ mu_____string147 = { (pointer__)"Expected: constant between 1 and 64 inclusive", 45 };
+string__ mu_____string208 = { (pointer__)"load", 4 };
 string__ mu_____string19 = { (pointer__)"expression", 10 };
-string__ mu_____string290 = { (pointer__)"{} errors ({} shown)", 20 };
-string__ mu_____string252 = { (pointer__)"reg ", 4 };
+string__ mu_____string292 = { (pointer__)"{} errors ({} shown)", 20 };
+string__ mu_____string254 = { (pointer__)"reg ", 4 };
 string__ mu_____string60 = { (pointer__)"else", 4 };
 string__ mu_____string75 = { (pointer__)":=", 2 };
-string__ mu_____string131 = { (pointer__)"Undefined symbol: {}", 20 };
-string__ mu_____string291 = { (pointer__)"{} errors", 9 };
+string__ mu_____string132 = { (pointer__)"Undefined symbol: {}", 20 };
+string__ mu_____string293 = { (pointer__)"{} errors", 9 };
 string__ mu_____string81 = { (pointer__)"{}\x0a""{}\x0a""{}{}", 10 };
-string__ mu_____string192 = { (pointer__)"Expected: module name", 21 };
-string__ mu_____string266 = { (pointer__)" (", 2 };
-string__ mu_____string276 = { (pointer__)"{}'b{}", 6 };
-string__ mu_____string247 = { (pointer__)"\x0a""module ", 8 };
+string__ mu_____string193 = { (pointer__)"Expected: module name", 21 };
+string__ mu_____string268 = { (pointer__)" (", 2 };
+string__ mu_____string278 = { (pointer__)"{}'b{}", 6 };
+string__ mu_____string249 = { (pointer__)"\x0a""module ", 8 };
 // FORWARD TYPES
 typedef struct tag_____MapEntry__string__Ptr__FieldDef______ MapEntry__string__Ptr__FieldDef______;
 typedef struct tag_____MapEntry__Node__Tag____ MapEntry__Node__Tag____;
@@ -351,30 +353,30 @@ typedef struct tag_____StructDef__ StructDef__;
 typedef struct tag_____IAllocator__ IAllocator__;
 typedef struct tag_____IntRange__ IntRange__;
 typedef struct { int__ id__; pointer__ dataPtr__; } Node__;
-#define Node_____Ptr__BraceExpression____ 1
-#define Node_____Ptr__ArrayExpression____ 2
-#define Node_____Ptr__Token____ 3
-#define Node_____Ptr__ModuleInputDef____ 4
-#define Node_____Ptr__Block____ 5
-#define Node_____Ptr__AssignStatement____ 6
-#define Node_____Ptr__ClockStatement____ 7
-#define Node_____Ptr__IfStatement____ 8
-#define Node_____Ptr__UnaryOperatorExpression____ 9
-#define Node_____Ptr__CodeUnit____ 10
-#define Node_____Ptr__ConstDef____ 11
-#define Node_____Ptr__StructDef____ 12
-#define Node_____Ptr__FieldDef____ 13
-#define Node_____Ptr__ModuleDef____ 14
-#define Node_____Ptr__DotExpression____ 15
-#define Node_____Ptr__BinaryOperatorExpression____ 16
-#define Node_____Ptr__TernaryOperatorExpression____ 17
-#define Node_____Ptr__MatchExpression____ 18
-#define Node_____Ptr__MatchExpressionCase____ 19
-#define Node_____Ptr__CallExpression____ 20
-#define Node_____Ptr__StructInitializerExpression____ 21
-#define Node_____Ptr__IndexExpression____ 22
-#define Node_____Ptr__NumberExpression____ 23
-#define Node_____Ptr__ParenExpression____ 24
+#define Node_____Ptr__CodeUnit____ 1
+#define Node_____Ptr__ConstDef____ 2
+#define Node_____Ptr__StructDef____ 3
+#define Node_____Ptr__FieldDef____ 4
+#define Node_____Ptr__ModuleDef____ 5
+#define Node_____Ptr__ModuleInputDef____ 6
+#define Node_____Ptr__Block____ 7
+#define Node_____Ptr__AssignStatement____ 8
+#define Node_____Ptr__ClockStatement____ 9
+#define Node_____Ptr__IfStatement____ 10
+#define Node_____Ptr__UnaryOperatorExpression____ 11
+#define Node_____Ptr__DotExpression____ 12
+#define Node_____Ptr__BinaryOperatorExpression____ 13
+#define Node_____Ptr__TernaryOperatorExpression____ 14
+#define Node_____Ptr__MatchExpression____ 15
+#define Node_____Ptr__MatchExpressionCase____ 16
+#define Node_____Ptr__CallExpression____ 17
+#define Node_____Ptr__StructInitializerExpression____ 18
+#define Node_____Ptr__IndexExpression____ 19
+#define Node_____Ptr__NumberExpression____ 20
+#define Node_____Ptr__ParenExpression____ 21
+#define Node_____Ptr__BraceExpression____ 22
+#define Node_____Ptr__ArrayExpression____ 23
+#define Node_____Ptr__Token____ 24
 typedef struct tag_____Tag__ Tag__;
 typedef struct tag_____MatchExpression__ MatchExpression__;
 typedef struct tag_____CallArg__ CallArg__;
@@ -382,11 +384,11 @@ typedef struct tag_____BinaryOperatorExpression__ BinaryOperatorExpression__;
 typedef struct tag_____Result__string____ Result__string____;
 typedef uint32_t Opcode__;
 typedef struct tag_____QueuedCallArgs__ QueuedCallArgs__;
+typedef struct tag_____Maybe__uint____ Maybe__uint____;
 typedef struct tag_____Maybe__string____ Maybe__string____;
 typedef struct tag_____Maybe__long____ Maybe__long____;
 typedef struct tag_____Maybe__int____ Maybe__int____;
 typedef struct tag_____Maybe__ulong____ Maybe__ulong____;
-typedef struct tag_____Maybe__uint____ Maybe__uint____;
 typedef struct tag_____Map__NodeWithCtx__string____ Map__NodeWithCtx__string____;
 typedef struct tag_____Map__string__Ptr__FieldDef______ Map__string__Ptr__FieldDef______;
 typedef struct tag_____Map__string__Node____ Map__string__Node____;
@@ -422,17 +424,14 @@ typedef struct tag_____LocationInfo__ LocationInfo__;
 typedef uint32_t TagKind__;
 typedef struct tag_____IndexExpression__ IndexExpression__;
 typedef uint32_t BuiltinCall__;
-typedef struct tag_____List__SlotInfo____ List__SlotInfo____;
-typedef struct tag_____List__Instruction____ List__Instruction____;
-typedef struct tag_____List__string____ List__string____;
-typedef struct tag_____List__Ptr__CodeUnit______ List__Ptr__CodeUnit______;
 typedef struct tag_____List__Ptr__FieldDef______ List__Ptr__FieldDef______;
 typedef struct tag_____List__Ptr__ModuleInputDef______ List__Ptr__ModuleInputDef______;
 typedef struct tag_____List__Ptr__AssignStatement______ List__Ptr__AssignStatement______;
 typedef struct tag_____List__Ptr__MatchExpressionCase______ List__Ptr__MatchExpressionCase______;
 typedef struct tag_____List__Ptr__CallArg______ List__Ptr__CallArg______;
-typedef struct tag_____List__Error____ List__Error____;
 typedef struct tag_____List__Ptr__SourceFile______ List__Ptr__SourceFile______;
+typedef struct tag_____List__Ptr__CodeUnit______ List__Ptr__CodeUnit______;
+typedef struct tag_____List__Error____ List__Error____;
 typedef struct tag_____List__Ptr__ModuleInstance______ List__Ptr__ModuleInstance______;
 typedef struct tag_____List__Value____ List__Value____;
 typedef struct tag_____List__byte____ List__byte____;
@@ -440,6 +439,9 @@ typedef struct tag_____List__int____ List__int____;
 typedef struct tag_____List__Node____ List__Node____;
 typedef struct tag_____List__QueuedCallArgs____ List__QueuedCallArgs____;
 typedef struct tag_____List__CommandLineArgsParserError____ List__CommandLineArgsParserError____;
+typedef struct tag_____List__SlotInfo____ List__SlotInfo____;
+typedef struct tag_____List__Instruction____ List__Instruction____;
+typedef struct tag_____List__string____ List__string____;
 typedef struct tag_____Set__string____ Set__string____;
 typedef uint32_t TokenType__;
 typedef struct tag_____ArrayExpression__ ArrayExpression__;
@@ -448,20 +450,20 @@ typedef struct tag_____NodeWithCtx__ NodeWithCtx__;
 typedef struct tag_____RangeFinderState__ RangeFinderState__;
 typedef struct tag_____ClockStatement__ ClockStatement__;
 typedef uint32_t ModuleFlags__;
-typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ Array__MapEntry__NodeWithCtx__string______;
-typedef struct tag_____Array__MapEntry__Node__Tag______ Array__MapEntry__Node__Tag______;
-typedef struct tag_____Array__string____ Array__string____;
-typedef struct tag_____Array__bool____ Array__bool____;
 typedef struct tag_____Array__cstring____ Array__cstring____;
 typedef struct tag_____Array__IntRange____ Array__IntRange____;
 typedef struct tag_____Array__Error____ Array__Error____;
 typedef struct tag_____Array__int____ Array__int____;
 typedef struct tag_____Array__byte____ Array__byte____;
 typedef struct tag_____Array__SetEntry__string______ Array__SetEntry__string______;
-typedef struct tag_____Array__MapEntry__Node__Value______ Array__MapEntry__Node__Value______;
 typedef struct tag_____Array__MapEntry__Node__int______ Array__MapEntry__Node__int______;
 typedef struct tag_____Array__MapEntry__string__Node______ Array__MapEntry__string__Node______;
 typedef struct tag_____Array__MapEntry__string__Ptr__FieldDef________ Array__MapEntry__string__Ptr__FieldDef________;
+typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ Array__MapEntry__NodeWithCtx__string______;
+typedef struct tag_____Array__MapEntry__Node__Value______ Array__MapEntry__Node__Value______;
+typedef struct tag_____Array__MapEntry__Node__Tag______ Array__MapEntry__Node__Tag______;
+typedef struct tag_____Array__string____ Array__string____;
+typedef struct tag_____Array__bool____ Array__bool____;
 typedef struct tag_____MatchExpressionCase__ MatchExpressionCase__;
 typedef uint32_t ParseCommaListState__;
 typedef struct tag_____GeneratorState__ GeneratorState__;
@@ -479,10 +481,10 @@ typedef uint32_t ModuleInputFlags__;
 typedef struct tag_____IfStatement__ IfStatement__;
 typedef pointer__ (*fun__Ptr__ArenaAllocator____pointer__ssize__ssize__ssize__pointer____)(ArenaAllocator__*, pointer__, ssize__, ssize__, ssize__);
 typedef void__ (*fun__int__void____)(int__);
+typedef int__ (*fun__Error__Error__int____)(Error__, Error__);
 typedef pointer__ (*fun__pointer__ssize__pointer____)(pointer__, ssize__);
 typedef void__ (*fun__pointer__pointer__void____)(pointer__, pointer__);
 typedef pointer__ (*fun__Ptr__ArenaAllocator____ssize__pointer____)(ArenaAllocator__*, ssize__);
-typedef int__ (*fun__Error__Error__int____)(Error__, Error__);
 typedef pointer__ (*fun__pointer__pointer__ssize__ssize__ssize__pointer____)(pointer__, pointer__, ssize__, ssize__, ssize__);
 // STRUCTS
 typedef struct tag_____MapEntry__string__Ptr__FieldDef______ {
@@ -606,6 +608,10 @@ typedef struct tag_____QueuedCallArgs__ {
 	ModuleDef__* def__;
 	ModuleDef__* context__;
 } QueuedCallArgs__;
+typedef struct tag_____Maybe__uint____ {
+	uint__ value__;
+	bool__ hasValue__;
+} Maybe__uint____;
 typedef struct tag_____Maybe__string____ {
 	string__ value__;
 	bool__ hasValue__;
@@ -622,10 +628,6 @@ typedef struct tag_____Maybe__ulong____ {
 	ulong__ value__;
 	bool__ hasValue__;
 } Maybe__ulong____;
-typedef struct tag_____Maybe__uint____ {
-	uint__ value__;
-	bool__ hasValue__;
-} Maybe__uint____;
 typedef struct tag_____Array__MapEntry__NodeWithCtx__string______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -838,7 +840,6 @@ typedef struct tag_____EmulatorState__ {
 	List__Instruction____* propagateProgram__;
 	List__Instruction____* updateProgram__;
 	List__Value____* stack__;
-	long__ cycle__;
 } EmulatorState__;
 typedef struct tag_____TypeCheckResult__ {
 	Tag__ tag__;
@@ -871,26 +872,6 @@ typedef struct tag_____IndexExpression__ {
 	Node__ lowerExpr__;
 	Token__* closeBracket__;
 } IndexExpression__;
-typedef struct tag_____List__SlotInfo____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__SlotInfo____;
-typedef struct tag_____List__Instruction____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Instruction____;
-typedef struct tag_____List__string____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__string____;
-typedef struct tag_____List__Ptr__CodeUnit______ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Ptr__CodeUnit______;
 typedef struct tag_____List__Ptr__FieldDef______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -916,16 +897,21 @@ typedef struct tag_____List__Ptr__CallArg______ {
 	int__ count__;
 	int__ capacity__;
 } List__Ptr__CallArg______;
-typedef struct tag_____List__Error____ {
-	pointer__ dataPtr__;
-	int__ count__;
-	int__ capacity__;
-} List__Error____;
 typedef struct tag_____List__Ptr__SourceFile______ {
 	pointer__ dataPtr__;
 	int__ count__;
 	int__ capacity__;
 } List__Ptr__SourceFile______;
+typedef struct tag_____List__Ptr__CodeUnit______ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Ptr__CodeUnit______;
+typedef struct tag_____List__Error____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Error____;
 typedef struct tag_____List__Ptr__ModuleInstance______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -961,6 +947,21 @@ typedef struct tag_____List__CommandLineArgsParserError____ {
 	int__ count__;
 	int__ capacity__;
 } List__CommandLineArgsParserError____;
+typedef struct tag_____List__SlotInfo____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__SlotInfo____;
+typedef struct tag_____List__Instruction____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__Instruction____;
+typedef struct tag_____List__string____ {
+	pointer__ dataPtr__;
+	int__ count__;
+	int__ capacity__;
+} List__string____;
 typedef struct tag_____Array__SetEntry__string______ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -998,14 +999,6 @@ typedef struct tag_____ClockStatement__ {
 	Token__* name__;
 	Block__* body__;
 } ClockStatement__;
-typedef struct tag_____Array__string____ {
-	pointer__ dataPtr__;
-	int__ count__;
-} Array__string____;
-typedef struct tag_____Array__bool____ {
-	pointer__ dataPtr__;
-	int__ count__;
-} Array__bool____;
 typedef struct tag_____Array__cstring____ {
 	pointer__ dataPtr__;
 	int__ count__;
@@ -1026,6 +1019,14 @@ typedef struct tag_____Array__byte____ {
 	pointer__ dataPtr__;
 	int__ count__;
 } Array__byte____;
+typedef struct tag_____Array__string____ {
+	pointer__ dataPtr__;
+	int__ count__;
+} Array__string____;
+typedef struct tag_____Array__bool____ {
+	pointer__ dataPtr__;
+	int__ count__;
+} Array__bool____;
 typedef struct tag_____MatchExpressionCase__ {
 	Node__ valueExpr__;
 	Token__* colon__;
@@ -1222,9 +1223,10 @@ const uint__ TokenType__closeBrace__ = 6u;
 const uint__ TokenType__numberLiteral__ = 1u;
 const bool__ top______32bit__ = 0;
 _Thread_local IAllocator__ top_____currentAllocator__;
-const uint__ ModuleFlags__typeCheckDone__ = 4u;
+const uint__ ModuleFlags__builtin__ = 2u;
+const uint__ ModuleFlags__typeCheckDone__ = 8u;
 const uint__ ModuleFlags__top__ = 1u;
-const uint__ ModuleFlags__typeCheckStarted__ = 2u;
+const uint__ ModuleFlags__typeCheckStarted__ = 4u;
 const uint__ ParseCommaListState__expectValue__ = 1u;
 const uint__ ParseCommaListState__expectComma__ = 2u;
 const uint__ ParseCommaListState__start__ = 0u;
@@ -1408,9 +1410,10 @@ void__ ulong__writeTo__(ulong__ val__, StringBuilder__* sb__);
 Maybe__ulong____ ulong__tryParseHex__(string__ s__);
 void__ ulong__writeHexTo__(ulong__ val__, StringBuilder__* sb__);
 void__ Emulator__reset__(EmulatorState__* s__);
+int__ Emulator__getSlotIndex__(ModuleInstance__* inst__, string__ name__);
 void__ Emulator__commitValues__(EmulatorState__* s__);
 EmulatorState__* Emulator__init__(Compilation__* comp__, ModuleDef__* top__);
-void__ Emulator__step__(EmulatorState__* s__, string__ clk__, ulong__ val__);
+void__ Emulator__step__(EmulatorState__* s__);
 void__ CommandLineArgsParser__error__(CommandLineArgsParser__* self__, string__ text__);
 string__ CommandLineArgsParser__readToken__(CommandLineArgsParser__* self__);
 string__ CommandLineArgsParser__getErrorDesc__(CommandLineArgsParserError__ e__, CommandLineInfo__ info__);
@@ -1528,17 +1531,14 @@ int__ uint__compare__(uint__ a__, uint__ b__);
 void__ uint__writeTo__(uint__ val__, StringBuilder__* sb__);
 uint__ ushort__hash__(ushort__ val__);
 void__ ushort__writeTo__(ushort__ val__, StringBuilder__* sb__);
-void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__);
-void__ List__reserve__string____(List__string____* this__, int__ capacity__);
-void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__);
-void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__);
 void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__);
 void__ List__reserve__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, int__ capacity__);
 void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int__ capacity__);
-void__ List__reserve__Value____(List__Value____* this__, int__ capacity__);
 void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, int__ capacity__);
-void__ List__reserve__Error____(List__Error____* this__, int__ capacity__);
+void__ List__reserve__Value____(List__Value____* this__, int__ capacity__);
 void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__);
+void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__);
+void__ List__reserve__Error____(List__Error____* this__, int__ capacity__);
 void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__);
 void__ List__reserve__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__, int__ capacity__);
 void__ List__reserve__byte____(List__byte____* this__, int__ capacity__);
@@ -1546,19 +1546,19 @@ void__ List__reserve__int____(List__int____* this__, int__ capacity__);
 void__ List__reserve__Node____(List__Node____* this__, int__ capacity__);
 void__ List__reserve__QueuedCallArgs____(List__QueuedCallArgs____* this__, int__ capacity__);
 void__ List__reserve__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, int__ capacity__);
+void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__);
+void__ List__reserve__string____(List__string____* this__, int__ capacity__);
+void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__);
 Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__);
 Array__byte____ List__slice__byte____(List__byte____* this__, int__ from__, int__ to__);
 Array__string____ List__slice__string____(List__string____* this__, int__ from__, int__ to__);
 void__ List__setCountChecked__Value____(List__Value____* this__, int__ count__);
-void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__);
-void__ List__add__string____(List__string____* this__, string__ item__);
-void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__);
-void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__);
 void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__);
 void__ List__add__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__, MatchExpressionCase__* item__);
 void__ List__add__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, FieldDef__* item__);
 void__ List__add__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, ModuleInputDef__* item__);
 void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, SourceFile__* item__);
+void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__);
 void__ List__add__Error____(List__Error____* this__, Error__ item__);
 void__ List__add__Value____(List__Value____* this__, Value__ item__);
 void__ List__add__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, ModuleInstance__* item__);
@@ -1568,17 +1568,17 @@ void__ List__add__int____(List__int____* this__, int__ item__);
 void__ List__add__Node____(List__Node____* this__, Node__ item__);
 void__ List__add__QueuedCallArgs____(List__QueuedCallArgs____* this__, QueuedCallArgs__ item__);
 void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__, CommandLineArgsParserError__ item__);
-void__ List__grow__SlotInfo____(List__SlotInfo____* this__);
-void__ List__grow__string____(List__string____* this__);
-void__ List__grow__Instruction____(List__Instruction____* this__);
-void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__);
+void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__);
+void__ List__add__string____(List__string____* this__, string__ item__);
+void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__);
 void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__);
 void__ List__grow__Ptr__MatchExpressionCase______(List__Ptr__MatchExpressionCase______* this__);
 void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__);
-void__ List__grow__Value____(List__Value____* this__);
 void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__);
-void__ List__grow__Error____(List__Error____* this__);
 void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__);
+void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__);
+void__ List__grow__Error____(List__Error____* this__);
+void__ List__grow__Value____(List__Value____* this__);
 void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__);
 void__ List__grow__Ptr__CodeUnit______(List__Ptr__CodeUnit______* this__);
 void__ List__grow__byte____(List__byte____* this__);
@@ -1586,6 +1586,9 @@ void__ List__grow__int____(List__int____* this__);
 void__ List__grow__Node____(List__Node____* this__);
 void__ List__grow__QueuedCallArgs____(List__QueuedCallArgs____* this__);
 void__ List__grow__CommandLineArgsParserError____(List__CommandLineArgsParserError____* this__);
+void__ List__grow__SlotInfo____(List__SlotInfo____* this__);
+void__ List__grow__string____(List__string____* this__);
+void__ List__grow__Instruction____(List__Instruction____* this__);
 bool__ Set__tryRemove__string____(Set__string____* this__, string__ value__);
 bool__ Set__tryAdd__string____(Set__string____* this__, string__ value__);
 void__ Set__add__string____(Set__string____* this__, string__ value__);
@@ -1615,7 +1618,6 @@ void__ EmulatorOrderCalculator__logicLoop__(EmulatorState__* s__, Node__ e__);
 int__ CheckedMath__addPositiveInt__(int__ x__, int__ y__);
 ssize__ CheckedMath__mulPositiveSsize__(ssize__ x__, ssize__ y__);
 int__ CheckedMath__mulPositiveInt__(int__ x__, int__ y__);
-void__ EmulatorRunner__setInput__(EmulatorState__* s__, ModuleInstance__* inst__, string__ input__, ulong__ val__);
 Value__ EmulatorRunner__swizzle__(EmulatorState__* s__, Value__ target__, int__ targetWidth__, int__ seqSize__, int__ readStep__, int__ blockSize__);
 Array__byte____* EmulatorRunner__unpackArray__(Value__ v__);
 void__ EmulatorRunner__run__(EmulatorState__* s__, List__Instruction____* program__);
@@ -1626,9 +1628,9 @@ Value__ EmulatorRunner__slice__(EmulatorState__* s__, Value__ target__, ulong__ 
 ulong__ EmulatorRunner__unpack__(Value__ v__);
 ulong__ EmulatorRunner__unpackAsULong__(Value__ v__);
 Value__ EmulatorRunner__packULong__(Array__byte____* data__);
+Array__byte____ EmulatorRunner__unpackAsArray__(Value__* v__);
 void__ EmulatorRunner__storeSlice__(EmulatorState__* s__, int__ si__, ulong__ offset__, ulong__ width__, Value__ val__);
 Value__ EmulatorRunner__bigSlice__(EmulatorState__* s__, Value__ target__, ulong__ targetWidth__, ulong__ offset__, ulong__ width__);
-Array__byte____ EmulatorRunner__unpackAsArray__(Value__* v__);
 Value__ EmulatorRunner__packArray__(Array__byte____* data__);
 uint__ NodeWithCtx__hash__(NodeWithCtx__ self__);
 bool__ NodeWithCtx__equals__(NodeWithCtx__ a__, NodeWithCtx__ b__);
@@ -1636,19 +1638,19 @@ void__ Stdout__write__(string__ s__);
 void__ Stdout__writeLine__(string__ s__);
 Array__byte____ Array__slice__byte____(Array__byte____* this__, int__ from__, int__ to__);
 void__ Array__stableSort__Error____(Array__Error____* items__, fun__Error__Error__int____ compareFn__);
-Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__);
-Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__);
-Array__string____ Array__cons__string____(int__ count__);
-Array__bool____ Array__cons__bool____(int__ count__);
 Array__IntRange____ Array__cons__IntRange____(int__ count__);
 Array__Error____ Array__cons__Error____(int__ count__);
 Array__int____ Array__cons__int____(int__ count__);
 Array__byte____ Array__cons__byte____(int__ count__);
 Array__SetEntry__string______ Array__cons__SetEntry__string______(int__ count__);
-Array__MapEntry__Node__Value______ Array__cons__MapEntry__Node__Value______(int__ count__);
-Array__MapEntry__Node__Tag______ Array__cons__MapEntry__Node__Tag______(int__ count__);
 Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__);
 Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__);
+Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__);
+Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__);
+Array__MapEntry__Node__Value______ Array__cons__MapEntry__Node__Value______(int__ count__);
+Array__MapEntry__Node__Tag______ Array__cons__MapEntry__Node__Tag______(int__ count__);
+Array__string____ Array__cons__string____(int__ count__);
+Array__bool____ Array__cons__bool____(int__ count__);
 void__ Array__clearValues__byte____(Array__byte____* this__);
 void__ Array__stableSortMerge___Error____(Array__Error____* src__, Array__Error____* dest__, int__ from__, int__ chunk__, fun__Error__Error__int____ compareFn__);
 void__ Array__copySlice__Error____(Array__Error____* src__, int__ from__, int__ to__, Array__Error____* dest__, int__ index__);
@@ -2608,11 +2610,11 @@ void__ EmulatorStep__token__(EmulatorState__* s__, Token__* e__) {
 				Array__int____* local8 = ((s__)->inst__)->localState__;
 				uint__ local9 = (uint__)((local7)->localId__);
 				mu_____boundscheck(local9 < (uint__)local8->count__);
-				int__ local10 = (s__)->evalCtxField__;
-				int__ local11 = 0;
-				int__ si__ = ((((int__*)local8->dataPtr__)[local9])) + (((local10 > local11) ? local10 : local11));
+				int__ si__ = ((int__*)local8->dataPtr__)[local9];
 				if (((si__)) >= ((0))) {
-					EmulatorStep__emiti__(s__, Opcode__load__, si__);
+					int__ local10 = (s__)->evalCtxField__;
+					int__ local11 = 0;
+					EmulatorStep__emiti__(s__, Opcode__load__, ((si__)) + (((local10 > local11) ? local10 : local11)));
 				} else {
 					EmulatorStep__expression__(s__, (local7)->expr__);
 				}
@@ -2710,7 +2712,7 @@ void__ top_____main__() {
 		StringBuilder__write__(&local6, top_____compilerVersion__);
 		Stdout__writeLine__(StringBuilder__compactToString__(&local6));
 		if ((args__)->printHelp__) {
-			Stdout__writeLine__(mu_____string288);
+			Stdout__writeLine__(mu_____string290);
 		}
 		exit(1);
 	}
@@ -4097,103 +4099,103 @@ Result__string____ Result__fromError__string____(int__ error__) {
 }
 string__ Opcode__toString__(Opcode__ op__) {
 	if ((op__) == (Opcode__push__)) {
-		return mu_____string205;
+		return mu_____string206;
 	} else {
 		if ((op__) == (Opcode__pushArray__)) {
-			return mu_____string206;
+			return mu_____string207;
 		} else {
 			if ((op__) == (Opcode__load__)) {
-				return mu_____string207;
+				return mu_____string208;
 			} else {
 				if ((op__) == (Opcode__store__)) {
-					return mu_____string208;
+					return mu_____string209;
 				} else {
 					if ((op__) == (Opcode__mask__)) {
-						return mu_____string209;
+						return mu_____string210;
 					} else {
 						if ((op__) == (Opcode__index__)) {
-							return mu_____string210;
+							return mu_____string211;
 						} else {
 							if ((op__) == (Opcode__shlOr__)) {
-								return mu_____string211;
+								return mu_____string212;
 							} else {
 								if ((op__) == (Opcode__jumpIfZero__)) {
-									return mu_____string212;
+									return mu_____string213;
 								} else {
 									if ((op__) == (Opcode__jump__)) {
-										return mu_____string213;
+										return mu_____string214;
 									} else {
 										if ((op__) == (Opcode__nop__)) {
-											return mu_____string214;
+											return mu_____string215;
 										} else {
 											if ((op__) == (Opcode__dup__)) {
-												return mu_____string215;
+												return mu_____string216;
 											} else {
 												if ((op__) == (Opcode__discard__)) {
-													return mu_____string216;
+													return mu_____string217;
 												} else {
 													if ((op__) == (Opcode__neg__)) {
-														return mu_____string217;
+														return mu_____string218;
 													} else {
 														if ((op__) == (Opcode__invert__)) {
-															return mu_____string218;
+															return mu_____string219;
 														} else {
 															if ((op__) == (Opcode__not__)) {
-																return mu_____string219;
+																return mu_____string220;
 															} else {
 																if ((op__) == (Opcode__add__)) {
-																	return mu_____string220;
+																	return mu_____string221;
 																} else {
 																	if ((op__) == (Opcode__sub__)) {
-																		return mu_____string221;
+																		return mu_____string222;
 																	} else {
 																		if ((op__) == (Opcode__and__)) {
-																			return mu_____string222;
+																			return mu_____string223;
 																		} else {
 																			if ((op__) == (Opcode__or__)) {
-																				return mu_____string223;
+																				return mu_____string224;
 																			} else {
 																				if ((op__) == (Opcode__xor__)) {
-																					return mu_____string224;
+																					return mu_____string225;
 																				} else {
 																					if ((op__) == (Opcode__mul__)) {
-																						return mu_____string225;
+																						return mu_____string226;
 																					} else {
 																						if ((op__) == (Opcode__eq__)) {
-																							return mu_____string226;
+																							return mu_____string227;
 																						} else {
 																							if ((op__) == (Opcode__neq__)) {
-																								return mu_____string227;
+																								return mu_____string228;
 																							} else {
 																								if ((op__) == (Opcode__lt__)) {
-																									return mu_____string228;
+																									return mu_____string229;
 																								} else {
 																									if ((op__) == (Opcode__lte__)) {
-																										return mu_____string229;
+																										return mu_____string230;
 																									} else {
 																										if ((op__) == (Opcode__gt__)) {
-																											return mu_____string230;
+																											return mu_____string231;
 																										} else {
 																											if ((op__) == (Opcode__gte__)) {
-																												return mu_____string231;
+																												return mu_____string232;
 																											} else {
 																												if ((op__) == (Opcode__shl__)) {
-																													return mu_____string232;
+																													return mu_____string233;
 																												} else {
 																													if ((op__) == (Opcode__shr__)) {
-																														return mu_____string233;
+																														return mu_____string234;
 																													} else {
 																														if ((op__) == (Opcode__slice__)) {
 																															return mu_____string28;
 																														} else {
 																															if ((op__) == (Opcode__storeSlice__)) {
-																																return mu_____string234;
+																																return mu_____string235;
 																															} else {
 																																if ((op__) == (Opcode__swizzle__)) {
 																																	return mu_____string30;
 																																} else {
 																																	if ((op__) == (Opcode__toULong__)) {
-																																		return mu_____string235;
+																																		return mu_____string236;
 																																	} else {
 																																		return mu_____string50;
 																																	}
@@ -5512,8 +5514,43 @@ void__ ulong__writeHexTo__(ulong__ val__, StringBuilder__* sb__) {
 	StringBuilder__reverseSlice__(sb__, from__, (sb__)->count__);
 }
 void__ Emulator__reset__(EmulatorState__* s__) {
+	{
+		int__ si__ = 0;
+		while (((si__)) < ((((s__)->rs__)->count__))) {
+			Value__ local0;
+			memset(&local0, 0, sizeof(Value__));
+			local0.kind__ = ValueKind__ulong___;
+			local0.z__ = (ulong__)(0);
+			EmulatorRunner__setSlot__(s__, si__, local0);
+			si__ += 1;
+		}
+	}
 	EmulatorRunner__run__(s__, (s__)->resetProgram__);
 	Emulator__commitValues__(s__);
+}
+int__ Emulator__getSlotIndex__(ModuleInstance__* inst__, string__ name__) {
+	Node__ sym__ = Map__get__string__Node____(((inst__)->def__)->symbols__, name__);
+	switch ((sym__).id__) {
+		case Node_____Ptr__ModuleInputDef____: {
+			ModuleInputDef__* local0 = (ModuleInputDef__*)(sym__.dataPtr__);
+			Array__int____* local1 = (inst__)->localState__;
+			uint__ local2 = (uint__)((local0)->localId__);
+			mu_____boundscheck(local2 < (uint__)local1->count__);
+			return ((int__*)local1->dataPtr__)[local2];
+		}
+		case Node_____Ptr__AssignStatement____: {
+			AssignStatement__* local3 = (AssignStatement__*)(sym__.dataPtr__);
+			Array__int____* local4 = (inst__)->localState__;
+			uint__ local5 = (uint__)((local3)->localId__);
+			mu_____boundscheck(local5 < (uint__)local4->count__);
+			return ((int__*)local4->dataPtr__)[local5];
+		}
+		case 0:
+		default: {
+			mu_____nomatch();
+			return 0;
+		}
+	}
 }
 void__ Emulator__commitValues__(EmulatorState__* s__) {
 	{
@@ -5590,9 +5627,9 @@ EmulatorState__* Emulator__init__(Compilation__* comp__, ModuleDef__* top__) {
 	memset(&local20, 0, sizeof(List__Value____));
 	*local19 = local20;
 	local1.stack__ = local19;
-	local1.cycle__ = (long__)(-1);
 	*local0 = local1;
 	EmulatorState__* s__ = local0;
+	List__reserve__Value____((s__)->stack__, 256);
 	EmulatorAllocator__top__(s__, top__);
 	Emulator__commitValues__(s__);
 	EmulatorOrderCalculator__comp__(s__);
@@ -5662,11 +5699,7 @@ EmulatorState__* Emulator__init__(Compilation__* comp__, ModuleDef__* top__) {
 	}
 	return s__;
 }
-void__ Emulator__step__(EmulatorState__* s__, string__ clk__, ulong__ val__) {
-	List__Ptr__ModuleInstance______* local0 = (s__)->moduleInstances__;
-	uint__ local1 = (uint__)(0);
-	mu_____boundscheck(local1 < (uint__)local0->count__);
-	EmulatorRunner__setInput__(s__, ((ModuleInstance__**)local0->dataPtr__)[local1], clk__, val__);
+void__ Emulator__step__(EmulatorState__* s__) {
 	EmulatorRunner__run__(s__, (s__)->propagateProgram__);
 	EmulatorRunner__run__(s__, (s__)->updateProgram__);
 	Emulator__commitValues__(s__);
@@ -5817,7 +5850,7 @@ int__ CommandLineArgsParser__getNumColumns___(string__ s__, int__ tabSize__) {
 void__ CrashHandler__enable__() {
 }
 void__ TypeChecker__expectedFixedNumberType__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string134));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string135));
 }
 void__ TypeChecker__unit__(TypeCheckerState__* s__, CodeUnit__* unit__) {
 	(s__)->unit__ = unit__;
@@ -5889,7 +5922,7 @@ void__ TypeChecker__fieldDef__(TypeCheckerState__* s__, FieldDef__* def__) {
 			if (local2) {
 				if ((((tag__).q__)) <= ((64))) {
 				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((def__)->type__)->span__, mu_____string133));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((def__)->type__)->span__, mu_____string134));
 				}
 			} else {
 				Node__ local3;
@@ -5945,7 +5978,7 @@ TypeCheckResult__ TypeChecker__fixedNumericTypeArg__(TypeCheckerState__* s__, Ca
 }
 void__ TypeChecker__if___(TypeCheckerState__* s__, IfStatement__* st__) {
 	if (!((s__)->inClock__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->ifKeyword__)->span__, mu_____string136));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->ifKeyword__)->span__, mu_____string137));
 	}
 	if ((((s__)->module__)->blackboxKeyword__) != (null__)) {
 		Node__ local0;
@@ -5969,7 +6002,7 @@ void__ TypeChecker__if___(TypeCheckerState__* s__, IfStatement__* st__) {
 		}
 		if (local3) {
 		} else {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string137));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string138));
 		}
 	}
 	TypeChecker__block__(s__, (st__)->ifBody__);
@@ -5998,6 +6031,7 @@ void__ TypeChecker__badConstConversion__(TypeCheckerState__* s__, Node__ e__, Ta
 }
 void__ TypeChecker__ensureStructDone__(TypeCheckerState__* s__, StructDef__* def__) {
 	if (((((def__)->flags__)) & ((StructFlags__typeCheckDone__))) != (0)) {
+	} else {
 		TypeCheckerContext__ prev__ = TypeChecker__pushContext__(s__, (def__)->unit__, null__);
 		TypeChecker__struct___(s__, def__);
 		TypeChecker__restoreContext__(s__, prev__);
@@ -6068,7 +6102,7 @@ TypeCheckResult__ TypeChecker__dot__(TypeCheckerState__* s__, DotExpression__* e
 					}
 				}
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lhs__), mu_____string163));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lhs__), mu_____string164));
 			}
 		}
 	}
@@ -6145,7 +6179,7 @@ TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, Ternar
 		}
 		if (local1) {
 		} else {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->conditionExpr__), mu_____string137));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->conditionExpr__), mu_____string138));
 		}
 	}
 	TypeCheckResult__ local2;
@@ -6251,7 +6285,7 @@ TypeCheckResult__ TypeChecker__ternaryOperator__(TypeCheckerState__* s__, Ternar
 	return result__;
 }
 void__ TypeChecker__expectedFixedNumberOrStruct__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string119));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string120));
 }
 TypeCheckResult__ TypeChecker__token__(TypeCheckerState__* s__, Token__* e__) {
 	Node__ local0;
@@ -6347,7 +6381,7 @@ TypeCheckResult__ TypeChecker__token__(TypeCheckerState__* s__, Token__* e__) {
 						break;
 					}
 					default: {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (e__)->span__, mu_____string151));
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (e__)->span__, mu_____string152));
 						break;
 					}
 					case 0: {
@@ -6551,12 +6585,12 @@ Tag__ TypeChecker__typename__(TypeCheckerState__* s__, Node__ node__, Token__* n
 }
 TypeCheckResult__ TypeChecker__slice__(TypeCheckerState__* s__, CallExpression__* e__) {
 	if (((s__)->module__) == (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string177));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string178));
 	}
 	if ((s__)->isStaticExpr__) {
 	} else {
 		if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string141));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string142));
 		}
 	}
 	TypeChecker__builtinArgs__(s__, e__, 3);
@@ -6583,7 +6617,7 @@ TypeCheckResult__ TypeChecker__slice__(TypeCheckerState__* s__, CallExpression__
 				List__Ptr__CallArg______* local3 = (e__)->args__;
 				uint__ local4 = (uint__)(2);
 				mu_____boundscheck(local4 < (uint__)local3->count__);
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local3->dataPtr__)[local4])->expr__), mu_____string174));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local3->dataPtr__)[local4])->expr__), mu_____string175));
 			}
 		} else {
 			bool__ local6 = (width__).hasValue__;
@@ -6604,18 +6638,18 @@ TypeCheckResult__ TypeChecker__slice__(TypeCheckerState__* s__, CallExpression__
 				List__Ptr__CallArg______* local8 = (e__)->args__;
 				uint__ local9 = (uint__)(2);
 				mu_____boundscheck(local9 < (uint__)local8->count__);
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local8->dataPtr__)[local9])->expr__), mu_____string146));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local8->dataPtr__)[local9])->expr__), mu_____string147));
 			}
 		}
 	}
 	return result__;
 }
 void__ TypeChecker__unsupportedRegUpdate__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string140));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string141));
 }
 TypeCheckResult__ TypeChecker__assignSlice__(TypeCheckerState__* s__, AssignStatement__* st__, CallExpression__* e__) {
 	if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string141));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string142));
 	}
 	TypeChecker__builtinArgs__(s__, e__, 3);
 	if (((((e__)->args__)->count__)) >= ((1))) {
@@ -6658,13 +6692,13 @@ TypeCheckResult__ TypeChecker__assignSlice__(TypeCheckerState__* s__, AssignStat
 						TypeChecker__expectedFixedNumberExpression__(s__, regArg__);
 					}
 				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string130));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string131));
 				}
 			} else {
 				TypeChecker__badSymbol__(s__, nameToken__);
 			}
 		} else {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(regArg__), mu_____string130));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(regArg__), mu_____string131));
 		}
 	}
 	TypeChecker__numberArg__(s__, e__, 1);
@@ -6692,7 +6726,7 @@ TypeCheckResult__ TypeChecker__assignSlice__(TypeCheckerState__* s__, AssignStat
 			List__Ptr__CallArg______* local13 = (e__)->args__;
 			uint__ local14 = (uint__)(2);
 			mu_____boundscheck(local14 < (uint__)local13->count__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local13->dataPtr__)[local14])->expr__), mu_____string146));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local13->dataPtr__)[local14])->expr__), mu_____string147));
 			TypeCheckResult__ local15;
 			memset(&local15, 0, sizeof(TypeCheckResult__));
 			return local15;
@@ -6731,7 +6765,7 @@ void__ TypeChecker__clock__(TypeCheckerState__* s__, ClockStatement__* st__) {
 		}
 	}
 	if ((s__)->inClock__) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->keyword__)->span__, mu_____string135));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->keyword__)->span__, mu_____string136));
 	}
 	(s__)->inClock__ = true__;
 	TypeChecker__block__(s__, (st__)->body__);
@@ -6791,24 +6825,24 @@ TypeCheckResult__ TypeChecker__rep__(TypeCheckerState__* s__, CallExpression__* 
 					Node__ local4;
 					local4.dataPtr__ = (pointer__)(e__);
 					local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local4), mu_____string173));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local4), mu_____string174));
 				}
 			}
 		} else {
 			List__Ptr__CallArg______* local5 = (e__)->args__;
 			uint__ local6 = (uint__)(1);
 			mu_____boundscheck(local6 < (uint__)local5->count__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local5->dataPtr__)[local6])->expr__), mu_____string174));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local5->dataPtr__)[local6])->expr__), mu_____string175));
 		}
 	}
 	return result__;
 }
 TypeCheckResult__ TypeChecker__swizzle__(TypeCheckerState__* s__, CallExpression__* e__) {
 	if (((s__)->module__) == (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string182));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string183));
 	}
 	if (!((s__)->isStaticExpr__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string183));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string184));
 	}
 	TypeChecker__builtinArgs__(s__, e__, 4);
 	TypeCheckResult__ arrayArg__ = TypeChecker__fixedNumberArg__(s__, e__, 0);
@@ -6868,25 +6902,25 @@ TypeCheckResult__ TypeChecker__swizzle__(TypeCheckerState__* s__, CallExpression
 						List__Ptr__CallArg______* local10 = (e__)->args__;
 						uint__ local11 = (uint__)(1);
 						mu_____boundscheck(local11 < (uint__)local10->count__);
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local10->dataPtr__)[local11])->expr__), mu_____string184));
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local10->dataPtr__)[local11])->expr__), mu_____string185));
 					}
 				} else {
 					List__Ptr__CallArg______* local12 = (e__)->args__;
 					uint__ local13 = (uint__)(2);
 					mu_____boundscheck(local13 < (uint__)local12->count__);
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local12->dataPtr__)[local13])->expr__), mu_____string185));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local12->dataPtr__)[local13])->expr__), mu_____string186));
 				}
 			} else {
 				List__Ptr__CallArg______* local14 = (e__)->args__;
 				uint__ local15 = (uint__)(3);
 				mu_____boundscheck(local15 < (uint__)local14->count__);
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local14->dataPtr__)[local15])->expr__), mu_____string186));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local14->dataPtr__)[local15])->expr__), mu_____string187));
 			}
 		} else {
 			List__Ptr__CallArg______* local16 = (e__)->args__;
 			uint__ local17 = (uint__)(0);
 			mu_____boundscheck(local17 < (uint__)local16->count__);
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local16->dataPtr__)[local17])->expr__), mu_____string187));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local16->dataPtr__)[local17])->expr__), mu_____string188));
 		}
 	}
 	TypeCheckResult__ local18;
@@ -7004,7 +7038,7 @@ TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression
 			if (local1) {
 				condValid__ = true__;
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string143));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string144));
 			}
 		}
 	}
@@ -7030,7 +7064,7 @@ TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression
 						}
 					}
 				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->valueExpr__), mu_____string167));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->valueExpr__), mu_____string168));
 				}
 			}
 			if ((((c__)->resultExpr__).dataPtr__) != ((pointer__)(null__))) {
@@ -7043,7 +7077,7 @@ TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression
 						}
 						if (local6) {
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string168));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string169));
 						}
 					} else {
 						bool__ local7 = (((rex__).tag__).kind__) == (TagKind__number__);
@@ -7053,7 +7087,7 @@ TypeCheckResult__ TypeChecker__match___(TypeCheckerState__* s__, MatchExpression
 						if (local7) {
 							(result__).tag__ = (rex__).tag__;
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string143));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((c__)->resultExpr__), mu_____string144));
 						}
 					}
 				}
@@ -7074,7 +7108,7 @@ void__ TypeChecker__restoreContext__(TypeCheckerState__* s__, TypeCheckerContext
 	(s__)->allowDontCare__ = (ctx__).allowDontCare__;
 }
 void__ TypeChecker__expectedConstant__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string145));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string146));
 }
 void__ TypeChecker__badBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ lhs__, Tag__ rhs__) {
 	StringBuilder__ local0;
@@ -7093,7 +7127,7 @@ void__ TypeChecker__badBinaryOp__(TypeCheckerState__* s__, Token__* op__, Tag__ 
 void__ TypeChecker__moduleInput__(TypeCheckerState__* s__, ModuleInputDef__* input__) {
 	if ((((((s__)->module__)->flags__)) & ((ModuleFlags__top__))) != (0)) {
 		if (((((input__)->flags__)) & ((ModuleInputFlags__static__))) != (0)) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->name__)->span__, mu_____string189));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->name__)->span__, mu_____string190));
 		}
 	}
 	if (((input__)->type__) != (null__)) {
@@ -7108,7 +7142,7 @@ void__ TypeChecker__moduleInput__(TypeCheckerState__* s__, ModuleInputDef__* inp
 			}
 			if (local1) {
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->type__)->span__, mu_____string190));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((input__)->type__)->span__, mu_____string191));
 			}
 			((s__)->module__)->numInputSlots__ = ((((s__)->module__)->numInputSlots__)) + ((TypeChecker__numSlots__((s__)->comp__, tag__)));
 		}
@@ -7121,7 +7155,7 @@ bool__ TypeChecker__isValidEntityName__(string__ s__) {
 	return (((char__*)local0->dataPtr__)[local1]) != ('$');
 }
 void__ TypeChecker__statementNotAllowedInsideBlackbox__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string109));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string110));
 }
 void__ TypeChecker__badUnify__(TypeCheckerState__* s__, Token__* token__, Tag__ te__, Tag__ fe__) {
 	StringBuilder__ local0;
@@ -7202,11 +7236,11 @@ void__ TypeChecker__reg__(TypeCheckerState__* s__, AssignStatement__* st__) {
 		}
 	} else {
 		if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string111));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string112));
 		}
 	}
 	if (((st__)->op__) != (null__)) {
-		if (string__equals__(((st__)->op__)->value__, mu_____string112)) {
+		if (string__equals__(((st__)->op__)->value__, mu_____string113)) {
 			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
 			} else {
 				List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
@@ -7219,7 +7253,7 @@ void__ TypeChecker__reg__(TypeCheckerState__* s__, AssignStatement__* st__) {
 					List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
 				}
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string113));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string114));
 			}
 		}
 	} else {
@@ -7290,7 +7324,7 @@ void__ TypeChecker__reg__(TypeCheckerState__* s__, AssignStatement__* st__) {
 				}
 			}
 		} else {
-			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).to__, mu_____string121));
+			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).to__, mu_____string122));
 		}
 	}
 }
@@ -7305,9 +7339,9 @@ void__ TypeChecker__ensureAssignDone__(TypeCheckerState__* s__, AssignStatement_
 		} else {
 			string__ local0;
 			if (((((st__)->flags__)) & ((AssignFlags__reg__))) != (0)) {
-				local0 = mu_____string147;
-			} else {
 				local0 = mu_____string148;
+			} else {
+				local0 = mu_____string149;
 			}
 			string__ kind__ = local0;
 			StringBuilder__ local1;
@@ -7331,7 +7365,7 @@ void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
 		local0 = ((st__)->outKeyword__) == (null__);
 	}
 	if (local0) {
-		List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).from__, mu_____string122));
+		List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((st__)->nameExpr__)).from__, mu_____string123));
 	}
 	if (((st__)->nameExpr__).id__ == Node_____Ptr__Token____) {
 		if (((st__)->outKeyword__) == (null__)) {
@@ -7351,7 +7385,7 @@ void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
 		}
 	} else {
 		if ((((st__)->nameExpr__).dataPtr__) != ((pointer__)(null__))) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string111));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->nameExpr__), mu_____string112));
 		}
 	}
 	if ((((s__)->module__)->blackboxKeyword__) == (null__)) {
@@ -7362,7 +7396,7 @@ void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
 					List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
 				}
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string123));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string124));
 			}
 		} else {
 			Node__ local3;
@@ -7383,7 +7417,7 @@ void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
 				}
 				local3 = local5;
 			}
-			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local3)).to__, mu_____string123));
+			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local3)).to__, mu_____string124));
 		}
 		if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
 			if (((st__)->type__) != (null__)) {
@@ -7427,13 +7461,13 @@ void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
 							local11 = ((st__)->outKeyword__) != (null__);
 						}
 						if (local11) {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->outKeyword__)->span__, mu_____string124));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->outKeyword__)->span__, mu_____string125));
 						}
 					} else {
 						if (((((st__)->flags__)) & ((AssignFlags__static__))) != (0)) {
 							TypeChecker__expectedFixedNumberOrStructExpression__(s__, (st__)->expr__);
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string125));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string126));
 						}
 					}
 				}
@@ -7447,7 +7481,7 @@ void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
 			Tag__ tag__ = TypeChecker__typename__(s__, local12, (st__)->type__);
 			if (((tag__).kind__) == (TagKind__number__)) {
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->type__)->span__, mu_____string126));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->type__)->span__, mu_____string127));
 			}
 		} else {
 			Node__ local13;
@@ -7459,17 +7493,17 @@ void__ TypeChecker__wire__(TypeCheckerState__* s__, AssignStatement__* st__) {
 				local14.id__ = local14.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
 				local13 = local14;
 			}
-			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local13)).to__, mu_____string121));
+			List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__(local13)).to__, mu_____string122));
 		}
 		if (((st__)->op__) != (null__)) {
 			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((st__)->op__)->span__).from__, (RangeFinder__find__((st__)->expr__)).to__), mu_____string127));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, IntRange__cons__((((st__)->op__)->span__).from__, (RangeFinder__find__((st__)->expr__)).to__), mu_____string128));
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string127));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->op__)->span__, mu_____string128));
 			}
 		} else {
 			if ((((st__)->expr__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string127));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((st__)->expr__), mu_____string128));
 			}
 		}
 	}
@@ -7486,20 +7520,24 @@ void__ TypeChecker__module__(TypeCheckerState__* s__, ModuleDef__* def__) {
 		local0.id__ = local0.dataPtr__ != null__ ? Node_____Ptr__Token____ : 0;
 		TypeChecker__invalidNamePrefix_nonStatic__(s__, local0);
 	}
-	bool__ local1 = ((def__)->blackboxKeyword__) != (null__);
+	bool__ local2 = ((def__)->blackboxKeyword__) != (null__);
+	if (local2) {
+		local2 = (((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) != (0);
+	}
+	bool__ local1 = local2;
 	if (local1) {
-		local1 = (((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) != (0);
+		local1 = ((((def__)->flags__)) & ((ModuleFlags__builtin__))) == (0);
 	}
 	if (local1) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((def__)->blackboxKeyword__)->span__, mu_____string188));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((def__)->blackboxKeyword__)->span__, mu_____string189));
 	}
 	{
-		List__Ptr__ModuleInputDef______* local2 = (def__)->inputs__;
-		int__ local3 = 0;
-		while (local3 < local2->count__) {
-			ModuleInputDef__* inp__ = ((ModuleInputDef__**)(local2->dataPtr__))[local3];
+		List__Ptr__ModuleInputDef______* local3 = (def__)->inputs__;
+		int__ local4 = 0;
+		while (local4 < local3->count__) {
+			ModuleInputDef__* inp__ = ((ModuleInputDef__**)(local3->dataPtr__))[local4];
 			TypeChecker__moduleInput__(s__, inp__);
-			local3 += 1;
+			local4 += 1;
 		}
 	}
 	TypeChecker__block__(s__, (def__)->body__);
@@ -7598,11 +7636,11 @@ TypeCheckResult__ TypeChecker__number__(TypeCheckerState__* s__, NumberExpressio
 						local7.tag__ = local8;
 						return local7;
 					} else {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string152));
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string153));
 					}
 				}
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string152));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((e__)->token__)->span__, mu_____string153));
 			}
 		}
 	}
@@ -7631,13 +7669,13 @@ TypeCheckResult__ TypeChecker__structInit__(TypeCheckerState__* s__, StructIniti
 			TypeChecker__ensureStructDone__(s__, def__);
 		} else {
 			if (((node__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string194));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string195));
 			} else {
 				TypeChecker__badSymbol__(s__, target__);
 			}
 		}
 	} else {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string194));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string195));
 	}
 	if ((def__) != (null__)) {
 		Array__int____* local4 = (Array__int____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(Array__int____));
@@ -7673,7 +7711,7 @@ TypeCheckResult__ TypeChecker__structInit__(TypeCheckerState__* s__, StructIniti
 							mu_____boundscheck(local12 < (uint__)local11->count__);
 							((int__*)local11->dataPtr__)[local12] = i__;
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string195));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string196));
 						}
 						Node__ local13;
 						local13.dataPtr__ = (pointer__)(field__);
@@ -7697,7 +7735,7 @@ TypeCheckResult__ TypeChecker__structInit__(TypeCheckerState__* s__, StructIniti
 						TypeChecker__badAssign__(s__, (arg__)->colon__, (rhs__).tag__, tag__);
 					}
 					if (((arg__)->name__) == (null__)) {
-						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string196));
+						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string197));
 					}
 				}
 				i__ += 1;
@@ -7764,7 +7802,7 @@ bool__ TypeChecker__isFixedNumberOrStructOrModuleOut__(Tag__ tag__) {
 	return local0;
 }
 void__ TypeChecker__invalidNamePrefix__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string106));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string107));
 }
 TypeCheckResult__ TypeChecker__call__(TypeCheckerState__* s__, CallExpression__* e__) {
 	if (((e__)->builtin__) == (BuiltinCall__rep__)) {
@@ -7821,13 +7859,13 @@ TypeCheckResult__ TypeChecker__call__(TypeCheckerState__* s__, CallExpression__*
 			((s__)->module__)->numRegSlots__ = ((((s__)->module__)->numRegSlots__)) + (((def__)->numRegSlots__));
 		} else {
 			if (((node__).dataPtr__) != ((pointer__)(null__))) {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string192));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (target__)->span__, mu_____string193));
 			} else {
 				TypeChecker__badSymbol__(s__, target__);
 			}
 		}
 	} else {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string193));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string194));
 	}
 	QueuedCallArgs__ local7;
 	memset(&local7, 0, sizeof(QueuedCallArgs__));
@@ -7907,11 +7945,11 @@ TypeCheckResult__ TypeChecker__index__(TypeCheckerState__* s__, IndexExpression_
 					if (((((upper__).value__).z__)) < (((ulong__)(((target__).tag__).q__)))) {
 						upperValid__ = true__;
 					} else {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string171));
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string172));
 					}
 				}
 			} else {
-				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string167));
+				List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->upperExpr__), mu_____string168));
 			}
 		}
 		if ((((e__)->lowerExpr__).dataPtr__) != ((pointer__)(null__))) {
@@ -7932,15 +7970,15 @@ TypeCheckResult__ TypeChecker__index__(TypeCheckerState__* s__, IndexExpression_
 									local8.q__ = (((((int__)(((upper__).value__).z__))) - (((int__)(((lower__).value__).z__))))) + ((1));
 									(result__).tag__ = local8;
 								} else {
-									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string172));
+									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string173));
 								}
 							}
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string171));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string172));
 						}
 					}
 				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string167));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->lowerExpr__), mu_____string168));
 				}
 			}
 		} else {
@@ -7981,7 +8019,7 @@ TypeCheckResult__ TypeChecker__brace__(TypeCheckerState__* s__, BraceExpression_
 				if (local2) {
 					bits__ = ((bits__)) + ((((atr__).tag__).q__));
 				} else {
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(arg__), mu_____string143));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(arg__), mu_____string144));
 				}
 			} else {
 				allValid__ = false__;
@@ -7993,7 +8031,7 @@ TypeCheckResult__ TypeChecker__brace__(TypeCheckerState__* s__, BraceExpression_
 		Node__ local3;
 		local3.dataPtr__ = (pointer__)(e__);
 		local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__BraceExpression____ : 0;
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local3), mu_____string173));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local3), mu_____string174));
 	}
 	TypeCheckResult__ local4;
 	if (allValid__) {
@@ -8033,14 +8071,14 @@ TypeCheckResult__ TypeChecker__expressionContinueGap__(TypeCheckerState__* s__, 
 	return tr__;
 }
 void__ TypeChecker__invalidNamePrefix_nonStatic__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string110));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string111));
 }
 TypeCheckResult__ TypeChecker__chunk__(TypeCheckerState__* s__, CallExpression__* e__) {
 	if (((s__)->module__) == (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string178));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string179));
 	}
 	if (!((s__)->isStaticExpr__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string179));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string180));
 	}
 	TypeChecker__builtinArgs__(s__, e__, 3);
 	TypeCheckResult__ arrayArg__ = TypeChecker__fixedNumberArg__(s__, e__, 0);
@@ -8081,7 +8119,7 @@ TypeCheckResult__ TypeChecker__chunk__(TypeCheckerState__* s__, CallExpression__
 					List__Ptr__CallArg______* local6 = (e__)->args__;
 					uint__ local7 = (uint__)(1);
 					mu_____boundscheck(local7 < (uint__)local6->count__);
-					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local6->dataPtr__)[local7])->expr__), mu_____string180));
+					List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((((CallArg__**)local6->dataPtr__)[local7])->expr__), mu_____string181));
 				}
 			}
 		} else {
@@ -8102,7 +8140,7 @@ TypeCheckResult__ TypeChecker__cast___(TypeCheckerState__* s__, CallExpression__
 	if ((s__)->isStaticExpr__) {
 	} else {
 		if ((((((s__)->comp__)->flags__)) & ((CompilationFlags__simulate__))) == (0)) {
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string175));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__((e__)->target__), mu_____string176));
 		}
 	}
 	TypeChecker__builtinArgs__(s__, e__, 2);
@@ -8126,7 +8164,7 @@ TypeCheckResult__ TypeChecker__cast___(TypeCheckerState__* s__, CallExpression__
 			Node__ local3;
 			local3.dataPtr__ = (pointer__)(e__);
 			local3.id__ = local3.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local3), mu_____string176));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(local3), mu_____string177));
 		}
 		bool__ local4 = ((((typeArg__).tag__).q__)) >= ((((target__).tag__).q__));
 		if (local4) {
@@ -8152,10 +8190,10 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 		TypeChecker__statementNotAllowedInsideBlackbox__(s__, local0);
 	}
 	if (((st__)->outKeyword__) != (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->outKeyword__)->span__, mu_____string128));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->outKeyword__)->span__, mu_____string129));
 	}
 	if (((st__)->type__) != (null__)) {
-		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->type__)->span__, mu_____string129));
+		List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((st__)->type__)->span__, mu_____string130));
 	}
 	if ((((st__)->expr__).dataPtr__) == ((pointer__)(null__))) {
 		List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (((st__)->op__)->span__).to__, mu_____string25));
@@ -8191,7 +8229,7 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 						local8.id__ = local8.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
 						tag__ = Map__getOrDefault__Node__Tag____((s__)->typeMap__, local8);
 					} else {
-						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string130));
+						List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string131));
 					}
 				} else {
 					TypeChecker__badSymbol__(s__, nameToken__);
@@ -8270,11 +8308,11 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 										List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((dot__)->rhs__)->span__, StringBuilder__compactToString__(&local22)));
 									}
 								} else {
-									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string139));
+									List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string140));
 								}
 							}
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string130));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (nameToken__)->span__, mu_____string131));
 						}
 					} else {
 						TypeChecker__badSymbol__(s__, nameToken__);
@@ -8324,7 +8362,7 @@ void__ TypeChecker__regUpdate__(TypeCheckerState__* s__, AssignStatement__* st__
 	}
 }
 void__ TypeChecker__expectedFixedNumberExpression__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string143));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string144));
 }
 void__ TypeChecker__assign__(TypeCheckerState__* s__, AssignStatement__* st__) {
 	TypeChecker__assignSym__(s__, st__);
@@ -8337,7 +8375,7 @@ void__ TypeChecker__assign__(TypeCheckerState__* s__, AssignStatement__* st__) {
 			} else {
 				local0 = RangeFinder__find__((st__)->nameExpr__);
 			}
-			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, local0, mu_____string136));
+			List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, local0, mu_____string137));
 		}
 	}
 }
@@ -8974,7 +9012,7 @@ string__ TypeChecker__tagString__(Compilation__* comp__, Tag__ tag__) {
 			}
 		}
 	}
-	return mu_____string118;
+	return mu_____string119;
 }
 void__ TypeChecker__badBinaryOperandConversion__(TypeCheckerState__* s__, IntRange__ span__, Tag__ tag__) {
 	StringBuilder__ local0;
@@ -8999,7 +9037,7 @@ void__ TypeChecker__unsupportedBinaryOp__(TypeCheckerState__* s__, Token__* op__
 	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, (op__)->span__, StringBuilder__compactToString__(&local0)));
 }
 void__ TypeChecker__expectedStaticConstant__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string108));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string109));
 }
 TypeCheckResult__ TypeChecker__numberArg__(TypeCheckerState__* s__, CallExpression__* e__, int__ index__) {
 	if (((index__)) >= ((((e__)->args__)->count__))) {
@@ -9113,7 +9151,7 @@ void__ TypeChecker__struct___(TypeCheckerState__* s__, StructDef__* def__) {
 		} else {
 			local1 = (((def__)->name__)->span__).to__;
 		}
-		List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, local1, mu_____string132));
+		List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, local1, mu_____string133));
 	}
 	Map__string__Ptr__FieldDef______* local2 = (Map__string__Ptr__FieldDef______*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(Map__string__Ptr__FieldDef______));
 	*local2 = Map__create__string__Ptr__FieldDef______();
@@ -9135,7 +9173,7 @@ bool__ TypeChecker__isFixedNumberOrStruct__(Tag__ tag__) {
 	return local0;
 }
 void__ TypeChecker__expectedFixedNumberOrStructExpression__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string120));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string121));
 }
 TypeCheckResult__ TypeChecker__expressionWithGap__(TypeCheckerState__* s__, Node__ e__, bool__ gap__, Tag__ gapTag__) {
 	(s__)->gap__ = gap__;
@@ -9145,7 +9183,7 @@ TypeCheckResult__ TypeChecker__expressionWithGap__(TypeCheckerState__* s__, Node
 	return tr__;
 }
 void__ TypeChecker__expectedNumberExpression__(TypeCheckerState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string144));
+	List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, RangeFinder__find__(e__), mu_____string145));
 }
 void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, ModuleDef__* def__) {
 	if ((def__) != (null__)) {
@@ -9191,7 +9229,7 @@ void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, M
 							mu_____boundscheck(local10 < (uint__)local9->count__);
 							((int__*)local9->dataPtr__)[local10] = i__;
 						} else {
-							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string197));
+							List__add__Error____((s__)->errors__, Error__at__((s__)->unit__, ((arg__)->name__)->span__, mu_____string198));
 						}
 						Node__ local11;
 						local11.dataPtr__ = (pointer__)(input__);
@@ -9233,7 +9271,7 @@ void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, M
 						TypeChecker__badAssign__(s__, (arg__)->colon__, (rhs__).tag__, tag__);
 					}
 					if (((arg__)->name__) == (null__)) {
-						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string199));
+						List__add__Error____((s__)->errors__, Error__atIndex__((s__)->unit__, (RangeFinder__find__((arg__)->expr__)).from__, mu_____string200));
 					}
 				}
 				i__ += 1;
@@ -9259,7 +9297,7 @@ void__ TypeChecker__callArgs__(TypeCheckerState__* s__, CallExpression__* e__, M
 		}
 		if ((((missing__).count__)) > ((0))) {
 			Array__string____ local24 = List__slice__string____(&(missing__), 0, (missing__).count__);
-			string__ names__ = string__join__(mu_____string200, &local24);
+			string__ names__ = string__join__(mu_____string201, &local24);
 			StringBuilder__ local25;
 			memset(&local25, 0, sizeof(local25));
 			string__ local26 = { (pointer__)"Missing required parameters: ", 29 };
@@ -9452,38 +9490,6 @@ uint__ ushort__hash__(ushort__ val__) {
 void__ ushort__writeTo__(ushort__ val__, StringBuilder__* sb__) {
 	ulong__writeTo__((ulong__)(val__), sb__);
 }
-void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SlotInfo__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__string____(List__string____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(string__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(string__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(string__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Instruction__))));
-	(this__)->capacity__ = capacity__;
-}
-void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(AssignStatement__*))));
-	(this__)->capacity__ = capacity__;
-}
 void__ List__reserve__Ptr__CallArg______(List__Ptr__CallArg______* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
@@ -9508,14 +9514,6 @@ void__ List__reserve__Ptr__FieldDef______(List__Ptr__FieldDef______* this__, int
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(FieldDef__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(FieldDef__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(FieldDef__*))));
 	(this__)->capacity__ = capacity__;
 }
-void__ List__reserve__Value____(List__Value____* this__, int__ capacity__) {
-	mu_____assert(((capacity__)) >= ((0)));
-	if (((capacity__)) <= (((this__)->capacity__))) {
-		return;
-	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Value__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Value__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Value__))));
-	(this__)->capacity__ = capacity__;
-}
 void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
@@ -9524,12 +9522,12 @@ void__ List__reserve__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______*
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(ModuleInputDef__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(ModuleInputDef__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(ModuleInputDef__*))));
 	(this__)->capacity__ = capacity__;
 }
-void__ List__reserve__Error____(List__Error____* this__, int__ capacity__) {
+void__ List__reserve__Value____(List__Value____* this__, int__ capacity__) {
 	mu_____assert(((capacity__)) >= ((0)));
 	if (((capacity__)) <= (((this__)->capacity__))) {
 		return;
 	}
-	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Error__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Error__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Error__))));
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Value__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Value__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Value__))));
 	(this__)->capacity__ = capacity__;
 }
 void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, int__ capacity__) {
@@ -9538,6 +9536,22 @@ void__ List__reserve__Ptr__SourceFile______(List__Ptr__SourceFile______* this__,
 		return;
 	}
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SourceFile__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SourceFile__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(AssignStatement__*))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(AssignStatement__*))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Error____(List__Error____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Error__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Error__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Error__))));
 	(this__)->capacity__ = capacity__;
 }
 void__ List__reserve__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__, int__ capacity__) {
@@ -9596,6 +9610,30 @@ void__ List__reserve__CommandLineArgsParserError____(List__CommandLineArgsParser
 	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(CommandLineArgsParserError__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(CommandLineArgsParserError__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(CommandLineArgsParserError__))));
 	(this__)->capacity__ = capacity__;
 }
+void__ List__reserve__SlotInfo____(List__SlotInfo____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(SlotInfo__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(SlotInfo__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__string____(List__string____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(string__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(string__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(string__))));
+	(this__)->capacity__ = capacity__;
+}
+void__ List__reserve__Instruction____(List__Instruction____* this__, int__ capacity__) {
+	mu_____assert(((capacity__)) >= ((0)));
+	if (((capacity__)) <= (((this__)->capacity__))) {
+		return;
+	}
+	(this__)->dataPtr__ = IAllocator__realloc__(top_____currentAllocator__, (this__)->dataPtr__, CheckedMath__mulPositiveSsize__((ssize__)(capacity__), (ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->capacity__))) * ((ssize__)(sizeof(Instruction__))), (((ssize__)((this__)->count__))) * ((ssize__)(sizeof(Instruction__))));
+	(this__)->capacity__ = capacity__;
+}
 Array__Error____ List__slice__Error____(List__Error____* this__, int__ from__, int__ to__) {
 	bool__ local1 = ((0)) <= ((from__));
 	if (local1) {
@@ -9652,38 +9690,6 @@ void__ List__setCountChecked__Value____(List__Value____* this__, int__ count__) 
 	mu_____assert(local0);
 	(this__)->count__ = count__;
 }
-void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__SlotInfo____(this__);
-	}
-	List__SlotInfo____* local0 = this__;
-	((SlotInfo__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__string____(List__string____* this__, string__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__string____(this__);
-	}
-	List__string____* local0 = this__;
-	((string__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Instruction____(this__);
-	}
-	List__Instruction____* local0 = this__;
-	((Instruction__*)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
-void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__) {
-	if ((((this__)->count__)) == (((this__)->capacity__))) {
-		List__grow__Ptr__AssignStatement______(this__);
-	}
-	List__Ptr__AssignStatement______* local0 = this__;
-	((AssignStatement__**)local0->dataPtr__)[(this__)->count__] = item__;
-	(this__)->count__ = (((this__)->count__)) + ((1));
-}
 void__ List__add__Ptr__CallArg______(List__Ptr__CallArg______* this__, CallArg__* item__) {
 	if ((((this__)->count__)) == (((this__)->capacity__))) {
 		List__grow__Ptr__CallArg______(this__);
@@ -9722,6 +9728,14 @@ void__ List__add__Ptr__SourceFile______(List__Ptr__SourceFile______* this__, Sou
 	}
 	List__Ptr__SourceFile______* local0 = this__;
 	((SourceFile__**)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
+}
+void__ List__add__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__, AssignStatement__* item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Ptr__AssignStatement______(this__);
+	}
+	List__Ptr__AssignStatement______* local0 = this__;
+	((AssignStatement__**)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__add__Error____(List__Error____* this__, Error__ item__) {
@@ -9796,41 +9810,29 @@ void__ List__add__CommandLineArgsParserError____(List__CommandLineArgsParserErro
 	((CommandLineArgsParserError__*)local0->dataPtr__)[(this__)->count__] = item__;
 	(this__)->count__ = (((this__)->count__)) + ((1));
 }
-void__ List__grow__SlotInfo____(List__SlotInfo____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
+void__ List__add__SlotInfo____(List__SlotInfo____* this__, SlotInfo__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__SlotInfo____(this__);
 	}
-	List__reserve__SlotInfo____(this__, local0);
+	List__SlotInfo____* local0 = this__;
+	((SlotInfo__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
 }
-void__ List__grow__string____(List__string____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
+void__ List__add__string____(List__string____* this__, string__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__string____(this__);
 	}
-	List__reserve__string____(this__, local0);
+	List__string____* local0 = this__;
+	((string__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
 }
-void__ List__grow__Instruction____(List__Instruction____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
+void__ List__add__Instruction____(List__Instruction____* this__, Instruction__ item__) {
+	if ((((this__)->count__)) == (((this__)->capacity__))) {
+		List__grow__Instruction____(this__);
 	}
-	List__reserve__Instruction____(this__, local0);
-}
-void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Ptr__AssignStatement______(this__, local0);
+	List__Instruction____* local0 = this__;
+	((Instruction__*)local0->dataPtr__)[(this__)->count__] = item__;
+	(this__)->count__ = (((this__)->count__)) + ((1));
 }
 void__ List__grow__Ptr__CallArg______(List__Ptr__CallArg______* this__) {
 	int__ local0;
@@ -9859,15 +9861,6 @@ void__ List__grow__Ptr__FieldDef______(List__Ptr__FieldDef______* this__) {
 	}
 	List__reserve__Ptr__FieldDef______(this__, local0);
 }
-void__ List__grow__Value____(List__Value____* this__) {
-	int__ local0;
-	if ((((this__)->capacity__)) != ((0))) {
-		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
-	} else {
-		local0 = 4;
-	}
-	List__reserve__Value____(this__, local0);
-}
 void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
@@ -9876,6 +9869,24 @@ void__ List__grow__Ptr__ModuleInputDef______(List__Ptr__ModuleInputDef______* th
 		local0 = 4;
 	}
 	List__reserve__Ptr__ModuleInputDef______(this__, local0);
+}
+void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__SourceFile______(this__, local0);
+}
+void__ List__grow__Ptr__AssignStatement______(List__Ptr__AssignStatement______* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Ptr__AssignStatement______(this__, local0);
 }
 void__ List__grow__Error____(List__Error____* this__) {
 	int__ local0;
@@ -9886,14 +9897,14 @@ void__ List__grow__Error____(List__Error____* this__) {
 	}
 	List__reserve__Error____(this__, local0);
 }
-void__ List__grow__Ptr__SourceFile______(List__Ptr__SourceFile______* this__) {
+void__ List__grow__Value____(List__Value____* this__) {
 	int__ local0;
 	if ((((this__)->capacity__)) != ((0))) {
 		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
 	} else {
 		local0 = 4;
 	}
-	List__reserve__Ptr__SourceFile______(this__, local0);
+	List__reserve__Value____(this__, local0);
 }
 void__ List__grow__Ptr__ModuleInstance______(List__Ptr__ModuleInstance______* this__) {
 	int__ local0;
@@ -9957,6 +9968,33 @@ void__ List__grow__CommandLineArgsParserError____(List__CommandLineArgsParserErr
 		local0 = 4;
 	}
 	List__reserve__CommandLineArgsParserError____(this__, local0);
+}
+void__ List__grow__SlotInfo____(List__SlotInfo____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__SlotInfo____(this__, local0);
+}
+void__ List__grow__string____(List__string____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__string____(this__, local0);
+}
+void__ List__grow__Instruction____(List__Instruction____* this__) {
+	int__ local0;
+	if ((((this__)->capacity__)) != ((0))) {
+		local0 = CheckedMath__mulPositiveInt__((this__)->capacity__, 2);
+	} else {
+		local0 = 4;
+	}
+	List__reserve__Instruction____(this__, local0);
 }
 bool__ Set__tryRemove__string____(Set__string____* this__, string__ value__) {
 	uint__ h__ = string__hash__(value__);
@@ -10880,7 +10918,7 @@ void__ EmulatorOrderCalculator__clock__(EmulatorState__* s__, ClockStatement__* 
 	EmulatorOrderCalculator__block__(s__, (st__)->body__);
 }
 void__ EmulatorOrderCalculator__logicLoop__(EmulatorState__* s__, Node__ e__) {
-	List__add__Error____((s__)->errors__, Error__at__((((s__)->inst__)->def__)->unit__, RangeFinder__find__(e__), mu_____string204));
+	List__add__Error____((s__)->errors__, Error__at__((((s__)->inst__)->def__)->unit__, RangeFinder__find__(e__), mu_____string205));
 }
 int__ CheckedMath__addPositiveInt__(int__ x__, int__ y__) {
 	if (((((int__maxValue__)) - ((x__)))) >= ((y__))) {
@@ -10929,27 +10967,6 @@ int__ CheckedMath__mulPositiveInt__(int__ x__, int__ y__) {
 	}
 	mu_____abandon(-1);
 	return 0;
-}
-void__ EmulatorRunner__setInput__(EmulatorState__* s__, ModuleInstance__* inst__, string__ input__, ulong__ val__) {
-	Array__int____* local0 = (inst__)->localState__;
-	Node__ local2 = Map__get__string__Node____(((inst__)->def__)->symbols__, input__);
-	mu_____checkedcast(local2.id__ == Node_____Ptr__ModuleInputDef____);
-	uint__ local1 = (uint__)(((ModuleInputDef__*)(local2.dataPtr__))->localId__);
-	mu_____boundscheck(local1 < (uint__)local0->count__);
-	int__ si__ = ((int__*)local0->dataPtr__)[local1];
-	Value__ local3;
-	memset(&local3, 0, sizeof(Value__));
-	local3.kind__ = ValueKind__ulong___;
-	local3.z__ = val__;
-	EmulatorRunner__setSlot__(s__, si__, local3);
-	Array__bool____* local4 = (s__)->started__;
-	uint__ local5 = (uint__)(si__);
-	mu_____boundscheck(local5 < (uint__)local4->count__);
-	((bool__*)local4->dataPtr__)[local5] = true__;
-	Array__bool____* local6 = (s__)->done__;
-	uint__ local7 = (uint__)(si__);
-	mu_____boundscheck(local7 < (uint__)local6->count__);
-	((bool__*)local6->dataPtr__)[local7] = true__;
 }
 Value__ EmulatorRunner__swizzle__(EmulatorState__* s__, Value__ target__, int__ targetWidth__, int__ seqSize__, int__ readStep__, int__ blockSize__) {
 	Array__byte____ data__ = EmulatorRunner__unpackAsArray__(&(target__));
@@ -11527,6 +11544,24 @@ Value__ EmulatorRunner__packULong__(Array__byte____* data__) {
 	local2.z__ = z__;
 	return local2;
 }
+Array__byte____ EmulatorRunner__unpackAsArray__(Value__* v__) {
+	if (((v__)->kind__) == (ValueKind__ulong___)) {
+		Array__byte____ local0;
+		memset(&local0, 0, sizeof(Array__byte____));
+		local0.dataPtr__ = (pointer__)(&((v__)->z__));
+		local0.count__ = 8;
+		return local0;
+	} else {
+		if (((v__)->kind__) == (ValueKind__byteArray__)) {
+			return *((Array__byte____*)((v__)->z__));
+		} else {
+			mu_____abandon(-1);
+			Array__byte____ local1;
+			memset(&local1, 0, sizeof(Array__byte____));
+			return local1;
+		}
+	}
+}
 void__ EmulatorRunner__storeSlice__(EmulatorState__* s__, int__ si__, ulong__ offset__, ulong__ width__, Value__ val__) {
 	List__Value____* local0 = (s__)->ws__;
 	uint__ local1 = (uint__)(si__);
@@ -11603,24 +11638,6 @@ Value__ EmulatorRunner__bigSlice__(EmulatorState__* s__, Value__ target__, ulong
 	Array__copySlice__byte____(&(data__), 0, count__, result__, 0);
 	Util__shlArray__(result__, (int__)(fromBit__));
 	return EmulatorRunner__packArray__(result__);
-}
-Array__byte____ EmulatorRunner__unpackAsArray__(Value__* v__) {
-	if (((v__)->kind__) == (ValueKind__ulong___)) {
-		Array__byte____ local0;
-		memset(&local0, 0, sizeof(Array__byte____));
-		local0.dataPtr__ = (pointer__)(&((v__)->z__));
-		local0.count__ = 8;
-		return local0;
-	} else {
-		if (((v__)->kind__) == (ValueKind__byteArray__)) {
-			return *((Array__byte____*)((v__)->z__));
-		} else {
-			mu_____abandon(-1);
-			Array__byte____ local1;
-			memset(&local1, 0, sizeof(Array__byte____));
-			return local1;
-		}
-	}
 }
 Value__ EmulatorRunner__packArray__(Array__byte____* data__) {
 	Value__ local0;
@@ -11723,46 +11740,6 @@ void__ Array__stableSort__Error____(Array__Error____* items__, fun__Error__Error
 		Array__copySlice__Error____(src__, 0, count__, items__, 0);
 	}
 }
-Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Ptr__FieldDef______)));
-	Array__MapEntry__string__Ptr__FieldDef________ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__string__Ptr__FieldDef________));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__MapEntry__string__Ptr__FieldDef________ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__NodeWithCtx__string____)));
-	Array__MapEntry__NodeWithCtx__string______ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__NodeWithCtx__string______));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__MapEntry__NodeWithCtx__string______ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__string____ Array__cons__string____(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(string__)));
-	Array__string____ local0;
-	memset(&local0, 0, sizeof(Array__string____));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__string____ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
-Array__bool____ Array__cons__bool____(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(bool__)));
-	Array__bool____ local0;
-	memset(&local0, 0, sizeof(Array__bool____));
-	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
-	local0.count__ = count__;
-	Array__bool____ result__ = local0;
-	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
-	return result__;
-}
 Array__IntRange____ Array__cons__IntRange____(int__ count__) {
 	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(IntRange__)));
 	Array__IntRange____ local0;
@@ -11813,6 +11790,46 @@ Array__SetEntry__string______ Array__cons__SetEntry__string______(int__ count__)
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
+Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__Node__int____)));
+	Array__MapEntry__Node__int______ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__Node__int______));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__MapEntry__Node__int______ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Node____)));
+	Array__MapEntry__string__Node______ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__string__Node______));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__MapEntry__string__Node______ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__MapEntry__string__Ptr__FieldDef________ Array__cons__MapEntry__string__Ptr__FieldDef________(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Ptr__FieldDef______)));
+	Array__MapEntry__string__Ptr__FieldDef________ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__string__Ptr__FieldDef________));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__MapEntry__string__Ptr__FieldDef________ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
+Array__MapEntry__NodeWithCtx__string______ Array__cons__MapEntry__NodeWithCtx__string______(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__NodeWithCtx__string____)));
+	Array__MapEntry__NodeWithCtx__string______ local0;
+	memset(&local0, 0, sizeof(Array__MapEntry__NodeWithCtx__string______));
+	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
+	local0.count__ = count__;
+	Array__MapEntry__NodeWithCtx__string______ result__ = local0;
+	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
+	return result__;
+}
 Array__MapEntry__Node__Value______ Array__cons__MapEntry__Node__Value______(int__ count__) {
 	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__Node__Value____)));
 	Array__MapEntry__Node__Value______ local0;
@@ -11833,23 +11850,23 @@ Array__MapEntry__Node__Tag______ Array__cons__MapEntry__Node__Tag______(int__ co
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
-Array__MapEntry__Node__int______ Array__cons__MapEntry__Node__int______(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__Node__int____)));
-	Array__MapEntry__Node__int______ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__Node__int______));
+Array__string____ Array__cons__string____(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(string__)));
+	Array__string____ local0;
+	memset(&local0, 0, sizeof(Array__string____));
 	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
 	local0.count__ = count__;
-	Array__MapEntry__Node__int______ result__ = local0;
+	Array__string____ result__ = local0;
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
-Array__MapEntry__string__Node______ Array__cons__MapEntry__string__Node______(int__ count__) {
-	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(MapEntry__string__Node____)));
-	Array__MapEntry__string__Node______ local0;
-	memset(&local0, 0, sizeof(Array__MapEntry__string__Node______));
+Array__bool____ Array__cons__bool____(int__ count__) {
+	ssize__ numBytes__ = CheckedMath__mulPositiveSsize__((ssize__)(count__), (ssize__)(sizeof(bool__)));
+	Array__bool____ local0;
+	memset(&local0, 0, sizeof(Array__bool____));
 	local0.dataPtr__ = IAllocator__alloc__(top_____currentAllocator__, numBytes__);
 	local0.count__ = count__;
-	Array__MapEntry__string__Node______ result__ = local0;
+	Array__bool____ result__ = local0;
 	memset((result__).dataPtr__, 0, (usize__)(numBytes__));
 	return result__;
 }
@@ -12047,6 +12064,9 @@ void__ Indexer__unit__(IndexerState__* s__, CodeUnit__* unit__) {
 							Indexer__duplicateSymbol__(s__, (local8)->name__);
 						}
 						(s__)->module__ = local8;
+						if (string__endsWith__(name__, mu_____string106)) {
+							((s__)->module__)->flags__ = ((((s__)->module__)->flags__)) | ((ModuleFlags__builtin__));
+						}
 						Map__string__Node____* local11 = (Map__string__Node____*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(Map__string__Node____));
 						*local11 = Map__create__string__Node____();
 						(local8)->symbols__ = local11;
@@ -14492,9 +14512,9 @@ void__ VerilogGenerator__unaryOperator__(GeneratorState__* s__, UnaryOperatorExp
 void__ VerilogGenerator__output__(GeneratorState__* s__, AssignStatement__* o__, string__ genName__, Tag__ tag__) {
 	bool__ isReg__ = ((o__)->regKeyword__) != (null__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string251);
+	VerilogGenerator__write__(s__, mu_____string253);
 	if (isReg__) {
-		VerilogGenerator__write__(s__, mu_____string252);
+		VerilogGenerator__write__(s__, mu_____string254);
 	}
 	VerilogGenerator__numberTag__(s__, tag__);
 	VerilogGenerator__write__(s__, genName__);
@@ -14504,36 +14524,36 @@ void__ VerilogGenerator__output__(GeneratorState__* s__, AssignStatement__* o__,
 			local0 = ((((o__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
 		}
 		if (local0) {
-			VerilogGenerator__write__(s__, mu_____string253);
+			VerilogGenerator__write__(s__, mu_____string255);
 			VerilogGenerator__staticValue__(s__, (s__)->inst__, (o__)->localId__, tag__);
 		} else {
-			VerilogGenerator__write__(s__, mu_____string257);
+			VerilogGenerator__write__(s__, mu_____string259);
 		}
 	}
 }
 void__ VerilogGenerator__regUpdate__(GeneratorState__* s__, string__ genName__, Node__ expr__) {
 	VerilogGenerator__beginLine__(s__);
 	VerilogGenerator__write__(s__, genName__);
-	VerilogGenerator__write__(s__, mu_____string282);
+	VerilogGenerator__write__(s__, mu_____string284);
 	VerilogGenerator__expression__(s__, expr__);
-	VerilogGenerator__write__(s__, mu_____string271);
+	VerilogGenerator__write__(s__, mu_____string273);
 }
 string__ VerilogGenerator__newLocal__(GeneratorState__* s__, Tag__ tag__, string__ valStr__) {
 	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, (s__)->first__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string269);
-	VerilogGenerator__numberTag__(s__, tag__);
-	string__ name__ = VerilogGenerator__uniqueName__(s__, (s__)->inst__, ((s__)->inst__)->genLocalsSet__, mu_____string270);
-	VerilogGenerator__write__(s__, name__);
 	VerilogGenerator__write__(s__, mu_____string271);
+	VerilogGenerator__numberTag__(s__, tag__);
+	string__ name__ = VerilogGenerator__uniqueName__(s__, (s__)->inst__, ((s__)->inst__)->genLocalsSet__, mu_____string272);
+	VerilogGenerator__write__(s__, name__);
+	VerilogGenerator__write__(s__, mu_____string273);
 	VerilogGenerator__restore__(s__, prev__);
 	prev__ = VerilogGenerator__push__(s__, (s__)->assignments__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string272);
+	VerilogGenerator__write__(s__, mu_____string274);
 	VerilogGenerator__write__(s__, name__);
-	VerilogGenerator__write__(s__, mu_____string253);
+	VerilogGenerator__write__(s__, mu_____string255);
 	VerilogGenerator__write__(s__, valStr__);
-	VerilogGenerator__write__(s__, mu_____string271);
+	VerilogGenerator__write__(s__, mu_____string273);
 	VerilogGenerator__restore__(s__, prev__);
 	return name__;
 }
@@ -14541,7 +14561,7 @@ void__ VerilogGenerator__value__(GeneratorState__* s__, Tag__ tag__, Value__ val
 	(s__)->isNonIndexable__ = true__;
 	mu_____assert(((tag__).kind__) == (TagKind__number__));
 	if ((((tag__).q__)) == ((0))) {
-		VerilogGenerator__write__(s__, mu_____string254);
+		VerilogGenerator__write__(s__, mu_____string256);
 	}
 	if (((value__).kind__) == (ValueKind__ulong___)) {
 		StringBuilder__ local0;
@@ -14743,9 +14763,9 @@ void__ VerilogGenerator__binaryOperator__(GeneratorState__* s__, BinaryOperatorE
 	(s__)->isNonIndexable__ = true__;
 	VerilogGenerator__write__(s__, mu_____string74);
 	VerilogGenerator__expression__(s__, (e__)->lhs__);
-	VerilogGenerator__write__(s__, mu_____string265);
+	VerilogGenerator__write__(s__, mu_____string267);
 	VerilogGenerator__write__(s__, ((e__)->op__)->value__);
-	VerilogGenerator__write__(s__, mu_____string266);
+	VerilogGenerator__write__(s__, mu_____string268);
 	VerilogGenerator__expression__(s__, (e__)->rhs__);
 	VerilogGenerator__write__(s__, mu_____string33);
 }
@@ -14758,7 +14778,7 @@ void__ VerilogGenerator__restore__(GeneratorState__* s__, CodeBuilder__* cb__) {
 }
 void__ VerilogGenerator__reg__(GeneratorState__* s__, AssignStatement__* st__, string__ genName__, Tag__ tag__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string281);
+	VerilogGenerator__write__(s__, mu_____string283);
 	VerilogGenerator__numberTag__(s__, tag__);
 	VerilogGenerator__write__(s__, genName__);
 	bool__ local0 = (((st__)->expr__).dataPtr__) != ((pointer__)(null__));
@@ -14766,12 +14786,12 @@ void__ VerilogGenerator__reg__(GeneratorState__* s__, AssignStatement__* st__, s
 		local0 = ((((st__)->flags__)) & ((AssignFlags__regUpdate__))) == (0);
 	}
 	if (local0) {
-		VerilogGenerator__write__(s__, mu_____string253);
+		VerilogGenerator__write__(s__, mu_____string255);
 		VerilogGenerator__staticValue__(s__, (s__)->inst__, (st__)->localId__, tag__);
 	} else {
-		VerilogGenerator__write__(s__, mu_____string257);
+		VerilogGenerator__write__(s__, mu_____string259);
 	}
-	VerilogGenerator__write__(s__, mu_____string271);
+	VerilogGenerator__write__(s__, mu_____string273);
 }
 void__ VerilogGenerator__expressionInner__(GeneratorState__* s__, Node__ e__) {
 	switch ((e__).id__) {
@@ -14861,7 +14881,7 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 			{
 				StringBuilder__write__(&(sb__), VerilogGenerator__trimHash__(((local2)->name__)->value__));
 				if (((ctxField__)) != ((-1))) {
-					StringBuilder__write__(&(sb__), mu_____string245);
+					StringBuilder__write__(&(sb__), mu_____string247);
 					Node__ local4;
 					local4.dataPtr__ = (pointer__)(local2);
 					local4.id__ = local4.dataPtr__ != null__ ? Node_____Ptr__ModuleInputDef____ : 0;
@@ -14884,7 +14904,7 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 				mu_____checkedcast(local8.id__ == Node_____Ptr__Token____);
 				StringBuilder__write__(&(sb__), VerilogGenerator__trimHash__(((Token__*)(local8.dataPtr__))->value__));
 				if (((ctxField__)) != ((-1))) {
-					StringBuilder__write__(&(sb__), mu_____string245);
+					StringBuilder__write__(&(sb__), mu_____string247);
 					Node__ local10;
 					local10.dataPtr__ = (pointer__)(local6);
 					local10.id__ = local10.dataPtr__ != null__ ? Node_____Ptr__AssignStatement____ : 0;
@@ -14911,7 +14931,7 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 				mu_____boundscheck(local18 < (uint__)local17->count__);
 				AssignStatement__* output__ = ((AssignStatement__**)local17->dataPtr__)[local18];
 				StringBuilder__write__(&(sb__), (target__)->genLocalName__);
-				StringBuilder__write__(&(sb__), mu_____string245);
+				StringBuilder__write__(&(sb__), mu_____string247);
 				string__ local19;
 				if ((((target__)->def__)->blackboxKeyword__) == (null__)) {
 					Node__ local20;
@@ -14940,21 +14960,21 @@ string__ VerilogGenerator__nameOf__(GeneratorState__* s__, ModuleInstance__* ins
 void__ VerilogGenerator__wire__(GeneratorState__* s__, AssignStatement__* st__, string__ genName__, Tag__ tag__) {
 	if (((st__)->outKeyword__) == (null__)) {
 		VerilogGenerator__beginLine__(s__);
-		VerilogGenerator__write__(s__, mu_____string269);
+		VerilogGenerator__write__(s__, mu_____string271);
 		VerilogGenerator__numberTag__(s__, tag__);
 		VerilogGenerator__write__(s__, genName__);
-		VerilogGenerator__write__(s__, mu_____string271);
+		VerilogGenerator__write__(s__, mu_____string273);
 	}
 	CodeBuilder__* local0 = (CodeBuilder__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(CodeBuilder__));
 	*local0 = CodeBuilder__create__();
 	CodeBuilder__* cb__ = local0;
 	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, cb__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string272);
+	VerilogGenerator__write__(s__, mu_____string274);
 	VerilogGenerator__write__(s__, genName__);
-	VerilogGenerator__write__(s__, mu_____string253);
+	VerilogGenerator__write__(s__, mu_____string255);
 	VerilogGenerator__expression__(s__, (st__)->expr__);
-	VerilogGenerator__write__(s__, mu_____string271);
+	VerilogGenerator__write__(s__, mu_____string273);
 	(s__)->out__ = (s__)->assignments__;
 	VerilogGenerator__write__(s__, StringBuilder__compactToString__((cb__)->sb__));
 	VerilogGenerator__restore__(s__, prev__);
@@ -14979,15 +14999,15 @@ StructDef__* VerilogGenerator__unpackStruct__(GeneratorState__* s__, Tag__ tag__
 }
 void__ VerilogGenerator__if___(GeneratorState__* s__, IfStatement__* st__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string261);
+	VerilogGenerator__write__(s__, mu_____string263);
 	VerilogGenerator__expression__(s__, (st__)->expr__);
-	VerilogGenerator__write__(s__, mu_____string260);
+	VerilogGenerator__write__(s__, mu_____string262);
 	VerilogGenerator__indent__(s__, mu_____string0);
 	VerilogGenerator__block__(s__, (st__)->ifBody__);
 	VerilogGenerator__unindent__(s__);
 	if ((((st__)->elseBranch__).dataPtr__) != ((pointer__)(null__))) {
 		VerilogGenerator__beginLine__(s__);
-		VerilogGenerator__write__(s__, mu_____string280);
+		VerilogGenerator__write__(s__, mu_____string282);
 		VerilogGenerator__indent__(s__, mu_____string0);
 		if (((st__)->elseBranch__).id__ == Node_____Ptr__IfStatement____) {
 			Node__ local0 = (st__)->elseBranch__;
@@ -15003,7 +15023,7 @@ void__ VerilogGenerator__if___(GeneratorState__* s__, IfStatement__* st__) {
 		VerilogGenerator__unindent__(s__);
 	}
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string239);
+	VerilogGenerator__write__(s__, mu_____string240);
 }
 void__ VerilogGenerator__paren__(GeneratorState__* s__, ParenExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
@@ -15028,7 +15048,7 @@ void__ VerilogGenerator__module__(GeneratorState__* s__, ModuleInstance__* inst_
 			i__ += 1;
 		}
 	}
-	VerilogGenerator__write__(s__, mu_____string247);
+	VerilogGenerator__write__(s__, mu_____string249);
 	VerilogGenerator__write__(s__, (inst__)->genGlobalName__);
 	VerilogGenerator__write__(s__, mu_____string74);
 	VerilogGenerator__indent__(s__, mu_____string32);
@@ -15126,7 +15146,7 @@ void__ VerilogGenerator__module__(GeneratorState__* s__, ModuleInstance__* inst_
 	}
 	VerilogGenerator__unindent__(s__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string258);
+	VerilogGenerator__write__(s__, mu_____string260);
 	CodeBuilder__* local24 = (CodeBuilder__*)top_____currentAllocator__.allocFn__(top_____currentAllocator__.data__, sizeof(CodeBuilder__));
 	*local24 = CodeBuilder__create__();
 	(s__)->assignments__ = local24;
@@ -15168,18 +15188,18 @@ void__ VerilogGenerator__module__(GeneratorState__* s__, ModuleInstance__* inst_
 	if (((((inst__)->calls__)->count__)) == ((0))) {
 		VerilogGenerator__beginLine__(s__);
 	}
-	VerilogGenerator__write__(s__, mu_____string286);
+	VerilogGenerator__write__(s__, mu_____string288);
 }
 void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* target__) {
 	ModuleDef__* def__ = (target__)->def__;
 	CallExpression__* callExpr__ = (target__)->callExpr__;
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string283);
+	VerilogGenerator__write__(s__, mu_____string285);
 	VerilogGenerator__write__(s__, (target__)->genGlobalName__);
 	VerilogGenerator__write__(s__, mu_____string79);
 	if (((def__)->blackboxKeyword__) != (null__)) {
 		if (VerilogGenerator__hasStaticInputs__(s__, def__)) {
-			VerilogGenerator__write__(s__, mu_____string284);
+			VerilogGenerator__write__(s__, mu_____string286);
 			VerilogGenerator__indent__(s__, mu_____string32);
 			{
 				List__Ptr__ModuleInputDef______* local0 = (def__)->inputs__;
@@ -15203,7 +15223,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 			}
 			VerilogGenerator__unindent__(s__);
 			VerilogGenerator__beginLine__(s__);
-			VerilogGenerator__write__(s__, mu_____string265);
+			VerilogGenerator__write__(s__, mu_____string267);
 		}
 	}
 	VerilogGenerator__write__(s__, (target__)->genLocalName__);
@@ -15353,7 +15373,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 	}
 	VerilogGenerator__unindent__(s__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string285);
+	VerilogGenerator__write__(s__, mu_____string287);
 	CodeBuilder__* prev__ = VerilogGenerator__push__(s__, (s__)->first__);
 	{
 		List__Ptr__AssignStatement______* local30 = (def__)->outputs__;
@@ -15366,13 +15386,13 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 			Tag__ tag__ = Map__get__Node__Tag____((s__)->typeMap__, local31);
 			if (((tag__).kind__) == (TagKind__number__)) {
 				VerilogGenerator__beginLine__(s__);
-				VerilogGenerator__write__(s__, mu_____string269);
+				VerilogGenerator__write__(s__, mu_____string271);
 				VerilogGenerator__numberTag__(s__, tag__);
 				Node__ local32;
 				local32.dataPtr__ = (pointer__)(callExpr__);
 				local32.id__ = local32.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
 				VerilogGenerator__write__(s__, VerilogGenerator__nameOf__(s__, (s__)->inst__, local32, oi__, -1));
-				VerilogGenerator__write__(s__, mu_____string271);
+				VerilogGenerator__write__(s__, mu_____string273);
 			} else {
 				if (((tag__).kind__) == (TagKind__struct___)) {
 					StructDef__* sdef__ = VerilogGenerator__unpackStruct__(s__, tag__);
@@ -15382,7 +15402,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 						while (fi__ < local33->count__) {
 							FieldDef__* f__ = ((FieldDef__**)(local33->dataPtr__))[fi__];
 							VerilogGenerator__beginLine__(s__);
-							VerilogGenerator__write__(s__, mu_____string269);
+							VerilogGenerator__write__(s__, mu_____string271);
 							Node__ local34;
 							local34.dataPtr__ = (pointer__)(f__);
 							local34.id__ = local34.dataPtr__ != null__ ? Node_____Ptr__FieldDef____ : 0;
@@ -15391,7 +15411,7 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 							local35.dataPtr__ = (pointer__)(callExpr__);
 							local35.id__ = local35.dataPtr__ != null__ ? Node_____Ptr__CallExpression____ : 0;
 							VerilogGenerator__write__(s__, VerilogGenerator__nameOf__(s__, (s__)->inst__, local35, oi__, fi__));
-							VerilogGenerator__write__(s__, mu_____string271);
+							VerilogGenerator__write__(s__, mu_____string273);
 							fi__ += 1;
 						}
 					}
@@ -15407,16 +15427,16 @@ void__ VerilogGenerator__callInst__(GeneratorState__* s__, ModuleInstance__* tar
 }
 void__ VerilogGenerator__clock__(GeneratorState__* s__, ClockStatement__* st__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string259);
+	VerilogGenerator__write__(s__, mu_____string261);
 	VerilogGenerator__write__(s__, ((st__)->keyword__)->value__);
 	VerilogGenerator__write__(s__, mu_____string79);
 	VerilogGenerator__write__(s__, ((st__)->name__)->value__);
-	VerilogGenerator__write__(s__, mu_____string260);
+	VerilogGenerator__write__(s__, mu_____string262);
 	VerilogGenerator__indent__(s__, mu_____string0);
 	VerilogGenerator__block__(s__, (st__)->body__);
 	VerilogGenerator__unindent__(s__);
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string239);
+	VerilogGenerator__write__(s__, mu_____string240);
 }
 void__ VerilogGenerator__number__(GeneratorState__* s__, NumberExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
@@ -15435,14 +15455,14 @@ void__ VerilogGenerator__number__(GeneratorState__* s__, NumberExpression__* e__
 	mu_____assert((((tag__).q__)) > ((0)));
 	ulong__ mask__ = ((ulong__)1uLL) << ((((tag__).q__)) - ((1)));
 	int__writeTo__((tag__).q__, sb__);
-	StringBuilder__write__(sb__, mu_____string262);
+	StringBuilder__write__(sb__, mu_____string264);
 	while (true__) {
 		if (!(((mask__)) != ((ulong__)(0)))) { break; }
 		if (((((mask__)) & (((e__)->dontCare__)))) != ((ulong__)(0))) {
-			StringBuilder__write__(sb__, mu_____string263);
+			StringBuilder__write__(sb__, mu_____string265);
 		} else {
 			if (((((mask__)) & (((e__)->value__)))) != ((ulong__)(0))) {
-				StringBuilder__write__(sb__, mu_____string264);
+				StringBuilder__write__(sb__, mu_____string266);
 			} else {
 				StringBuilder__write__(sb__, mu_____string1);
 			}
@@ -15519,13 +15539,13 @@ void__ VerilogGenerator__rep__(GeneratorState__* s__, CallExpression__* e__) {
 	uint__ local1 = (uint__)(1);
 	mu_____boundscheck(local1 < (uint__)local0->count__);
 	int__ n__ = TypeChecker__unpackInt__(Map__get__Node__Value____((s__)->constMap__, (((CallArg__**)local0->dataPtr__)[local1])->expr__));
-	VerilogGenerator__write__(s__, mu_____string278);
+	VerilogGenerator__write__(s__, mu_____string280);
 	bool__ sep__ = false__;
 	{
 		int__ i__ = 0;
 		while (((i__)) < ((n__))) {
 			if (sep__) {
-				VerilogGenerator__write__(s__, mu_____string200);
+				VerilogGenerator__write__(s__, mu_____string201);
 			} else {
 				sep__ = true__;
 			}
@@ -15536,7 +15556,7 @@ void__ VerilogGenerator__rep__(GeneratorState__* s__, CallExpression__* e__) {
 			i__ += 1;
 		}
 	}
-	VerilogGenerator__write__(s__, mu_____string279);
+	VerilogGenerator__write__(s__, mu_____string281);
 }
 void__ VerilogGenerator__structInit__(GeneratorState__* s__, StructInitializerExpression__* e__) {
 	mu_____assert((((s__)->evalCtxField__)) >= ((0)));
@@ -15640,21 +15660,22 @@ CodeBuilder__* VerilogGenerator__comp__(Compilation__* comp__, EmulatorState__* 
 	local1.globals__ = local3;
 	*local0 = local1;
 	GeneratorState__* s__ = local0;
-	Set__add__string____((s__)->globals__, mu_____string236);
 	Set__add__string____((s__)->globals__, mu_____string237);
 	Set__add__string____((s__)->globals__, mu_____string238);
 	Set__add__string____((s__)->globals__, mu_____string239);
+	Set__add__string____((s__)->globals__, mu_____string240);
 	Set__add__string____((s__)->globals__, mu_____string18);
 	Set__add__string____((s__)->globals__, mu_____string60);
 	Set__add__string____((s__)->globals__, mu_____string14);
 	Set__add__string____((s__)->globals__, mu_____string15);
-	Set__add__string____((s__)->globals__, mu_____string148);
+	Set__add__string____((s__)->globals__, mu_____string149);
 	Set__add__string____((s__)->globals__, mu_____string62);
-	Set__add__string____((s__)->globals__, mu_____string240);
 	Set__add__string____((s__)->globals__, mu_____string241);
 	Set__add__string____((s__)->globals__, mu_____string242);
 	Set__add__string____((s__)->globals__, mu_____string243);
 	Set__add__string____((s__)->globals__, mu_____string244);
+	Set__add__string____((s__)->globals__, mu_____string245);
+	Set__add__string____((s__)->globals__, mu_____string246);
 	{
 		List__Ptr__CodeUnit______* local4 = ((s__)->comp__)->units__;
 		int__ local5 = 0;
@@ -15693,7 +15714,7 @@ CodeBuilder__* VerilogGenerator__comp__(Compilation__* comp__, EmulatorState__* 
 				(mi__)->genLocalsSet__ = local12;
 				string__ local13;
 				if (!string__equals__((mi__)->fullName__, mu_____string0)) {
-					local13 = string__replace__((mi__)->fullName__, mu_____string36, mu_____string245);
+					local13 = string__replace__((mi__)->fullName__, mu_____string36, mu_____string247);
 				} else {
 					local13 = (((mi__)->def__)->name__)->value__;
 				}
@@ -15770,13 +15791,13 @@ void__ VerilogGenerator__match___(GeneratorState__* s__, MatchExpression__* e__)
 		while (local2 < local1->count__) {
 			MatchExpressionCase__* cs__ = ((MatchExpressionCase__**)(local1->dataPtr__))[local2];
 			VerilogGenerator__beginLine__(s__);
-			VerilogGenerator__write__(s__, mu_____string273);
-			VerilogGenerator__write__(s__, target__);
-			VerilogGenerator__write__(s__, mu_____string274);
-			VerilogGenerator__expression__(s__, (cs__)->valueExpr__);
-			VerilogGenerator__write__(s__, mu_____string267);
-			VerilogGenerator__expression__(s__, (cs__)->resultExpr__);
 			VerilogGenerator__write__(s__, mu_____string275);
+			VerilogGenerator__write__(s__, target__);
+			VerilogGenerator__write__(s__, mu_____string276);
+			VerilogGenerator__expression__(s__, (cs__)->valueExpr__);
+			VerilogGenerator__write__(s__, mu_____string269);
+			VerilogGenerator__expression__(s__, (cs__)->resultExpr__);
+			VerilogGenerator__write__(s__, mu_____string277);
 			local2 += 1;
 		}
 	}
@@ -15810,7 +15831,7 @@ void__ VerilogGenerator__index__(GeneratorState__* s__, IndexExpression__* e__) 
 		VerilogGenerator__write__(s__, VerilogGenerator__newLocal__(s__, Map__get__Node__Tag____((s__)->typeMap__, (e__)->target__), StringBuilder__compactToString__((eb__)->sb__)));
 	}
 	StringBuilder__* sb__ = ((s__)->out__)->sb__;
-	StringBuilder__write__(sb__, mu_____string277);
+	StringBuilder__write__(sb__, mu_____string279);
 	ulong__ upper__ = (Map__get__Node__Value____((s__)->constMap__, (e__)->upperExpr__)).z__;
 	ulong__writeTo__(upper__, sb__);
 	if ((((e__)->lowerExpr__).dataPtr__) != ((pointer__)(null__))) {
@@ -15825,9 +15846,9 @@ void__ VerilogGenerator__ternaryOperator__(GeneratorState__* s__, TernaryOperato
 	(s__)->isNonIndexable__ = true__;
 	VerilogGenerator__write__(s__, mu_____string74);
 	VerilogGenerator__expression__(s__, (e__)->conditionExpr__);
-	VerilogGenerator__write__(s__, mu_____string267);
+	VerilogGenerator__write__(s__, mu_____string269);
 	VerilogGenerator__expression__(s__, (e__)->trueExpr__);
-	VerilogGenerator__write__(s__, mu_____string268);
+	VerilogGenerator__write__(s__, mu_____string270);
 	VerilogGenerator__expression__(s__, (e__)->falseExpr__);
 	VerilogGenerator__write__(s__, mu_____string33);
 }
@@ -15906,7 +15927,7 @@ void__ VerilogGenerator__beginLine__(GeneratorState__* s__) {
 	} else {
 		((s__)->out__)->skipSep__ = false__;
 	}
-	VerilogGenerator__write__(s__, mu_____string248);
+	VerilogGenerator__write__(s__, mu_____string250);
 	{
 		int__ i__ = 0;
 		while (((i__)) < ((((s__)->out__)->indent__))) {
@@ -15917,7 +15938,7 @@ void__ VerilogGenerator__beginLine__(GeneratorState__* s__) {
 }
 void__ VerilogGenerator__brace__(GeneratorState__* s__, BraceExpression__* e__) {
 	(s__)->isNonIndexable__ = true__;
-	VerilogGenerator__write__(s__, mu_____string278);
+	VerilogGenerator__write__(s__, mu_____string280);
 	bool__ sep__ = false__;
 	{
 		List__Node____* local0 = (e__)->args__;
@@ -15925,7 +15946,7 @@ void__ VerilogGenerator__brace__(GeneratorState__* s__, BraceExpression__* e__) 
 		while (local1 < local0->count__) {
 			Node__ arg__ = ((Node__*)(local0->dataPtr__))[local1];
 			if (sep__) {
-				VerilogGenerator__write__(s__, mu_____string200);
+				VerilogGenerator__write__(s__, mu_____string201);
 			} else {
 				sep__ = true__;
 			}
@@ -15933,7 +15954,7 @@ void__ VerilogGenerator__brace__(GeneratorState__* s__, BraceExpression__* e__) 
 			local1 += 1;
 		}
 	}
-	VerilogGenerator__write__(s__, mu_____string279);
+	VerilogGenerator__write__(s__, mu_____string281);
 }
 void__ VerilogGenerator__staticValue__(GeneratorState__* s__, ModuleInstance__* instance__, int__ localId__, Tag__ tag__) {
 	Array__int____* local0 = (instance__)->localState__;
@@ -15949,7 +15970,7 @@ void__ VerilogGenerator__staticValue__(GeneratorState__* s__, ModuleInstance__* 
 }
 void__ VerilogGenerator__input__(GeneratorState__* s__, ModuleInputDef__* inp__, string__ genName__, Tag__ tag__) {
 	VerilogGenerator__beginLine__(s__);
-	VerilogGenerator__write__(s__, mu_____string249);
+	VerilogGenerator__write__(s__, mu_____string251);
 	VerilogGenerator__numberTag__(s__, tag__);
 	VerilogGenerator__write__(s__, genName__);
 }
