@@ -73,6 +73,7 @@ VerilogGenerator {
 		s.globals.add("inout")
 		s.globals.add("case")
 		s.globals.add("signed")
+		s.globals.add("cell")
 
 		for u in s.comp.units {
 			for node in u.contents {

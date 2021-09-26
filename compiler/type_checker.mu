@@ -175,6 +175,8 @@ TypeChecker {
 
 	ensureStructDone(s TypeCheckerState, def StructDef) {
 		if def.flags & StructFlags.typeCheckDone != 0 {
+			// OK
+		} else {
 			prev := pushContext(s, def.unit, null)
 			struct_(s, def)
 			restoreContext(s, prev)

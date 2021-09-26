@@ -73,6 +73,8 @@ Emulator {
 			stack: new List<Value>{},
 		}
 		
+		s.stack.reserve(256)
+
 		EmulatorAllocator.top(s, top)
 		
 		commitValues(s)
@@ -288,9 +290,9 @@ EmulatorStep {
 				emiti(s, Opcode.load, si)
 			}
 			AssignStatement: {
-				si := s.inst.localState[node.localId] + max(s.evalCtxField, 0)
+				si := s.inst.localState[node.localId]
 				if si >= 0 {
-					emiti(s, Opcode.load, si)
+					emiti(s, Opcode.load, si + max(s.evalCtxField, 0))
 				} else {
 					expression(s, node.expr)
 				}
